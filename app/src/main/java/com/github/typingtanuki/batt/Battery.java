@@ -8,6 +8,9 @@ public class Battery {
     private String description;
     private String model;
     private int cells;
+    private String brand;
+    private String[] partNo;
+    private String[] models;
 
     public Battery(String url, double volt, int amp, Double watt) {
         super();
@@ -76,17 +79,44 @@ public class Battery {
 
     public String asTable() {
         return "| " + model +
+                " | " + brand +
+                " | " + String.join(", ", partNo) +
                 " | " + description +
                 " | " + volt + "V" +
                 " | " + amp + "mAh" +
                 " | " + watt + "W" +
                 " | " + cells +
                 " | " + url +
+                " | " + String.join(", ", models) +
                 " | | |";
     }
 
     public static String tableHeader() {
-        return "| Model | Description | Volt | Amp | Watt | Cell | URL | Connector | Form factor |\r\n" +
-                "| ----- | ----------- | ---- | --- | ---- | ---- | --- | --------- | ----------- |";
+        return "| Model | Brand | Part No. | Description | Volt | Amp | Watt | Cell | URL | Models | Connector | Form factor |\r\n" +
+                "| ----- | ----- | -------- | ----------- | ---- | --- | ---- | ---- | --- | ------ | --------- | ----------- |";
+    }
+
+    public void setBrand(String brand) {
+        this.brand = brand;
+    }
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public void setPartNo(String[] partNo) {
+        this.partNo = partNo;
+    }
+
+    public String[] getPartNo() {
+        return partNo;
+    }
+
+    public void setModels(String[] models) {
+        this.models = models;
+    }
+
+    public String[] getModels() {
+        return models;
     }
 }

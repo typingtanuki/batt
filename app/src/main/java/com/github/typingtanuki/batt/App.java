@@ -68,9 +68,24 @@ public class App {
     private static void extractBatteryDetails(Battery battery) throws IOException {
         Document batt = get(battery.getUrl());
         Element description = batt.getElementById("product_desc_h4");
+        Element brand = batt.getElementsByClass("product_desc_brand").first();
+        Element partNo = batt.getElementsByClass("product_desc_partno").first();
+        Element models = batt.getElementsByClass("product_desc_model").first();
         Element property = batt.getElementById("product_desc_property");
         Element detail = batt.getElementById("productDetailsList");
         String descriptionText = description.text();
+
+        battery.setBrand(brand.text());
+        if (partNo != null) {
+            battery.setPartNo(partNo.text().split(", "));
+        } else {
+            battery.setPartNo(new String[]{"-"});
+        }
+        if (models != null) {
+            battery.setModels(models.text().split(", "));
+        } else {
+            battery.setModels(new String[]{"-"});
+        }
 
         Matcher descriptionMatcher = DESCRIPTION_EXTRACT.matcher(descriptionText);
         if (descriptionMatcher.matches()) {
