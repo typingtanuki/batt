@@ -24,6 +24,7 @@ public class App {
     private static final Pattern AMP_EXTRACT = Pattern.compile(".*\\s([0-9.]+)mAh.*");
     private static final Pattern WATT_EXTRACT = Pattern.compile(".*\\(([0-9.]+)W.*");
     private static final Pattern MODEL_EXTRACT = Pattern.compile(".*Model:\\s(.+)$");
+    private static final Pattern DESCRIPTION_EXTRACT = Pattern.compile("(.*),\\s[^,]+\\s([0-9]+)\\scell[^,]+$");
 
     public static void main(String[] args) {
         Map<String, Battery> found = new LinkedHashMap<>();
@@ -31,7 +32,6 @@ public class App {
 
             List<String> makers = extractMakers();
             for (String maker : makers) {
-                progress("_");
                 List<Battery> batteries = extractBatteries(maker);
                 if (batteries.isEmpty()) {
                     continue;
@@ -52,12 +52,13 @@ public class App {
             output.append("Found: ")
                     .append(batteries.size())
                     .append("\r\n\r\n")
-                    .append("| Model | Description | Volt | Amp | Watt | URL |\r\n")
-                    .append("| ----- | ----------- | ---- | --- | ---- | --- |\r\n");
+                    .append(Battery.tableHeader())
+                    .append("\r\n");
             for (Battery battery : batteries) {
-                output.append(battery.toString()).append("\r\n");
+                output.append(battery.asTable()).append("\r\n");
             }
             Files.write(out, output.toString().getBytes(StandardCharsets.UTF_8));
+            System.out.println("");
             System.out.println("Done");
         } catch (IOException e) {
             e.printStackTrace();
@@ -69,8 +70,15 @@ public class App {
         Element description = batt.getElementById("product_desc_h4");
         Element property = batt.getElementById("product_desc_property");
         Element detail = batt.getElementById("productDetailsList");
+        String descriptionText = description.text();
 
-        battery.setDescription(description.text());
+        Matcher descriptionMatcher = DESCRIPTION_EXTRACT.matcher(descriptionText);
+        if (descriptionMatcher.matches()) {
+            battery.setDescription(descriptionMatcher.group(1));
+            battery.setCells(Integer.parseInt(descriptionMatcher.group(2)));
+        } else {
+            battery.setDescription(descriptionText);
+        }
 
         if (battery.getWatt() == null) {
             String properties = property.text();
@@ -194,11 +202,10 @@ public class App {
         Path path = pathFor(url);
 
         if (Files.exists(path)) {
-            progress("↑");
             return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
         }
 
-        progress("↓");
+        progress(".");
         Document document = Jsoup.connect(url).get();
         String html = document.html();
         Files.createDirectories(path.getParent());
@@ -210,7 +217,7 @@ public class App {
 
     private static void progress(String s) {
         System.out.print(s);
-        if (prog++ % 100 == 0) {
+        if (++prog % 100 == 0) {
             System.out.println();
         }
     }

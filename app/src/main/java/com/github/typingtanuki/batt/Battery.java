@@ -7,6 +7,7 @@ public class Battery {
     private Double watt;
     private String description;
     private String model;
+    private int cells;
 
     public Battery(String url, double volt, int amp, Double watt) {
         super();
@@ -50,7 +51,7 @@ public class Battery {
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        this.description = description.replaceAll("Brand new", "");
     }
 
     public String getDescription() {
@@ -65,14 +66,27 @@ public class Battery {
         return model;
     }
 
-    @Override
-    public String toString() {
+    public int getCells() {
+        return cells;
+    }
+
+    public void setCells(int cells) {
+        this.cells = cells;
+    }
+
+    public String asTable() {
         return "| " + model +
                 " | " + description +
                 " | " + volt + "V" +
                 " | " + amp + "mAh" +
                 " | " + watt + "W" +
+                " | " + cells +
                 " | " + url +
-                " |";
+                " | | |";
+    }
+
+    public static String tableHeader() {
+        return "| Model | Description | Volt | Amp | Watt | Cell | URL | Connector | Form factor |\r\n" +
+                "| ----- | ----------- | ---- | --- | ---- | ---- | --- | --------- | ----------- |";
     }
 }

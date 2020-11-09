@@ -1,280 +1,280 @@
 Found: 276
 
-| Model | Description | Volt | Amp | Watt | URL |
-| ----- | ----------- | ---- | --- | ---- | --- |
-| 1005027-100114-1 | Brand new lenovo L15C4P22, L15C4P21, 5B10L22508, L15M4P23, L15M4P21, 5B10L02190, original 4 cells laptop batteries | 7.68V | 10160mAh | 78.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-1557.html |
-| 1004772-100154-1 | Brand new lg LBS1224E, original 2 cells laptop batteries | 7.7V | 9360mAh | 72.0W | https://www.newlaptopaccessory.com/lg-batteries-p-3801.html |
-| 1004772-100154-2 | Brand new lg 14Z990, 13Z990, GRAM 14Z980, Gram 13Z980-GR56J, 17Z990, 15Z980, original 2 cells laptop batteries | 7.7V | 9360mAh | 72.0W | https://www.newlaptopaccessory.com/lg-batteries-p-3802.html |
-| 1004894-100105-1 | Brand new acer 0B23-011N0RV, BP-McALLAN-22, 2ICP6/44/109-2, OB23-011NORV, original 4 cells laptop batteries | 7.6V | 9260mAh | 70.0W | https://www.newlaptopaccessory.com/acer-batteries-p-3087.html |
-| 1004894-100105-2 | Brand new acer MobileStudio Pro 16, original 4 cells laptop batteries | 7.6V | 9260mAh | 70.0W | https://www.newlaptopaccessory.com/acer-batteries-p-3088.html |
-| 1004792-100114-1 | Brand new lenovo L16M4P60, 2ICP4/53/129-3, 5B10N01565, L16C4P61, 5B10N17665, original 4 cells laptop batteries | 7.68V | 9120mAh | 70.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2877.html |
-| 1004964-100430-1 | Brand new microsoft 93HTA001H, original 6 cells laptop batteries | 7.59V | 9019mAh | 68.6W | https://www.newlaptopaccessory.com/microsoft-batteries-p-3025.html |
-| 1004964-100430-2 | Brand new microsoft Surface Book-512GB i7 16GB, Book i7/512GB SSD/16GB, 96D-00004, original 6 cells laptop batteries | 7.59V | 9019mAh | 68.6W | https://www.newlaptopaccessory.com/microsoft-batteries-p-3026.html |
-| 1004043-100113-1 | Brand new samsung AA-PL3VC6B, AA-PL3VC6S, AA-PB3VC4S, AA-PL3VC6W, AA-PB3VC4W, original 8 cells laptop batteries | 7.5V | 8850mAh | 66.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2945.html |
-| 1004043-100113-2 | Brand new samsung X125, X130, X180, X430, X431, X331, X330, X123, X181, NT-X431, original 8 cells laptop batteries | 7.5V | 8850mAh | 66.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2946.html |
-| 1004106-100114-1 | Brand new lenovo L14M4P24, 5B10H43261, L14L4P24, 5B10H55224, original 2 cells laptop batteries | 7.6V | 8800mAh | 66.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2569.html |
-| 1004596-100107-1 | Brand new dell GD1JP, GJKNX, 3DDDG, DV9NT, 03VC9Y, O3VC9Y, 00JWGP, KCM82, FPT1C, original 4 cells laptop batteries | 7.6V | 8500mAh | 68.0W | https://www.newlaptopaccessory.com/dell-batteries-p-507.html |
-| 1004596-100107-2 | Brand new dell Latitude 5480, N001L5580-D1506KCN, N092L5490-D1716FCN, 5490, original 4 cells laptop batteries | 7.6V | 8500mAh | 68.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2233.html |
-| 1003116-100113-1 | Brand new samsung AA-PBXN8AR, replacement 8 cells laptop batteries | 7.4V | 8400mAh | 62.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-31.html |
-| 1003116-100429-2 | Brand new sager NP900X4C-A02PT, replacement 8 cells laptop batteries | 7.4V | 8400mAh | 62.0W | https://www.newlaptopaccessory.com/sager-batteries-p-756.html |
-| 1004074-100107-1 | Brand new dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, R0TMP, ROTMP, original 4 cells laptop batteries | 7.6V | 8260mAh | 62.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3313.html |
-| 1004074-100107-2 | Brand new dell CAL022LATIE5470H1540, Latitude E5470, E5570, E5550, 14 5000, original 4 cells laptop batteries | 7.6V | 8260mAh | 62.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1761.html |
-| 1004212-100107-1 | Brand new dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, R0TMP, ROTMP, original 6 cells laptop batteries | 7.6V | 8260mAh | 62.0W | https://www.newlaptopaccessory.com/dell-batteries-p-378.html |
-| 1004212-100107-2 | Brand new dell CAL022LATIE5470H1540, Latitude E5470, E5570, E5550, 14 5000, original 6 cells laptop batteries | 7.6V | 8260mAh | 62.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1063.html |
-| 1004517-100114-1 | Brand new lenovo L15C4P22, L15C4P21, 5B10L22508, L15M4P23, L15M4P21, original 4 cells laptop batteries | 7.56V | 8210mAh | 62.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-436.html |
-| 1003571-100113-1 | Brand new samsung AA-PLVN2AN, BA43-00368A, original 4 cells laptop batteries | 7.6V | 8150mAh | 62.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3460.html |
-| 1003571-100113-2 | Brand new samsung 930X5J-K01, NP930X5J, NP940X5J-K02US, -K02DE, 930X5J, NP940X5J, original 4 cells laptop batteries | 7.6V | 8150mAh | 62.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3461.html |
-| 1004513-100107-1 | Brand new dell PW23Y, TP1GT, RNP72, original 4 cells laptop batteries | 7.6V | 8085mAh | 60.0W | https://www.newlaptopaccessory.com/dell-batteries-p-501.html |
-| 1004118-100399-1 | Brand new msi BTY-M47, replacement 4 cells laptop batteries | 7.6V | 8060mAh | 61.25W | https://www.newlaptopaccessory.com/msi-batteries-p-234.html |
-| 1004543-100399-1 | Brand new msi BTY-M6J, original 2 cells laptop batteries | 7.6V | 8060mAh | 61.25W | https://www.newlaptopaccessory.com/msi-batteries-p-2110.html |
-| 1004543-100399-2 | Brand new msi Stealth Pro GS73VR, GS73V, original 2 cells laptop batteries | 7.6V | 8060mAh | 61.25W | https://www.newlaptopaccessory.com/msi-batteries-p-2418.html |
-| 1004965-100430-1 | Brand new microsoft G3HTA001H, original 4 cells laptop batteries | 7.57V | 8030mAh | 60.8W | https://www.newlaptopaccessory.com/microsoft-batteries-p-2588.html |
-| 1004965-100430-2 | Brand new microsoft Surface Book 1785, original 4 cells laptop batteries | 7.57V | 8030mAh | 60.8W | https://www.newlaptopaccessory.com/microsoft-batteries-p-2589.html |
-| 1005101-100107-1 | Brand new dell P74F001, P74F002, NYFJH, P74F, 5TF10, P34E001, P34E002, 0VRX0J, original 4 cells laptop batteries | 7.6V | 8000mAh | 64.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3864.html |
-| 1005101-100107-2 | Brand new dell Precision 7530, 7540, 7330, original 4 cells laptop batteries | 7.6V | 8000mAh | 64.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3865.html |
-| 1004034-100432-1 | Brand new google GP-S22-000000-0100, original 4 cells laptop batteries | 7.4V | 8000mAh | 59.2W | https://www.newlaptopaccessory.com/google-batteries-p-3326.html |
-| 1004034-100432-2 | Brand new google Chromebook Pixel, 2013, original 4 cells laptop batteries | 7.4V | 8000mAh | 59.2W | https://www.newlaptopaccessory.com/google-batteries-p-3327.html |
-| 1004942-100492-1 | Brand new xiaomi R15B01W, 2(1(ICP4/72/84 ICP3/70/140)-2), original 3 cells laptop batteries | 7.6V | 7900mAh | 60.04W | https://www.newlaptopaccessory.com/xiaomi-batteries-p-2149.html |
-| 1004632-100107-1 | Brand new dell 2ICP4/58/90-2, K5XWW, 725KY, 6CYH6, P29S, P29S001, 71TG4, CFX97, original 4 cells laptop batteries | 7.6V | 7890mAh | 60.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2767.html |
-| 1005561-100114-2 | Brand new lenovo c 930, C930-13 IKB 81C4, Pro-13 IKB, original 4 cells laptop batteries | 7.68V | 7820mAh | 60.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3895.html |
-| 1004980-100154-1 | Brand new lg LBR1223E, 2ICP5/45/114-2, original 4 cells laptop batteries | 7.7V | 7800mAh | 60.06W | https://www.newlaptopaccessory.com/lg-batteries-p-2824.html |
-| 1002611-100113-1 | Brand new samsung AA-PB0TC4A, AA-PL0TC6B, AA-PB0TC4L, AA-PB0TC4M, AA-PB0TC4R, replacement 6 cells laptop batteries | 7.4V | 7800mAh | 58.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2111.html |
-| 1002611-100113-2 | Brand new samsung N310, NP-N310, NC310, NP-X118, NP-X120, X120-JA01, X118-DA02, replacement 6 cells laptop batteries | 7.4V | 7800mAh | 58.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2419.html |
-| 1004082-100121-1 | Brand new panasonic CF-VZSU40AR, CF-VZSU40AU, CF-VZSU40U-EC, CF-VZSU40, original 6 cells laptop batteries | 7.4V | 7800mAh | 57.7W | https://www.newlaptopaccessory.com/panasonic-batteries-p-3045.html |
-| 1004082-100121-2 | Brand new panasonic CF-VZSU40-EC, CF-VZSU40AR-EC, TOUGHBOOK CF-W4, CF-VZSU40AU-EC, original 6 cells laptop batteries | 7.4V | 7800mAh | 57.7W | https://www.newlaptopaccessory.com/panasonic-batteries-p-3046.html |
-| 1003633-100107-1 | Brand new dell TRHFF, P39F, 1V2F6, 5MD4V, 0PD19, OPD19, DL011307-PRR13G01, original 4 cells laptop batteries | 7.4V | 7600mAh | 58.0W | https://www.newlaptopaccessory.com/dell-batteries-p-360.html |
-| 1003633-100107-2 | Brand new dell Inspiron 15 5000, 15 5565, 15-5547, 15 5547, 5547, Latitude 3450, original 4 cells laptop batteries | 7.4V | 7600mAh | 58.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1049.html |
-| 1003875-100107-1 | Brand new dell 4P8PH, G05H0, G05HO, original 4 cells laptop batteries | 7.4V | 7600mAh | 56.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2046.html |
-| 1003875-100107-2 | Brand new dell Inspiron 15 5000, 7000, 15-5558, 15 5565, 7537, 15 7548, 7548, original 4 cells laptop batteries | 7.4V | 7600mAh | 56.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2323.html |
-| 1004302-100107-1 | Brand new dell 8G8GJ, NJTCH, 3NVTG, 451-BBJJ, VD0FX, original 6 cells laptop batteries | 7.4V | 7600mAh | 56.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2097.html |
-| 1003252-100113-1 | Brand new samsung AA-PBWN4AB, BA43-00360A, original 6 cells laptop batteries | 7.6V | 7560mAh | 57.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2098.html |
-| 1003252-100113-2 | Brand new samsung NP740U3E, 730U3E, 530U4E, 740U3E, -A01UB, ATIV Book 5 NP540U4E, original 6 cells laptop batteries | 7.6V | 7560mAh | 57.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-2400.html |
-| 1004603-100107-1 | Brand new dell 2X39G, F3YGT, 0DM3WC, DM3WC, 451-BBYE, KG7VF, 453-BBCF, original 4 cells laptop batteries | 7.6V | 7500mAh | 60.0W | https://www.newlaptopaccessory.com/dell-batteries-p-448.html |
-| 1004603-100107-2 | Brand new dell N015L7480-D1606CN, Latitude 7480, N006L7390-D1506FCN, 7390, original 4 cells laptop batteries | 7.6V | 7500mAh | 60.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1367.html |
-| 1005354-100107-1 | Brand new dell 05VC2M, MXV9V, original 4 cells laptop batteries | 7.6V | 7500mAh | 60.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3578.html |
-| 1003483-100107-1 | Brand new dell C4MF8, 5KG27, 09KH5H, P42G, original 6 cells laptop batteries | 7.4V | 7486mAh | 58.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2073.html |
-| 1003483-100107-2 | Brand new dell Inspiron 14 7000, 14-7437, 7437, 14 7000 -7437, Ins14HD-1508, original 6 cells laptop batteries | 7.4V | 7486mAh | 58.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2360.html |
-| 1004884-100423-1 | Brand new huawei HB4593R1ECW, original 4 cells laptop batteries | 7.6V | 7410mAh | 56.3W | https://www.newlaptopaccessory.com/huawei-batteries-p-2780.html |
-| 1004884-100423-2 | Brand new huawei MateBook X Pro, MagicBook, Honor, 2019, X Pro i5, X Pro i7, original 4 cells laptop batteries | 7.6V | 7410mAh | 56.3W | https://www.newlaptopaccessory.com/huawei-batteries-p-2781.html |
-| 1003582-100114-1 | Brand new lenovo L13M4P02, 21CP5/57/128-2, L13N4P01, 5B10K10190, L13M4PO2, original 2 cells laptop batteries | 7.4V | 7400mAh | 54.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-547.html |
-| 1005077-100104-1 | Brand new hp BM04XL, HSTNN-UB7L, L02031-2C1, HSTNN-DB8L, L02478-855, L02031-541, original 3 cells laptop batteries | 7.7V | 7300mAh | 56.2W | https://www.newlaptopaccessory.com/hp-batteries-p-3837.html |
-| 1005077-100104-2 | Brand new hp EliteBook x360 1030 G3, x360 1030 G3 3ZH01EA, 1030 X360 G3, original 3 cells laptop batteries | 7.7V | 7300mAh | 56.2W | https://www.newlaptopaccessory.com/hp-batteries-p-3838.html |
-| 1003798-100113-1 | Brand new samsung BA43-00364A, AA-PLVN4AR, B07H3YWNLZ, original 4 cells laptop batteries | 7.6V | 7300mAh | 55.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-37.html |
-| 1003708-100107-1 | Brand new dell V8XN3, 3RNFD, G95J5, FLP22C01, original laptop batteries | 7.4V | 7300mAh | 54.0W | https://www.newlaptopaccessory.com/dell-batteries-p-117.html |
-| 1003708-100107-2 | Brand new dell Latitude E7440, E7450, E7250, original laptop batteries | 7.4V | 7300mAh | 54.0W | https://www.newlaptopaccessory.com/dell-batteries-p-861.html |
-| 1003616-100114-1 | Brand new lenovo L13S4P21, 121500225, 2ICP5/57/123-2, original 4 cells laptop batteries | 7.4V | 7300mAh | 53.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3301.html |
-| 1003616-100114-2 | Brand new lenovo Yoga 2 Pro 13, Yoga 2 Pro 13(20266), Yoga 2 Pro 13(59419082), original 4 cells laptop batteries | 7.4V | 7300mAh | 53.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3302.html |
-| 1003868-100107-1 | Brand new dell J60J5, P26S, J6oJ5, MC34Y, 242WD, 451-BBSY, P26S001, WYWJ2, original 6 cells laptop batteries | 7.6V | 7237mAh | 55.0W | https://www.newlaptopaccessory.com/dell-batteries-p-550.html |
-| 1003868-100107-2 | Brand new dell Latitude E7470, E7270, 14 (N019L74701780CN), 14 (N023L74701580CN), original 6 cells laptop batteries | 7.6V | 7237mAh | 55.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1515.html |
-| 1003257-100109-1 | Brand new asus C22-B400A, C22-BU400A, 0B200-00160000, original 4 cells laptop batteries | 7.5V | 7070mAh | 53.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3476.html |
-| 1003257-100109-2 | Brand new asus BU401LG, B400A-XH52, BU401LA, PRO BU400, PRO A, -CZ020G, B400A-XH51, original 4 cells laptop batteries | 7.5V | 7070mAh | 53.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3477.html |
-| 1003303-100109-1 | Brand new asus C22-B400A, C22-BU400A, 0B200-00160000, original 6 cells laptop batteries | 7.5V | 7070mAh | 53.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3367.html |
-| 1003303-100109-2 | Brand new asus BU400A, B400A-XH52, BU401LA, BU400, B400A Ultrabook, BU401LG, original 6 cells laptop batteries | 7.5V | 7070mAh | 53.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3368.html |
-| 1004019-100102-1 | Brand new toshiba PA5028U-1BRS, original 6 cells laptop batteries | 7.4V | 7042mAh | 54.0W | https://www.newlaptopaccessory.com/toshiba-batteries-p-3023.html |
-| 1004019-100102-2 | Brand new toshiba Satellite U845, U845t, U845-SP4201SL, original 6 cells laptop batteries | 7.4V | 7042mAh | 54.0W | https://www.newlaptopaccessory.com/toshiba-batteries-p-3024.html |
-| 1003565-100434-1 | Brand new vizio SQU-1108, AHA42236000, original 4 cells laptop batteries | 7.4V | 7040mAh | 52.0W | https://www.newlaptopaccessory.com/vizio-batteries-p-471.html |
-| 1003565-100434-2 | Brand new vizio Vizio CT15, CT15-A5, CT15-A4, CT15-A1, CT15-A2, CT15-A0, CT15-A3, original 4 cells laptop batteries | 7.4V | 7040mAh | 52.0W | https://www.newlaptopaccessory.com/vizio-batteries-p-2330.html |
-| 1003350-100102-1 | Brand new toshiba PA5065U-1BRS, P000561920, G71C000EH110, original 4 cells laptop batteries | 7.4V | 7030mAh | 54.0W | https://www.newlaptopaccessory.com/toshiba-batteries-p-3501.html |
-| 1003350-100102-2 | Brand new toshiba SATELLITE U845W-S414P, U840W-107, U845W, U840W, -S410, -SP4361SM, original 4 cells laptop batteries | 7.4V | 7030mAh | 54.0W | https://www.newlaptopaccessory.com/toshiba-batteries-p-3502.html |
-| 1003596-100107-1 | Brand new dell C4K9V, PKH18, WV7G0, original 6 cells laptop batteries | 7.4V | 7000mAh | 55.0W | https://www.newlaptopaccessory.com/dell-batteries-p-342.html |
-| 1003596-100107-2 | Brand new dell XPS 13, XPS 13-L322X, XPS 13 Ultrabook, XPS L322X, XPS 13-L321X, original 6 cells laptop batteries | 7.4V | 7000mAh | 55.0W | https://www.newlaptopaccessory.com/dell-batteries-p-998.html |
-| 1004215-100114-1 | Brand new lenovo L15M4P20, L15L4P20, 5B10J66116, 5B10J50662, 5B10J50660, original 4 cells laptop batteries | 7.66V | 7000mAh | 53.5W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3488.html |
-| 1003522-100434-2 | Brand new vizio VIZIO CT14, CT14-A1, CT14-A2, CT15-A5, CT14-A0, CT14-A4, original 6 cells laptop batteries | 7.4V | 6970mAh | 51.0W | https://www.newlaptopaccessory.com/vizio-batteries-p-1807.html |
-| 1004729-100104-1 | Brand new hp AB06XL, TPN-I128, 921438-855, HSTNN-DB8C, 921408-2C1, TPNI128, original 6 cells laptop batteries | 7.7V | 6962mAh | 53.61W | https://www.newlaptopaccessory.com/hp-batteries-p-2900.html |
-| 1004294-100114-1 | Brand new lenovo L15M4PC2, L15L4PC2, 5B10K90802, 5B10K90778, original 4 cells laptop batteries | 7.6V | 6960mAh | 53.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2022.html |
-| 1004294-100114-2 | Brand new lenovo Yoga 710-14IKB, Yoga 710-14ISK, Yoga 710-15IKB, Yoga 710-15ISK, original 4 cells laptop batteries | 7.6V | 6960mAh | 53.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2292.html |
-| 1003781-100107-1 | Brand new dell 0N7T6, 90V7W, JD25G, 5K9CP, JHXPY, DIN02, RWT1R, 0DRRP, original 4 cells laptop batteries | 7.4V | 6930mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-304.html |
-| 1003781-100107-2 | Brand new dell XPS 13, XPS 13 9350, XPS 13-9350-D3808T, XPS 13-9350, XPS 13 9343, original 4 cells laptop batteries | 7.4V | 6930mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-907.html |
-| 1004250-100114-1 | Brand new lenovo L15M4P20, L15L4P20, 5B10J66116, 5B10J50662, 5B10J50660, original 4 cells laptop batteries | 7.7V | 6890mAh | 53.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3076.html |
-| 1004397-100154-1 | Brand new lg LBN1220E, original 2 cells laptop batteries | 7.6V | 6850mAh | 52.06W | https://www.newlaptopaccessory.com/lg-batteries-p-3448.html |
-| 1002804-100109-1 | Brand new asus C22-UX31, 0B200-00020000, 0B200-00020100, original 4 cells laptop batteries | 7.4V | 6840mAh | 50.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2009.html |
-| 1002804-100109-2 | Brand new asus UX31A, UX31E, ZENBOOK, UX31, -R4002V, -R4003V, -R4004V, -R4003X, original 4 cells laptop batteries | 7.4V | 6840mAh | 50.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2264.html |
-| 1003638-100107-1 | Brand new dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, WYJC2, HK6DV, original 4 cells laptop batteries | 7.4V | 6800mAh | 51.0W | https://www.newlaptopaccessory.com/dell-batteries-p-359.html |
-| 1003638-100107-2 | Brand new dell Latitude E5470, E5550, 14 5000, E5570, 15 5000, 14-, E5450, original 4 cells laptop batteries | 7.4V | 6800mAh | 51.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1024.html |
-| 1004654-100107-1 | Brand new dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, WYJC2, HK6DV, replacement 4 cells laptop batteries | 7.4V | 6800mAh | 51.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2881.html |
-| 1004654-100107-2 | Brand new dell Latitude E5470, E5570, E5550, 14 5000, 15 5000, E5270, 14-, replacement 4 cells laptop batteries | 7.4V | 6800mAh | 51.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2882.html |
-| 1005655-100113-1 | Brand new samsung AA-PLYN4AN, BA43-00340A, original 4 cells laptop batteries | 7.4V | 6800mAh | 50.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3650.html |
-| 1005655-100113-2 | Brand new samsung 550C, XE550C22, -A02US, original 4 cells laptop batteries | 7.4V | 6800mAh | 50.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3651.html |
-| 1004329-100107-1 | Brand new dell 0N7T6, 90V7W, JD25G, 5K9CP, JHXPY, DIN02, RWT1R, 0DRRP, original 4 cells laptop batteries | 7.6V | 6710mAh | 56.0W | https://www.newlaptopaccessory.com/dell-batteries-p-71.html |
-| 1004329-100107-2 | Brand new dell XPS 13, XPS 13 9350, XPS 13-9350-D3808T, XPS 13-9350, XPS 13-9343, original 4 cells laptop batteries | 7.6V | 6710mAh | 56.0W | https://www.newlaptopaccessory.com/dell-batteries-p-799.html |
-| 1004201-100107-1 | Brand new dell VFV59, F3G33, W57CV, original 4 cells laptop batteries | 7.6V | 6700mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-373.html |
-| 1004201-100107-2 | Brand new dell Latitude E7240,, E7250, E7270, original 4 cells laptop batteries | 7.6V | 6700mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1149.html |
-| 1001389-100108-1 | Brand new sony VGP-BPS5, replacement 6 cells laptop batteries | 7.4V | 6600mAh | 53.0W | https://www.newlaptopaccessory.com/sony-batteries-p-2060.html |
-| 1001389-100108-2 | Brand new sony VAIO VGN-TX56C, VAIO VGN-TX90S, VAIO VGN-TX91S, VAIO VGN-TX36C, replacement 6 cells laptop batteries | 7.4V | 6600mAh | 53.0W | https://www.newlaptopaccessory.com/sony-batteries-p-2341.html |
-| 1001817-100121-1 | Brand new panasonic CF-VZSU30W, CF-VZSU30AR, CF-VZSU30, L18650-CF18, original 6 cells laptop batteries | 7.4V | 6600mAh | 49.0W | https://www.newlaptopaccessory.com/panasonic-batteries-p-361.html |
-| 1001817-100121-2 | Brand new panasonic CF-18, KHH64BE, TOUGHBOOK CF18B, original 6 cells laptop batteries | 7.4V | 6600mAh | 49.0W | https://www.newlaptopaccessory.com/panasonic-batteries-p-1015.html |
-| 1001912-100113-1 | Brand new samsung AA-PB0TC4A, AA-PL0TC6B, AA-PB0TC4L, AA-PB0TC4M, AA-PB0TC4R, replacement 4 cells laptop batteries | 7.4V | 6600mAh | 49.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-540.html |
-| 1001912-100113-2 | Brand new samsung N310, NP-N310, NC310, NP-X118, NP-X120, X120-JA01, X118-DA02, replacement 4 cells laptop batteries | 7.4V | 6600mAh | 49.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-1503.html |
-| 1004200-100107-1 | Brand new dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120, original 4 cells laptop batteries | 7.4V | 6550mAh | 50.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3058.html |
-| 1004200-100107-2 | Brand new dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608, original 4 cells laptop batteries | 7.4V | 6550mAh | 50.0W | https://www.newlaptopaccessory.com/dell-batteries-p-3059.html |
-| 1003471-100113-1 | Brand new samsung AA-PLZN4NP, original 6 cells laptop batteries | 7.5V | 6540mAh | 49.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-137.html |
-| 1003471-100113-2 | Brand new samsung XE700T1C, -A02AU, -H01UK, -A05UK, XQ700T1C, -A04US, -K01US, original 6 cells laptop batteries | 7.5V | 6540mAh | 49.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-910.html |
-| 1003081-100109-1 | Brand new asus C23-UX32, original 4 cells laptop batteries | 7.4V | 6520mAh | 48.0W | https://www.newlaptopaccessory.com/asus-batteries-p-247.html |
-| 1003081-100109-2 | Brand new asus UX32VD, UX32A, Zenbook, VivoBook U38N-C4004H, U38N, UX32V, U38DT, original 4 cells laptop batteries | 7.4V | 6520mAh | 48.0W | https://www.newlaptopaccessory.com/asus-batteries-p-916.html |
-| 1004853-100107-1 | Brand new dell P82G, DXGH8, 0H754V, G8VCF, H754V, P82G001, original 4 cells laptop batteries | 7.6V | 6500mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2157.html |
-| 1004853-100107-2 | Brand new dell XPS 13-9370, XPS 13 9370, XPS 13-9380, XPS 13 9380, XPS 13 7390, original 4 cells laptop batteries | 7.6V | 6500mAh | 52.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2479.html |
-| 1004794-100104-1 | Brand new hp HSTNN-IB7U, ET04XL, ET04049XL, 915191-855, 915030-171, 915030-1C1, original 6 cells laptop batteries | 7.7V | 6470mAh | 49.81W | https://www.newlaptopaccessory.com/hp-batteries-p-2933.html |
-| 1004794-100104-2 | Brand new hp EliteBook x360 1020 G2, x360 1020 G2(1EP69EA), x360 1020 G2(2UB79EA), original 6 cells laptop batteries | 7.7V | 6470mAh | 49.81W | https://www.newlaptopaccessory.com/hp-batteries-p-2934.html |
-| 1003843-100399-1 | Brand new msi BTY-S37, original 4 cells laptop batteries | 7.4V | 6400mAh | 47.36W | https://www.newlaptopaccessory.com/msi-batteries-p-2508.html |
-| 1003843-100399-2 | Brand new msi GS30, GS30 2M-013CN, MS-13F1, GS30 2M 001US, MS1-13F1, original 4 cells laptop batteries | 7.4V | 6400mAh | 47.36W | https://www.newlaptopaccessory.com/msi-batteries-p-2509.html |
-| 1003054-100107-1 | Brand new dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120, original 4 cells laptop batteries | 7.4V | 6350mAh | 47.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2521.html |
-| 1003054-100107-2 | Brand new dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608, original 4 cells laptop batteries | 7.4V | 6350mAh | 47.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1839.html |
-| 1005268-100104-1 | Brand new hp 941190-1C1, HSTNN-IB8E, CH04048XL, 941617-855, CH04XL, HSTNN_IB8E, original 2 cells laptop batteries | 7.7V | 6300mAh | 48.5W | https://www.newlaptopaccessory.com/hp-batteries-p-3596.html |
-| 1005007-100154-1 | Brand new lg LBF122KH, replacement 3 cells laptop batteries | 7.4V | 6300mAh | 46.62W | https://www.newlaptopaccessory.com/lg-batteries-p-1572.html |
-| 1005007-100154-2 | Brand new lg P220, P330, P210, XNOTE P210, P220, P210-GE30K, P220-SE35K, replacement 3 cells laptop batteries | 7.4V | 6300mAh | 46.62W | https://www.newlaptopaccessory.com/lg-batteries-p-1641.html |
-| 1003467-100105-1 | Brand new acer AP13F3N, 2ICP4/63/114-2, 21CP4/63/114-2, original 4 cells laptop batteries | 7.5V | 6280mAh | 47.0W | https://www.newlaptopaccessory.com/acer-batteries-p-575.html |
-| 1003467-100105-2 | Brand new acer Aspire S7-392, S7-393, -6832, S7-391-6822, -75508G25ews, -6411, original 4 cells laptop batteries | 7.5V | 6280mAh | 47.0W | https://www.newlaptopaccessory.com/acer-batteries-p-1543.html |
-| 1004656-100114-1 | Brand new lenovo 2ICP4/43/110-2, L16M4PB1, L16L4PB1, 5B10M52740, 5B10Q38238, original 4 cells laptop batteries | 7.68V | 6268mAh | 48.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3731.html |
-| 1004797-100114-1 | Brand new lenovo L16M4PB3, 5B10N00765, original 6 cells laptop batteries | 7.68V | 6268mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3785.html |
-| 1004797-100114-2 | Brand new lenovo Ideapad 720S-13IKB, 720S-13, ARR, 720s touch-13ikb, 81a8, original 6 cells laptop batteries | 7.68V | 6268mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3786.html |
-| 1005082-100105-1 | Brand new acer AC16B7K, AC16B8K, KT.00407.005, original 4 cells laptop batteries | 7.4V | 6180mAh | 48.0W | https://www.newlaptopaccessory.com/acer-batteries-p-3807.html |
-| 1004740-100104-1 | Brand new hp GM02XL, HSTNN-DB7X, 917725-855, TPN-Q185, GM02047XL, 917679-271, original 4 cells laptop batteries | 7.7V | 6150mAh | 47.3W | https://www.newlaptopaccessory.com/hp-batteries-p-3767.html |
-| 1004740-100104-2 | Brand new hp Chromebook 14 G5, X360 11 G1 EE, 11 G6 EE, 14-CA001NF, 14-CA051WM, original 4 cells laptop batteries | 7.7V | 6150mAh | 47.3W | https://www.newlaptopaccessory.com/hp-batteries-p-3768.html |
-| 1005542-100104-1 | Brand new hp L42583-005, GB02XL, HSTNN-IB8W, L42550-2C1, original 3 cells laptop batteries | 7.7V | 6150mAh | 47.3W | https://www.newlaptopaccessory.com/hp-batteries-p-3540.html |
-| 1005542-100104-2 | Brand new hp CHROMEBOOK X360 11 G2 EE, original 3 cells laptop batteries | 7.7V | 6150mAh | 47.3W | https://www.newlaptopaccessory.com/hp-batteries-p-3541.html |
-| 1002941-100113-1 | Brand new samsung AA-PLAN6AR, AAPLAN6AR, original 6 cells laptop batteries | 7.4V | 6150mAh | 46.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-132.html |
-| 1002941-100113-2 | Brand new samsung 900X1, B-A01, 900X3A-B01, B-A03, NP900X3A, 900X3, AA01US, A-01IT, original 6 cells laptop batteries | 7.4V | 6150mAh | 46.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-858.html |
-| 1004967-100113-1 | Brand new samsung AA-PLAN6AR, AAPLAN6AR, replacement 6 cells laptop batteries | 7.4V | 6150mAh | 46.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-1564.html |
-| 1004191-100114-1 | Brand new lenovo L15M4PC0, L15L4PC0, L15S4PC0, L15M4PCO, L15L4PCO, 5B10K85625, original 4 cells laptop batteries | 7.5V | 6135mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2784.html |
-| 1004191-100114-2 | Brand new lenovo V730-13-IFI, V730-13-ISE, IdeaPad 710S, V320-17IKB, Air 13 Pro, original 4 cells laptop batteries | 7.5V | 6135mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2785.html |
-| 1004758-100114-1 | Brand new lenovo L15M6PC0, L15M6PCO, 5B10L55039, original 6 cells laptop batteries | 7.5V | 6135mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2845.html |
-| 1004758-100114-2 | Brand new lenovo 710S Plus-13IKB, original 6 cells laptop batteries | 7.5V | 6135mAh | 46.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2846.html |
-| 1005254-100113-1 | Brand new samsung EB-BW738ABU, original 4 cells laptop batteries | 7.7V | 6120mAh | 47.12W | https://www.newlaptopaccessory.com/samsung-batteries-p-3627.html |
-| 1003095-100113-1 | Brand new samsung AA-PBYN8AB, BA43-00339A, original 6 cells laptop batteries | 7.4V | 6120mAh | 45.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-439.html |
-| 1003095-100113-2 | Brand new samsung NP530U4B, 530U4C-A01, 530U4C-A02, NP520U4C, -A01US, 535U4C-S02, original 6 cells laptop batteries | 7.4V | 6120mAh | 45.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-1348.html |
-| 1005401-100109-1 | Brand new asus 2ICP5/74/110, C21PtJH, 0B200-03340000, C21N1833, original 2 cells laptop batteries | 7.7V | 6100mAh | 47.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3887.html |
-| 1005401-100109-2 | Brand new asus ZenBook 14 UM431DA, 14 UX431FA-AM130, S431FL, Vivobook S14 -AM037T, original 2 cells laptop batteries | 7.7V | 6100mAh | 47.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3888.html |
-| 1003382-100114-1 | Brand new lenovo L12M4P61, original 4 cells laptop batteries | 7.4V | 6100mAh | 45.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-302.html |
-| 1004570-100107-1 | Brand new dell TU131-TS63-74, original 4 cells laptop batteries | 7.4V | 6080mAh | 45.0W | https://www.newlaptopaccessory.com/dell-batteries-p-481.html |
-| 1004570-100107-2 | Brand new dell XPS13D-2708, U13S881, XPS13 8808, TU131, D-2501, D-2608, D-2508, original 4 cells laptop batteries | 7.4V | 6080mAh | 45.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1415.html |
-| 1004570-100108-2 | Brand new sony U33X, original 4 cells laptop batteries | 7.4V | 6080mAh | 45.0W | https://www.newlaptopaccessory.com/sony-batteries-p-1418.html |
-| 1004570-100109-2 | Brand new asus UX32K, original 4 cells laptop batteries | 7.4V | 6080mAh | 45.0W | https://www.newlaptopaccessory.com/asus-batteries-p-1419.html |
-| 1004570-100427-2 | Brand new schenker S306, original 4 cells laptop batteries | 7.4V | 6080mAh | 45.0W | https://www.newlaptopaccessory.com/schenker-batteries-p-1416.html |
-| 1004812-100109-1 | Brand new asus C22N1626, 0B200-02440100, 0B200-03320000, original 4 cells laptop batteries | 7.7V | 6044mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3789.html |
-| 1004812-100109-2 | Brand new asus C213NA, Chromebook Flip, Flip C213SA, CHROMBOOK FLIP, Flip -YS02, original 4 cells laptop batteries | 7.7V | 6044mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3790.html |
-| 1004820-100109-1 | Brand new asus C22N1623, 0B200-02400000, 0B200-02400100, original 4 cells laptop batteries | 7.7V | 6005mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3673.html |
-| 1004820-100109-2 | Brand new asus UX490UA-XS74-BL, UX490, UA-BE038T, UAR, UX3490UA, UA-IH74-BL, original 4 cells laptop batteries | 7.7V | 6005mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3674.html |
-| 1004890-100109-1 | Brand new asus C22N1623, 0B200-02400000, 0B200-02400100, original 4 cells laptop batteries | 7.7V | 6005mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3486.html |
-| 1004890-100109-2 | Brand new asus UX490UA-XS74-BL, ZENBOOK 3 Deluxe, UX490UA, UX490, -BE038T, original 4 cells laptop batteries | 7.7V | 6005mAh | 46.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3487.html |
-| 1003411-100107-1 | Brand new dell WD52H, 451-BBFY, GVD76, KWFFN, 451-BBFV, HJ8KP, VFV59, NCVF0, original 4 cells laptop batteries | 7.4V | 6000mAh | 45.0W | https://www.newlaptopaccessory.com/dell-batteries-p-366.html |
-| 1003863-100114-1 | Brand new lenovo L13M4P61, L13L4P61, L13S4P61, 2ICP3/86/94-2, original 4 cells laptop batteries | 7.4V | 6000mAh | 44.4W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3387.html |
-| 1003863-100114-2 | Brand new lenovo Flex 2 Pro-15, Edge 15 80K9, ThinkPad Edge 15 80H1 15.6, original 4 cells laptop batteries | 7.4V | 6000mAh | 44.4W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3388.html |
-| 1004111-100107-1 | Brand new dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120, replacement 4 cells laptop batteries | 7.4V | 6000mAh | 44.0W | https://www.newlaptopaccessory.com/dell-batteries-p-548.html |
-| 1004111-100107-2 | Brand new dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608, replacement 4 cells laptop batteries | 7.4V | 6000mAh | 44.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2261.html |
-| 1005113-100430-1 | Brand new microsoft DYNK01, G3HTA036H, original 4 cells laptop batteries | 7.57V | 5970mAh | 45.2W | https://www.newlaptopaccessory.com/microsoft-batteries-p-3336.html |
-| 1005113-100430-2 | Brand new microsoft Surface Laptop 2, 1769, 2-LQN-00004, 1782, original 4 cells laptop batteries | 7.57V | 5970mAh | 45.2W | https://www.newlaptopaccessory.com/microsoft-batteries-p-3337.html |
-| 1004608-100107-1 | Brand new dell HMPFH, NNF1C, 2(1ICP4/53/120 1ICP3/52/90)-2, 451-BBXR, NP0V3, original 4 cells laptop batteries | 7.6V | 5940mAh | 46.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1952.html |
-| 1004963-100430-1 | Brand new microsoft G3HTA038H, DYNM02, original 4 cells laptop batteries | 7.57V | 5940mAh | 45.0W | https://www.newlaptopaccessory.com/microsoft-batteries-p-2703.html |
-| 1004963-100430-2 | Brand new microsoft Surface Pro5 1796, original 4 cells laptop batteries | 7.57V | 5940mAh | 45.0W | https://www.newlaptopaccessory.com/microsoft-batteries-p-2704.html |
-| 1003861-100114-1 | Brand new lenovo L13M4P71, L14S4P71, original 4 cells laptop batteries | 7.6V | 5900mAh | 44.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-308.html |
-| 1003861-100114-2 | Brand new lenovo YOGA 3 PRO, Yoga 3 Pro 1370, Yoga 3 Pro-1370, Yoga 3 Pro 13, original 4 cells laptop batteries | 7.6V | 5900mAh | 44.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-1066.html |
-| 1004288-100107-1 | Brand new dell N3KPR, P63NY, MH25J, 0XCNR3, original 6 cells laptop batteries | 7.6V | 5831mAh | 43.0W | https://www.newlaptopaccessory.com/dell-batteries-p-246.html |
-| 1004288-100107-2 | Brand new dell Latitude 7370, 13 7370, E7370, original 6 cells laptop batteries | 7.6V | 5831mAh | 43.0W | https://www.newlaptopaccessory.com/dell-batteries-p-982.html |
-| 1004195-100107-1 | Brand new dell YFDF9, JR6XC, H4PJP, YFOF9, 5MTD8, 451-BBJB, 7WV3V, HGJW8, 451-BBIY, original 4 cells laptop batteries | 7.4V | 5800mAh | 43.0W | https://www.newlaptopaccessory.com/dell-batteries-p-126.html |
-| 1004195-100107-2 | Brand new dell Latitude 3340, E3340, 3350, 13 Education, 13 3340, original 4 cells laptop batteries | 7.4V | 5800mAh | 43.0W | https://www.newlaptopaccessory.com/dell-batteries-p-847.html |
-| 1003514-100121-1 | Brand new panasonic CF-VZSU66U, original 4 cells laptop batteries | 7.4V | 5700mAh | 43.0W | https://www.newlaptopaccessory.com/panasonic-batteries-p-233.html |
-| 1003514-100121-2 | Brand new panasonic CF-C1, BD06EFG, AD06GDE, original 4 cells laptop batteries | 7.4V | 5700mAh | 43.0W | https://www.newlaptopaccessory.com/panasonic-batteries-p-914.html |
-| 1004787-100104-1 | Brand new hp TPN-C132, BF04XL, HSTNN-LB8C, BF04043XL, 924843-421, 924960-855, original 4 cells laptop batteries | 7.7V | 5685mAh | 43.7W | https://www.newlaptopaccessory.com/hp-batteries-p-3839.html |
-| 1004787-100104-2 | Brand new hp SPECTRE 13-AF002LA, 13-AF520TU, 13-AF018TU, 13-af000TU, 13-af003TU, original 4 cells laptop batteries | 7.7V | 5685mAh | 43.7W | https://www.newlaptopaccessory.com/hp-batteries-p-3840.html |
-| 1003439-100113-1 | Brand new samsung AA-PBZN4NP, original 6 cells laptop batteries | 7.4V | 5520mAh | 40.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-325.html |
-| 1003439-100113-2 | Brand new samsung XE700T1A, -A06US, -a04us, -a02, -A05US, -A03US, -A02US, XQ700T1A, original 6 cells laptop batteries | 7.4V | 5520mAh | 40.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-990.html |
-| 1005794-100564-1 | Brand new teclast H-28172300P, original 2 cells laptop batteries | 7.6V | 5500mAh | 41.8W | https://www.newlaptopaccessory.com/teclast-batteries-p-3897.html |
-| 1004216-100114-1 | Brand new lenovo L15C4P71, L15L4P71, 5B10J40264, 5B10J40259, original 2 cells laptop batteries | 7.6V | 5500mAh | 40.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2109.html |
-| 1004216-100114-2 | Brand new lenovo MIIX 4-6Y54, MIIX 700, MIIX 700-12ISK, MIIX 4, IdeaPad Miix, original 2 cells laptop batteries | 7.6V | 5500mAh | 40.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2417.html |
-| 1004234-100106-1 | Brand new apple A1705, original 2 cells laptop batteries | 7.56V | 5474mAh | 41.41W | https://www.newlaptopaccessory.com/apple-batteries-p-2169.html |
-| 1004978-100423-1 | Brand new huawei HB54A9Q3ECW, original 4 cells laptop batteries | 7.6V | 5449mAh | 41.4W | https://www.newlaptopaccessory.com/huawei-batteries-p-3821.html |
-| 1004978-100423-2 | Brand new huawei MateBook X, WT-W09, WT-W19, original 4 cells laptop batteries | 7.6V | 5449mAh | 41.4W | https://www.newlaptopaccessory.com/huawei-batteries-p-3822.html |
-| 1005048-100114-1 | Brand new lenovo L16L4P91, SB10K97599, 01AV454, L16S4P91, L16M4P91, 5B10W13919, original 4 cells laptop batteries | 7.72V | 5440mAh | 42.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3853.html |
-| 1005048-100114-2 | Brand new lenovo ThinkPad X1 Tablet GEN 3, original 4 cells laptop batteries | 7.72V | 5440mAh | 42.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3854.html |
-| 1003130-100113-1 | Brand new samsung AA-PBXN4AR, AA-PLXN4AR, BA43-00349A, BA43-00350A, 921700031, original 6 cells laptop batteries | 7.4V | 5440mAh | 40.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-245.html |
-| 1004460-100104-1 | Brand new hp HSTNN-IB7M, DR02XL, 859357-855, 859027-121, DR02043XL, TPN-W123, original 4 cells laptop batteries | 7.7V | 5400mAh | 43.7W | https://www.newlaptopaccessory.com/hp-batteries-p-3482.html |
-| 1004460-100104-2 | Brand new hp Chromebook 11 G5, 11-V010NR, 11-V020WM, 11 G5(X9U02UT), 11-V001NF, original 4 cells laptop batteries | 7.7V | 5400mAh | 43.7W | https://www.newlaptopaccessory.com/hp-batteries-p-3483.html |
-| 1004743-100104-1 | Brand new hp TPN-Q184, AH04XL, AH04041XL, HSTNN-DB7S, 902402-2B2, 902402-2C2, original 4 cells laptop batteries | 7.7V | 5400mAh | 41.58W | https://www.newlaptopaccessory.com/hp-batteries-p-3462.html |
-| 1005035-100104-1 | Brand new hp SE04XL, HSTNN-DB7Q, 860724-2C1, 860708-855, 860724-2B1, 860724-281, original 4 cells laptop batteries | 7.7V | 5400mAh | 41.58W | https://www.newlaptopaccessory.com/hp-batteries-p-1571.html |
-| 1005035-100104-2 | Brand new hp Pro X2 612 G2, Pro X2 612 G2(L5H59EA), Pro X2 612 G2(L5H56EA), original 4 cells laptop batteries | 7.7V | 5400mAh | 41.58W | https://www.newlaptopaccessory.com/hp-batteries-p-2466.html |
-| 1004727-100446-1 | Brand new razer RZ09-0093, original 4 cells laptop batteries | 7.6V | 5400mAh | 41.44W | https://www.newlaptopaccessory.com/razer-batteries-p-3038.html |
-| 1004646-100114-1 | Brand new lenovo L15M4PC3, 5B10L72502, SB10W89296, 5B10W89300, original 4 cells laptop batteries | 7.68V | 5340mAh | 41.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2904.html |
-| 1004973-100492-1 | Brand new xiaomi R13B01W, R13B02W, replacement 2 cells laptop batteries | 7.6V | 5320mAh | 39.0W | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1646.html |
-| 1004973-100492-2 | Brand new xiaomi Mi Notebook Air 13.3 2018, INCHMI AIR 13.3, replacement 2 cells laptop batteries | 7.6V | 5320mAh | 39.0W | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1611.html |
-| 1004399-100401-2 | Brand new gigabyte U2142, -i5-3337U, -i5-3317U, -2117U, GA-, -i3-3217U, -i3-3227U, original 2 cells laptop batteries | 7.4V | 5300mAh | 39.22W | https://www.newlaptopaccessory.com/gigabyte-batteries-p-2463.html |
-| 1004399-100449-1 | Brand new getac GNG-E20, original 2 cells laptop batteries | 7.4V | 5300mAh | 39.22W | https://www.newlaptopaccessory.com/getac-batteries-p-2146.html |
-| 1005450-100444-1 | Brand new simplo 2ICP7/55/63-2, SMPSBINTL, SMP-BOBCACLL4, original 2 cells laptop batteries | 7.4V | 5300mAh | 39.22W | https://www.newlaptopaccessory.com/simplo-batteries-p-3446.html |
-| 1003778-100105-1 | Brand new acer KT.00403.013, AC13A3L, 2ICP5/60/80-2, original 4 cells laptop batteries | 7.6V | 5280mAh | 40.0W | https://www.newlaptopaccessory.com/acer-batteries-p-3332.html |
-| 1003778-100105-2 | Brand new acer Aspire P3-171, P3-131, TravelMate X313, -4602, X313-M, -4833, original 4 cells laptop batteries | 7.6V | 5280mAh | 40.0W | https://www.newlaptopaccessory.com/acer-batteries-p-3333.html |
-| 1004351-100114-1 | Brand new lenovo L14M4P73, 5B10K10215, original 4 cells laptop batteries | 7.6V | 5270mAh | 40.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-370.html |
-| 1004327-100114-1 | Brand new lenovo L15M4PC1, L15L4PC1, 5B10K90767, 5B10K90801, original 4 cells laptop batteries | 7.6V | 5264mAh | 40.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3283.html |
-| 1004107-100106-1 | Brand new apple A1527, original 6 cells laptop batteries | 7.55V | 5263mAh | 39.71W | https://www.newlaptopaccessory.com/apple-batteries-p-2091.html |
-| 1004696-100107-1 | Brand new dell J0PGR, JOPGR, original 4 cells laptop batteries | 7.6V | 5250mAh | 42.0W | https://www.newlaptopaccessory.com/dell-batteries-p-1943.html |
-| 1004696-100107-2 | Brand new dell Latitude 5290 2-in-1, 12 5285, original 4 cells laptop batteries | 7.6V | 5250mAh | 42.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2266.html |
-| 1004871-100492-1 | Brand new xiaomi R13B01W, R13B02W, original 2 cells laptop batteries | 7.66V | 5230mAh | 39.0W | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1918.html |
-| 1004871-100492-2 | Brand new xiaomi Notebook Air 13, MI AIR 13.3, Mi Air 13.3 2018, MI AIR 13.3 INCH, original 2 cells laptop batteries | 7.66V | 5230mAh | 39.0W | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1919.html |
-| 1004585-100114-1 | Brand new lenovo L15M2PB5, L15C2PB5, 5B10K90787, L15C2PB7, 5B10L13960, original 6 cells laptop batteries | 7.4V | 5200mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3013.html |
-| 1004477-100109-1 | Brand new asus C23N1606, C23PqCH, 0B200-02210000, 0B200-02210100, original 2 cells laptop batteries | 7.7V | 5195mAh | 40.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2891.html |
-| 1004477-100109-2 | Brand new asus Zenbook 3, UX390UA, 3 UX390, -GS041T, -XH74-BL, -GS039T, -GS046T, original 2 cells laptop batteries | 7.7V | 5195mAh | 40.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2892.html |
-| 1004501-100104-1 | Brand new hp BP02XL, 849909-850, BP02041XL, 849569-541, 849569-421, 849569-542, original 2 cells laptop batteries | 7.7V | 5150mAh | 41.0W | https://www.newlaptopaccessory.com/hp-batteries-p-349.html |
-| 1004501-100104-2 | Brand new hp Pavilion 15-AU156TX, 15-au000, 15-au100, 15-AW011DS, AU010WM, original 2 cells laptop batteries | 7.7V | 5150mAh | 41.0W | https://www.newlaptopaccessory.com/hp-batteries-p-1002.html |
-| 1005085-100113-1 | Brand new samsung AA-PBTN2TP, original 2 cells laptop batteries | 7.6V | 5140mAh | 39.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-1580.html |
-| 1005085-100113-2 | Brand new samsung XE513C24, -K01US, XE510C24, XE510C25, -K04US, original 2 cells laptop batteries | 7.6V | 5140mAh | 39.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-1650.html |
-| 1003153-100109-1 | Brand new asus C21-X202, original 2 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2134.html |
-| 1003153-100109-2 | Brand new asus VivoBook S200E, S200, X202E-3E, S200LI236, S200L3217E, X201E, original 2 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2448.html |
-| 1003153-100166-2 | Brand new arm VivoBook X202E-DH31T, X202E-CT006H, X202E-CT009H, X202E-CT142H, original 2 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/arm-batteries-p-2449.html |
-| 1003423-100109-2 | Brand new asus F502CA, F502C, X502CA, -BI30705B, -XX133H, -BI30704A, -XX075H, original 6 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-1815.html |
-| 1003620-100109-1 | Brand new asus C21-X402, original 4 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3464.html |
-| 1003620-100109-2 | Brand new asus X402c, X402, A-WX058H, A-WX013D, A-WX016D, A-WX094D, A-WX061H, original 4 cells laptop batteries | 7.4V | 5136mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3465.html |
-| 1003604-100109-1 | Brand new asus C21N1309, 0B200-00580100M, C21PQ2H, 0B200-00580000, PS6354B3, original 4 cells laptop batteries | 7.4V | 5135mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2136.html |
-| 1003712-100107-1 | Brand new dell HFRC3, 2H2G4, TXJ69, original laptop batteries | 7.4V | 5135mAh | 38.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2153.html |
-| 1003712-100107-2 | Brand new dell VENUE PRO 7140, 11 Pro 7140 Tablet, original laptop batteries | 7.4V | 5135mAh | 38.0W | https://www.newlaptopaccessory.com/dell-batteries-p-2475.html |
-| 1004383-100113-1 | Brand new samsung AA-PBUN4AR, 2ICP5/43/93-2, original 2 cells laptop batteries | 7.7V | 5120mAh | 39.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-399.html |
-| 1004049-100430-1 | Brand new microsoft Surface, G3HTA027H, DYNR01, original 2 cells laptop batteries | 7.5V | 5087mAh | 38.2W | https://www.newlaptopaccessory.com/microsoft-batteries-p-491.html |
-| 1004049-100430-2 | Brand new microsoft Surface Pro 4, Pro4 1724, original 2 cells laptop batteries | 7.5V | 5087mAh | 38.2W | https://www.newlaptopaccessory.com/microsoft-batteries-p-1438.html |
-| 1004371-100114-1 | Brand new lenovo L15L2PB2, L15C2PB4, L15M2PB4, L15C2PB2, 5B10K90784, 5B10K90803, original 4 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3089.html |
-| 1004371-100114-2 | Brand new lenovo IdeaPad 310-14IKB, 310-14ISK, original 4 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3090.html |
-| 1004848-100114-1 | Brand new lenovo L17M2PB3, L17L2PB4, L17L2PB3, L17C2PB3, L17M2PB4, L17C2PB4, original 2 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3811.html |
-| 1004848-100114-2 | Brand new lenovo V330-15IKB, V330-14IKB, V330-15ISK, V130-15IGM, v330-14isk, original 2 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3812.html |
-| 1005126-100114-1 | Brand new lenovo L17L2PF3, L17M2PF3, L17S2PF3, 5B10Q93737, 928QA230H, 5B10W67245, original 2 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3866.html |
-| 1005126-100114-2 | Brand new lenovo IdeaPad D330, D330-10IGM, (81H3001TGE), (81H3), original 2 cells laptop batteries | 7.68V | 5080mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3867.html |
-| 1004574-100114-1 | Brand new lenovo L15C2PB5, 5B10K90787, L15C2PB7, 5B10L13960, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-1960.html |
-| 1004867-100109-1 | Brand new asus C21N1624, 0B200-02420000, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2577.html |
-| 1004867-100109-2 | Brand new asus UX370UA, ZenBook Flip S, Flip S -C4202T, Q325UA, Flip S -C4201T, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2578.html |
-| 1004968-100109-1 | Brand new asus C21N1701, 0B200-02640000, C21PQC5, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3777.html |
-| 1004968-100109-2 | Brand new asus S406UA, VivoBook S14, -BM012T, X406, -BM258T, S14, -BV023T, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3778.html |
-| 1005180-100113-1 | Brand new samsung AA-PBMN2H0, AA-PBMN2HO, EB-BW720ABA, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3710.html |
-| 1005180-100113-2 | Brand new samsung Galaxy Book 12, SM-W720, SM-W727V, original 2 cells laptop batteries | 7.7V | 5070mAh | 39.0W | https://www.newlaptopaccessory.com/samsung-batteries-p-3711.html |
-| 1003871-100109-1 | Brand new asus c21n1335, 0B200-00530100, 0B200-00530200, original 4 cells laptop batteries | 7.5V | 5066mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2119.html |
-| 1003871-100109-2 | Brand new asus S451LN, K451L, VivoBook S451LA, S451, S451LB, -CA021H, -2B, original 4 cells laptop batteries | 7.5V | 5066mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2433.html |
-| 1005104-100109-1 | Brand new asus C21N1714, 0B200-02740000, original 2 cells laptop batteries | 7.7V | 5065mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2724.html |
-| 1005104-100109-2 | Brand new asus TP401NA-128GS, TP401NA, TP401CA-BZ085TS, J401MA, VivoBook Flip 14, original 2 cells laptop batteries | 7.7V | 5065mAh | 39.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2725.html |
-| 1004344-100114-1 | Brand new lenovo L15L2PB5, 5B10K87720, original 2 cells laptop batteries | 7.72V | 5055mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3361.html |
-| 1004344-100114-2 | Brand new lenovo IdeaPad 510-15ISK, 310-15ISK, 310-15IKB, 510-15IKB, (80SM), original 2 cells laptop batteries | 7.72V | 5055mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3362.html |
-| 1005013-100114-2 | Brand new lenovo V330-14, V330-15, IGM, IKB, ARR, isk, IKB(81B0004MGE), igm, original 2 cells laptop batteries | 7.72V | 5055mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-1910.html |
-| 1004777-100114-2 | Brand new lenovo V330-14IKB, v330-14isk, V330-14ARR, v130-14igm, v130-14ikb, original 2 cells laptop batteries | 7.77V | 5050mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-2890.html |
-| 1004941-100114-1 | Brand new lenovo L17M2PB5, L17L2PB5, L17C2PB5, 5B10P98187, 5B10P98183, 5B10P98184, original laptop batteries | 7.72V | 5000mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3712.html |
-| 1004941-100114-2 | Brand new lenovo V330-14IKB, V330-14, -81B0004MGE, -81B0, 004RGE, 004HMZ, original laptop batteries | 7.72V | 5000mAh | 39.0W | https://www.newlaptopaccessory.com/lenovo-batteries-p-3713.html |
-| 1003504-100109-1 | Brand new asus C21-TX300P, 0B200-00310200, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2130.html |
-| 1003747-100109-1 | Brand new asus 2ICP4/63/134, C21N1333, C21NI333, 0B200-00860400, 0B200-00860200, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-136.html |
-| 1003807-100109-1 | Brand new asus C21N1414, C21PQ91, CKSE321D1, B075K41HCD, B074CZHZ64, B07H4JPGRY, original 6 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-327.html |
-| 1003807-100109-2 | Brand new asus EeeBook X205TA, F205TA, X205, X205T, -FD005BS, -1B, -1G, -1B, original 6 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-963.html |
-| 1003808-100109-1 | Brand new asus C21N1334, 0B200-00870000, 0B200-00870200, 0B200-00870300, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2519.html |
-| 1003808-100109-2 | Brand new asus T200TA, Transformer Book, -CP004H, -1A, Book -C1-BL, -1R, -1K, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2520.html |
-| 1003999-100109-1 | Brand new asus C21N1423, 0B200-01360100, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-257.html |
-| 1003999-100109-2 | Brand new asus P302LJ, F302LJ, X302LJ, X302L, F302U, X302UA, X302UV, R301LA-FN063H, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-977.html |
-| 1004342-100109-1 | Brand new asus C21N1518, 21CP4/63/134, 0B200-01850000, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2794.html |
-| 1004342-100109-2 | Brand new asus TP501UA, R518UA, TP501UQ, TP501UB, TP501, VivoBook Flip, R518UQ, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2795.html |
-| 1004415-100109-1 | Brand new asus C21N1530, 0B200-01990000, 0B200-02670000, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3021.html |
-| 1004415-100109-2 | Brand new asus C202SA, Chromebook, -YS02, C202, -YS04, VIVOBOOK E201NA, -GJ005T, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3022.html |
-| 1004417-100109-1 | Brand new asus C21N1521, 0B200-01870000, C2IN1521, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3393.html |
-| 1004417-100109-2 | Brand new asus L200HA, E200HA, VivoBook, X206HA, R209HA, -FD0081TS, -FD0080TS, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-3394.html |
-| 1004863-100109-1 | Brand new asus C21PQCH, C21N1634, 0B200-02550000, 0B200-02550200, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-1920.html |
-| 1004863-100109-2 | Brand new asus A580UR9000, A580UR7100, X542UN-8250GR, X542UF, X542U, VivoBook, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-2345.html |
-| 1004932-100109-1 | Brand new asus C21N1333, C21NI333, 0B200-00860400, 0B200-00860300, replacement 2 cells laptop batteries | 7.5V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-1574.html |
-| 1004932-100109-2 | Brand new asus TP550LA, TP550LD, X454, TP550L, Transformer Book Flip, Book Flip, replacement 2 cells laptop batteries | 7.5V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/asus-batteries-p-1643.html |
-| 1004970-100441-1 | Brand new haier PL3074165-2S YL, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/haier-batteries-p-3727.html |
-| 1004970-100441-2 | Brand new haier X14, M4-64G, X14-3450G04128WY, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/haier-batteries-p-3728.html |
-| 1004970-100517-1 | Brand new chuwi 32160205P, 34170250P, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/chuwi-batteries-p-3725.html |
-| 1004970-100517-2 | Brand new chuwi Lapbook Air CWI529, 14 inch 2017, Air 14, Air 14.1 N3450 FHD, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/chuwi-batteries-p-3726.html |
-| 1005351-100520-1 | Brand new jumper HW-3487265, NV-2874180-2S, TH140A, TH133K-MC, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/jumper-batteries-p-2579.html |
-| 1005351-100520-2 | Brand new jumper Ezbook X4, 3L PRO, 3L PRO 14, 3L PRO MB12, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/jumper-batteries-p-2580.html |
-| 1005351-100592-2 | Brand new irbis NB133, NB131, original 4 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/irbis-batteries-p-3514.html |
-| 1005477-100564-1 | Brand new teclast 31154200, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/teclast-batteries-p-3528.html |
-| 1005480-100564-1 | Brand new teclast 30154200P, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/teclast-batteries-p-3536.html |
-| 1005480-100564-2 | Brand new teclast F7 Plus, original 2 cells laptop batteries | 7.6V | 5000mAh | 38.0W | https://www.newlaptopaccessory.com/teclast-batteries-p-3537.html |
+| Model | Description | Volt | Amp | Watt | Cell | URL | Connector | Form factor |
+| ----- | ----------- | ---- | --- | ---- | ---- | --- | --------- | ----------- |
+| 1005027-100114-1 |  lenovo L15C4P22, L15C4P21, 5B10L22508, L15M4P23, L15M4P21, 5B10L02190 | 7.68V | 10160mAh | 78.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-1557.html | | |
+| 1004772-100154-1 |  lg LBS1224E | 7.7V | 9360mAh | 72.0W | 2 | https://www.newlaptopaccessory.com/lg-batteries-p-3801.html | | |
+| 1004772-100154-2 |  lg 14Z990, 13Z990, GRAM 14Z980, Gram 13Z980-GR56J, 17Z990, 15Z980 | 7.7V | 9360mAh | 72.0W | 2 | https://www.newlaptopaccessory.com/lg-batteries-p-3802.html | | |
+| 1004894-100105-1 |  acer 0B23-011N0RV, BP-McALLAN-22, 2ICP6/44/109-2, OB23-011NORV | 7.6V | 9260mAh | 70.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-3087.html | | |
+| 1004894-100105-2 |  acer MobileStudio Pro 16 | 7.6V | 9260mAh | 70.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-3088.html | | |
+| 1004792-100114-1 |  lenovo L16M4P60, 2ICP4/53/129-3, 5B10N01565, L16C4P61, 5B10N17665 | 7.68V | 9120mAh | 70.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2877.html | | |
+| 1004964-100430-1 |  microsoft 93HTA001H | 7.59V | 9019mAh | 68.6W | 6 | https://www.newlaptopaccessory.com/microsoft-batteries-p-3025.html | | |
+| 1004964-100430-2 |  microsoft Surface Book-512GB i7 16GB, Book i7/512GB SSD/16GB, 96D-00004 | 7.59V | 9019mAh | 68.6W | 6 | https://www.newlaptopaccessory.com/microsoft-batteries-p-3026.html | | |
+| 1004043-100113-1 |  samsung AA-PL3VC6B, AA-PL3VC6S, AA-PB3VC4S, AA-PL3VC6W, AA-PB3VC4W | 7.5V | 8850mAh | 66.0W | 8 | https://www.newlaptopaccessory.com/samsung-batteries-p-2945.html | | |
+| 1004043-100113-2 |  samsung X125, X130, X180, X430, X431, X331, X330, X123, X181, NT-X431 | 7.5V | 8850mAh | 66.0W | 8 | https://www.newlaptopaccessory.com/samsung-batteries-p-2946.html | | |
+| 1004106-100114-1 |  lenovo L14M4P24, 5B10H43261, L14L4P24, 5B10H55224 | 7.6V | 8800mAh | 66.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2569.html | | |
+| 1004596-100107-1 |  dell GD1JP, GJKNX, 3DDDG, DV9NT, 03VC9Y, O3VC9Y, 00JWGP, KCM82, FPT1C | 7.6V | 8500mAh | 68.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-507.html | | |
+| 1004596-100107-2 |  dell Latitude 5480, N001L5580-D1506KCN, N092L5490-D1716FCN, 5490 | 7.6V | 8500mAh | 68.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2233.html | | |
+| 1003116-100113-1 |  samsung AA-PBXN8AR | 7.4V | 8400mAh | 62.0W | 8 | https://www.newlaptopaccessory.com/samsung-batteries-p-31.html | | |
+| 1003116-100429-2 |  sager NP900X4C-A02PT | 7.4V | 8400mAh | 62.0W | 8 | https://www.newlaptopaccessory.com/sager-batteries-p-756.html | | |
+| 1004212-100107-1 |  dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, R0TMP, ROTMP | 7.6V | 8260mAh | 62.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-378.html | | |
+| 1004212-100107-2 |  dell CAL022LATIE5470H1540, Latitude E5470, E5570, E5550, 14 5000 | 7.6V | 8260mAh | 62.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-1063.html | | |
+| 1004074-100107-1 |  dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, R0TMP, ROTMP | 7.6V | 8260mAh | 62.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3313.html | | |
+| 1004074-100107-2 |  dell CAL022LATIE5470H1540, Latitude E5470, E5570, E5550, 14 5000 | 7.6V | 8260mAh | 62.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1761.html | | |
+| 1004517-100114-1 |  lenovo L15C4P22, L15C4P21, 5B10L22508, L15M4P23, L15M4P21 | 7.56V | 8210mAh | 62.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-436.html | | |
+| 1003571-100113-1 |  samsung AA-PLVN2AN, BA43-00368A | 7.6V | 8150mAh | 62.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-3460.html | | |
+| 1003571-100113-2 |  samsung 930X5J-K01, NP930X5J, NP940X5J-K02US, -K02DE, 930X5J, NP940X5J | 7.6V | 8150mAh | 62.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-3461.html | | |
+| 1004513-100107-1 |  dell PW23Y, TP1GT, RNP72 | 7.6V | 8085mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-501.html | | |
+| 1004118-100399-1 |  msi BTY-M47 | 7.6V | 8060mAh | 61.25W | 4 | https://www.newlaptopaccessory.com/msi-batteries-p-234.html | | |
+| 1004543-100399-1 |  msi BTY-M6J | 7.6V | 8060mAh | 61.25W | 2 | https://www.newlaptopaccessory.com/msi-batteries-p-2110.html | | |
+| 1004543-100399-2 |  msi Stealth Pro GS73VR, GS73V | 7.6V | 8060mAh | 61.25W | 2 | https://www.newlaptopaccessory.com/msi-batteries-p-2418.html | | |
+| 1004965-100430-1 |  microsoft G3HTA001H | 7.57V | 8030mAh | 60.8W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-2588.html | | |
+| 1004965-100430-2 |  microsoft Surface Book 1785 | 7.57V | 8030mAh | 60.8W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-2589.html | | |
+| 1005101-100107-1 |  dell P74F001, P74F002, NYFJH, P74F, 5TF10, P34E001, P34E002, 0VRX0J | 7.6V | 8000mAh | 64.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3864.html | | |
+| 1005101-100107-2 |  dell Precision 7530, 7540, 7330 | 7.6V | 8000mAh | 64.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3865.html | | |
+| 1004034-100432-1 |  google GP-S22-000000-0100 | 7.4V | 8000mAh | 59.2W | 4 | https://www.newlaptopaccessory.com/google-batteries-p-3326.html | | |
+| 1004034-100432-2 |  google Chromebook Pixel, 2013 | 7.4V | 8000mAh | 59.2W | 4 | https://www.newlaptopaccessory.com/google-batteries-p-3327.html | | |
+| 1004942-100492-1 |  xiaomi R15B01W, 2(1(ICP4/72/84 ICP3/70/140)-2) | 7.6V | 7900mAh | 60.04W | 3 | https://www.newlaptopaccessory.com/xiaomi-batteries-p-2149.html | | |
+| 1004632-100107-1 |  dell 2ICP4/58/90-2, K5XWW, 725KY, 6CYH6, P29S, P29S001, 71TG4, CFX97 | 7.6V | 7890mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2767.html | | |
+| 1005561-100114-2 |  lenovo c 930, C930-13 IKB 81C4, Pro-13 IKB | 7.68V | 7820mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3895.html | | |
+| 1002611-100113-1 |  samsung AA-PB0TC4A, AA-PL0TC6B, AA-PB0TC4L, AA-PB0TC4M, AA-PB0TC4R | 7.4V | 7800mAh | 58.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-2111.html | | |
+| 1002611-100113-2 |  samsung N310, NP-N310, NC310, NP-X118, NP-X120, X120-JA01, X118-DA02 | 7.4V | 7800mAh | 58.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-2419.html | | |
+| 1004082-100121-1 |  panasonic CF-VZSU40AR, CF-VZSU40AU, CF-VZSU40U-EC, CF-VZSU40 | 7.4V | 7800mAh | 57.7W | 6 | https://www.newlaptopaccessory.com/panasonic-batteries-p-3045.html | | |
+| 1004082-100121-2 |  panasonic CF-VZSU40-EC, CF-VZSU40AR-EC, TOUGHBOOK CF-W4, CF-VZSU40AU-EC | 7.4V | 7800mAh | 57.7W | 6 | https://www.newlaptopaccessory.com/panasonic-batteries-p-3046.html | | |
+| 1004980-100154-1 |  lg LBR1223E, 2ICP5/45/114-2 | 7.7V | 7800mAh | 60.06W | 4 | https://www.newlaptopaccessory.com/lg-batteries-p-2824.html | | |
+| 1004302-100107-1 |  dell 8G8GJ, NJTCH, 3NVTG, 451-BBJJ, VD0FX | 7.4V | 7600mAh | 56.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-2097.html | | |
+| 1003633-100107-1 |  dell TRHFF, P39F, 1V2F6, 5MD4V, 0PD19, OPD19, DL011307-PRR13G01 | 7.4V | 7600mAh | 58.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-360.html | | |
+| 1003633-100107-2 |  dell Inspiron 15 5000, 15 5565, 15-5547, 15 5547, 5547, Latitude 3450 | 7.4V | 7600mAh | 58.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1049.html | | |
+| 1003875-100107-1 |  dell 4P8PH, G05H0, G05HO | 7.4V | 7600mAh | 56.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2046.html | | |
+| 1003875-100107-2 |  dell Inspiron 15 5000, 7000, 15-5558, 15 5565, 7537, 15 7548, 7548 | 7.4V | 7600mAh | 56.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2323.html | | |
+| 1003252-100113-1 |  samsung AA-PBWN4AB, BA43-00360A | 7.6V | 7560mAh | 57.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-2098.html | | |
+| 1003252-100113-2 |  samsung NP740U3E, 730U3E, 530U4E, 740U3E, -A01UB, ATIV Book 5 NP540U4E | 7.6V | 7560mAh | 57.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-2400.html | | |
+| 1004603-100107-1 |  dell 2X39G, F3YGT, 0DM3WC, DM3WC, 451-BBYE, KG7VF, 453-BBCF | 7.6V | 7500mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-448.html | | |
+| 1004603-100107-2 |  dell N015L7480-D1606CN, Latitude 7480, N006L7390-D1506FCN, 7390 | 7.6V | 7500mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1367.html | | |
+| 1005354-100107-1 |  dell 05VC2M, MXV9V | 7.6V | 7500mAh | 60.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3578.html | | |
+| 1003483-100107-1 |  dell C4MF8, 5KG27, 09KH5H, P42G | 7.4V | 7486mAh | 58.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-2073.html | | |
+| 1003483-100107-2 |  dell Inspiron 14 7000, 14-7437, 7437, 14 7000 -7437, Ins14HD-1508 | 7.4V | 7486mAh | 58.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-2360.html | | |
+| 1004884-100423-1 |  huawei HB4593R1ECW | 7.6V | 7410mAh | 56.3W | 4 | https://www.newlaptopaccessory.com/huawei-batteries-p-2780.html | | |
+| 1004884-100423-2 |  huawei MateBook X Pro, MagicBook, Honor, 2019, X Pro i5, X Pro i7 | 7.6V | 7410mAh | 56.3W | 4 | https://www.newlaptopaccessory.com/huawei-batteries-p-2781.html | | |
+| 1003582-100114-1 |  lenovo L13M4P02, 21CP5/57/128-2, L13N4P01, 5B10K10190, L13M4PO2 | 7.4V | 7400mAh | 54.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-547.html | | |
+| 1003798-100113-1 |  samsung BA43-00364A, AA-PLVN4AR, B07H3YWNLZ | 7.6V | 7300mAh | 55.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-37.html | | |
+| 1003616-100114-1 |  lenovo L13S4P21, 121500225, 2ICP5/57/123-2 | 7.4V | 7300mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3301.html | | |
+| 1003616-100114-2 |  lenovo Yoga 2 Pro 13, Yoga 2 Pro 13(20266), Yoga 2 Pro 13(59419082) | 7.4V | 7300mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3302.html | | |
+| 1005077-100104-1 |  hp BM04XL, HSTNN-UB7L, L02031-2C1, HSTNN-DB8L, L02478-855, L02031-541 | 7.7V | 7300mAh | 56.2W | 3 | https://www.newlaptopaccessory.com/hp-batteries-p-3837.html | | |
+| 1005077-100104-2 |  hp EliteBook x360 1030 G3, x360 1030 G3 3ZH01EA, 1030 X360 G3 | 7.7V | 7300mAh | 56.2W | 3 | https://www.newlaptopaccessory.com/hp-batteries-p-3838.html | | |
+| 1003708-100107-1 |  dell V8XN3, 3RNFD, G95J5, FLP22C01, original laptop batteries | 7.4V | 7300mAh | 54.0W | 0 | https://www.newlaptopaccessory.com/dell-batteries-p-117.html | | |
+| 1003708-100107-2 |  dell Latitude E7440, E7450, E7250, original laptop batteries | 7.4V | 7300mAh | 54.0W | 0 | https://www.newlaptopaccessory.com/dell-batteries-p-861.html | | |
+| 1003868-100107-1 |  dell J60J5, P26S, J6oJ5, MC34Y, 242WD, 451-BBSY, P26S001, WYWJ2 | 7.6V | 7237mAh | 55.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-550.html | | |
+| 1003868-100107-2 |  dell Latitude E7470, E7270, 14 (N019L74701780CN), 14 (N023L74701580CN) | 7.6V | 7237mAh | 55.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-1515.html | | |
+| 1003303-100109-1 |  asus C22-B400A, C22-BU400A, 0B200-00160000 | 7.5V | 7070mAh | 53.0W | 6 | https://www.newlaptopaccessory.com/asus-batteries-p-3367.html | | |
+| 1003303-100109-2 |  asus BU400A, B400A-XH52, BU401LA, BU400, B400A Ultrabook, BU401LG | 7.5V | 7070mAh | 53.0W | 6 | https://www.newlaptopaccessory.com/asus-batteries-p-3368.html | | |
+| 1003257-100109-1 |  asus C22-B400A, C22-BU400A, 0B200-00160000 | 7.5V | 7070mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3476.html | | |
+| 1003257-100109-2 |  asus BU401LG, B400A-XH52, BU401LA, PRO BU400, PRO A, -CZ020G, B400A-XH51 | 7.5V | 7070mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3477.html | | |
+| 1004019-100102-1 |  toshiba PA5028U-1BRS | 7.4V | 7042mAh | 54.0W | 6 | https://www.newlaptopaccessory.com/toshiba-batteries-p-3023.html | | |
+| 1004019-100102-2 |  toshiba Satellite U845, U845t, U845-SP4201SL | 7.4V | 7042mAh | 54.0W | 6 | https://www.newlaptopaccessory.com/toshiba-batteries-p-3024.html | | |
+| 1003565-100434-1 |  vizio SQU-1108, AHA42236000 | 7.4V | 7040mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/vizio-batteries-p-471.html | | |
+| 1003565-100434-2 |  vizio Vizio CT15, CT15-A5, CT15-A4, CT15-A1, CT15-A2, CT15-A0, CT15-A3 | 7.4V | 7040mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/vizio-batteries-p-2330.html | | |
+| 1003350-100102-1 |  toshiba PA5065U-1BRS, P000561920, G71C000EH110 | 7.4V | 7030mAh | 54.0W | 4 | https://www.newlaptopaccessory.com/toshiba-batteries-p-3501.html | | |
+| 1003350-100102-2 |  toshiba SATELLITE U845W-S414P, U840W-107, U845W, U840W, -S410, -SP4361SM | 7.4V | 7030mAh | 54.0W | 4 | https://www.newlaptopaccessory.com/toshiba-batteries-p-3502.html | | |
+| 1003596-100107-1 |  dell C4K9V, PKH18, WV7G0 | 7.4V | 7000mAh | 55.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-342.html | | |
+| 1003596-100107-2 |  dell XPS 13, XPS 13-L322X, XPS 13 Ultrabook, XPS L322X, XPS 13-L321X | 7.4V | 7000mAh | 55.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-998.html | | |
+| 1004215-100114-1 |  lenovo L15M4P20, L15L4P20, 5B10J66116, 5B10J50662, 5B10J50660 | 7.66V | 7000mAh | 53.5W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3488.html | | |
+| 1003522-100434-2 |  vizio VIZIO CT14, CT14-A1, CT14-A2, CT15-A5, CT14-A0, CT14-A4 | 7.4V | 6970mAh | 51.0W | 6 | https://www.newlaptopaccessory.com/vizio-batteries-p-1807.html | | |
+| 1004729-100104-1 |  hp AB06XL, TPN-I128, 921438-855, HSTNN-DB8C, 921408-2C1, TPNI128 | 7.7V | 6962mAh | 53.61W | 6 | https://www.newlaptopaccessory.com/hp-batteries-p-2900.html | | |
+| 1004294-100114-1 |  lenovo L15M4PC2, L15L4PC2, 5B10K90802, 5B10K90778 | 7.6V | 6960mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2022.html | | |
+| 1004294-100114-2 |  lenovo Yoga 710-14IKB, Yoga 710-14ISK, Yoga 710-15IKB, Yoga 710-15ISK | 7.6V | 6960mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2292.html | | |
+| 1003781-100107-1 |  dell 0N7T6, 90V7W, JD25G, 5K9CP, JHXPY, DIN02, RWT1R, 0DRRP | 7.4V | 6930mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-304.html | | |
+| 1003781-100107-2 |  dell XPS 13, XPS 13 9350, XPS 13-9350-D3808T, XPS 13-9350, XPS 13 9343 | 7.4V | 6930mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-907.html | | |
+| 1004250-100114-1 |  lenovo L15M4P20, L15L4P20, 5B10J66116, 5B10J50662, 5B10J50660 | 7.7V | 6890mAh | 53.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3076.html | | |
+| 1004397-100154-1 |  lg LBN1220E | 7.6V | 6850mAh | 52.06W | 2 | https://www.newlaptopaccessory.com/lg-batteries-p-3448.html | | |
+| 1002804-100109-1 |  asus C22-UX31, 0B200-00020000, 0B200-00020100 | 7.4V | 6840mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2009.html | | |
+| 1002804-100109-2 |  asus UX31A, UX31E, ZENBOOK, UX31, -R4002V, -R4003V, -R4004V, -R4003X | 7.4V | 6840mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2264.html | | |
+| 1003638-100107-1 |  dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, WYJC2, HK6DV | 7.4V | 6800mAh | 51.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-359.html | | |
+| 1003638-100107-2 |  dell Latitude E5470, E5550, 14 5000, E5570, 15 5000, 14-, E5450 | 7.4V | 6800mAh | 51.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1024.html | | |
+| 1004654-100107-1 |  dell 8V5GX, 6MT4T, G5m10, 07V69Y, TXF9M, 79VRK, 7V69Y, WYJC2, HK6DV | 7.4V | 6800mAh | 51.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2881.html | | |
+| 1004654-100107-2 |  dell Latitude E5470, E5570, E5550, 14 5000, 15 5000, E5270, 14- | 7.4V | 6800mAh | 51.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2882.html | | |
+| 1005655-100113-1 |  samsung AA-PLYN4AN, BA43-00340A | 7.4V | 6800mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-3650.html | | |
+| 1005655-100113-2 |  samsung 550C, XE550C22, -A02US | 7.4V | 6800mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-3651.html | | |
+| 1004329-100107-1 |  dell 0N7T6, 90V7W, JD25G, 5K9CP, JHXPY, DIN02, RWT1R, 0DRRP | 7.6V | 6710mAh | 56.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-71.html | | |
+| 1004329-100107-2 |  dell XPS 13, XPS 13 9350, XPS 13-9350-D3808T, XPS 13-9350, XPS 13-9343 | 7.6V | 6710mAh | 56.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-799.html | | |
+| 1004201-100107-1 |  dell VFV59, F3G33, W57CV | 7.6V | 6700mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-373.html | | |
+| 1004201-100107-2 |  dell Latitude E7240,, E7250, E7270 | 7.6V | 6700mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1149.html | | |
+| 1001389-100108-1 |  sony VGP-BPS5 | 7.4V | 6600mAh | 53.0W | 6 | https://www.newlaptopaccessory.com/sony-batteries-p-2060.html | | |
+| 1001389-100108-2 |  sony VAIO VGN-TX56C, VAIO VGN-TX90S, VAIO VGN-TX91S, VAIO VGN-TX36C | 7.4V | 6600mAh | 53.0W | 6 | https://www.newlaptopaccessory.com/sony-batteries-p-2341.html | | |
+| 1001817-100121-1 |  panasonic CF-VZSU30W, CF-VZSU30AR, CF-VZSU30, L18650-CF18 | 7.4V | 6600mAh | 49.0W | 6 | https://www.newlaptopaccessory.com/panasonic-batteries-p-361.html | | |
+| 1001817-100121-2 |  panasonic CF-18, KHH64BE, TOUGHBOOK CF18B | 7.4V | 6600mAh | 49.0W | 6 | https://www.newlaptopaccessory.com/panasonic-batteries-p-1015.html | | |
+| 1001912-100113-1 |  samsung AA-PB0TC4A, AA-PL0TC6B, AA-PB0TC4L, AA-PB0TC4M, AA-PB0TC4R | 7.4V | 6600mAh | 49.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-540.html | | |
+| 1001912-100113-2 |  samsung N310, NP-N310, NC310, NP-X118, NP-X120, X120-JA01, X118-DA02 | 7.4V | 6600mAh | 49.0W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-1503.html | | |
+| 1004200-100107-1 |  dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120 | 7.4V | 6550mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3058.html | | |
+| 1004200-100107-2 |  dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608 | 7.4V | 6550mAh | 50.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-3059.html | | |
+| 1003471-100113-1 |  samsung AA-PLZN4NP | 7.5V | 6540mAh | 49.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-137.html | | |
+| 1003471-100113-2 |  samsung XE700T1C, -A02AU, -H01UK, -A05UK, XQ700T1C, -A04US, -K01US | 7.5V | 6540mAh | 49.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-910.html | | |
+| 1003081-100109-1 |  asus C23-UX32 | 7.4V | 6520mAh | 48.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-247.html | | |
+| 1003081-100109-2 |  asus UX32VD, UX32A, Zenbook, VivoBook U38N-C4004H, U38N, UX32V, U38DT | 7.4V | 6520mAh | 48.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-916.html | | |
+| 1004853-100107-1 |  dell P82G, DXGH8, 0H754V, G8VCF, H754V, P82G001 | 7.6V | 6500mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2157.html | | |
+| 1004853-100107-2 |  dell XPS 13-9370, XPS 13 9370, XPS 13-9380, XPS 13 9380, XPS 13 7390 | 7.6V | 6500mAh | 52.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2479.html | | |
+| 1004794-100104-1 |  hp HSTNN-IB7U, ET04XL, ET04049XL, 915191-855, 915030-171, 915030-1C1 | 7.7V | 6470mAh | 49.81W | 6 | https://www.newlaptopaccessory.com/hp-batteries-p-2933.html | | |
+| 1004794-100104-2 |  hp EliteBook x360 1020 G2, x360 1020 G2(1EP69EA), x360 1020 G2(2UB79EA) | 7.7V | 6470mAh | 49.81W | 6 | https://www.newlaptopaccessory.com/hp-batteries-p-2934.html | | |
+| 1003843-100399-1 |  msi BTY-S37 | 7.4V | 6400mAh | 47.36W | 4 | https://www.newlaptopaccessory.com/msi-batteries-p-2508.html | | |
+| 1003843-100399-2 |  msi GS30, GS30 2M-013CN, MS-13F1, GS30 2M 001US, MS1-13F1 | 7.4V | 6400mAh | 47.36W | 4 | https://www.newlaptopaccessory.com/msi-batteries-p-2509.html | | |
+| 1003054-100107-1 |  dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120 | 7.4V | 6350mAh | 47.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2521.html | | |
+| 1003054-100107-2 |  dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608 | 7.4V | 6350mAh | 47.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1839.html | | |
+| 1005007-100154-1 |  lg LBF122KH | 7.4V | 6300mAh | 46.62W | 3 | https://www.newlaptopaccessory.com/lg-batteries-p-1572.html | | |
+| 1005007-100154-2 |  lg P220, P330, P210, XNOTE P210, P220, P210-GE30K, P220-SE35K | 7.4V | 6300mAh | 46.62W | 3 | https://www.newlaptopaccessory.com/lg-batteries-p-1641.html | | |
+| 1005268-100104-1 |  hp 941190-1C1, HSTNN-IB8E, CH04048XL, 941617-855, CH04XL, HSTNN_IB8E | 7.7V | 6300mAh | 48.5W | 2 | https://www.newlaptopaccessory.com/hp-batteries-p-3596.html | | |
+| 1003467-100105-1 |  acer AP13F3N, 2ICP4/63/114-2, 21CP4/63/114-2 | 7.5V | 6280mAh | 47.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-575.html | | |
+| 1003467-100105-2 |  acer Aspire S7-392, S7-393, -6832, S7-391-6822, -75508G25ews, -6411 | 7.5V | 6280mAh | 47.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-1543.html | | |
+| 1004797-100114-1 |  lenovo L16M4PB3, 5B10N00765 | 7.68V | 6268mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3785.html | | |
+| 1004797-100114-2 |  lenovo Ideapad 720S-13IKB, 720S-13, ARR, 720s touch-13ikb, 81a8 | 7.68V | 6268mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3786.html | | |
+| 1004656-100114-1 |  lenovo 2ICP4/43/110-2, L16M4PB1, L16L4PB1, 5B10M52740, 5B10Q38238 | 7.68V | 6268mAh | 48.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3731.html | | |
+| 1005082-100105-1 |  acer AC16B7K, AC16B8K, KT.00407.005 | 7.4V | 6180mAh | 48.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-3807.html | | |
+| 1002941-100113-1 |  samsung AA-PLAN6AR, AAPLAN6AR | 7.4V | 6150mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-132.html | | |
+| 1002941-100113-2 |  samsung 900X1, B-A01, 900X3A-B01, B-A03, NP900X3A, 900X3, AA01US, A-01IT | 7.4V | 6150mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-858.html | | |
+| 1004967-100113-1 |  samsung AA-PLAN6AR, AAPLAN6AR | 7.4V | 6150mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-1564.html | | |
+| 1004740-100104-1 |  hp GM02XL, HSTNN-DB7X, 917725-855, TPN-Q185, GM02047XL, 917679-271 | 7.7V | 6150mAh | 47.3W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3767.html | | |
+| 1004740-100104-2 |  hp Chromebook 14 G5, X360 11 G1 EE, 11 G6 EE, 14-CA001NF, 14-CA051WM | 7.7V | 6150mAh | 47.3W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3768.html | | |
+| 1005542-100104-1 |  hp L42583-005, GB02XL, HSTNN-IB8W, L42550-2C1 | 7.7V | 6150mAh | 47.3W | 3 | https://www.newlaptopaccessory.com/hp-batteries-p-3540.html | | |
+| 1005542-100104-2 |  hp CHROMEBOOK X360 11 G2 EE | 7.7V | 6150mAh | 47.3W | 3 | https://www.newlaptopaccessory.com/hp-batteries-p-3541.html | | |
+| 1004758-100114-1 |  lenovo L15M6PC0, L15M6PCO, 5B10L55039 | 7.5V | 6135mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2845.html | | |
+| 1004758-100114-2 |  lenovo 710S Plus-13IKB | 7.5V | 6135mAh | 46.0W | 6 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2846.html | | |
+| 1004191-100114-1 |  lenovo L15M4PC0, L15L4PC0, L15S4PC0, L15M4PCO, L15L4PCO, 5B10K85625 | 7.5V | 6135mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2784.html | | |
+| 1004191-100114-2 |  lenovo V730-13-IFI, V730-13-ISE, IdeaPad 710S, V320-17IKB, Air 13 Pro | 7.5V | 6135mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2785.html | | |
+| 1003095-100113-1 |  samsung AA-PBYN8AB, BA43-00339A | 7.4V | 6120mAh | 45.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-439.html | | |
+| 1003095-100113-2 |  samsung NP530U4B, 530U4C-A01, 530U4C-A02, NP520U4C, -A01US, 535U4C-S02 | 7.4V | 6120mAh | 45.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-1348.html | | |
+| 1005254-100113-1 |  samsung EB-BW738ABU | 7.7V | 6120mAh | 47.12W | 4 | https://www.newlaptopaccessory.com/samsung-batteries-p-3627.html | | |
+| 1003382-100114-1 |  lenovo L12M4P61 | 7.4V | 6100mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-302.html | | |
+| 1005401-100109-1 |  asus 2ICP5/74/110, C21PtJH, 0B200-03340000, C21N1833 | 7.7V | 6100mAh | 47.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3887.html | | |
+| 1005401-100109-2 |  asus ZenBook 14 UM431DA, 14 UX431FA-AM130, S431FL, Vivobook S14 -AM037T | 7.7V | 6100mAh | 47.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3888.html | | |
+| 1004570-100107-1 |  dell TU131-TS63-74 | 7.4V | 6080mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-481.html | | |
+| 1004570-100107-2 |  dell XPS13D-2708, U13S881, XPS13 8808, TU131, D-2501, D-2608, D-2508 | 7.4V | 6080mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1415.html | | |
+| 1004570-100108-2 |  sony U33X | 7.4V | 6080mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/sony-batteries-p-1418.html | | |
+| 1004570-100109-2 |  asus UX32K | 7.4V | 6080mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-1419.html | | |
+| 1004570-100427-2 |  schenker S306 | 7.4V | 6080mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/schenker-batteries-p-1416.html | | |
+| 1004812-100109-1 |  asus C22N1626, 0B200-02440100, 0B200-03320000 | 7.7V | 6044mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3789.html | | |
+| 1004812-100109-2 |  asus C213NA, Chromebook Flip, Flip C213SA, CHROMBOOK FLIP, Flip -YS02 | 7.7V | 6044mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3790.html | | |
+| 1004820-100109-1 |  asus C22N1623, 0B200-02400000, 0B200-02400100 | 7.7V | 6005mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3673.html | | |
+| 1004820-100109-2 |  asus UX490UA-XS74-BL, UX490, UA-BE038T, UAR, UX3490UA, UA-IH74-BL | 7.7V | 6005mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3674.html | | |
+| 1004890-100109-1 |  asus C22N1623, 0B200-02400000, 0B200-02400100 | 7.7V | 6005mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3486.html | | |
+| 1004890-100109-2 |  asus UX490UA-XS74-BL, ZENBOOK 3 Deluxe, UX490UA, UX490, -BE038T | 7.7V | 6005mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3487.html | | |
+| 1003411-100107-1 |  dell WD52H, 451-BBFY, GVD76, KWFFN, 451-BBFV, HJ8KP, VFV59, NCVF0 | 7.4V | 6000mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-366.html | | |
+| 1003863-100114-1 |  lenovo L13M4P61, L13L4P61, L13S4P61, 2ICP3/86/94-2 | 7.4V | 6000mAh | 44.4W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3387.html | | |
+| 1003863-100114-2 |  lenovo Flex 2 Pro-15, Edge 15 80K9, ThinkPad Edge 15 80H1 15.6 | 7.4V | 6000mAh | 44.4W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3388.html | | |
+| 1004111-100107-1 |  dell Y9N00, 489XN, 3H76R, 0PKH18, NVR98, 321X-2120 | 7.4V | 6000mAh | 44.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-548.html | | |
+| 1004111-100107-2 |  dell XPS 13-925SLV, XPS 13R2-1050SLV, XPS 13-1500SLV, XPS 13D-2608 | 7.4V | 6000mAh | 44.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2261.html | | |
+| 1005113-100430-1 |  microsoft DYNK01, G3HTA036H | 7.57V | 5970mAh | 45.2W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-3336.html | | |
+| 1005113-100430-2 |  microsoft Surface Laptop 2, 1769, 2-LQN-00004, 1782 | 7.57V | 5970mAh | 45.2W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-3337.html | | |
+| 1004608-100107-1 |  dell HMPFH, NNF1C, 2(1ICP4/53/120 1ICP3/52/90)-2, 451-BBXR, NP0V3 | 7.6V | 5940mAh | 46.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1952.html | | |
+| 1004963-100430-1 |  microsoft G3HTA038H, DYNM02 | 7.57V | 5940mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-2703.html | | |
+| 1004963-100430-2 |  microsoft Surface Pro5 1796 | 7.57V | 5940mAh | 45.0W | 4 | https://www.newlaptopaccessory.com/microsoft-batteries-p-2704.html | | |
+| 1003861-100114-1 |  lenovo L13M4P71, L14S4P71 | 7.6V | 5900mAh | 44.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-308.html | | |
+| 1003861-100114-2 |  lenovo YOGA 3 PRO, Yoga 3 Pro 1370, Yoga 3 Pro-1370, Yoga 3 Pro 13 | 7.6V | 5900mAh | 44.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-1066.html | | |
+| 1004288-100107-1 |  dell N3KPR, P63NY, MH25J, 0XCNR3 | 7.6V | 5831mAh | 43.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-246.html | | |
+| 1004288-100107-2 |  dell Latitude 7370, 13 7370, E7370 | 7.6V | 5831mAh | 43.0W | 6 | https://www.newlaptopaccessory.com/dell-batteries-p-982.html | | |
+| 1004195-100107-1 |  dell YFDF9, JR6XC, H4PJP, YFOF9, 5MTD8, 451-BBJB, 7WV3V, HGJW8, 451-BBIY | 7.4V | 5800mAh | 43.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-126.html | | |
+| 1004195-100107-2 |  dell Latitude 3340, E3340, 3350, 13 Education, 13 3340 | 7.4V | 5800mAh | 43.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-847.html | | |
+| 1003514-100121-1 |  panasonic CF-VZSU66U | 7.4V | 5700mAh | 43.0W | 4 | https://www.newlaptopaccessory.com/panasonic-batteries-p-233.html | | |
+| 1003514-100121-2 |  panasonic CF-C1, BD06EFG, AD06GDE | 7.4V | 5700mAh | 43.0W | 4 | https://www.newlaptopaccessory.com/panasonic-batteries-p-914.html | | |
+| 1004787-100104-1 |  hp TPN-C132, BF04XL, HSTNN-LB8C, BF04043XL, 924843-421, 924960-855 | 7.7V | 5685mAh | 43.7W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3839.html | | |
+| 1004787-100104-2 |  hp SPECTRE 13-AF002LA, 13-AF520TU, 13-AF018TU, 13-af000TU, 13-af003TU | 7.7V | 5685mAh | 43.7W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3840.html | | |
+| 1003439-100113-1 |  samsung AA-PBZN4NP | 7.4V | 5520mAh | 40.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-325.html | | |
+| 1003439-100113-2 |  samsung XE700T1A, -A06US, -a04us, -a02, -A05US, -A03US, -A02US, XQ700T1A | 7.4V | 5520mAh | 40.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-990.html | | |
+| 1005794-100564-1 |  teclast H-28172300P | 7.6V | 5500mAh | 41.8W | 2 | https://www.newlaptopaccessory.com/teclast-batteries-p-3897.html | | |
+| 1004216-100114-1 |  lenovo L15C4P71, L15L4P71, 5B10J40264, 5B10J40259 | 7.6V | 5500mAh | 40.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2109.html | | |
+| 1004216-100114-2 |  lenovo MIIX 4-6Y54, MIIX 700, MIIX 700-12ISK, MIIX 4, IdeaPad Miix | 7.6V | 5500mAh | 40.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2417.html | | |
+| 1004234-100106-1 |  apple A1705 | 7.56V | 5474mAh | 41.41W | 2 | https://www.newlaptopaccessory.com/apple-batteries-p-2169.html | | |
+| 1004978-100423-1 |  huawei HB54A9Q3ECW | 7.6V | 5449mAh | 41.4W | 4 | https://www.newlaptopaccessory.com/huawei-batteries-p-3821.html | | |
+| 1004978-100423-2 |  huawei MateBook X, WT-W09, WT-W19 | 7.6V | 5449mAh | 41.4W | 4 | https://www.newlaptopaccessory.com/huawei-batteries-p-3822.html | | |
+| 1003130-100113-1 |  samsung AA-PBXN4AR, AA-PLXN4AR, BA43-00349A, BA43-00350A, 921700031 | 7.4V | 5440mAh | 40.0W | 6 | https://www.newlaptopaccessory.com/samsung-batteries-p-245.html | | |
+| 1005048-100114-1 |  lenovo L16L4P91, SB10K97599, 01AV454, L16S4P91, L16M4P91, 5B10W13919 | 7.72V | 5440mAh | 42.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3853.html | | |
+| 1005048-100114-2 |  lenovo ThinkPad X1 Tablet GEN 3 | 7.72V | 5440mAh | 42.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3854.html | | |
+| 1004460-100104-1 |  hp HSTNN-IB7M, DR02XL, 859357-855, 859027-121, DR02043XL, TPN-W123 | 7.7V | 5400mAh | 43.7W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3482.html | | |
+| 1004460-100104-2 |  hp Chromebook 11 G5, 11-V010NR, 11-V020WM, 11 G5(X9U02UT), 11-V001NF | 7.7V | 5400mAh | 43.7W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3483.html | | |
+| 1004743-100104-1 |  hp TPN-Q184, AH04XL, AH04041XL, HSTNN-DB7S, 902402-2B2, 902402-2C2 | 7.7V | 5400mAh | 41.58W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-3462.html | | |
+| 1005035-100104-1 |  hp SE04XL, HSTNN-DB7Q, 860724-2C1, 860708-855, 860724-2B1, 860724-281 | 7.7V | 5400mAh | 41.58W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-1571.html | | |
+| 1005035-100104-2 |  hp Pro X2 612 G2, Pro X2 612 G2(L5H59EA), Pro X2 612 G2(L5H56EA) | 7.7V | 5400mAh | 41.58W | 4 | https://www.newlaptopaccessory.com/hp-batteries-p-2466.html | | |
+| 1004727-100446-1 |  razer RZ09-0093 | 7.6V | 5400mAh | 41.44W | 4 | https://www.newlaptopaccessory.com/razer-batteries-p-3038.html | | |
+| 1004646-100114-1 |  lenovo L15M4PC3, 5B10L72502, SB10W89296, 5B10W89300 | 7.68V | 5340mAh | 41.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2904.html | | |
+| 1004973-100492-1 |  xiaomi R13B01W, R13B02W | 7.6V | 5320mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1646.html | | |
+| 1004973-100492-2 |  xiaomi Mi Notebook Air 13.3 2018, INCHMI AIR 13.3 | 7.6V | 5320mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1611.html | | |
+| 1004399-100401-2 |  gigabyte U2142, -i5-3337U, -i5-3317U, -2117U, GA-, -i3-3217U, -i3-3227U | 7.4V | 5300mAh | 39.22W | 2 | https://www.newlaptopaccessory.com/gigabyte-batteries-p-2463.html | | |
+| 1004399-100449-1 |  getac GNG-E20 | 7.4V | 5300mAh | 39.22W | 2 | https://www.newlaptopaccessory.com/getac-batteries-p-2146.html | | |
+| 1005450-100444-1 |  simplo 2ICP7/55/63-2, SMPSBINTL, SMP-BOBCACLL4 | 7.4V | 5300mAh | 39.22W | 2 | https://www.newlaptopaccessory.com/simplo-batteries-p-3446.html | | |
+| 1003778-100105-1 |  acer KT.00403.013, AC13A3L, 2ICP5/60/80-2 | 7.6V | 5280mAh | 40.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-3332.html | | |
+| 1003778-100105-2 |  acer Aspire P3-171, P3-131, TravelMate X313, -4602, X313-M, -4833 | 7.6V | 5280mAh | 40.0W | 4 | https://www.newlaptopaccessory.com/acer-batteries-p-3333.html | | |
+| 1004351-100114-1 |  lenovo L14M4P73, 5B10K10215 | 7.6V | 5270mAh | 40.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-370.html | | |
+| 1004327-100114-1 |  lenovo L15M4PC1, L15L4PC1, 5B10K90767, 5B10K90801 | 7.6V | 5264mAh | 40.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3283.html | | |
+| 1004107-100106-1 |  apple A1527 | 7.55V | 5263mAh | 39.71W | 6 | https://www.newlaptopaccessory.com/apple-batteries-p-2091.html | | |
+| 1004696-100107-1 |  dell J0PGR, JOPGR | 7.6V | 5250mAh | 42.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-1943.html | | |
+| 1004696-100107-2 |  dell Latitude 5290 2-in-1, 12 5285 | 7.6V | 5250mAh | 42.0W | 4 | https://www.newlaptopaccessory.com/dell-batteries-p-2266.html | | |
+| 1004871-100492-1 |  xiaomi R13B01W, R13B02W | 7.66V | 5230mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1918.html | | |
+| 1004871-100492-2 |  xiaomi Notebook Air 13, MI AIR 13.3, Mi Air 13.3 2018, MI AIR 13.3 INCH | 7.66V | 5230mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/xiaomi-batteries-p-1919.html | | |
+| 1004585-100114-1 |  lenovo L15M2PB5, L15C2PB5, 5B10K90787, L15C2PB7, 5B10L13960 | 7.4V | 5200mAh | 39.0W | 6 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3013.html | | |
+| 1004477-100109-1 |  asus C23N1606, C23PqCH, 0B200-02210000, 0B200-02210100 | 7.7V | 5195mAh | 40.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2891.html | | |
+| 1004477-100109-2 |  asus Zenbook 3, UX390UA, 3 UX390, -GS041T, -XH74-BL, -GS039T, -GS046T | 7.7V | 5195mAh | 40.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2892.html | | |
+| 1004501-100104-1 |  hp BP02XL, 849909-850, BP02041XL, 849569-541, 849569-421, 849569-542 | 7.7V | 5150mAh | 41.0W | 2 | https://www.newlaptopaccessory.com/hp-batteries-p-349.html | | |
+| 1004501-100104-2 |  hp Pavilion 15-AU156TX, 15-au000, 15-au100, 15-AW011DS, AU010WM | 7.7V | 5150mAh | 41.0W | 2 | https://www.newlaptopaccessory.com/hp-batteries-p-1002.html | | |
+| 1005085-100113-1 |  samsung AA-PBTN2TP | 7.6V | 5140mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/samsung-batteries-p-1580.html | | |
+| 1005085-100113-2 |  samsung XE513C24, -K01US, XE510C24, XE510C25, -K04US | 7.6V | 5140mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/samsung-batteries-p-1650.html | | |
+| 1003423-100109-2 |  asus F502CA, F502C, X502CA, -BI30705B, -XX133H, -BI30704A, -XX075H | 7.4V | 5136mAh | 38.0W | 6 | https://www.newlaptopaccessory.com/asus-batteries-p-1815.html | | |
+| 1003620-100109-1 |  asus C21-X402 | 7.4V | 5136mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3464.html | | |
+| 1003620-100109-2 |  asus X402c, X402, A-WX058H, A-WX013D, A-WX016D, A-WX094D, A-WX061H | 7.4V | 5136mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-3465.html | | |
+| 1003153-100109-1 |  asus C21-X202 | 7.4V | 5136mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2134.html | | |
+| 1003153-100109-2 |  asus VivoBook S200E, S200, X202E-3E, S200LI236, S200L3217E, X201E | 7.4V | 5136mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2448.html | | |
+| 1003153-100166-2 |  arm VivoBook X202E-DH31T, X202E-CT006H, X202E-CT009H, X202E-CT142H | 7.4V | 5136mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/arm-batteries-p-2449.html | | |
+| 1003604-100109-1 |  asus C21N1309, 0B200-00580100M, C21PQ2H, 0B200-00580000, PS6354B3 | 7.4V | 5135mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2136.html | | |
+| 1003712-100107-1 |  dell HFRC3, 2H2G4, TXJ69, original laptop batteries | 7.4V | 5135mAh | 38.0W | 0 | https://www.newlaptopaccessory.com/dell-batteries-p-2153.html | | |
+| 1003712-100107-2 |  dell VENUE PRO 7140, 11 Pro 7140 Tablet, original laptop batteries | 7.4V | 5135mAh | 38.0W | 0 | https://www.newlaptopaccessory.com/dell-batteries-p-2475.html | | |
+| 1004383-100113-1 |  samsung AA-PBUN4AR, 2ICP5/43/93-2 | 7.7V | 5120mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/samsung-batteries-p-399.html | | |
+| 1004049-100430-1 |  microsoft Surface, G3HTA027H, DYNR01 | 7.5V | 5087mAh | 38.2W | 2 | https://www.newlaptopaccessory.com/microsoft-batteries-p-491.html | | |
+| 1004049-100430-2 |  microsoft Surface Pro 4, Pro4 1724 | 7.5V | 5087mAh | 38.2W | 2 | https://www.newlaptopaccessory.com/microsoft-batteries-p-1438.html | | |
+| 1004371-100114-1 |  lenovo L15L2PB2, L15C2PB4, L15M2PB4, L15C2PB2, 5B10K90784, 5B10K90803 | 7.68V | 5080mAh | 39.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3089.html | | |
+| 1004371-100114-2 |  lenovo IdeaPad 310-14IKB, 310-14ISK | 7.68V | 5080mAh | 39.0W | 4 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3090.html | | |
+| 1004848-100114-1 |  lenovo L17M2PB3, L17L2PB4, L17L2PB3, L17C2PB3, L17M2PB4, L17C2PB4 | 7.68V | 5080mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3811.html | | |
+| 1004848-100114-2 |  lenovo V330-15IKB, V330-14IKB, V330-15ISK, V130-15IGM, v330-14isk | 7.68V | 5080mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3812.html | | |
+| 1005126-100114-1 |  lenovo L17L2PF3, L17M2PF3, L17S2PF3, 5B10Q93737, 928QA230H, 5B10W67245 | 7.68V | 5080mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3866.html | | |
+| 1005126-100114-2 |  lenovo IdeaPad D330, D330-10IGM, (81H3001TGE), (81H3) | 7.68V | 5080mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3867.html | | |
+| 1004574-100114-1 |  lenovo L15C2PB5, 5B10K90787, L15C2PB7, 5B10L13960 | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-1960.html | | |
+| 1004867-100109-1 |  asus C21N1624, 0B200-02420000 | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2577.html | | |
+| 1004867-100109-2 |  asus UX370UA, ZenBook Flip S, Flip S -C4202T, Q325UA, Flip S -C4201T | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2578.html | | |
+| 1004968-100109-1 |  asus C21N1701, 0B200-02640000, C21PQC5 | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3777.html | | |
+| 1004968-100109-2 |  asus S406UA, VivoBook S14, -BM012T, X406, -BM258T, S14, -BV023T | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3778.html | | |
+| 1005180-100113-1 |  samsung AA-PBMN2H0, AA-PBMN2HO, EB-BW720ABA | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/samsung-batteries-p-3710.html | | |
+| 1005180-100113-2 |  samsung Galaxy Book 12, SM-W720, SM-W727V | 7.7V | 5070mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/samsung-batteries-p-3711.html | | |
+| 1003871-100109-1 |  asus c21n1335, 0B200-00530100, 0B200-00530200 | 7.5V | 5066mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2119.html | | |
+| 1003871-100109-2 |  asus S451LN, K451L, VivoBook S451LA, S451, S451LB, -CA021H, -2B | 7.5V | 5066mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2433.html | | |
+| 1005104-100109-1 |  asus C21N1714, 0B200-02740000 | 7.7V | 5065mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2724.html | | |
+| 1005104-100109-2 |  asus TP401NA-128GS, TP401NA, TP401CA-BZ085TS, J401MA, VivoBook Flip 14 | 7.7V | 5065mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2725.html | | |
+| 1004344-100114-1 |  lenovo L15L2PB5, 5B10K87720 | 7.72V | 5055mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3361.html | | |
+| 1004344-100114-2 |  lenovo IdeaPad 510-15ISK, 310-15ISK, 310-15IKB, 510-15IKB, (80SM) | 7.72V | 5055mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3362.html | | |
+| 1005013-100114-2 |  lenovo V330-14, V330-15, IGM, IKB, ARR, isk, IKB(81B0004MGE), igm | 7.72V | 5055mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-1910.html | | |
+| 1004777-100114-2 |  lenovo V330-14IKB, v330-14isk, V330-14ARR, v130-14igm, v130-14ikb | 7.77V | 5050mAh | 39.0W | 2 | https://www.newlaptopaccessory.com/lenovo-batteries-p-2890.html | | |
+| 1003807-100109-1 |  asus C21N1414, C21PQ91, CKSE321D1, B075K41HCD, B074CZHZ64, B07H4JPGRY | 7.6V | 5000mAh | 38.0W | 6 | https://www.newlaptopaccessory.com/asus-batteries-p-327.html | | |
+| 1003807-100109-2 |  asus EeeBook X205TA, F205TA, X205, X205T, -FD005BS, -1B, -1G, -1B | 7.6V | 5000mAh | 38.0W | 6 | https://www.newlaptopaccessory.com/asus-batteries-p-963.html | | |
+| 1003504-100109-1 |  asus C21-TX300P, 0B200-00310200 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2130.html | | |
+| 1003747-100109-1 |  asus 2ICP4/63/134, C21N1333, C21NI333, 0B200-00860400, 0B200-00860200 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-136.html | | |
+| 1003808-100109-1 |  asus C21N1334, 0B200-00870000, 0B200-00870200, 0B200-00870300 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2519.html | | |
+| 1003808-100109-2 |  asus T200TA, Transformer Book, -CP004H, -1A, Book -C1-BL, -1R, -1K | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-2520.html | | |
+| 1003999-100109-1 |  asus C21N1423, 0B200-01360100 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-257.html | | |
+| 1003999-100109-2 |  asus P302LJ, F302LJ, X302LJ, X302L, F302U, X302UA, X302UV, R301LA-FN063H | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/asus-batteries-p-977.html | | |
+| 1005351-100520-1 |  jumper HW-3487265, NV-2874180-2S, TH140A, TH133K-MC | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/jumper-batteries-p-2579.html | | |
+| 1005351-100520-2 |  jumper Ezbook X4, 3L PRO, 3L PRO 14, 3L PRO MB12 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/jumper-batteries-p-2580.html | | |
+| 1005351-100592-2 |  irbis NB133, NB131 | 7.6V | 5000mAh | 38.0W | 4 | https://www.newlaptopaccessory.com/irbis-batteries-p-3514.html | | |
+| 1004342-100109-1 |  asus C21N1518, 21CP4/63/134, 0B200-01850000 | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2794.html | | |
+| 1004342-100109-2 |  asus TP501UA, R518UA, TP501UQ, TP501UB, TP501, VivoBook Flip, R518UQ | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2795.html | | |
+| 1004415-100109-1 |  asus C21N1530, 0B200-01990000, 0B200-02670000 | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3021.html | | |
+| 1004415-100109-2 |  asus C202SA, Chromebook, -YS02, C202, -YS04, VIVOBOOK E201NA, -GJ005T | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3022.html | | |
+| 1004417-100109-1 |  asus C21N1521, 0B200-01870000, C2IN1521 | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3393.html | | |
+| 1004417-100109-2 |  asus L200HA, E200HA, VivoBook, X206HA, R209HA, -FD0081TS, -FD0080TS | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-3394.html | | |
+| 1004863-100109-1 |  asus C21PQCH, C21N1634, 0B200-02550000, 0B200-02550200 | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-1920.html | | |
+| 1004863-100109-2 |  asus A580UR9000, A580UR7100, X542UN-8250GR, X542UF, X542U, VivoBook | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-2345.html | | |
+| 1004932-100109-1 |  asus C21N1333, C21NI333, 0B200-00860400, 0B200-00860300 | 7.5V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-1574.html | | |
+| 1004932-100109-2 |  asus TP550LA, TP550LD, X454, TP550L, Transformer Book Flip, Book Flip | 7.5V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/asus-batteries-p-1643.html | | |
+| 1004970-100441-1 |  haier PL3074165-2S YL | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/haier-batteries-p-3727.html | | |
+| 1004970-100441-2 |  haier X14, M4-64G, X14-3450G04128WY | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/haier-batteries-p-3728.html | | |
+| 1004970-100517-1 |  chuwi 32160205P, 34170250P | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/chuwi-batteries-p-3725.html | | |
+| 1004970-100517-2 |  chuwi Lapbook Air CWI529, 14 inch 2017, Air 14, Air 14.1 N3450 FHD | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/chuwi-batteries-p-3726.html | | |
+| 1005477-100564-1 |  teclast 31154200 | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/teclast-batteries-p-3528.html | | |
+| 1005480-100564-1 |  teclast 30154200P | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/teclast-batteries-p-3536.html | | |
+| 1005480-100564-2 |  teclast F7 Plus | 7.6V | 5000mAh | 38.0W | 2 | https://www.newlaptopaccessory.com/teclast-batteries-p-3537.html | | |
+| 1004941-100114-1 |  lenovo L17M2PB5, L17L2PB5, L17C2PB5, 5B10P98187, 5B10P98183, 5B10P98184, original laptop batteries | 7.72V | 5000mAh | 39.0W | 0 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3712.html | | |
+| 1004941-100114-2 |  lenovo V330-14IKB, V330-14, -81B0004MGE, -81B0, 004RGE, 004HMZ, original laptop batteries | 7.72V | 5000mAh | 39.0W | 0 | https://www.newlaptopaccessory.com/lenovo-batteries-p-3713.html | | |
