@@ -80,14 +80,14 @@ public class Battery {
     public String asTable() {
         return "| " + model +
                 " | " + brand +
-                " | " + String.join(", ", partNo) +
+                " | " + String.join("<br/>", partNo) +
                 " | " + description +
                 " | " + volt + "V" +
                 " | " + amp + "mAh" +
                 " | " + watt + "W" +
                 " | " + cells +
                 " | " + url +
-                " | " + String.join(", ", models) +
+                " | " + String.join("<br/>", models) +
                 " | | |";
     }
 
