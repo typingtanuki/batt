@@ -9,6 +9,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -41,15 +42,25 @@ public class App {
                     found.put(battery.getModel(), battery);
                 }
             }
+
+            List<Battery> batteries = new LinkedList<>(found.values());
+            batteries.sort(new BatteryComparator());
+
+            Path out = Paths.get("detected.md");
+
+            StringBuilder output = new StringBuilder();
+            output.append("Found: ")
+                    .append(batteries.size())
+                    .append("\r\n\r\n")
+                    .append("| Model | Description | Volt | Amp | Watt | URL |\r\n")
+                    .append("| ----- | ----------- | ---- | --- | ---- | --- |\r\n");
+            for (Battery battery : batteries) {
+                output.append(battery.toString()).append("\r\n");
+            }
+            Files.write(out, output.toString().getBytes(StandardCharsets.UTF_8));
+            System.out.println("Done");
         } catch (IOException e) {
             e.printStackTrace();
-        }
-
-        List<Battery> batteries = new LinkedList<>(found.values());
-        batteries.sort(new BatteryComparator());
-        System.out.println("\r\nFound: " + batteries.size());
-        for (Battery battery : batteries) {
-            System.out.println(battery);
         }
     }
 

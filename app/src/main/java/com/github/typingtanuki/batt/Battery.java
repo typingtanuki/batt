@@ -67,11 +67,12 @@ public class Battery {
 
     @Override
     public String toString() {
-        return "* " + model + "\r\n" +
-                "** " + description + "\r\n" +
-                "** " + url + "\r\n" +
-                "** " + volt + "V\r\n" +
-                "** " + amp + "mAh\r\n" +
-                "** " + watt + "W";
+        return "| " + model +
+                " | " + description +
+                " | " + volt + "V" +
+                " | " + amp + "mAh" +
+                " | " + watt + "W" +
+                " | " + url +
+                " |";
     }
 }
