@@ -7,6 +7,7 @@ public class BatteryComparator implements java.util.Comparator<Battery> {
         if (amp != 0) {
             return -amp;
         }
+
         int cell = Integer.compare(o1.getCells(), o2.getCells());
         if (cell != 0) {
             return -cell;

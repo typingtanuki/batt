@@ -118,6 +118,10 @@ public class Battery {
         this.brand = brand;
     }
 
+    public String getBrand() {
+        return brand;
+    }
+
     public void setPartNo(Set<String> partNo) {
         this.partNo = partNo;
     }
@@ -149,7 +153,25 @@ public class Battery {
             return true;
         }
 
-        return BatteryType.LI_POLYMER.equals(type);
+        if (!BatteryType.LI_POLYMER.equals(type)) {
+            return false;
+        }
+
+        if (BatteryForm.CUSTOM.equals(form)) {
+            return false;
+        }
+        if (BatteryForm.FAT.equals(form)) {
+            return false;
+        }
+        if (BatteryForm.SQUARE.equals(form)) {
+            return false;
+        }
+
+        if (BatteryConnector.CUSTOM.equals(connector)) {
+            return false;
+        }
+
+        return true;
     }
 
     private void consolidate() {

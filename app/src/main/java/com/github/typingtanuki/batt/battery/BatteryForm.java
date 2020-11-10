@@ -4,5 +4,6 @@ public enum BatteryForm {
     SQUARE,
     RECTANGLE,
     CUSTOM,
-    UNKNOWN
+    UNKNOWN,
+    FAT;
 }
