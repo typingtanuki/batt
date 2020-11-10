@@ -26,7 +26,7 @@ public final class CachedHttp {
             return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
         }
 
-        progress(".");
+        progress("+");
         Document document = Jsoup.connect(url).get();
         String html = document.html();
         Files.createDirectories(path.getParent());

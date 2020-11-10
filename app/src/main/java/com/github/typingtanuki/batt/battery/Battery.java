@@ -1,11 +1,21 @@
 package com.github.typingtanuki.batt.battery;
 
+import com.github.typingtanuki.batt.validator.*;
+
 import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
 public class Battery {
     private static final int MAX_LIST_SIZE = 10;
+
+    private static final Validator[] VALIDATORS = new Validator[]{
+            new VoltageValidator(7.4, 8.2),
+            new AmperageValidator(5_000, 1_000_000),
+            new TypeValidator(true, BatteryType.LI_POLYMER),
+            new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT),
+            new ConnectorValidator(true, BatteryConnector.PANELMATE)
+    };
 
     private final String url;
     private double volt;
@@ -27,8 +37,17 @@ public class Battery {
         this.url = url;
     }
 
+    public static String tableHeader() {
+        return "| Model | Brand | Part No. | Description | Volt | Amp | Watt | Cell | URL | Models | Connector | Form factor |\r\n" +
+                "| ----- | ----- | -------- | ----------- | ---- | --- | ---- | ---- | --- | ------ | --------- | ----------- |";
+    }
+
     public String getUrl() {
         return url;
+    }
+
+    public double getVolt() {
+        return volt;
     }
 
     public void setVolt(double volt) {
@@ -55,12 +74,12 @@ public class Battery {
         this.description = description.replaceAll("Brand new", "");
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public String getModel() {
         return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
     }
 
     public int getCells() {
@@ -109,17 +128,8 @@ public class Battery {
         return out;
     }
 
-    public static String tableHeader() {
-        return "| Model | Brand | Part No. | Description | Volt | Amp | Watt | Cell | URL | Models | Connector | Form factor |\r\n" +
-                "| ----- | ----- | -------- | ----------- | ---- | --- | ---- | ---- | --- | ------ | --------- | ----------- |";
-    }
-
     public void setBrand(String brand) {
         this.brand = brand;
-    }
-
-    public String getBrand() {
-        return brand;
     }
 
     public void setPartNo(Set<String> partNo) {
@@ -130,45 +140,13 @@ public class Battery {
         this.models = models;
     }
 
-    public void setForm(BatteryForm form) {
-        this.form = form;
-    }
-
-    public void setConnector(BatteryConnector connector) {
-        this.connector = connector;
-    }
-
     public boolean isValid() {
         consolidate();
 
-        if (volt < 7.4 || volt > 8.2) {
-            return false;
-        }
-
-        if (amp < 5000) {
-            return false;
-        }
-
-        if (type == null) {
-            return true;
-        }
-
-        if (!BatteryType.LI_POLYMER.equals(type)) {
-            return false;
-        }
-
-        if (BatteryForm.CUSTOM.equals(form)) {
-            return false;
-        }
-        if (BatteryForm.FAT.equals(form)) {
-            return false;
-        }
-        if (BatteryForm.SQUARE.equals(form)) {
-            return false;
-        }
-
-        if (BatteryConnector.CUSTOM.equals(connector)) {
-            return false;
+        for (Validator validator : VALIDATORS) {
+            if (!validator.isValid(this)) {
+                return false;
+            }
         }
 
         return true;
@@ -186,7 +164,27 @@ public class Battery {
         }
     }
 
+    public BatteryType getType() {
+        return type;
+    }
+
     public void setType(BatteryType type) {
         this.type = type;
+    }
+
+    public BatteryForm getForm() {
+        return form;
+    }
+
+    public void setForm(BatteryForm form) {
+        this.form = form;
+    }
+
+    public BatteryConnector getConnector() {
+        return connector;
+    }
+
+    public void setConnector(BatteryConnector connector) {
+        this.connector = connector;
     }
 }

@@ -20,7 +20,7 @@ public final class BatteryLister {
         super();
     }
 
-    public static List<Battery> listBatteries(String maker) throws IOException {
+    public static List<Battery> listBatteriesForMaker(String maker) throws IOException {
         List<Battery> out = new LinkedList<>();
         List<String> pages = listPages(maker);
         for (String page : pages) {
@@ -68,8 +68,10 @@ public final class BatteryLister {
                 readWatt(text, b);
 
                 if (b.isValid()) {
-                    progress("+");
+                    progress("-");
                     out.add(b);
+                } else {
+                    progress("_");
                 }
             }
         }
