@@ -1,4 +1,4 @@
-package com.github.typingtanuki.batt;
+package com.github.typingtanuki.batt.battery;
 
 public class BatteryComparator implements java.util.Comparator<Battery> {
     @Override

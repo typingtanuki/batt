@@ -3,7 +3,8 @@
  */
 package com.github.typingtanuki.batt;
 
-import org.jsoup.Jsoup;
+import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.BatteryComparator;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -13,33 +14,31 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
+import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteries;
+import static com.github.typingtanuki.batt.utils.CachedHttp.http;
 
 public class App {
-    private static final String CACHE_PATH = "url_cache";
-
-    private static final Pattern VOLT_EXTRACT = Pattern.compile(".*\\s([0-9.]+)V.*");
-    private static final Pattern AMP_EXTRACT = Pattern.compile(".*\\s([0-9.]+)mAh.*");
-    private static final Pattern WATT_EXTRACT = Pattern.compile(".*\\(([0-9.]+)W.*");
-    private static final Pattern MODEL_EXTRACT = Pattern.compile(".*Model:\\s(.+)$");
-    private static final Pattern DESCRIPTION_EXTRACT = Pattern.compile("(.*),\\s[^,]+\\s([0-9]+)\\scell[^,]+$");
-
     public static void main(String[] args) {
         Map<String, Battery> found = new LinkedHashMap<>();
         try {
-
             List<String> makers = extractMakers();
             for (String maker : makers) {
-                List<Battery> batteries = extractBatteries(maker);
+                List<Battery> batteries = listBatteries(maker);
                 if (batteries.isEmpty()) {
                     continue;
                 }
 
                 for (Battery battery : batteries) {
                     extractBatteryDetails(battery);
-                    found.put(battery.getModel(), battery);
+                    if (battery.isValid()) {
+                        found.put(battery.getModel(), battery);
+                    }
                 }
             }
 
@@ -58,187 +57,20 @@ public class App {
                 output.append(battery.asTable()).append("\r\n");
             }
             Files.write(out, output.toString().getBytes(StandardCharsets.UTF_8));
-            System.out.println("");
+            System.out.println();
             System.out.println("Done");
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
 
-    private static void extractBatteryDetails(Battery battery) throws IOException {
-        Document batt = get(battery.getUrl());
-        Element description = batt.getElementById("product_desc_h4");
-        Element brand = batt.getElementsByClass("product_desc_brand").first();
-        Element partNo = batt.getElementsByClass("product_desc_partno").first();
-        Element models = batt.getElementsByClass("product_desc_model").first();
-        Element property = batt.getElementById("product_desc_property");
-        Element detail = batt.getElementById("productDetailsList");
-        String descriptionText = description.text();
-
-        battery.setBrand(brand.text());
-        if (partNo != null) {
-            battery.setPartNo(partNo.text().split(", "));
-        } else {
-            battery.setPartNo(new String[]{"-"});
-        }
-        if (models != null) {
-            battery.setModels(models.text().split(", "));
-        } else {
-            battery.setModels(new String[]{"-"});
-        }
-
-        Matcher descriptionMatcher = DESCRIPTION_EXTRACT.matcher(descriptionText);
-        if (descriptionMatcher.matches()) {
-            battery.setDescription(descriptionMatcher.group(1));
-            battery.setCells(Integer.parseInt(descriptionMatcher.group(2)));
-        } else {
-            battery.setDescription(descriptionText);
-        }
-
-        if (battery.getWatt() == null) {
-            String properties = property.text();
-
-            String wattStr = "-";
-            Matcher wattMatcher = WATT_EXTRACT.matcher(properties);
-            if (wattMatcher.matches()) {
-                wattStr = wattMatcher.group(1);
-            }
-            if (!"-".equals(wattStr)) {
-                battery.setWatt(Double.parseDouble(wattStr));
-            }
-        }
-
-        String details = detail.select("li").first().html();
-        Matcher modelMatcher = MODEL_EXTRACT.matcher(details);
-        if (modelMatcher.matches()) {
-            battery.setModel(modelMatcher.group(1).trim());
-        }
-    }
-
     private static List<String> extractMakers() throws IOException {
         List<String> out = new LinkedList<>();
-        Document index = get("https://www.newlaptopaccessory.com/laptop-batteries-c-1.html");
+        Document index = http("https://www.newlaptopaccessory.com/laptop-batteries-c-1.html");
         Elements makers = index.select(".categoryListBoxContents > a");
         for (Element maker : makers) {
             out.add(maker.attr("href"));
         }
         return out;
-    }
-
-    private static List<Battery> extractBatteries(String maker) throws IOException {
-        List<Battery> out = new LinkedList<>();
-        List<String> pages = listPages(maker);
-        for (String page : pages) {
-            out.addAll(extractBatteriesFromPage(page));
-        }
-        return out;
-    }
-
-    private static List<String> listPages(String maker) throws IOException {
-        Document index = get(maker);
-        Elements counters = index.select("#productsListingBottomNumber strong");
-        if (counters.isEmpty()) {
-            return Collections.singletonList(maker);
-        }
-
-        Iterator<Element> iter = counters.iterator();
-        iter.next(); //Start of page
-        double pageLength = Integer.parseInt(iter.next().text());
-        double total = Integer.parseInt(iter.next().text());
-        int pageCount = (int) Math.ceil(total / pageLength);
-
-        List<String> out = new LinkedList<>();
-        out.add(maker);
-        for (int i = 2; i <= pageCount; i++) {
-            out.add(maker + "?page=" + i + "&sort=20a&language=en");
-        }
-        return out;
-    }
-
-    private static List<Battery> extractBatteriesFromPage(String page) throws IOException {
-        List<Battery> out = new LinkedList<>();
-        Document index = get(page);
-        Elements batteries = index.select(".productListing-data");
-        for (Element battery : batteries) {
-            Elements descriptions = battery.select(".listingDescription");
-            Elements link = battery.select("a");
-
-            Element description = descriptions.first();
-            if (description != null) {
-                String text = description.text() + link.text();
-
-                String voltStr;
-                Matcher voltMatcher = VOLT_EXTRACT.matcher(text);
-                if (!voltMatcher.matches()) {
-                    continue;
-                }
-                voltStr = voltMatcher.group(1);
-
-                String ampStr;
-                Matcher ampMatcher = AMP_EXTRACT.matcher(text);
-                if (!ampMatcher.matches()) {
-                    continue;
-                }
-                ampStr = ampMatcher.group(1);
-
-                String wattStr = "-";
-                Matcher wattMatcher = WATT_EXTRACT.matcher(text);
-                if (wattMatcher.matches()) {
-                    wattStr = wattMatcher.group(1);
-                }
-
-                double volt = Double.parseDouble(voltStr);
-                if (volt < 7.4 || volt > 8.2) {
-                    continue;
-                }
-
-                int amp = Integer.parseInt(ampStr);
-                if (amp < 5000) {
-                    continue;
-                }
-
-                Double watt = null;
-                if (!"-".equals(wattStr)) {
-                    watt = Double.parseDouble(wattStr);
-                }
-
-                progress("✓");
-                out.add(new Battery(
-                        link.attr("href"),
-                        volt,
-                        amp,
-                        watt));
-            }
-        }
-        return out;
-    }
-
-    private static Document get(String url) throws IOException {
-        Path path = pathFor(url);
-
-        if (Files.exists(path)) {
-            return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
-        }
-
-        progress(".");
-        Document document = Jsoup.connect(url).get();
-        String html = document.html();
-        Files.createDirectories(path.getParent());
-        Files.write(path, Collections.singletonList(html));
-        return document;
-    }
-
-    private static int prog = 0;
-
-    private static void progress(String s) {
-        System.out.print(s);
-        if (++prog % 100 == 0) {
-            System.out.println();
-        }
-    }
-
-    private static Path pathFor(String url) {
-        String file = url.toLowerCase(Locale.ENGLISH).replaceAll("[:./\\\\?&]", "_");
-        return Paths.get(CACHE_PATH).resolve(file + ".html");
     }
 }
