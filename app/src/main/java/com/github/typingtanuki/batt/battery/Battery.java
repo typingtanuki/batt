@@ -2,9 +2,7 @@ package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.validator.*;
 
-import java.util.Iterator;
-import java.util.LinkedHashSet;
-import java.util.Set;
+import java.util.*;
 
 import static com.github.typingtanuki.batt.utils.Progress.progress;
 
@@ -40,8 +38,8 @@ public class Battery {
     }
 
     public static String tableHeader() {
-        return "| Model | Brand | Part No. | Description | Volt | Amp | Watt | Cell | URL | Models | Connector | Form factor |\r\n" +
-                "| ----- | ----- | -------- | ----------- | ---- | --- | ---- | ---- | --- | ------ | --------- | ----------- |";
+        return "| Brand | Power | Cell | Connector | Form factor | Part No. | Models | URL |\r\n" +
+                "| ----- | ----- | ---- | --------- | ----------- | -------- | ------ | --- |";
     }
 
     public String getUrl() {
@@ -94,29 +92,24 @@ public class Battery {
 
     public String asTable() {
         consolidate();
-        return "| " + model +
-                " | " + brand +
-                " | " + makeList(partNo) +
-                " | " + description +
-                " | " + format1(volt) + "V" +
-                " | " + amp + "mAh" +
-                " | " + format2(watt) + "W" +
+        return "| " + brand +
+                " | " + makeList(Arrays.asList(format1(volt) + "V", amp + "mAh", format2(watt) + "W")) +
                 " | " + cells +
-                " | " + formatUrl() +
-                " | " + makeList(models) +
                 " | " + connector +
                 " | " + form +
+                " | " + makeList(partNo) +
+                " | " + makeList(models) +
+                " | " + formatUrl() +
                 " |";
     }
 
-    private String makeList(Set<String> list) {
+    private String makeList(Collection<String> list) {
         StringBuilder out = new StringBuilder();
         out.append("<ul>");
         for (String s : list) {
             out.append("<li>").append(s).append("</li>");
         }
         out.append("</ul>");
-        //return String.join("<br/>", limitSet(list));
         return out.toString();
     }
 
