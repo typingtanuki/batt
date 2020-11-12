@@ -11,6 +11,7 @@ import java.util.Map;
 import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
 import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
 import static com.github.typingtanuki.batt.scrapper.MakerListReader.extractMakers;
+import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public class NewLaptopAccessoryScrapper implements Scrapper {
     @Override
@@ -18,12 +19,10 @@ public class NewLaptopAccessoryScrapper implements Scrapper {
         Map<String, Battery> found = new LinkedHashMap<>();
 
         List<String> makers = extractMakers();
-        for (String maker : makers) {
+        for (int i = 0; i < makers.size(); i++) {
+            progress(" " + (i + 1) + "/" + makers.size() + " ");
+            String maker = makers.get(i);
             List<Battery> batteries = listBatteriesForMaker(maker);
-            if (batteries.isEmpty()) {
-                continue;
-            }
-
             for (Battery battery : batteries) {
                 extractBatteryDetails(battery);
                 if (battery.isValid()) {

@@ -45,10 +45,6 @@ public final class BatteryDetailReader {
 
         readDescription(descriptionText, battery);
 
-        if (battery.getWatt() == null) {
-            readWatt(property.text(), battery);
-        }
-
         Elements properties = property.select("li");
         for (Element p : properties) {
             String text = p.text();
@@ -59,6 +55,17 @@ public final class BatteryDetailReader {
                         .replaceAll("-", "_");
                 battery.setType(BatteryType.valueOf(type));
             }
+        }
+
+        String allProperties = properties.text();
+        if (battery.getVolt() == null) {
+            readVolt(allProperties, battery);
+        }
+        if (battery.getWatt() == null) {
+            readWatt(allProperties, battery);
+        }
+        if (battery.getAmp() == null) {
+            readAmp(allProperties, battery);
         }
 
         String details = detail.select("li").first().html();

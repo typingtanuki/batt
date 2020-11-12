@@ -13,7 +13,6 @@ import java.util.List;
 
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
 import static com.github.typingtanuki.batt.utils.CachedHttp.http;
-import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryLister {
     private BatteryLister() {
@@ -54,6 +53,10 @@ public final class BatteryLister {
         List<Battery> out = new LinkedList<>();
         Document index = http("list", page);
         Elements batteries = index.select(".productListing-data");
+        if (batteries.isEmpty()) {
+            Battery battery = new Battery(page);
+            out.add(battery);
+        }
         for (Element battery : batteries) {
             Elements descriptions = battery.select(".listingDescription");
             Elements link = battery.select("a");
@@ -68,10 +71,7 @@ public final class BatteryLister {
                 readWatt(text, b);
 
                 if (b.isValid()) {
-                    progress("-");
                     out.add(b);
-                } else {
-                    progress("_");
                 }
             }
         }

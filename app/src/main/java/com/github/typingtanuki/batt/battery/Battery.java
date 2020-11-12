@@ -6,6 +6,8 @@ import java.util.Iterator;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+import static com.github.typingtanuki.batt.utils.Progress.progress;
+
 public class Battery {
     private static final int MAX_LIST_SIZE = 10;
 
@@ -14,11 +16,11 @@ public class Battery {
             new AmperageValidator(5_000, 1_000_000),
             new TypeValidator(true, BatteryType.LI_POLYMER),
             new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT),
-            new ConnectorValidator(true, BatteryConnector.PANELMATE)
+            new ConnectorValidator(true, BatteryConnector.PIN_10)
     };
 
     private final String url;
-    private double volt;
+    private Double volt;
     private Integer amp;
     private Double watt;
     private String description;
@@ -46,7 +48,7 @@ public class Battery {
         return url;
     }
 
-    public double getVolt() {
+    public Double getVolt() {
         return volt;
     }
 
@@ -94,21 +96,32 @@ public class Battery {
         consolidate();
         return "| " + model +
                 " | " + brand +
-                " | " + String.join("<br/>", limitSet(partNo)) +
+                " | " + makeList(partNo) +
                 " | " + description +
                 " | " + format1(volt) + "V" +
                 " | " + amp + "mAh" +
                 " | " + format2(watt) + "W" +
                 " | " + cells +
                 " | " + formatUrl() +
-                " | " + String.join("<br/>", limitSet(models)) +
+                " | " + makeList(models) +
                 " | " + connector +
                 " | " + form +
                 " |";
     }
 
+    private String makeList(Set<String> list) {
+        StringBuilder out = new StringBuilder();
+        out.append("<ul>");
+        for (String s : list) {
+            out.append("<li>").append(s).append("</li>");
+        }
+        out.append("</ul>");
+        //return String.join("<br/>", limitSet(list));
+        return out.toString();
+    }
+
     private String formatUrl() {
-        return "[NewLaptopAccessory](" + url + "){:target=\"_blank\"}";
+        return "<a href=\"" + url + "\" target=\"_blank\">NewLaptopAccessory</a>";
     }
 
     private String format1(Double value) {
@@ -137,11 +150,34 @@ public class Battery {
     }
 
     public void setPartNo(Set<String> partNo) {
-        this.partNo = partNo;
+        this.partNo = filterSet(partNo);
     }
 
     public void setModels(Set<String> models) {
-        this.models = models;
+        this.models = filterSet(models);
+    }
+
+    private Set<String> filterSet(Set<String> set) {
+        Set<String> out = new LinkedHashSet<>();
+        for (String s : set) {
+            if (s.isBlank()) {
+                continue;
+            }
+            boolean isShort = true;
+            for (String s2 : set) {
+                if (s2.isBlank()) {
+                    continue;
+                }
+                if (s.startsWith(s2) && !s.equals(s2)) {
+                    isShort = false;
+                    break;
+                }
+            }
+            if (isShort) {
+                out.add(s);
+            }
+        }
+        return out;
     }
 
     public boolean isValid() {
@@ -149,10 +185,12 @@ public class Battery {
 
         for (Validator validator : VALIDATORS) {
             if (!validator.isValid(this)) {
+                progress("_");
                 return false;
             }
         }
 
+        progress("#");
         return true;
     }
 

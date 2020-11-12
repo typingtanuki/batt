@@ -8,9 +8,11 @@ public final class Progress {
     }
 
     public static void progress(String s) {
-        System.out.print(s);
-        if (++progress % 100 == 0) {
-            System.out.println();
+        for (char c : s.toCharArray()) {
+            System.out.print(c);
+            if (++progress % 100 == 0) {
+                System.out.println();
+            }
         }
     }
 }
