@@ -17,7 +17,7 @@ public final class MakerListReader {
 
     public static List<String> extractMakers() throws IOException {
         List<String> out = new LinkedList<>();
-        Document index = http("https://www.newlaptopaccessory.com/laptop-batteries-c-1.html");
+        Document index = http("maker", "https://www.newlaptopaccessory.com/laptop-batteries-c-1.html");
         Elements makers = index.select(".categoryListBoxContents > a");
         for (Element maker : makers) {
             out.add(maker.attr("href"));

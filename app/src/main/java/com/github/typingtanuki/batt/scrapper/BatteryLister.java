@@ -30,7 +30,7 @@ public final class BatteryLister {
     }
 
     private static List<String> listPages(String maker) throws IOException {
-        Document index = http(maker);
+        Document index = http("list", maker);
         Elements counters = index.select("#productsListingBottomNumber strong");
         if (counters.isEmpty()) {
             return Collections.singletonList(maker);
@@ -52,7 +52,7 @@ public final class BatteryLister {
 
     private static List<Battery> extractBatteriesFromPage(String page) throws IOException {
         List<Battery> out = new LinkedList<>();
-        Document index = http(page);
+        Document index = http("list", page);
         Elements batteries = index.select(".productListing-data");
         for (Element battery : batteries) {
             Elements descriptions = battery.select(".listingDescription");

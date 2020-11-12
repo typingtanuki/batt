@@ -7,15 +7,14 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.LinkedHashSet;
-import java.util.Locale;
-import java.util.Set;
+import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
-import static com.github.typingtanuki.batt.battery.BatteryConnectorResolver.resolveConnector;
-import static com.github.typingtanuki.batt.battery.BatteryFormResolver.resolveForm;
+import static com.github.typingtanuki.batt.db.BatteryDB.resolveConnector;
+import static com.github.typingtanuki.batt.db.BatteryDB.resolveForm;
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
-import static com.github.typingtanuki.batt.utils.CachedHttp.http;
+import static com.github.typingtanuki.batt.utils.CachedHttp.*;
 
 public final class BatteryDetailReader {
     private BatteryDetailReader() {
@@ -23,7 +22,7 @@ public final class BatteryDetailReader {
     }
 
     public static void extractBatteryDetails(Battery battery) throws IOException {
-        Document batt = http(battery.getUrl());
+        Document batt = http("battery", battery.getUrl());
         Element description = batt.getElementById("product_desc_h4");
         Element brand = batt.getElementsByClass("product_desc_brand").first();
         Element partNo = batt.getElementsByClass("product_desc_partno").first();
@@ -67,7 +66,43 @@ public final class BatteryDetailReader {
 
         resolveConnector(battery);
         resolveForm(battery);
+
+        if (battery.isValid()) {
+            downloadBatteryImages(batt, battery);
+        } else {
+            deleteBatteryImages(batt, battery);
+        }
     }
+
+    private static void deleteBatteryImages(Document batt, Battery battery) throws IOException {
+        for (String image : batteryImages(batt)) {
+            deleteDownload(battery.getModel(), image);
+        }
+    }
+
+    private static void downloadBatteryImages(Document batt, Battery battery) throws IOException {
+        for (String image : batteryImages(batt)) {
+            download(battery.getModel(), image);
+        }
+    }
+
+    private static Set<String> batteryImages(Document batt) throws IOException {
+        Set<String> out = new HashSet<>();
+        Elements scripts = batt.select("script");
+        for (Element script : scripts) {
+            String html = script.html();
+            if (html.contains("images/large")) {
+                Matcher matcher = REGEX.matcher(html);
+                if (matcher.find()) {
+                    String url = batt.baseUri() + matcher.group(1);
+                    out.add(url);
+                }
+            }
+        }
+        return out;
+    }
+
+    private static final Pattern REGEX = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private static Set<String> filteredSet(String[] strings) {
         Set<String> out = new LinkedHashSet<>();

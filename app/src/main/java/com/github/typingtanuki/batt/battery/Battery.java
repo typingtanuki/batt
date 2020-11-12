@@ -100,11 +100,15 @@ public class Battery {
                 " | " + amp + "mAh" +
                 " | " + format2(watt) + "W" +
                 " | " + cells +
-                " | " + url +
+                " | " + formatUrl() +
                 " | " + String.join("<br/>", limitSet(models)) +
                 " | " + connector +
                 " | " + form +
                 " |";
+    }
+
+    private String formatUrl() {
+        return "[NewLaptopAccessory](" + url + "){:target=\"_blank\"}";
     }
 
     private String format1(Double value) {
