@@ -79,7 +79,7 @@ public final class BatteryDetailReader {
             progress("|");
             downloadBatteryImages(page, battery);
         } else {
-            progress("-");
+            progress(".");
             deleteBatteryImages(page, battery);
         }
     }

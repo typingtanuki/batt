@@ -23,7 +23,7 @@ public class NewLaptopAccessoryScrapper implements Scrapper {
         int lastPercent = 0;
 
         for (int i = 0; i < makers.size(); i++) {
-            int percent = ((i + 1) * 100) / makers.size();
+            int percent = ((i + 1) * 20) / makers.size() * 5;
             if (percent > lastPercent) {
                 lastPercent = percent;
                 progress(" " + percent + "% ");
