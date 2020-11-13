@@ -86,13 +86,13 @@ public final class BatteryDetailReader {
 
     private static void deleteBatteryImages(Document page, Battery battery) throws IOException {
         for (String image : batteryImages(page)) {
-            deleteDownload(battery.getModel(), image);
+            deleteDownload(battery, image);
         }
     }
 
     private static void downloadBatteryImages(Document page, Battery battery) throws IOException {
         for (String image : batteryImages(page)) {
-            download(battery.getModel(), image);
+            download(battery, image);
         }
     }
 

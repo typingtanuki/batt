@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryComparator;
+import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
 import com.github.typingtanuki.batt.scrapper.Scrapper;
 
@@ -29,8 +30,10 @@ public class App {
                     .append(Battery.tableHeader())
                     .append("\r\n");
             for (Battery battery : batteries) {
+                BatteryDB.addBattery(battery);
                 output.append(battery.asTable()).append("\r\n");
             }
+            BatteryDB.dump();
             Files.write(out, output.toString().getBytes(StandardCharsets.UTF_8));
             System.out.println();
             System.out.println("Done");

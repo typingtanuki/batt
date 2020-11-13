@@ -9,6 +9,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Matcher;
@@ -79,5 +80,28 @@ public final class BatteryDB {
             return;
         }
         battery.setForm(form);
+    }
+
+    public static void addBattery(Battery battery) {
+        DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
+        DB_FORM.put(battery.getModel(), battery.getForm());
+    }
+
+    public static void dump() {
+        List<String> keys = new LinkedList<>(DB_CONNECTOR.keySet());
+        keys.sort(String::compareTo);
+        for (String key : keys) {
+            String out = key + ", " +
+                    handleMissing(DB_CONNECTOR.get(key)) + ", " +
+                    handleMissing(DB_FORM.get(key));
+            System.out.println(out);
+        }
+    }
+
+    private static String handleMissing(Enum<?> enumKey) {
+        if (enumKey == null) {
+            return "UNKNOWN";
+        }
+        return enumKey.name();
     }
 }

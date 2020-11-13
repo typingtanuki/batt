@@ -1,5 +1,6 @@
 package com.github.typingtanuki.batt.utils;
 
+import com.github.typingtanuki.batt.battery.Battery;
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
@@ -39,8 +40,8 @@ public final class CachedHttp {
         return document;
     }
 
-    public static void download(String model, String url) throws IOException {
-        Path path = imagePath(model, url);
+    public static void download(Battery battery, String url) throws IOException {
+        Path path = imagePath(battery, url);
         if (Files.exists(path)) {
             return;
         }
@@ -51,8 +52,8 @@ public final class CachedHttp {
         Files.write(path, document.bodyAsBytes());
     }
 
-    public static void deleteDownload(String model, String url) throws IOException {
-        Path path = imagePath(model, url);
+    public static void deleteDownload(Battery battery, String url) throws IOException {
+        Path path = imagePath(battery, url);
         Files.deleteIfExists(path);
         Path parent = path.getParent();
         if (!Files.exists(parent)) {
@@ -64,11 +65,11 @@ public final class CachedHttp {
         }
     }
 
-    private static Path imagePath(String model, String url) {
+    private static Path imagePath(Battery battery, String url) {
         return new PathBuilder(CACHE_PATH)
                 .withSubFolder("image")
                 .withFileName(url, true)
-                .withFileNamePrefix(model + "-", false)
+                .withFileNamePrefix(battery.getModel() + "-", false)
                 .withExtension(".jpg")
                 .build();
     }
