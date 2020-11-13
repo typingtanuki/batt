@@ -13,12 +13,10 @@ public class VoltageValidator implements Validator {
 
     @Override
     public boolean isValid(Battery battery) {
-        if (battery.getVolt() < minVoltage) {
-            return false;
+        Double volt = battery.getVolt();
+        if (volt == null) {
+            return true;
         }
-        if (battery.getVolt() > maxVoltage) {
-            return false;
-        }
-        return true;
+        return volt >= minVoltage && volt <= maxVoltage;
     }
 }

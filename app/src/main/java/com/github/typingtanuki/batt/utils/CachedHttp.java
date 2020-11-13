@@ -16,7 +16,7 @@ import static com.github.typingtanuki.batt.utils.Progress.progress;
 public final class CachedHttp {
     private static final String CACHE_PATH = "url_cache";
 
-    public CachedHttp() {
+    private CachedHttp() {
         super();
     }
 

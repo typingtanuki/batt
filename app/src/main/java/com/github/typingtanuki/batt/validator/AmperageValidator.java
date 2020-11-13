@@ -13,12 +13,10 @@ public class AmperageValidator implements Validator {
 
     @Override
     public boolean isValid(Battery battery) {
-        if (battery.getAmp() < minAmperage) {
-            return false;
+        Integer amp = battery.getAmp();
+        if (amp == null) {
+            return true;
         }
-        if (battery.getAmp() > maxAmperage) {
-            return false;
-        }
-        return true;
+        return amp >= minAmperage && amp <= maxAmperage;
     }
 }

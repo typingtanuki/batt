@@ -4,11 +4,7 @@ import com.github.typingtanuki.batt.validator.*;
 
 import java.util.*;
 
-import static com.github.typingtanuki.batt.utils.Progress.progress;
-
 public class Battery {
-    private static final int MAX_LIST_SIZE = 10;
-
     private static final Validator[] VALIDATORS = new Validator[]{
             new VoltageValidator(7.4, 8.2),
             new AmperageValidator(5_000, 1_000_000),
@@ -21,7 +17,6 @@ public class Battery {
     private Double volt;
     private Integer amp;
     private Double watt;
-    private String description;
     private String model;
     private int cells;
     private String brand;
@@ -70,10 +65,6 @@ public class Battery {
         this.watt = watt;
     }
 
-    public void setDescription(String description) {
-        this.description = description.replaceAll("Brand new", "");
-    }
-
     public String getModel() {
         return model;
     }
@@ -95,12 +86,22 @@ public class Battery {
         return "| " + brand +
                 " | " + makeList(Arrays.asList(format1(volt) + "V", amp + "mAh", format2(watt) + "W")) +
                 " | " + cells +
-                " | " + connector +
-                " | " + form +
+                " | " + formatEnum(connector) +
+                " | " + formatEnum(form) +
                 " | " + makeList(partNo) +
                 " | " + makeList(models) +
                 " | " + formatUrl() +
                 " |";
+    }
+
+    private String formatEnum(Enum<?> enumEntry) {
+        String str = enumEntry.name();
+        if (str.equals("UNKNOWN")) {
+            return "?";
+        }
+        str = str.toLowerCase(Locale.ENGLISH).replaceAll("_", " ");
+        str = str.substring(0, 1).toUpperCase(Locale.ENGLISH) + str.substring(1);
+        return str;
     }
 
     private String makeList(Collection<String> list) {
@@ -123,19 +124,6 @@ public class Battery {
 
     private String format2(Double value) {
         return format1(value) + "0";
-    }
-
-    private Set<String> limitSet(Set<String> set) {
-        if (set.size() < MAX_LIST_SIZE) {
-            return set;
-        }
-        Set<String> out = new LinkedHashSet<>();
-        Iterator<String> iter = set.iterator();
-        while (out.size() < MAX_LIST_SIZE) {
-            out.add(iter.next());
-        }
-        out.add("…");
-        return out;
     }
 
     public void setBrand(String brand) {
@@ -178,12 +166,10 @@ public class Battery {
 
         for (Validator validator : VALIDATORS) {
             if (!validator.isValid(this)) {
-                progress("_");
                 return false;
             }
         }
 
-        progress("#");
         return true;
     }
 

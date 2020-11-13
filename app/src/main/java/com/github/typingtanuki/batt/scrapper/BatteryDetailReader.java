@@ -15,6 +15,7 @@ import static com.github.typingtanuki.batt.db.BatteryDB.resolveConnector;
 import static com.github.typingtanuki.batt.db.BatteryDB.resolveForm;
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
 import static com.github.typingtanuki.batt.utils.CachedHttp.*;
+import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
     private BatteryDetailReader() {
@@ -22,13 +23,13 @@ public final class BatteryDetailReader {
     }
 
     public static void extractBatteryDetails(Battery battery) throws IOException {
-        Document batt = http("battery", battery.getUrl());
-        Element description = batt.getElementById("product_desc_h4");
-        Element brand = batt.getElementsByClass("product_desc_brand").first();
-        Element partNo = batt.getElementsByClass("product_desc_partno").first();
-        Element models = batt.getElementsByClass("product_desc_model").first();
-        Element property = batt.getElementById("product_desc_property");
-        Element detail = batt.getElementById("productDetailsList");
+        Document page = http("battery", battery.getUrl());
+        Element description = page.getElementById("product_desc_h4");
+        Element brand = page.getElementsByClass("product_desc_brand").first();
+        Element partNo = page.getElementsByClass("product_desc_partno").first();
+        Element models = page.getElementsByClass("product_desc_model").first();
+        Element property = page.getElementById("product_desc_property");
+        Element detail = page.getElementById("productDetailsList");
         String descriptionText = description.text();
 
         battery.setBrand(brand.text());
@@ -43,7 +44,7 @@ public final class BatteryDetailReader {
             battery.setModels(Collections.emptySet());
         }
 
-        readDescription(descriptionText, battery);
+        readCell(descriptionText, battery);
 
         Elements properties = property.select("li");
         for (Element p : properties) {
@@ -75,33 +76,35 @@ public final class BatteryDetailReader {
         resolveForm(battery);
 
         if (battery.isValid()) {
-            downloadBatteryImages(batt, battery);
+            progress("|");
+            downloadBatteryImages(page, battery);
         } else {
-            deleteBatteryImages(batt, battery);
+            progress("-");
+            deleteBatteryImages(page, battery);
         }
     }
 
-    private static void deleteBatteryImages(Document batt, Battery battery) throws IOException {
-        for (String image : batteryImages(batt)) {
+    private static void deleteBatteryImages(Document page, Battery battery) throws IOException {
+        for (String image : batteryImages(page)) {
             deleteDownload(battery.getModel(), image);
         }
     }
 
-    private static void downloadBatteryImages(Document batt, Battery battery) throws IOException {
-        for (String image : batteryImages(batt)) {
+    private static void downloadBatteryImages(Document page, Battery battery) throws IOException {
+        for (String image : batteryImages(page)) {
             download(battery.getModel(), image);
         }
     }
 
-    private static Set<String> batteryImages(Document batt) throws IOException {
+    private static Set<String> batteryImages(Document page) {
         Set<String> out = new HashSet<>();
-        Elements scripts = batt.select("script");
+        Elements scripts = page.select("script");
         for (Element script : scripts) {
             String html = script.html();
             if (html.contains("images/large")) {
                 Matcher matcher = REGEX.matcher(html);
                 if (matcher.find()) {
-                    String url = batt.baseUri() + matcher.group(1);
+                    String url = page.baseUri() + matcher.group(1);
                     out.add(url);
                 }
             }

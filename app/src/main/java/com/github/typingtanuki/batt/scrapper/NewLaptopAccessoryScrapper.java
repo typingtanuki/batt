@@ -19,8 +19,15 @@ public class NewLaptopAccessoryScrapper implements Scrapper {
         Map<String, Battery> found = new LinkedHashMap<>();
 
         List<String> makers = extractMakers();
+
+        int lastPercent = 0;
+
         for (int i = 0; i < makers.size(); i++) {
-            progress(" " + (i + 1) + "/" + makers.size() + " ");
+            int percent = ((i + 1) * 100) / makers.size();
+            if (percent > lastPercent) {
+                lastPercent = percent;
+                progress(" " + percent + "% ");
+            }
             String maker = makers.get(i);
             List<Battery> batteries = listBatteriesForMaker(maker);
             for (Battery battery : batteries) {
