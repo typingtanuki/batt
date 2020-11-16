@@ -6,13 +6,13 @@ import java.util.*;
 
 public class Battery {
     private static final Condition[] CONDITIONS = new Condition[]{
-            new Condition("pin4",
+            new Condition("pin10",
                     new VoltageValidator(7.4, 8.2),
                     new AmperageValidator(5_000, 1_000_000),
                     new ConnectorValidator(true, BatteryConnector.PIN_10),
                     new TypeValidator(true, BatteryType.LI_POLYMER),
                     new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
-            new Condition("pin10",
+            new Condition("pin4",
                     new VoltageValidator(11, 15),
                     new AmperageValidator(3_000, 1_000_000),
                     new ConnectorValidator(true, BatteryConnector.PIN_4),

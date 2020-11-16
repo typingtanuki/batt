@@ -5,6 +5,7 @@ import com.github.typingtanuki.batt.battery.BatteryConnector;
 import com.github.typingtanuki.batt.battery.BatteryForm;
 
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -13,12 +14,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class BatteryDB {
+    private static final String BATTERY_FILE = "battery_db.csv";
     private static final Pattern CSV_READER = Pattern.compile("^([^\\s]*),\\s*([^\\s]*),\\s*([^\\s]*)$");
     private static boolean initialized = false;
 
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
-    private static final Set<String> UNKNOWN_BATTERIES = new HashSet<>();
 
     private BatteryDB() {
         super();
@@ -28,7 +29,7 @@ public final class BatteryDB {
         if (initialized) {
             return;
         }
-        Path dbPath = Paths.get("battery_db.csv");
+        Path dbPath = Paths.get(BATTERY_FILE);
         try {
             List<String> lines = Files.readAllLines(dbPath);
             boolean isHeader = true;
@@ -81,25 +82,29 @@ public final class BatteryDB {
     }
 
     public static void addBattery(Battery battery) {
-        String model = battery.getModel();
-
-        if (!DB_CONNECTOR.containsKey(model) || !DB_FORM.containsKey(model)) {
-            UNKNOWN_BATTERIES.add(model);
-        }
-
         DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
         DB_FORM.put(battery.getModel(), battery.getForm());
     }
 
-    public static void dump() {
-        List<String> keys = new LinkedList<>(UNKNOWN_BATTERIES);
+    public static void dump() throws IOException {
+        StringBuilder out = new StringBuilder("MODEL, CONNECTOR, FORM");
+
+        Set<String> keySet = new HashSet<>();
+        keySet.addAll(DB_CONNECTOR.keySet());
+        keySet.addAll(DB_FORM.keySet());
+
+        List<String> keys = new ArrayList<>(keySet);
         keys.sort(String::compareTo);
         for (String key : keys) {
-            String out = key + ", " +
-                    handleMissing(DB_CONNECTOR.get(key)) + ", " +
-                    handleMissing(DB_FORM.get(key));
-            System.out.println(out);
+            out.append(System.lineSeparator());
+            out.append(key);
+            out.append(", ");
+            out.append(handleMissing(DB_CONNECTOR.get(key)));
+            out.append(", ");
+            out.append(handleMissing(DB_FORM.get(key)));
         }
+
+        Files.write(Paths.get(BATTERY_FILE), out.toString().getBytes(StandardCharsets.UTF_8));
     }
 
     private static String handleMissing(Enum<?> enumKey) {

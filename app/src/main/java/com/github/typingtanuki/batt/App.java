@@ -46,6 +46,7 @@ public class App {
             System.out.println("Done");
         } catch (IOException e) {
             e.printStackTrace();
+            System.exit(14);
         }
     }
 }
