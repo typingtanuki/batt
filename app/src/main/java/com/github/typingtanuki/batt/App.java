@@ -9,10 +9,8 @@ import com.github.typingtanuki.batt.scrapper.Scrapper;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 
 public class App {
     public static void main(String[] args) {
@@ -21,20 +19,29 @@ public class App {
             List<Battery> batteries = new LinkedList<>(scrapper.listBatteries());
             batteries.sort(new BatteryComparator());
 
-            Path out = Paths.get("detected.md");
-
-            StringBuilder output = new StringBuilder();
-            output.append("Found: ")
-                    .append(batteries.size())
-                    .append("\r\n\r\n")
-                    .append(Battery.tableHeader())
-                    .append("\r\n");
+            Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
             for (Battery battery : batteries) {
-                BatteryDB.addBattery(battery);
-                output.append(battery.asTable()).append("\r\n");
+                for (String matchedCondition : battery.getMatchedConditions()) {
+                    List<Battery> l = batteriesPerCondition.computeIfAbsent(matchedCondition, k -> new ArrayList<>());
+                    l.add(battery);
+                }
             }
-            BatteryDB.dump();
-            Files.write(out, output.toString().getBytes(StandardCharsets.UTF_8));
+
+            for (Map.Entry<String, List<Battery>> entry : batteriesPerCondition.entrySet()) {
+                List<Battery> found = entry.getValue();
+                StringBuilder output = new StringBuilder();
+                output.append("Found: ")
+                        .append(found.size())
+                        .append("\r\n\r\n")
+                        .append(Battery.tableHeader())
+                        .append("\r\n");
+                for (Battery battery : found) {
+                    BatteryDB.addBattery(battery);
+                    output.append(battery.asTable()).append("\r\n");
+                }
+                BatteryDB.dump();
+                Files.write(Paths.get("detected_" + entry.getKey() + ".md"), output.toString().getBytes(StandardCharsets.UTF_8));
+            }
             System.out.println();
             System.out.println("Done");
         } catch (IOException e) {

@@ -13,6 +13,7 @@ import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractB
 import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
 import static com.github.typingtanuki.batt.scrapper.MakerListReader.extractMakers;
 import static com.github.typingtanuki.batt.utils.Progress.progress;
+import static com.github.typingtanuki.batt.utils.Progress.progressStart;
 
 public class NewLaptopAccessoryScrapper implements Scrapper {
     @Override
@@ -25,6 +26,7 @@ public class NewLaptopAccessoryScrapper implements Scrapper {
 
         for (int i = 0; i < makers.size(); i++) {
             Maker maker = makers.get(i);
+            progressStart(maker.getName());
 
             int percent = ((i + 1) * 20) / makers.size() * 5;
             if (percent > lastPercent) {

@@ -5,20 +5,22 @@ import com.github.typingtanuki.batt.validator.*;
 import java.util.*;
 
 public class Battery {
-    private static final Validator[] VALIDATORS = new Validator[]{
-            new OrValidator(
-                    new AndValidator(
-                            new VoltageValidator(7.4, 8.2),
-                            new AmperageValidator(5_000, 1_000_000),
-                            new ConnectorValidator(true, BatteryConnector.PIN_10)),
-                    new AndValidator(
-                            new VoltageValidator(11, 15),
-                            new AmperageValidator(3_000, 1_000_000),
-                            new ConnectorValidator(true, BatteryConnector.PIN_4))),
-            new TypeValidator(true, BatteryType.LI_POLYMER),
-            new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT),
+    private static final Condition[] CONDITIONS = new Condition[]{
+            new Condition("pin4",
+                    new VoltageValidator(7.4, 8.2),
+                    new AmperageValidator(5_000, 1_000_000),
+                    new ConnectorValidator(true, BatteryConnector.PIN_10),
+                    new TypeValidator(true, BatteryType.LI_POLYMER),
+                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
+            new Condition("pin10",
+                    new VoltageValidator(11, 15),
+                    new AmperageValidator(3_000, 1_000_000),
+                    new ConnectorValidator(true, BatteryConnector.PIN_4),
+                    new TypeValidator(true, BatteryType.LI_POLYMER),
+                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT))
     };
 
+    private final Set<String> matchedConditions = new HashSet<>();
     private final String url;
     private Double volt;
     private Integer amp;
@@ -169,14 +171,15 @@ public class Battery {
 
     public boolean isValid() {
         consolidate();
+        matchedConditions.clear();
 
-        for (Validator validator : VALIDATORS) {
-            if (!validator.isValid(this)) {
-                return false;
+        for (Condition condition : CONDITIONS) {
+            if (condition.isValid(this)) {
+                matchedConditions.add(condition.getName());
             }
         }
 
-        return true;
+        return !matchedConditions.isEmpty();
     }
 
     private void consolidate() {
@@ -213,5 +216,9 @@ public class Battery {
 
     public void setConnector(BatteryConnector connector) {
         this.connector = connector;
+    }
+
+    public Set<String> getMatchedConditions() {
+        return matchedConditions;
     }
 }
