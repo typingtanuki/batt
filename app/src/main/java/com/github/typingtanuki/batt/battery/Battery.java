@@ -6,11 +6,17 @@ import java.util.*;
 
 public class Battery {
     private static final Validator[] VALIDATORS = new Validator[]{
-            new VoltageValidator(7.4, 8.2),
-            new AmperageValidator(5_000, 1_000_000),
+            new OrValidator(
+                    new AndValidator(
+                            new VoltageValidator(7.4, 8.2),
+                            new AmperageValidator(5_000, 1_000_000),
+                            new ConnectorValidator(true, BatteryConnector.PIN_10)),
+                    new AndValidator(
+                            new VoltageValidator(11, 15),
+                            new AmperageValidator(3_000, 1_000_000),
+                            new ConnectorValidator(true, BatteryConnector.PIN_4))),
             new TypeValidator(true, BatteryType.LI_POLYMER),
             new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT),
-            new ConnectorValidator(true, BatteryConnector.PIN_10)
     };
 
     private final String url;

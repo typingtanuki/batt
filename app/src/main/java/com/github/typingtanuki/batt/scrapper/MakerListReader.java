@@ -1,5 +1,7 @@
 package com.github.typingtanuki.batt.scrapper;
 
+import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.MakerComparator;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -15,13 +17,16 @@ public final class MakerListReader {
         super();
     }
 
-    public static List<String> extractMakers() throws IOException {
-        List<String> out = new LinkedList<>();
+    public static List<Maker> extractMakers() throws IOException {
+        List<Maker> out = new LinkedList<>();
         Document index = http("maker", "https://www.newlaptopaccessory.com/laptop-batteries-c-1.html");
         Elements makers = index.select(".categoryListBoxContents > a");
         for (Element maker : makers) {
-            out.add(maker.attr("href"));
+            String name = maker.text().replace("Batteries", "").strip();
+            String url = maker.attr("href");
+            out.add(new Maker(name, url));
         }
+        out.sort(new MakerComparator());
         return out;
     }
 }

@@ -8,10 +8,7 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -21,6 +18,7 @@ public final class BatteryDB {
 
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
+    private static final Set<String> UNKNOWN_BATTERIES = new HashSet<>();
 
     private BatteryDB() {
         super();
@@ -83,12 +81,18 @@ public final class BatteryDB {
     }
 
     public static void addBattery(Battery battery) {
+        String model = battery.getModel();
+
+        if (!DB_CONNECTOR.containsKey(model) || !DB_FORM.containsKey(model)) {
+            UNKNOWN_BATTERIES.add(model);
+        }
+
         DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
         DB_FORM.put(battery.getModel(), battery.getForm());
     }
 
     public static void dump() {
-        List<String> keys = new LinkedList<>(DB_CONNECTOR.keySet());
+        List<String> keys = new LinkedList<>(UNKNOWN_BATTERIES);
         keys.sort(String::compareTo);
         for (String key : keys) {
             String out = key + ", " +

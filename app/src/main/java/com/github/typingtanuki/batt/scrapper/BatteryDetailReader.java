@@ -18,6 +18,8 @@ import static com.github.typingtanuki.batt.utils.CachedHttp.*;
 import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
+    private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*([^\\s]+)\\s*$");
+
     private BatteryDetailReader() {
         super();
     }
@@ -49,9 +51,9 @@ public final class BatteryDetailReader {
         Elements properties = property.select("li");
         for (Element p : properties) {
             String text = p.text();
-            if (text.contains("Type:")) {
-                String type = text.split(":")[1]
-                        .strip()
+            Matcher matcher = TYPE_EXTRACTOR.matcher(text);
+            if (matcher.matches()) {
+                String type = matcher.group(1)
                         .toUpperCase(Locale.ENGLISH)
                         .replaceAll("-", "_");
                 battery.setType(BatteryType.valueOf(type));
@@ -80,7 +82,7 @@ public final class BatteryDetailReader {
             downloadBatteryImages(page, battery);
         } else {
             progress(".");
-            deleteBatteryImages(page, battery);
+//            deleteBatteryImages(page, battery);
         }
     }
 

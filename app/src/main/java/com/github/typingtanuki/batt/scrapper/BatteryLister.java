@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.Maker;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -19,9 +20,9 @@ public final class BatteryLister {
         super();
     }
 
-    public static List<Battery> listBatteriesForMaker(String maker) throws IOException {
+    public static List<Battery> listBatteriesForMaker(Maker maker) throws IOException {
         List<Battery> out = new LinkedList<>();
-        List<String> pages = listPages(maker);
+        List<String> pages = listPages(maker.getUrl());
         for (String page : pages) {
             out.addAll(extractBatteriesFromPage(page));
         }

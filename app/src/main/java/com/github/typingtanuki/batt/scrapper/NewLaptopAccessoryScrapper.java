@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.Maker;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -18,17 +19,18 @@ public class NewLaptopAccessoryScrapper implements Scrapper {
     public List<Battery> listBatteries() throws IOException {
         Map<String, Battery> found = new LinkedHashMap<>();
 
-        List<String> makers = extractMakers();
+        List<Maker> makers = extractMakers();
 
         int lastPercent = 0;
 
         for (int i = 0; i < makers.size(); i++) {
+            Maker maker = makers.get(i);
+
             int percent = ((i + 1) * 20) / makers.size() * 5;
             if (percent > lastPercent) {
                 lastPercent = percent;
                 progress(" " + percent + "% ");
             }
-            String maker = makers.get(i);
             List<Battery> batteries = listBatteriesForMaker(maker);
             for (Battery battery : batteries) {
                 extractBatteryDetails(battery);
