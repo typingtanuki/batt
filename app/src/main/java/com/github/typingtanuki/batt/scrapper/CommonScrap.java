@@ -6,9 +6,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class CommonScrap {
-    private static final Pattern MODEL_EXTRACT = Pattern.compile(".*Model:\\s(.+)$");
     private static final Pattern CELL_EXTRACT = Pattern.compile("(.*),\\s[^,]+\\s([0-9]+)\\scell[^,]+$");
-    private static final Pattern VOLT_EXTRACT = Pattern.compile(".*(?:\\s|or)([0-9.]+)V.*");
+    private static final Pattern VOLT_EXTRACT = Pattern.compile(".*(?:\\s|or|/)([0-9.]+)V.*");
     private static final Pattern AMP_EXTRACT = Pattern.compile(".*\\s([0-9.]+)mAh.*");
     private static final Pattern WATT_EXTRACT = Pattern.compile(".*(?:\\s|\\()([0-9.]+)Wh.*");
 

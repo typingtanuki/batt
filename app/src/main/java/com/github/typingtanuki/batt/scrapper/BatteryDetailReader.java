@@ -19,6 +19,7 @@ import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
     private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
+    private static final Pattern REGEX = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private BatteryDetailReader() {
         super();
@@ -60,7 +61,11 @@ public final class BatteryDetailReader {
                         .replaceAll("REPLACEMENT", "")
                         .replaceAll("ORIGINAL", "")
                         .strip();
-                battery.setType(BatteryType.valueOf(type));
+                if (type.isBlank()) {
+                    battery.setType(BatteryType.UNKNOWN);
+                } else {
+                    battery.setType(BatteryType.valueOf(type));
+                }
             }
         }
 
@@ -80,7 +85,7 @@ public final class BatteryDetailReader {
 
         if (battery.isValid()) {
             progress("|");
-//            downloadBatteryImages(page, battery);
+            downloadBatteryImages(page, battery);
         } else {
             progress(".");
 //            deleteBatteryImages(page, battery);
@@ -89,7 +94,7 @@ public final class BatteryDetailReader {
 
     private static String[] extractSet(Elements elements) {
         List<String> out = new ArrayList<>();
-        for(Element element:elements){
+        for (Element element : elements) {
             out.addAll(Arrays.asList(element.text().split(",")));
         }
         return out.toArray(new String[0]);
@@ -122,8 +127,6 @@ public final class BatteryDetailReader {
         }
         return out;
     }
-
-    private static final Pattern REGEX = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private static Set<String> filteredSet(String[] strings) {
         Set<String> out = new LinkedHashSet<>();

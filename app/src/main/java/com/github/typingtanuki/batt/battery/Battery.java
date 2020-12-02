@@ -23,11 +23,11 @@ public class Battery {
     private final Set<String> matchedConditions = new HashSet<>();
     private final String currentUrl;
     private final Set<String> urls = new HashSet<>();
+    private final Set<String> brands = new HashSet<>();
     private Double volt;
     private Integer amp;
     private Double watt;
     private int cells;
-    private String brand;
     private Set<String> partNo;
     private Set<String> models;
     private BatteryType type;
@@ -80,7 +80,7 @@ public class Battery {
 
     public String asTable() {
         consolidate();
-        return "| " + brand +
+        return "| " + makeList(brands) +
                 " | " + makeList(Arrays.asList(format1(volt) + "V", amp + "mAh", format2(watt) + "W")) +
                 " | " + cells +
                 " | " + formatEnum(connector) +
@@ -134,7 +134,9 @@ public class Battery {
     }
 
     public void setBrand(String brand) {
-        this.brand = brand;
+        for (String b : brand.split(" ")) {
+            this.brands.add(b.strip());
+        }
     }
 
     public void setPartNo(Set<String> partNo) {
@@ -244,6 +246,8 @@ public class Battery {
         }
         List<String> mods = new ArrayList<>(entries);
         mods.sort(Comparator.naturalOrder());
-        return mods.get(0);
+        return mods.get(0)
+                .replaceAll("/", "_")
+                .replaceAll("\\|", "_");
     }
 }

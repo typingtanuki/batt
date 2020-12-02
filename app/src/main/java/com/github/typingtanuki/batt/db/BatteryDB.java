@@ -15,11 +15,10 @@ import java.util.regex.Pattern;
 
 public final class BatteryDB {
     private static final String BATTERY_FILE = "battery_db.csv";
-    private static final Pattern CSV_READER = Pattern.compile("^([^\\s]*),\\s*([^\\s]*),\\s*([^\\s]*)$");
-    private static boolean initialized = false;
-
+    private static final Pattern CSV_READER = Pattern.compile("^(.*),\\s*([^\\s]*),\\s*([^\\s]*)$");
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
+    private static boolean initialized = false;
 
     private BatteryDB() {
         super();

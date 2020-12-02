@@ -15,6 +15,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
+import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
+import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
+import static com.github.typingtanuki.batt.utils.Progress.progress;
+import static com.github.typingtanuki.batt.utils.Progress.progressStart;
+
 public class App {
     public static void main(String[] args) {
         try {
@@ -29,8 +34,7 @@ public class App {
             List<Maker> makerList = new ArrayList<>(makers);
             makerList.sort(new MakerComparator());
 
-            List<Battery> batteries = new ArrayList<>();
-            scrappers.get(0).listBatteries(batteries, makerList);
+            List<Battery> batteries = listBatteries(makerList);
             batteries.sort(new BatteryComparator());
 
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
@@ -62,5 +66,41 @@ public class App {
             e.printStackTrace();
             System.exit(14);
         }
+    }
+
+    public static List<Battery> listBatteries(List<Maker> makers) throws IOException {
+        Map<String, Battery> found = new LinkedHashMap<>();
+
+        int lastPercent = 0;
+        String lastMaker = "";
+
+        for (int i = 0; i < makers.size(); i++) {
+            Maker maker = makers.get(i);
+            if (!lastMaker.equals(maker.getName())) {
+                progressStart(maker.getName());
+                lastMaker = maker.getName();
+
+                int percent = ((i + 1) * 20) / makers.size() * 5;
+                if (percent > lastPercent) {
+                    lastPercent = percent;
+                    progress(" " + percent + "% ");
+                }
+            }
+
+            List<Battery> allBatteries = listBatteriesForMaker(maker);
+            for (Battery battery : allBatteries) {
+                extractBatteryDetails(battery);
+                if (battery.isValid()) {
+                    Battery previous = found.get(battery.getModel());
+                    if (previous != null) {
+                        previous.mergeWith(battery);
+                    } else {
+                        found.put(battery.getModel(), battery);
+                    }
+                }
+            }
+        }
+
+        return new ArrayList<>(found.values());
     }
 }
