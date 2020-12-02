@@ -22,13 +22,17 @@ public abstract class AbstractScrapper implements Scrapper {
     }
 
     @Override
-    public void listBatteries(List<Battery> batteries) throws IOException {
+    public List<Maker> makers() throws IOException {
+        return extractMakers(rootUrl);
+    }
+
+    @Override
+    public void listBatteries(List<Battery> batteries,
+                              List<Maker> makers) throws IOException {
         Map<String, Battery> found = new LinkedHashMap<>();
         for (Battery battery : batteries) {
             found.put(battery.getModel(), battery);
         }
-
-        List<Maker> makers = extractMakers(rootUrl);
 
         int lastPercent = 0;
 

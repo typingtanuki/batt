@@ -26,27 +26,21 @@ public final class BatteryDetailReader {
 
     public static void extractBatteryDetails(Battery battery) throws IOException {
         Document page = http("battery", battery.getCurrentUrl());
-        Element description = page.getElementById("product_desc_h4");
-        if (description == null) {
-            description = page.getElementsByClass("product_desc_h3").first();
-        }
-        Element brand = page.getElementsByClass("product_desc_brand").first();
-        Element partNo = page.getElementsByClass("product_desc_partno").first();
-        Element models = page.getElementsByClass("product_desc_model").first();
-        Element property = page.getElementById("product_desc_property");
-        if (property == null) {
-            property = page.getElementsByClass("product_desc_property").first();
-        }
-        String descriptionText = description.text();
+        Elements description = page.select("#product_desc_h4, .product_desc_h3");
+        Elements brand = page.select(".product_desc_brand");
+        Elements partNo = page.select(".product_desc_partno");
+        Elements models = page.select(".product_desc_model");
+        Elements property = page.select("#product_desc_property, .product_desc_property");
 
+        String descriptionText = description.text();
         battery.setBrand(brand.text());
         if (partNo != null) {
-            battery.setPartNo(filteredSet(partNo.text().split(", ")));
+            battery.setPartNo(filteredSet(extractSet(partNo)));
         } else {
             battery.setPartNo(Collections.emptySet());
         }
         if (models != null) {
-            battery.setModels(filteredSet(models.text().split(", ")));
+            battery.setModels(filteredSet(extractSet(models)));
         } else {
             battery.setModels(Collections.emptySet());
         }
@@ -86,11 +80,19 @@ public final class BatteryDetailReader {
 
         if (battery.isValid()) {
             progress("|");
-            downloadBatteryImages(page, battery);
+//            downloadBatteryImages(page, battery);
         } else {
             progress(".");
-            deleteBatteryImages(page, battery);
+//            deleteBatteryImages(page, battery);
         }
+    }
+
+    private static String[] extractSet(Elements elements) {
+        List<String> out = new ArrayList<>();
+        for(Element element:elements){
+            out.addAll(Arrays.asList(element.text().split(",")));
+        }
+        return out.toArray(new String[0]);
     }
 
     private static void deleteBatteryImages(Document page, Battery battery) throws IOException {

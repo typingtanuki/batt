@@ -9,6 +9,7 @@ import org.jsoup.select.Elements;
 import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 
 import static com.github.typingtanuki.batt.utils.CachedHttp.http;
 
@@ -22,7 +23,11 @@ public final class MakerListReader {
         Document index = http("maker", rootUrl);
         Elements makers = index.select(".categoryListBoxContents > a");
         for (Element maker : makers) {
-            String name = maker.text().replace("Batteries", "").strip();
+            String name = maker.text()
+                    .toLowerCase(Locale.ENGLISH)
+                    .replace("batteries", "")
+                    .replace("laptop", "")
+                    .strip();
             String url = maker.attr("href");
             out.add(new Maker(name, url));
         }
