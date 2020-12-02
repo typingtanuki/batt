@@ -18,20 +18,25 @@ import static com.github.typingtanuki.batt.utils.CachedHttp.*;
 import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
-    private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*([^\\s]+)\\s*$");
+    private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
 
     private BatteryDetailReader() {
         super();
     }
 
     public static void extractBatteryDetails(Battery battery) throws IOException {
-        Document page = http("battery", battery.getUrl());
+        Document page = http("battery", battery.getCurrentUrl());
         Element description = page.getElementById("product_desc_h4");
+        if (description == null) {
+            description = page.getElementsByClass("product_desc_h3").first();
+        }
         Element brand = page.getElementsByClass("product_desc_brand").first();
         Element partNo = page.getElementsByClass("product_desc_partno").first();
         Element models = page.getElementsByClass("product_desc_model").first();
         Element property = page.getElementById("product_desc_property");
-        Element detail = page.getElementById("productDetailsList");
+        if (property == null) {
+            property = page.getElementsByClass("product_desc_property").first();
+        }
         String descriptionText = description.text();
 
         battery.setBrand(brand.text());
@@ -55,7 +60,12 @@ public final class BatteryDetailReader {
             if (matcher.matches()) {
                 String type = matcher.group(1)
                         .toUpperCase(Locale.ENGLISH)
-                        .replaceAll("-", "_");
+                        .replaceAll("-", "_")
+                        .replaceAll("RECHARGEABLE", "")
+                        .replaceAll("BATTERY", "")
+                        .replaceAll("REPLACEMENT", "")
+                        .replaceAll("ORIGINAL", "")
+                        .strip();
                 battery.setType(BatteryType.valueOf(type));
             }
         }
@@ -71,9 +81,6 @@ public final class BatteryDetailReader {
             readAmp(allProperties, battery);
         }
 
-        String details = detail.select("li").first().html();
-        readModel(details, battery);
-
         resolveConnector(battery);
         resolveForm(battery);
 
@@ -82,7 +89,7 @@ public final class BatteryDetailReader {
             downloadBatteryImages(page, battery);
         } else {
             progress(".");
-//            deleteBatteryImages(page, battery);
+            deleteBatteryImages(page, battery);
         }
     }
 

@@ -48,11 +48,4 @@ public final class CommonScrap {
         }
         // Cells are optional
     }
-
-    public static void readModel(String s, Battery battery) {
-        Matcher modelMatcher = MODEL_EXTRACT.matcher(s);
-        if (modelMatcher.matches()) {
-            battery.setModel(modelMatcher.group(1).strip());
-        }
-    }
 }

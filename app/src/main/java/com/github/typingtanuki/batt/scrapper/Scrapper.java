@@ -6,5 +6,5 @@ import java.io.IOException;
 import java.util.List;
 
 public interface Scrapper {
-    List<Battery> listBatteries() throws IOException;
+    void listBatteries(List<Battery> batteries) throws IOException;
 }

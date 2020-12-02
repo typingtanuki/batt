@@ -3,6 +3,7 @@ package com.github.typingtanuki.batt;
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
 import com.github.typingtanuki.batt.scrapper.Scrapper;
 
@@ -10,13 +11,22 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 public class App {
     public static void main(String[] args) {
         try {
-            Scrapper scrapper = new NewLaptopAccessoryScrapper();
-            List<Battery> batteries = new LinkedList<>(scrapper.listBatteries());
+            List<Scrapper> scrappers = new ArrayList<>();
+            List<Battery> batteries = new ArrayList<>();
+
+            scrappers.add(new NewLaptopAccessoryScrapper());
+            scrappers.add(new LaptopBatteryShopScrapper());
+            for (Scrapper scrapper : scrappers) {
+                scrapper.listBatteries(batteries);
+            }
             batteries.sort(new BatteryComparator());
 
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();

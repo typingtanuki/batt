@@ -21,11 +21,11 @@ public class Battery {
     };
 
     private final Set<String> matchedConditions = new HashSet<>();
-    private final String url;
+    private final String currentUrl;
+    private final Set<String> urls = new HashSet<>();
     private Double volt;
     private Integer amp;
     private Double watt;
-    private String model;
     private int cells;
     private String brand;
     private Set<String> partNo;
@@ -37,16 +37,13 @@ public class Battery {
     public Battery(String url) {
         super();
 
-        this.url = url;
+        urls.add(url);
+        currentUrl = url;
     }
 
     public static String tableHeader() {
         return "| Brand | Power | Cell | Connector | Form factor | Part No. | Models | URL |\r\n" +
                 "| ----- | ----- | ---- | --------- | ----------- | -------- | ------ | --- |";
-    }
-
-    public String getUrl() {
-        return url;
     }
 
     public Double getVolt() {
@@ -73,14 +70,6 @@ public class Battery {
         this.watt = watt;
     }
 
-    public String getModel() {
-        return model;
-    }
-
-    public void setModel(String model) {
-        this.model = model;
-    }
-
     public int getCells() {
         return cells;
     }
@@ -98,7 +87,7 @@ public class Battery {
                 " | " + formatEnum(form) +
                 " | " + makeList(partNo) +
                 " | " + makeList(models) +
-                " | " + formatUrl() +
+                " | " + formatUrls() +
                 " |";
     }
 
@@ -122,8 +111,18 @@ public class Battery {
         return out.toString();
     }
 
-    private String formatUrl() {
-        return "<a href=\"" + url + "\" target=\"_blank\">NewLaptopAccessory</a>";
+    private String formatUrls() {
+        StringBuilder out = new StringBuilder();
+        out.append("<ul>");
+        for (String url : urls) {
+            out.append("<li>")
+                    .append("<a href=\"")
+                    .append(url)
+                    .append("\" target=\"_blank\">NewLaptopAccessory</a>")
+                    .append("</li>");
+        }
+        out.append("</ul>");
+        return out.toString();
     }
 
     private String format1(Double value) {
@@ -163,7 +162,7 @@ public class Battery {
                 }
             }
             if (isShort) {
-                out.add(s);
+                out.add(s.toUpperCase(Locale.ENGLISH));
             }
         }
         return out;
@@ -220,5 +219,31 @@ public class Battery {
 
     public Set<String> getMatchedConditions() {
         return matchedConditions;
+    }
+
+    public void mergeWith(Battery battery) {
+        partNo.addAll(battery.partNo);
+        models.addAll(battery.models);
+        urls.addAll(battery.urls);
+    }
+
+    public String getCurrentUrl() {
+        return currentUrl;
+    }
+
+    public String getModel() {
+        if (models.isEmpty()) {
+            return extractModel(partNo);
+        }
+        return extractModel(models);
+    }
+
+    private String extractModel(Set<String> entries) {
+        if (entries.isEmpty()) {
+            throw new IllegalStateException("No model");
+        }
+        List<String> mods = new ArrayList<>(entries);
+        mods.sort(Comparator.naturalOrder());
+        return mods.get(0);
     }
 }
