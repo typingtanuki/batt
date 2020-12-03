@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.github.typingtanuki.batt.utils.Progress.progress;
+import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class CachedHttp {
     private static final String CACHE_PATH = "url_cache";
@@ -29,10 +29,11 @@ public final class CachedHttp {
                 .build();
 
         if (Files.exists(path)) {
+            progress(PAGE_CACHED);
             return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
         }
 
-        progress("+");
+        progress(PAGE_DOWNLOAD);
         Document document = Jsoup.connect(url).get();
         String html = document.html();
         Files.createDirectories(path.getParent());
@@ -43,10 +44,11 @@ public final class CachedHttp {
     public static void download(Battery battery, String url) throws IOException {
         Path path = imagePath(battery, url);
         if (Files.exists(path)) {
+            progress(PAGE_CACHED);
             return;
         }
 
-        progress("+");
+        progress(PAGE_DOWNLOAD);
         Connection.Response document = Jsoup.connect(url).ignoreContentType(true).execute();
         Files.createDirectories(path.getParent());
         Files.write(path, document.bodyAsBytes());

@@ -15,7 +15,7 @@ import static com.github.typingtanuki.batt.db.BatteryDB.resolveConnector;
 import static com.github.typingtanuki.batt.db.BatteryDB.resolveForm;
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
 import static com.github.typingtanuki.batt.utils.CachedHttp.*;
-import static com.github.typingtanuki.batt.utils.Progress.progress;
+import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class BatteryDetailReader {
     private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
@@ -84,11 +84,11 @@ public final class BatteryDetailReader {
         resolveForm(battery);
 
         if (battery.isValid()) {
-            progress("|");
+            progress(BATTERY_MATCH);
             downloadBatteryImages(page, battery);
         } else {
-            progress(".");
-//            deleteBatteryImages(page, battery);
+            progress(BATTERY_NO_MATCH);
+            deleteBatteryImages(page, battery);
         }
     }
 

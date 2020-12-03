@@ -1,6 +1,11 @@
 package com.github.typingtanuki.batt.utils;
 
 public final class Progress {
+    public static final String BATTERY_MATCH = "●";
+    public static final String BATTERY_NO_MATCH = "○";
+    public static final String PAGE_DOWNLOAD = "⇣";
+    public static final String PAGE_CACHED = "";
+
     private static int progress = 0;
 
     private Progress() {
