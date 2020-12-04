@@ -1,9 +1,6 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.Battery;
-import com.github.typingtanuki.batt.battery.BatteryComparator;
-import com.github.typingtanuki.batt.battery.Maker;
-import com.github.typingtanuki.batt.battery.MakerComparator;
+import com.github.typingtanuki.batt.battery.*;
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
@@ -28,6 +25,7 @@ public class App {
 
             scrappers.add(new NewLaptopAccessoryScrapper());
             scrappers.add(new LaptopBatteryShopScrapper());
+
             for (Scrapper scrapper : scrappers) {
                 makers.addAll(scrapper.makers());
             }
@@ -53,9 +51,9 @@ public class App {
                         .append("\r\n\r\n")
                         .append(Battery.tableHeader())
                         .append("\r\n");
-                for (Battery battery : found) {
-                    BatteryDB.addBattery(battery);
-                    output.append(battery.asTable()).append("\r\n");
+                    for (Battery battery : found) {
+                        BatteryDB.addBattery(battery);
+                        output.append(battery.asTable()).append("\r\n");
                 }
                 BatteryDB.dump();
                 Files.write(Paths.get("detected_" + entry.getKey() + ".md"), output.toString().getBytes(StandardCharsets.UTF_8));
@@ -89,13 +87,13 @@ public class App {
 
             List<Battery> allBatteries = listBatteriesForMaker(maker);
             for (Battery battery : allBatteries) {
-                extractBatteryDetails(battery);
-                if (battery.isValid()) {
-                    Battery previous = found.get(battery.getModel());
+                Battery parsed = extractBatteryDetails(battery);
+                if (parsed != null) {
+                    Battery previous = found.get(parsed.getModel());
                     if (previous != null) {
-                        previous.mergeWith(battery);
+                        previous.mergeWith(parsed);
                     } else {
-                        found.put(battery.getModel(), battery);
+                        found.put(parsed.getModel(), parsed);
                     }
                 }
             }

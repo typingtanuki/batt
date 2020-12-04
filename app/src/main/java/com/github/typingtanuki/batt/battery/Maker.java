@@ -4,13 +4,17 @@ import java.util.Locale;
 
 public class Maker {
     private final String name;
-    private final String url;
+    private final Source source;
 
-    public Maker(String name, String url) {
+    public Maker(String name, Source source) {
         super();
 
-        this.name = name;
-        this.url = url;
+        if (name.isBlank()) {
+            this.name = "None";
+        } else {
+            this.name = name;
+        }
+        this.source = source.compact();
     }
 
     public String getName() {
@@ -18,7 +22,7 @@ public class Maker {
                 name.substring(1).toLowerCase(Locale.ENGLISH);
     }
 
-    public String getUrl() {
-        return url;
+    public Source getSource() {
+        return source;
     }
 }

@@ -25,7 +25,7 @@ public final class BatteryDetailReader {
         super();
     }
 
-    public static void extractBatteryDetails(Battery battery) throws IOException {
+    public static Battery extractBatteryDetails(Battery battery) throws IOException {
         Document page = http("battery", battery.getCurrentUrl());
         Elements description = page.select("#product_desc_h4, .product_desc_h3");
         Elements brand = page.select(".product_desc_brand");
@@ -64,7 +64,7 @@ public final class BatteryDetailReader {
                 if (type.isBlank()) {
                     battery.setType(BatteryType.UNKNOWN);
                 } else {
-                    battery.setType(BatteryType.valueOf(type));
+                    battery.setType(BatteryType.parse(type));
                 }
             }
         }
@@ -80,15 +80,22 @@ public final class BatteryDetailReader {
             readAmp(allProperties, battery);
         }
 
+        if (battery.getModels().isEmpty() && battery.getPartNo().isEmpty()) {
+            progress(BATTERY_BAD_PAGE);
+            return null;
+        }
+
         resolveConnector(battery);
         resolveForm(battery);
 
         if (battery.isValid()) {
             progress(BATTERY_MATCH);
             downloadBatteryImages(page, battery);
+            return battery;
         } else {
             progress(BATTERY_NO_MATCH);
             deleteBatteryImages(page, battery);
+            return null;
         }
     }
 

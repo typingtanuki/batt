@@ -3,8 +3,10 @@ package com.github.typingtanuki.batt.utils;
 public final class Progress {
     public static final String BATTERY_MATCH = "●";
     public static final String BATTERY_NO_MATCH = "○";
+    public static final String BATTERY_BAD_PAGE = "❢";
     public static final String PAGE_DOWNLOAD = "⇣";
     public static final String PAGE_CACHED = "";
+    public static final String CACHE_TIMEOUT = "T";
 
     private static int progress = 0;
 

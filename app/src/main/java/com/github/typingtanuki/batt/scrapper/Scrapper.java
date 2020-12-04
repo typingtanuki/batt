@@ -7,4 +7,6 @@ import java.util.List;
 
 public interface Scrapper {
     List<Maker> makers() throws IOException;
+
+    String name();
 }

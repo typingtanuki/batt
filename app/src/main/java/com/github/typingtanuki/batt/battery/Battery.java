@@ -8,13 +8,13 @@ public class Battery {
     private static final Condition[] CONDITIONS = new Condition[]{
             new Condition("pin10",
                     new VoltageValidator(7.4, 8.2),
-                    new AmperageValidator(5_000, 1_000_000),
+                    new AmperageValidator(1_000, 1_000_000),
                     new ConnectorValidator(true, BatteryConnector.PIN_10),
                     new TypeValidator(true, BatteryType.LI_POLYMER),
                     new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
             new Condition("pin4",
                     new VoltageValidator(11, 15),
-                    new AmperageValidator(3_000, 1_000_000),
+                    new AmperageValidator(1_000, 1_000_000),
                     new ConnectorValidator(true, BatteryConnector.PIN_4),
                     new TypeValidator(true, BatteryType.LI_POLYMER),
                     new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT))
@@ -22,7 +22,7 @@ public class Battery {
 
     private final Set<String> matchedConditions = new HashSet<>();
     private final String currentUrl;
-    private final Set<String> urls = new HashSet<>();
+    private final Set<Source> sources = new HashSet<>();
     private final Set<String> brands = new HashSet<>();
     private Double volt;
     private Integer amp;
@@ -34,11 +34,11 @@ public class Battery {
     private BatteryForm form = BatteryForm.UNKNOWN;
     private BatteryConnector connector = BatteryConnector.UNKNOWN;
 
-    public Battery(String url) {
+    public Battery(Source source) {
         super();
 
-        urls.add(url);
-        currentUrl = url;
+        sources.add(source.compact());
+        currentUrl = source.getUrl();
     }
 
     public static String tableHeader() {
@@ -114,11 +114,14 @@ public class Battery {
     private String formatUrls() {
         StringBuilder out = new StringBuilder();
         out.append("<ul>");
-        for (String url : urls) {
+
+        for (Source source : sources) {
             out.append("<li>")
                     .append("<a href=\"")
-                    .append(url)
-                    .append("\" target=\"_blank\">NewLaptopAccessory</a>")
+                    .append(source.getUrl())
+                    .append("\" target=\"_blank\"> ")
+                    .append(source.name())
+                    .append(" </a>")
                     .append("</li>");
         }
         out.append("</ul>");
@@ -139,14 +142,6 @@ public class Battery {
         }
     }
 
-    public void setPartNo(Set<String> partNo) {
-        this.partNo = filterSet(partNo);
-    }
-
-    public void setModels(Set<String> models) {
-        this.models = filterSet(models);
-    }
-
     private Set<String> filterSet(Set<String> set) {
         Set<String> out = new LinkedHashSet<>();
         for (String s : set) {
@@ -158,7 +153,7 @@ public class Battery {
                 if (s2.isBlank()) {
                     continue;
                 }
-                if (s.startsWith(s2) && !s.equals(s2)) {
+                if (s.contains(s2) && !s.equals(s2)) {
                     isShort = false;
                     break;
                 }
@@ -226,7 +221,7 @@ public class Battery {
     public void mergeWith(Battery battery) {
         partNo.addAll(battery.partNo);
         models.addAll(battery.models);
-        urls.addAll(battery.urls);
+        sources.addAll(battery.sources);
     }
 
     public String getCurrentUrl() {
@@ -249,5 +244,21 @@ public class Battery {
         return mods.get(0)
                 .replaceAll("/", "_")
                 .replaceAll("\\|", "_");
+    }
+
+    public Set<String> getModels() {
+        return models;
+    }
+
+    public void setModels(Set<String> models) {
+        this.models = filterSet(models);
+    }
+
+    public Set<String> getPartNo() {
+        return partNo;
+    }
+
+    public void setPartNo(Set<String> partNo) {
+        this.partNo = filterSet(partNo);
     }
 }

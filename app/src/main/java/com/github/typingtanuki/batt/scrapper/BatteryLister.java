@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.Source;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -22,15 +23,15 @@ public final class BatteryLister {
 
     public static List<Battery> listBatteriesForMaker(Maker maker) throws IOException {
         List<Battery> out = new LinkedList<>();
-        List<String> pages = listPages(maker.getUrl());
-        for (String page : pages) {
+        List<Source> pages = listPages(maker.getSource());
+        for (Source page : pages) {
             out.addAll(extractBatteriesFromPage(page));
         }
         return out;
     }
 
-    private static List<String> listPages(String maker) throws IOException {
-        Document index = http("list", maker);
+    private static List<Source> listPages(Source maker) throws IOException {
+        Document index = http("list", maker.getUrl());
         Elements counters = index.select("#productsListingBottomNumber strong");
         if (counters.isEmpty()) {
             return Collections.singletonList(maker);
@@ -42,20 +43,22 @@ public final class BatteryLister {
         double total = Integer.parseInt(iter.next().text());
         int pageCount = (int) Math.ceil(total / pageLength);
 
-        List<String> out = new LinkedList<>();
+        List<Source> out = new LinkedList<>();
         out.add(maker);
         for (int i = 2; i <= pageCount; i++) {
-            out.add(maker + "?page=" + i + "&sort=20a&language=en");
+            out.add(new Source(
+                    maker.compact().getUrl() + "?page=" + i + "&sort=20a&language=en",
+                    maker.getScrapper()));
         }
         return out;
     }
 
-    private static List<Battery> extractBatteriesFromPage(String page) throws IOException {
+    private static List<Battery> extractBatteriesFromPage(Source source) throws IOException {
         List<Battery> out = new LinkedList<>();
-        Document index = http("list", page);
+        Document index = http("list", source.getUrl());
         Elements batteries = index.select(".productListing-data");
         if (batteries.isEmpty()) {
-            Battery battery = new Battery(page);
+            Battery battery = new Battery(source);
             out.add(battery);
         }
         for (Element battery : batteries) {
@@ -64,7 +67,9 @@ public final class BatteryLister {
 
             Element description = descriptions.first();
             if (description != null) {
-                Battery b = new Battery(link.attr("href"));
+                Battery b = new Battery(new Source(
+                        link.attr("href"),
+                        source.getScrapper()));
                 String text = description.text() + link.text();
 
                 readVolt(text, b);
