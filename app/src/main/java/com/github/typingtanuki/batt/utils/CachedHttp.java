@@ -10,10 +10,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Collectors;
 
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
@@ -124,14 +122,6 @@ public final class CachedHttp {
     public static void deleteDownload(Battery battery, String url) throws IOException {
         Path path = imagePath(battery, url);
         Files.deleteIfExists(path);
-        Path parent = path.getParent();
-        if (!Files.exists(parent)) {
-            return;
-        }
-        List<Path> content = Files.list(parent).collect(Collectors.toList());
-        if (content.isEmpty()) {
-            Files.deleteIfExists(parent);
-        }
     }
 
     private static Path imagePath(Battery battery, String url) {

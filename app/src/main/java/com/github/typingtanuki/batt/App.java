@@ -1,7 +1,12 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.*;
+import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.BatteryComparator;
+import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.images.ImageDownloader;
+import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
 import com.github.typingtanuki.batt.scrapper.Scrapper;
@@ -44,20 +49,13 @@ public class App {
             }
 
             for (Map.Entry<String, List<Battery>> entry : batteriesPerCondition.entrySet()) {
-                List<Battery> found = entry.getValue();
-                StringBuilder output = new StringBuilder();
-                output.append("Found: ")
-                        .append(found.size())
-                        .append("\r\n\r\n")
-                        .append(Battery.tableHeader())
-                        .append("\r\n");
-                    for (Battery battery : found) {
-                        BatteryDB.addBattery(battery);
-                        output.append(battery.asTable()).append("\r\n");
-                }
-                BatteryDB.dump();
-                Files.write(Paths.get("detected_" + entry.getKey() + ".md"), output.toString().getBytes(StandardCharsets.UTF_8));
+                MarkdownOutput output = new MarkdownOutput(entry.getValue());
+                Files.write(
+                        Paths.get("detected_" + entry.getKey() + ".md"),
+                        output.generate().getBytes(StandardCharsets.UTF_8));
             }
+            BatteryDB.dump();
+            ImageDownloader.downloadImages();
             System.out.println();
             System.out.println("Done");
         } catch (IOException e) {

@@ -2,6 +2,8 @@ package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryType;
+import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.images.ImageDownloader;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -11,10 +13,10 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import static com.github.typingtanuki.batt.db.BatteryDB.resolveConnector;
-import static com.github.typingtanuki.batt.db.BatteryDB.resolveForm;
+import static com.github.typingtanuki.batt.db.BatteryDB.*;
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
-import static com.github.typingtanuki.batt.utils.CachedHttp.*;
+import static com.github.typingtanuki.batt.utils.CachedHttp.deleteDownload;
+import static com.github.typingtanuki.batt.utils.CachedHttp.http;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class BatteryDetailReader {
@@ -36,14 +38,14 @@ public final class BatteryDetailReader {
         String descriptionText = description.text();
         battery.setBrand(brand.text());
         if (partNo != null) {
-            battery.setPartNo(filteredSet(extractSet(partNo)));
+            battery.addPartNo(filteredSet(extractSet(partNo)));
         } else {
-            battery.setPartNo(Collections.emptySet());
+            battery.addPartNo(Collections.emptySet());
         }
         if (models != null) {
-            battery.setModels(filteredSet(extractSet(models)));
+            battery.addPartNo(filteredSet(extractSet(models)));
         } else {
-            battery.setModels(Collections.emptySet());
+            battery.addPartNo(Collections.emptySet());
         }
 
         readCell(descriptionText, battery);
@@ -80,20 +82,23 @@ public final class BatteryDetailReader {
             readAmp(allProperties, battery);
         }
 
-        if (battery.getModels().isEmpty() && battery.getPartNo().isEmpty()) {
+        if (battery.getPartNo().isEmpty()) {
             progress(BATTERY_BAD_PAGE);
             return null;
         }
 
+        resolveModel(battery);
         resolveConnector(battery);
         resolveForm(battery);
 
         if (battery.isValid()) {
             progress(BATTERY_MATCH);
+            BatteryDB.addBattery(battery, true);
             downloadBatteryImages(page, battery);
             return battery;
         } else {
             progress(BATTERY_NO_MATCH);
+            BatteryDB.addBattery(battery, false);
             deleteBatteryImages(page, battery);
             return null;
         }
@@ -115,7 +120,7 @@ public final class BatteryDetailReader {
 
     private static void downloadBatteryImages(Document page, Battery battery) throws IOException {
         for (String image : batteryImages(page)) {
-            download(battery, image);
+            ImageDownloader.addImageToDownload(battery, image);
         }
     }
 

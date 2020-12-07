@@ -6,10 +6,16 @@ import java.util.*;
 
 public class Battery {
     private static final Condition[] CONDITIONS = new Condition[]{
+            new Condition("panel_mate",
+                    new VoltageValidator(7.4, 8.2),
+                    new AmperageValidator(1_000, 1_000_000),
+                    new ConnectorValidator(false, BatteryConnector.PANEL_MATE),
+                    new TypeValidator(true, BatteryType.LI_POLYMER),
+                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
             new Condition("pin10",
                     new VoltageValidator(7.4, 8.2),
                     new AmperageValidator(1_000, 1_000_000),
-                    new ConnectorValidator(true, BatteryConnector.PIN_10),
+                    new ConnectorValidator(true, BatteryConnector.PIN_10, BatteryConnector.PANEL_MATE),
                     new TypeValidator(true, BatteryType.LI_POLYMER),
                     new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
             new Condition("pin4",
@@ -24,15 +30,17 @@ public class Battery {
     private final String currentUrl;
     private final Set<Source> sources = new HashSet<>();
     private final Set<String> brands = new HashSet<>();
+    private final Set<String> partNo = new HashSet<>();
+
     private Double volt;
     private Integer amp;
     private Double watt;
     private int cells;
-    private Set<String> partNo;
-    private Set<String> models;
     private BatteryType type;
     private BatteryForm form = BatteryForm.UNKNOWN;
     private BatteryConnector connector = BatteryConnector.UNKNOWN;
+
+    private String model;
 
     public Battery(Source source) {
         super();
@@ -41,9 +49,8 @@ public class Battery {
         currentUrl = source.getUrl();
     }
 
-    public static String tableHeader() {
-        return "| Brand | Power | Cell | Connector | Form factor | Part No. | Models | URL |\r\n" +
-                "| ----- | ----- | ---- | --------- | ----------- | -------- | ------ | --- |";
+    public static String cleanKey(String part) {
+        return part.strip().toUpperCase(Locale.ENGLISH).replaceAll("[/.\\s|\\-+]", "_");
     }
 
     public Double getVolt() {
@@ -78,91 +85,10 @@ public class Battery {
         this.cells = cells;
     }
 
-    public String asTable() {
-        consolidate();
-        return "| " + makeList(brands) +
-                " | " + makeList(Arrays.asList(format1(volt) + "V", amp + "mAh", format2(watt) + "W")) +
-                " | " + cells +
-                " | " + formatEnum(connector) +
-                " | " + formatEnum(form) +
-                " | " + makeList(partNo) +
-                " | " + makeList(models) +
-                " | " + formatUrls() +
-                " |";
-    }
-
-    private String formatEnum(Enum<?> enumEntry) {
-        String str = enumEntry.name();
-        if (str.equals("UNKNOWN")) {
-            return "?";
-        }
-        str = str.toLowerCase(Locale.ENGLISH).replaceAll("_", " ");
-        str = str.substring(0, 1).toUpperCase(Locale.ENGLISH) + str.substring(1);
-        return str;
-    }
-
-    private String makeList(Collection<String> list) {
-        StringBuilder out = new StringBuilder();
-        out.append("<ul>");
-        for (String s : list) {
-            out.append("<li>").append(s).append("</li>");
-        }
-        out.append("</ul>");
-        return out.toString();
-    }
-
-    private String formatUrls() {
-        StringBuilder out = new StringBuilder();
-        out.append("<ul>");
-
-        for (Source source : sources) {
-            out.append("<li>")
-                    .append("<a href=\"")
-                    .append(source.getUrl())
-                    .append("\" target=\"_blank\"> ")
-                    .append(source.name())
-                    .append(" </a>")
-                    .append("</li>");
-        }
-        out.append("</ul>");
-        return out.toString();
-    }
-
-    private String format1(Double value) {
-        return String.format("%.1f", value);
-    }
-
-    private String format2(Double value) {
-        return format1(value) + "0";
-    }
-
     public void setBrand(String brand) {
         for (String b : brand.split(" ")) {
             this.brands.add(b.strip());
         }
-    }
-
-    private Set<String> filterSet(Set<String> set) {
-        Set<String> out = new LinkedHashSet<>();
-        for (String s : set) {
-            if (s.isBlank()) {
-                continue;
-            }
-            boolean isShort = true;
-            for (String s2 : set) {
-                if (s2.isBlank()) {
-                    continue;
-                }
-                if (s.contains(s2) && !s.equals(s2)) {
-                    isShort = false;
-                    break;
-                }
-            }
-            if (isShort) {
-                out.add(s.toUpperCase(Locale.ENGLISH));
-            }
-        }
-        return out;
     }
 
     public boolean isValid() {
@@ -178,7 +104,7 @@ public class Battery {
         return !matchedConditions.isEmpty();
     }
 
-    private void consolidate() {
+    public void consolidate() {
         if (watt == null && amp != null) {
             double comp = amp * volt;
             setWatt(comp / 1000);
@@ -203,6 +129,10 @@ public class Battery {
     }
 
     public void setForm(BatteryForm form) {
+        if (form == BatteryForm.UNKNOWN) {
+            return;
+        }
+
         this.form = form;
     }
 
@@ -211,6 +141,10 @@ public class Battery {
     }
 
     public void setConnector(BatteryConnector connector) {
+        if (connector == BatteryConnector.UNKNOWN) {
+            return;
+        }
+
         this.connector = connector;
     }
 
@@ -220,8 +154,13 @@ public class Battery {
 
     public void mergeWith(Battery battery) {
         partNo.addAll(battery.partNo);
-        models.addAll(battery.models);
         sources.addAll(battery.sources);
+        setForm(battery.getForm());
+        setConnector(battery.getConnector());
+
+        if (battery.cells == 0) {
+            cells = battery.cells;
+        }
     }
 
     public String getCurrentUrl() {
@@ -229,36 +168,46 @@ public class Battery {
     }
 
     public String getModel() {
-        if (models.isEmpty()) {
-            return extractModel(partNo);
+        if (model != null) {
+            return model;
         }
-        return extractModel(models);
-    }
 
-    private String extractModel(Set<String> entries) {
-        if (entries.isEmpty()) {
+        if (partNo.isEmpty()) {
             throw new IllegalStateException("No model");
         }
-        List<String> mods = new ArrayList<>(entries);
+        List<String> mods = new ArrayList<>(partNo);
         mods.sort(Comparator.naturalOrder());
-        return mods.get(0)
-                .replaceAll("/", "_")
-                .replaceAll("\\|", "_");
+        setModel(mods.get(0));
+        return model;
     }
 
-    public Set<String> getModels() {
-        return models;
-    }
-
-    public void setModels(Set<String> models) {
-        this.models = filterSet(models);
+    public void setModel(String model) {
+        if (this.model != null) {
+            throw new IllegalStateException("Model already set");
+        }
+        if (model.isBlank()) {
+            throw new IllegalStateException("Model is blank");
+        }
+        this.model = cleanKey(model);
     }
 
     public Set<String> getPartNo() {
         return partNo;
     }
 
-    public void setPartNo(Set<String> partNo) {
-        this.partNo = filterSet(partNo);
+    public void addPartNo(Set<String> partNo) {
+        for (String part : partNo) {
+            if (!part.isBlank()) {
+                this.partNo.add(part.strip().toUpperCase(Locale.ENGLISH));
+            }
+        }
+    }
+
+    public Set<Source> getSources() {
+        return sources;
+    }
+
+    public Set<String> getBrands() {
+        return brands;
     }
 }

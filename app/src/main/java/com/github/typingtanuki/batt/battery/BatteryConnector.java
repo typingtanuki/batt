@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.battery;
 
 public enum BatteryConnector {
     CUSTOM,
+    PANEL_MATE,
     PIN_2,
     PIN_3,
     PIN_4,
