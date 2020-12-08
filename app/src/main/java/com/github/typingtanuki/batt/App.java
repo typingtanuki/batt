@@ -10,6 +10,7 @@ import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
 import com.github.typingtanuki.batt.scrapper.Scrapper;
+import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -17,12 +18,15 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
+import static com.github.typingtanuki.batt.battery.Battery.cleanPartNo;
 import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
 import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
-import static com.github.typingtanuki.batt.utils.Progress.progress;
-import static com.github.typingtanuki.batt.utils.Progress.progressStart;
+import static com.github.typingtanuki.batt.utils.CachedHttp.deleteDownload;
+import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
+    private static final Map<String, Battery> ID_MATCHER = new HashMap<>();
+
     public static void main(String[] args) {
         try {
             List<Scrapper> scrappers = new ArrayList<>();
@@ -65,7 +69,7 @@ public class App {
     }
 
     public static List<Battery> listBatteries(List<Maker> makers) throws IOException {
-        Map<String, Battery> found = new LinkedHashMap<>();
+        List<Battery> found = new ArrayList<>();
 
         int lastPercent = 0;
         String lastMaker = "";
@@ -86,17 +90,71 @@ public class App {
             List<Battery> allBatteries = listBatteriesForMaker(maker);
             for (Battery battery : allBatteries) {
                 Battery parsed = extractBatteryDetails(battery);
-                if (parsed != null) {
-                    Battery previous = found.get(parsed.getModel());
-                    if (previous != null) {
-                        previous.mergeWith(parsed);
-                    } else {
-                        found.put(parsed.getModel(), parsed);
+                if (parsed == null) {
+                    continue;
+                }
+                boolean isValid = battery.isValid();
+
+                Battery previous = findSimilar(parsed);
+                if (previous != null) {
+                    previous.mergeWith(parsed);
+                    handleBatteryPost(battery.getSourcePage(), parsed, isValid);
+                } else {
+                    handleBatteryPost(battery.getSourcePage(), battery, isValid);
+                    if (isValid) {
+                        found.add(parsed);
                     }
                 }
             }
         }
 
-        return new ArrayList<>(found.values());
+        return found;
+    }
+
+    private static void handleBatteryPost(Document page, Battery battery, boolean isValid) throws IOException {
+        if (isValid) {
+            progress(BATTERY_MATCH);
+            BatteryDB.addBattery(battery, true);
+            downloadBatteryImages(page, battery);
+        } else {
+            progress(BATTERY_NO_MATCH);
+            BatteryDB.addBattery(battery, false);
+            deleteBatteryImages(page, battery);
+        }
+    }
+
+    private static void deleteBatteryImages(Document page, Battery battery) throws IOException {
+        for (String image : ImageDownloader.batteryImages(page)) {
+            deleteDownload(battery, image);
+        }
+    }
+
+    private static void downloadBatteryImages(Document page, Battery battery) {
+        for (String image : ImageDownloader.batteryImages(page)) {
+            ImageDownloader.addImageToDownload(battery, image);
+        }
+    }
+
+    private static Battery findSimilar(Battery battery) {
+        Set<String> parts = new HashSet<>();
+        for (String part : battery.getPartNo()) {
+            parts.add(cleanPartNo(part));
+        }
+        for (String part : parts) {
+            Battery matched = ID_MATCHER.get(part);
+            if (matched != null) {
+                int oAmp = battery.getAmp();
+                int nAmp = matched.getAmp();
+                if(oAmp>nAmp){
+                    matched.setAmp(oAmp);
+                    matched.setWatt(battery.getWatt());
+                }
+                return matched;
+            }
+        }
+        for (String part : parts) {
+            ID_MATCHER.put(part, battery);
+        }
+        return null;
     }
 }

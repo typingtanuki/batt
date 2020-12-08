@@ -2,8 +2,6 @@ package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryType;
-import com.github.typingtanuki.batt.db.BatteryDB;
-import com.github.typingtanuki.batt.images.ImageDownloader;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -15,13 +13,12 @@ import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.db.BatteryDB.*;
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
-import static com.github.typingtanuki.batt.utils.CachedHttp.deleteDownload;
 import static com.github.typingtanuki.batt.utils.CachedHttp.http;
-import static com.github.typingtanuki.batt.utils.Progress.*;
+import static com.github.typingtanuki.batt.utils.Progress.BATTERY_BAD_PAGE;
+import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
     private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
-    private static final Pattern REGEX = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private BatteryDetailReader() {
         super();
@@ -29,6 +26,7 @@ public final class BatteryDetailReader {
 
     public static Battery extractBatteryDetails(Battery battery) throws IOException {
         Document page = http("battery", battery.getCurrentUrl());
+        battery.setSourcePage(page);
         Elements description = page.select("#product_desc_h4, .product_desc_h3");
         Elements brand = page.select(".product_desc_brand");
         Elements partNo = page.select(".product_desc_partno");
@@ -91,17 +89,7 @@ public final class BatteryDetailReader {
         resolveConnector(battery);
         resolveForm(battery);
 
-        if (battery.isValid()) {
-            progress(BATTERY_MATCH);
-            BatteryDB.addBattery(battery, true);
-            downloadBatteryImages(page, battery);
-            return battery;
-        } else {
-            progress(BATTERY_NO_MATCH);
-            BatteryDB.addBattery(battery, false);
-            deleteBatteryImages(page, battery);
-            return null;
-        }
+        return battery;
     }
 
     private static String[] extractSet(Elements elements) {
@@ -110,34 +98,6 @@ public final class BatteryDetailReader {
             out.addAll(Arrays.asList(element.text().split(",")));
         }
         return out.toArray(new String[0]);
-    }
-
-    private static void deleteBatteryImages(Document page, Battery battery) throws IOException {
-        for (String image : batteryImages(page)) {
-            deleteDownload(battery, image);
-        }
-    }
-
-    private static void downloadBatteryImages(Document page, Battery battery) throws IOException {
-        for (String image : batteryImages(page)) {
-            ImageDownloader.addImageToDownload(battery, image);
-        }
-    }
-
-    private static Set<String> batteryImages(Document page) {
-        Set<String> out = new HashSet<>();
-        Elements scripts = page.select("script");
-        for (Element script : scripts) {
-            String html = script.html();
-            if (html.contains("images/large")) {
-                Matcher matcher = REGEX.matcher(html);
-                if (matcher.find()) {
-                    String url = page.baseUri() + matcher.group(1);
-                    out.add(url);
-                }
-            }
-        }
-        return out;
     }
 
     private static Set<String> filteredSet(String[] strings) {

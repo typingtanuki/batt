@@ -1,46 +1,52 @@
 package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.validator.*;
+import org.jsoup.nodes.Document;
 
 import java.util.*;
 
+/**
+ * A battery with its associated details
+ */
 public class Battery {
-    private static final Condition[] CONDITIONS = new Condition[]{
-            new Condition("panel_mate",
-                    new VoltageValidator(7.4, 8.2),
-                    new AmperageValidator(1_000, 1_000_000),
-                    new ConnectorValidator(false, BatteryConnector.PANEL_MATE),
-                    new TypeValidator(true, BatteryType.LI_POLYMER),
-                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
-            new Condition("pin10",
-                    new VoltageValidator(7.4, 8.2),
-                    new AmperageValidator(1_000, 1_000_000),
-                    new ConnectorValidator(true, BatteryConnector.PIN_10, BatteryConnector.PANEL_MATE),
-                    new TypeValidator(true, BatteryType.LI_POLYMER),
-                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT)),
-            new Condition("pin4",
-                    new VoltageValidator(11, 15),
-                    new AmperageValidator(1_000, 1_000_000),
-                    new ConnectorValidator(true, BatteryConnector.PIN_4),
-                    new TypeValidator(true, BatteryType.LI_POLYMER),
-                    new FormValidator(true, BatteryForm.SQUARE, BatteryForm.RECTANGLE, BatteryForm.FAT))
-    };
-
+    /** The conditions which are matched */
     private final Set<String> matchedConditions = new HashSet<>();
+    /** The URL of the page currently being parsed */
     private final String currentUrl;
+    /** The sources where this battery can be found */
     private final Set<Source> sources = new HashSet<>();
+    /** The brands for this battery */
     private final Set<String> brands = new HashSet<>();
+    /** The part numbers */
     private final Set<String> partNo = new HashSet<>();
 
+    /** The volt output of this battery */
     private Double volt;
+    /** The amperage of this battery */
     private Integer amp;
+    /** The watt output of this battery*/
     private Double watt;
+    /** The number of cells in this battery */
     private int cells;
+    /** The type of battery power */
     private BatteryType type;
+    /** The shape of the battery */
     private BatteryForm form = BatteryForm.UNKNOWN;
+    /** The type of connector */
     private BatteryConnector connector = BatteryConnector.UNKNOWN;
+    /** The parsed HTML for this battery */
+    private Document sourcePage;
 
+    /** A unique model ID for this battery (computed once) */
     private String model;
+
+    /** Clean a part number to avoid special chars and duplication */
+    public static String cleanPartNo(String part) {
+        return part
+                .strip()
+                .toUpperCase(Locale.ENGLISH)
+                .replaceAll("[/.\\s|\\-+]", "_");
+    }
 
     public Battery(Source source) {
         super();
@@ -49,8 +55,39 @@ public class Battery {
         currentUrl = source.getUrl();
     }
 
-    public static String cleanKey(String part) {
-        return part.strip().toUpperCase(Locale.ENGLISH).replaceAll("[/.\\s|\\-+]", "_");
+    public boolean isValid() {
+        consolidate();
+        matchedConditions.clear();
+
+        Conditions.validate(this, matchedConditions);
+
+        return !matchedConditions.isEmpty();
+    }
+
+    /**
+     * Convert watt to amp or amp to watt
+     */
+    public void consolidate() {
+        if (watt == null && amp != null) {
+            double comp = amp * volt;
+            setWatt(comp / 1000);
+        }
+        if (amp == null && watt != null) {
+            double comp = watt * 100;
+            comp = comp / volt;
+            setAmp(((int) comp) * 10);
+        }
+    }
+
+    public void mergeWith(Battery battery) {
+        partNo.addAll(battery.partNo);
+        sources.addAll(battery.sources);
+        setForm(battery.getForm());
+        setConnector(battery.getConnector());
+
+        if (battery.cells == 0) {
+            cells = battery.cells;
+        }
     }
 
     public Double getVolt() {
@@ -91,31 +128,6 @@ public class Battery {
         }
     }
 
-    public boolean isValid() {
-        consolidate();
-        matchedConditions.clear();
-
-        for (Condition condition : CONDITIONS) {
-            if (condition.isValid(this)) {
-                matchedConditions.add(condition.getName());
-            }
-        }
-
-        return !matchedConditions.isEmpty();
-    }
-
-    public void consolidate() {
-        if (watt == null && amp != null) {
-            double comp = amp * volt;
-            setWatt(comp / 1000);
-        }
-        if (amp == null && watt != null) {
-            double comp = watt * 100;
-            comp = comp / volt;
-            setAmp(((int) comp) * 10);
-        }
-    }
-
     public BatteryType getType() {
         return type;
     }
@@ -152,17 +164,6 @@ public class Battery {
         return matchedConditions;
     }
 
-    public void mergeWith(Battery battery) {
-        partNo.addAll(battery.partNo);
-        sources.addAll(battery.sources);
-        setForm(battery.getForm());
-        setConnector(battery.getConnector());
-
-        if (battery.cells == 0) {
-            cells = battery.cells;
-        }
-    }
-
     public String getCurrentUrl() {
         return currentUrl;
     }
@@ -188,7 +189,7 @@ public class Battery {
         if (model.isBlank()) {
             throw new IllegalStateException("Model is blank");
         }
-        this.model = cleanKey(model);
+        this.model = cleanPartNo(model);
     }
 
     public Set<String> getPartNo() {
@@ -209,5 +210,13 @@ public class Battery {
 
     public Set<String> getBrands() {
         return brands;
+    }
+
+    public Document getSourcePage() {
+        return sourcePage;
+    }
+
+    public void setSourcePage(Document sourcePage) {
+        this.sourcePage = sourcePage;
     }
 }

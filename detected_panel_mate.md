@@ -1,7 +1,6 @@
-Found: 3
+Found: 2
 
 | Brand | Power | Cell | Connector | Form factor | Part No. | URL |
 | ----- | ----- | ---- | --------- | ----------- | -------- | --- |
-| <ul><li>Cube</li></ul> | <ul><li>7.6V</li><li>5000mAh</li><li>38.00W</li></ul> | 2 | Panel mate | Square | <ul><li>THINKER I35</li><li>THINKER I9</li></ul> | <ul><li><a href="https://www.newlaptopaccessory.com/cube-batteries-c-1_145.html" target="_blank"> New Laptop Accessory </a></li></ul> |
 | <ul><li>Jumper</li></ul> | <ul><li>7.6V</li><li>5000mAh</li><li>38.00W</li></ul> | -- | Panel mate | Square | <ul><li>2869178</li><li>2877167</li><li>52110118</li><li>H28154165P</li><li>I35</li><li>QT31150165P</li><li>THINKER I9</li><li>X5 PRO</li><li>ZP50100130</li><li>ZP50110130</li><li>ZP52110158</li><li>ZP52110160</li></ul> | <ul><li><a href="https://www.newlaptopaccessory.com/jumper-batteries-p-3574.html" target="_blank"> New Laptop Accessory </a></li><li><a href="https://www.laptop-battery-shop.com/jumper-zp52110158-qt31150165p-76v-5000mah-replacement-batteries-p-7031.html" target="_blank"> Laptop Battery Shop </a></li></ul> |
-| <ul><li>Chuwi</li></ul> | <ul><li>7.6V</li><li>3500mAh</li><li>26.60W</li></ul> | -- | Panel mate | Rectangle | <ul><li>MINIBOOK CWI526</li><li>NV-635170-2S</li></ul> | <ul><li><a href="https://www.laptop-battery-shop.com/chuwi-nv6351702s-76v-3500mah-replacement-batteries-p-7238.html" target="_blank"> Laptop Battery Shop </a></li></ul> |
+| <ul><li>Chuwi</li></ul> | <ul><li>7.6V</li><li>4200mAh</li><li>31.90W</li></ul> | -- | Panel mate | Rectangle | <ul><li>MINIBOOK CWI526</li><li>NV-635170-2S</li></ul> | <ul><li><a href="https://www.laptop-battery-shop.com/chuwi-nv6351702s-76v-4200mah-replacement-batteries-p-7872.html" target="_blank"> Laptop Battery Shop </a></li><li><a href="https://www.laptop-battery-shop.com/chuwi-nv6351702s-76v-3500mah-replacement-batteries-p-7238.html" target="_blank"> Laptop Battery Shop </a></li></ul> |

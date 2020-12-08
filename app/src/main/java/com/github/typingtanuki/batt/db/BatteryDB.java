@@ -81,7 +81,7 @@ public final class BatteryDB {
     public static void resolveModel(Battery battery) {
         init();
         for (String part : battery.getPartNo()) {
-            String cleanedKey = Battery.cleanKey(part);
+            String cleanedKey = Battery.cleanPartNo(part);
             if (ALL_KEYS.contains(cleanedKey)) {
                 battery.setModel(cleanedKey);
                 progress(IN_DB);
