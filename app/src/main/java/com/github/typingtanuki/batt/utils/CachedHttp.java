@@ -1,7 +1,9 @@
 package com.github.typingtanuki.batt.utils;
 
 import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import org.jsoup.Connection;
+import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
@@ -30,7 +32,7 @@ public final class CachedHttp {
         super();
     }
 
-    public static Document http(String type, String url) throws IOException {
+    public static Document http(String type, String url) throws IOException, PageUnavailableException {
         Path path = new PathBuilder(CACHE_PATH)
                 .withSubFolder(type)
                 .withFileName(url, true)
@@ -50,11 +52,15 @@ public final class CachedHttp {
         while (retries > 0 && document == null) {
             try {
                 document = Jsoup.connect(url).get();
+            }catch(HttpStatusException e){
+                if(e.getStatusCode()==404){
+                    throw new PageUnavailableException(url, e);
+                }
+                lastIo = e;
+                sleep();
             } catch (IOException e) {
                 lastIo = e;
                 sleep();
-            }catch(IllegalArgumentException e){
-                throw e;
             }
             retries--;
         }

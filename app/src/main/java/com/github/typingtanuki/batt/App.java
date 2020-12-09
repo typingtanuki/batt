@@ -5,12 +5,10 @@ import com.github.typingtanuki.batt.battery.BatteryComparator;
 import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.output.MarkdownOutput;
-import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
-import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
-import com.github.typingtanuki.batt.scrapper.ReplacementLaptopBatteryScrapper;
-import com.github.typingtanuki.batt.scrapper.Scrapper;
+import com.github.typingtanuki.batt.scrapper.*;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
@@ -36,6 +34,7 @@ public class App {
             scrappers.add(new NewLaptopAccessoryScrapper());
             scrappers.add(new LaptopBatteryShopScrapper());
             scrappers.add(new ReplacementLaptopBatteryScrapper());
+            scrappers.add(new NotePartsScrapper());
 
             for (Scrapper scrapper : scrappers) {
                 makers.addAll(scrapper.makers());
@@ -64,13 +63,13 @@ public class App {
             ImageDownloader.downloadImages();
             System.out.println();
             System.out.println("Done");
-        } catch (IOException e) {
+        } catch (IOException | PageUnavailableException e) {
             e.printStackTrace();
             System.exit(14);
         }
     }
 
-    public static List<Battery> listBatteries(List<Maker> makers) throws IOException {
+    public static List<Battery> listBatteries(List<Maker> makers) throws IOException, PageUnavailableException {
         List<Battery> found = new ArrayList<>();
 
         int lastPercent = 0;
@@ -91,7 +90,12 @@ public class App {
 
             List<Battery> allBatteries = listBatteriesForMaker(maker);
             for (Battery battery : allBatteries) {
-                Battery parsed = extractBatteryDetails(battery);
+                Battery parsed;
+                try {
+                    parsed = extractBatteryDetails(battery);
+                }catch(RuntimeException e){
+                    throw new IllegalStateException("Failed reading details on "+battery.getCurrentUrl(), e);
+                }
                 if (parsed == null) {
                     continue;
                 }
@@ -127,7 +131,7 @@ public class App {
         } else {
             progress(BATTERY_NO_MATCH);
             BatteryDB.addBattery(battery, false);
-            deleteBatteryImages(battery);
+//            deleteBatteryImages(battery);
         }
     }
 

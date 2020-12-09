@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 
 import java.io.IOException;
 import java.util.List;
@@ -16,7 +17,7 @@ public abstract class AbstractScrapper implements Scrapper {
     }
 
     @Override
-    public List<Maker> makers() throws IOException {
+    public List<Maker> makers() throws IOException, PageUnavailableException {
         return extractMakers(this, rootUrl);
     }
 

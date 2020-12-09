@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryType;
+import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -18,7 +19,7 @@ import static com.github.typingtanuki.batt.utils.Progress.BATTERY_BAD_PAGE;
 import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
-    private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
+    private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^(?:内蔵セル|Type:)\\s*(.*[^\\s])\\s*$");
     private static final Pattern IMAGE_EXTRACTOR = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private BatteryDetailReader() {
@@ -26,12 +27,19 @@ public final class BatteryDetailReader {
     }
 
     public static Battery extractBatteryDetails(Battery battery) throws IOException {
-        Document page = http("battery", battery.getCurrentUrl());
-        Elements description = page.select("#product_desc_h4, .product_desc_h3, .product-info");
+        Document page;
+        try {
+            page = http("battery", battery.getCurrentUrl());
+        } catch (PageUnavailableException e) {
+            progress(BATTERY_BAD_PAGE);
+            return null;
+        }
+
+        Elements description = page.select("#product_desc_h4, .product_desc_h3, .product-info, #contents_spec");
         Elements brand = page.select(".product_desc_brand");
-        Elements partNo = page.select(".product_desc_partno, .battery_number strong");
-        Elements models = page.select(".product_desc_model");
-        Elements property = page.select("#product_desc_property, .product_desc_property, .product_desc_h3, .product-info");
+        Elements partNo = page.select(".product_desc_partno, .battery_number strong, #detailInfo .infoTable td");
+        Elements models = page.select(".product_desc_model, table[summary='ページ掲載商品の対応機種表'] td");
+        Elements property = page.select("#product_desc_property, .product_desc_property, .product_desc_h3, .product-info, #contents_spec");
 
         String descriptionText = description.text();
         battery.setBrand(brand.text());
@@ -59,7 +67,7 @@ public final class BatteryDetailReader {
         readCell(descriptionText, battery);
         readSize(descriptionText, battery);
 
-        Elements properties = property.select("li");
+        Elements properties = property.select("li, tr");
         for (Element p : properties) {
             String text = p.text();
             Matcher matcher = TYPE_EXTRACTOR.matcher(text);
@@ -110,6 +118,9 @@ public final class BatteryDetailReader {
     }
 
     public static void batteryImages(Document page, Battery battery) {
+        if (page.baseUri().contains("noteparts")) {
+            return;
+        }
         Elements scripts = page.select("script");
         for (Element script : scripts) {
             String html = script.html();

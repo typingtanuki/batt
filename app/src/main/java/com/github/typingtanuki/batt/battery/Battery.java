@@ -114,6 +114,7 @@ public class Battery {
     public void mergeWith(Battery battery) {
         partNo.addAll(battery.partNo);
         sources.addAll(battery.sources);
+        images.addAll(battery.images);
         setForm(battery.getForm());
         setConnector(battery.getConnector());
 

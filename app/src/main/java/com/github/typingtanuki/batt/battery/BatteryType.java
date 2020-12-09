@@ -8,7 +8,15 @@ public enum BatteryType {
     public static BatteryType parse(String type) {
         String value = type
                 .replaceAll("LITHIUM", "LI")
-                .replaceAll("ION POLYMER", "POLYMER");
+                .replaceAll("ION POLYMER", "POLYMER")
+                .replaceAll("PANASONIC", "UNKNOWN")
+                .replaceAll("SAMSUNG", "UNKNOWN")
+                .replaceAll("タイプ", "");
+        value = value.strip();
+        value = value.replaceAll(" ", "_");
+        if (value.contains("UNKNOWN")) {
+            return BatteryType.UNKNOWN;
+        }
         return BatteryType.valueOf(value);
     }
 }
