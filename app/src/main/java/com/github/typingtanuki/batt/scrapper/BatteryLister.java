@@ -58,6 +58,12 @@ public final class BatteryLister {
         Document index = http("list", source.getUrl());
         Elements batteries = index.select(".productListing-data");
         if (batteries.isEmpty()) {
+            batteries = index.select(".laptop-brand-list");
+        }
+        if (batteries.isEmpty()) {
+            batteries = index.select(".battery-list");
+        }
+        if (batteries.isEmpty()) {
             Battery battery = new Battery(source);
             out.add(battery);
         }
@@ -66,10 +72,15 @@ public final class BatteryLister {
             Elements link = battery.select("a");
 
             Element description = descriptions.first();
+            String target = link.attr("href");
+            if(target.isBlank()){
+                continue;
+            }
+            Battery b = new Battery(new Source(
+                    target,
+                    source.getScrapper()));
+
             if (description != null) {
-                Battery b = new Battery(new Source(
-                        link.attr("href"),
-                        source.getScrapper()));
                 String text = description.text() + link.text();
 
                 readVolt(text, b);
@@ -79,6 +90,8 @@ public final class BatteryLister {
                 if (b.isValid()) {
                     out.add(b);
                 }
+            } else {
+                out.add(b);
             }
         }
         return out;

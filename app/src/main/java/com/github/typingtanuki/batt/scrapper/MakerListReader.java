@@ -26,6 +26,9 @@ public final class MakerListReader {
         if (makers.isEmpty()) {
             makers = index.select(".categoryListBoxContents > a");
         }
+        if (makers.isEmpty()) {
+            makers = index.select(".laptop-brand-list > li > a");
+        }
         for (Element maker : makers) {
             String name = maker.text()
                     .toLowerCase(Locale.ENGLISH)

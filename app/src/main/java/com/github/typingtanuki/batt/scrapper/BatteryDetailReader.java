@@ -19,6 +19,7 @@ import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
     private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^Type:\\s*(.*[^\\s])\\s*$");
+    private static final Pattern IMAGE_EXTRACTOR = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private BatteryDetailReader() {
         super();
@@ -26,12 +27,11 @@ public final class BatteryDetailReader {
 
     public static Battery extractBatteryDetails(Battery battery) throws IOException {
         Document page = http("battery", battery.getCurrentUrl());
-        battery.setSourcePage(page);
-        Elements description = page.select("#product_desc_h4, .product_desc_h3");
+        Elements description = page.select("#product_desc_h4, .product_desc_h3, .product-info");
         Elements brand = page.select(".product_desc_brand");
-        Elements partNo = page.select(".product_desc_partno");
+        Elements partNo = page.select(".product_desc_partno, .battery_number strong");
         Elements models = page.select(".product_desc_model");
-        Elements property = page.select("#product_desc_property, .product_desc_property");
+        Elements property = page.select("#product_desc_property, .product_desc_property, .product_desc_h3, .product-info");
 
         String descriptionText = description.text();
         battery.setBrand(brand.text());
@@ -40,6 +40,16 @@ public final class BatteryDetailReader {
         } else {
             battery.addPartNo(Collections.emptySet());
         }
+
+        Elements parts = page.select(".blkaDescription span[style]");
+        if (!parts.isEmpty()) {
+            String fullDescription = parts.text();
+            for (String part : fullDescription.split(",")) {
+                if (!part.isBlank()) {
+                    battery.addPartNo(Collections.singletonList(part));
+                }
+            }
+        }
         if (models != null) {
             battery.addPartNo(filteredSet(extractSet(models)));
         } else {
@@ -47,6 +57,7 @@ public final class BatteryDetailReader {
         }
 
         readCell(descriptionText, battery);
+        readSize(descriptionText, battery);
 
         Elements properties = property.select("li");
         for (Element p : properties) {
@@ -70,6 +81,11 @@ public final class BatteryDetailReader {
         }
 
         String allProperties = properties.text();
+        if (allProperties.isBlank()) {
+            progress(BATTERY_BAD_PAGE);
+            return null;
+        }
+
         if (battery.getVolt() == null) {
             readVolt(allProperties, battery);
         }
@@ -88,8 +104,23 @@ public final class BatteryDetailReader {
         resolveModel(battery);
         resolveConnector(battery);
         resolveForm(battery);
+        batteryImages(page, battery);
 
         return battery;
+    }
+
+    public static void batteryImages(Document page, Battery battery) {
+        Elements scripts = page.select("script");
+        for (Element script : scripts) {
+            String html = script.html();
+            if (html.contains("images/large")) {
+                Matcher matcher = IMAGE_EXTRACTOR.matcher(html);
+                if (matcher.find()) {
+                    String url = page.baseUri() + matcher.group(1);
+                    battery.addImage(url);
+                }
+            }
+        }
     }
 
     private static String[] extractSet(Elements elements) {

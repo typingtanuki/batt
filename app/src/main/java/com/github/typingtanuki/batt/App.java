@@ -9,6 +9,7 @@ import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.LaptopBatteryShopScrapper;
 import com.github.typingtanuki.batt.scrapper.NewLaptopAccessoryScrapper;
+import com.github.typingtanuki.batt.scrapper.ReplacementLaptopBatteryScrapper;
 import com.github.typingtanuki.batt.scrapper.Scrapper;
 import org.jsoup.nodes.Document;
 
@@ -30,10 +31,11 @@ public class App {
     public static void main(String[] args) {
         try {
             List<Scrapper> scrappers = new ArrayList<>();
-            Set<Maker> makers = new HashSet<>();
+            Set<Maker> makers = new LinkedHashSet<>();
 
             scrappers.add(new NewLaptopAccessoryScrapper());
             scrappers.add(new LaptopBatteryShopScrapper());
+            scrappers.add(new ReplacementLaptopBatteryScrapper());
 
             for (Scrapper scrapper : scrappers) {
                 makers.addAll(scrapper.makers());
@@ -94,13 +96,19 @@ public class App {
                     continue;
                 }
                 boolean isValid = battery.isValid();
+                battery.consolidate();
+                if (battery.getAmp() == null) {
+                    continue;
+                }
 
                 Battery previous = findSimilar(parsed);
                 if (previous != null) {
+                    progress(MERGED);
                     previous.mergeWith(parsed);
-                    handleBatteryPost(battery.getSourcePage(), parsed, isValid);
+                    handleBatteryPost(parsed, false);
+                    handleBatteryPost(previous, isValid);
                 } else {
-                    handleBatteryPost(battery.getSourcePage(), battery, isValid);
+                    handleBatteryPost(battery, isValid);
                     if (isValid) {
                         found.add(parsed);
                     }
@@ -111,26 +119,26 @@ public class App {
         return found;
     }
 
-    private static void handleBatteryPost(Document page, Battery battery, boolean isValid) throws IOException {
+    private static void handleBatteryPost(Battery battery, boolean isValid) throws IOException {
         if (isValid) {
             progress(BATTERY_MATCH);
             BatteryDB.addBattery(battery, true);
-            downloadBatteryImages(page, battery);
+            downloadBatteryImages(battery);
         } else {
             progress(BATTERY_NO_MATCH);
             BatteryDB.addBattery(battery, false);
-            deleteBatteryImages(page, battery);
+            deleteBatteryImages(battery);
         }
     }
 
-    private static void deleteBatteryImages(Document page, Battery battery) throws IOException {
-        for (String image : ImageDownloader.batteryImages(page)) {
+    private static void deleteBatteryImages(Battery battery) throws IOException {
+        for (String image : battery.getImages()) {
             deleteDownload(battery, image);
         }
     }
 
-    private static void downloadBatteryImages(Document page, Battery battery) {
-        for (String image : ImageDownloader.batteryImages(page)) {
+    private static void downloadBatteryImages(Battery battery) {
+        for (String image : battery.getImages()) {
             ImageDownloader.addImageToDownload(battery, image);
         }
     }
@@ -145,7 +153,7 @@ public class App {
             if (matched != null) {
                 int oAmp = battery.getAmp();
                 int nAmp = matched.getAmp();
-                if(oAmp>nAmp){
+                if (oAmp > nAmp) {
                     matched.setAmp(oAmp);
                     matched.setWatt(battery.getWatt());
                 }

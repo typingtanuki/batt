@@ -15,8 +15,8 @@ public class MarkdownOutput {
     }
 
     private static String tableHeader() {
-        return "| Brand | Power | Cell | Connector | Form factor | Part No. | URL |\r\n" +
-                "| ----- | ----- | ---- | --------- | ----------- | -------- | --- |\r\n";
+        return "| Brand | Power | Size | Cell | Connector | Form factor | Part No. | URL |\r\n" +
+                "| ----- | ----- | ---- | ---- | --------- | ----------- | -------- | --- |\r\n";
     }
 
     private static String tableFooter() {
@@ -48,6 +48,7 @@ public class MarkdownOutput {
         battery.consolidate();
         return "| " + makeList(battery.getBrands()) +
                 " | " + makeList(formatPower(battery)) +
+                " | " + battery.getSize() +
                 " | " + formatCells(battery) +
                 " | " + formatEnum(battery.getConnector()) +
                 " | " + formatEnum(battery.getForm()) +

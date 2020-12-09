@@ -9,6 +9,7 @@ public final class Progress {
     public static final String CACHE_TIMEOUT = "T";
     public static final String IN_DB = "";
     public static final String NOT_IN_DB = "_";
+    public static final String MERGED= "";
 
     private static int progress = 0;
 

@@ -1,6 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
-import com.github.typingtanuki.batt.validator.*;
+import com.github.typingtanuki.batt.validator.Conditions;
 import org.jsoup.nodes.Document;
 
 import java.util.*;
@@ -9,43 +9,75 @@ import java.util.*;
  * A battery with its associated details
  */
 public class Battery {
-    /** The conditions which are matched */
+    /**
+     * The conditions which are matched
+     */
     private final Set<String> matchedConditions = new HashSet<>();
-    /** The URL of the page currently being parsed */
+    /**
+     * The URL of the page currently being parsed
+     */
     private final String currentUrl;
-    /** The sources where this battery can be found */
+    /**
+     * The sources where this battery can be found
+     */
     private final Set<Source> sources = new HashSet<>();
-    /** The brands for this battery */
+    /**
+     * The brands for this battery
+     */
     private final Set<String> brands = new HashSet<>();
-    /** The part numbers */
+    /**
+     * The part numbers
+     */
     private final Set<String> partNo = new HashSet<>();
 
-    /** The volt output of this battery */
+    /**
+     * The volt output of this battery
+     */
     private Double volt;
-    /** The amperage of this battery */
+    /**
+     * The amperage of this battery
+     */
     private Integer amp;
-    /** The watt output of this battery*/
+    /**
+     * The watt output of this battery
+     */
     private Double watt;
-    /** The number of cells in this battery */
+    /**
+     * The number of cells in this battery
+     */
     private int cells;
-    /** The type of battery power */
+    /**
+     * The type of battery power
+     */
     private BatteryType type;
-    /** The shape of the battery */
+    /**
+     * The shape of the battery
+     */
     private BatteryForm form = BatteryForm.UNKNOWN;
-    /** The type of connector */
+    /**
+     * The type of connector
+     */
     private BatteryConnector connector = BatteryConnector.UNKNOWN;
-    /** The parsed HTML for this battery */
-    private Document sourcePage;
 
-    /** A unique model ID for this battery (computed once) */
+    /**
+     * A unique model ID for this battery (computed once)
+     */
     private String model;
 
-    /** Clean a part number to avoid special chars and duplication */
+    private Double thickness;
+    private Double height;
+    private Double width;
+    private final Set<String> images = new HashSet<>();
+
+
+    /**
+     * Clean a part number to avoid special chars and duplication
+     */
     public static String cleanPartNo(String part) {
         return part
                 .strip()
                 .toUpperCase(Locale.ENGLISH)
-                .replaceAll("[/.\\s|\\-+]", "_");
+                .replaceAll("[/.\\s|\\-+#]", "_");
     }
 
     public Battery(Source source) {
@@ -196,7 +228,7 @@ public class Battery {
         return partNo;
     }
 
-    public void addPartNo(Set<String> partNo) {
+    public void addPartNo(Collection<String> partNo) {
         for (String part : partNo) {
             if (!part.isBlank()) {
                 this.partNo.add(part.strip().toUpperCase(Locale.ENGLISH));
@@ -212,11 +244,54 @@ public class Battery {
         return brands;
     }
 
-    public Document getSourcePage() {
-        return sourcePage;
+    public void setSize(String size) {
+        if (size.isBlank()) {
+            return;
+        }
+        String[] parts = size.replace("mm", "").split("x");
+        if (parts.length != 3) {
+            throw new IllegalStateException("Invalid size: " + size);
+        }
+        double a = Double.parseDouble(parts[0].strip());
+        double b = Double.parseDouble(parts[1].strip());
+        double c = Double.parseDouble(parts[2].strip());
+
+        List<Double> values = new ArrayList<>(3);
+        values.add(a);
+        values.add(b);
+        values.add(c);
+        values.sort(Double::compare);
+
+        thickness = values.get(0);
+        height = values.get(1);
+        width = values.get(2);
+
+        if (!form.equals(BatteryForm.CUSTOM)) {
+            if (width / height > 1.5) {
+                setForm(BatteryForm.RECTANGLE);
+            }else{
+                setForm(BatteryForm.SQUARE);
+            }
+            if (thickness > 30) {
+                if (!form.equals(BatteryForm.CUSTOM)) {
+                    setForm(BatteryForm.FAT);
+                }
+            }
+        }
     }
 
-    public void setSourcePage(Document sourcePage) {
-        this.sourcePage = sourcePage;
+    public String getSize() {
+        if (thickness == null || height == null || width == null) {
+            return "";
+        }
+        return width + " x " + height + " x " + thickness;
+    }
+
+    public Set<String> getImages() {
+        return images;
+    }
+
+    public void addImage(String image){
+        images.add(image);
     }
 }

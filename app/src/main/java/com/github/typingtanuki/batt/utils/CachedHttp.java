@@ -53,6 +53,8 @@ public final class CachedHttp {
             } catch (IOException e) {
                 lastIo = e;
                 sleep();
+            }catch(IllegalArgumentException e){
+                throw e;
             }
             retries--;
         }
