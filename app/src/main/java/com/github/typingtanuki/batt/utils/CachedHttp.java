@@ -1,6 +1,6 @@
 package com.github.typingtanuki.batt.utils;
 
-import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.Image;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import org.jsoup.Connection;
 import org.jsoup.HttpStatusException;
@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class CachedHttp {
-    private static final String CACHE_PATH = "url_cache";
+    public static final String CACHE_PATH = "url_cache";
     private static final Map<String, Long> TIMEOUT = new HashMap<>();
     private static final long RETRY_INTERVAL = 1000;
     private static final int MAX_RETRIES = 10;
@@ -52,8 +52,8 @@ public final class CachedHttp {
         while (retries > 0 && document == null) {
             try {
                 document = Jsoup.connect(url).get();
-            }catch(HttpStatusException e){
-                if(e.getStatusCode()==404){
+            } catch (HttpStatusException e) {
+                if (e.getStatusCode() == 404) {
                     throw new PageUnavailableException(url, e);
                 }
                 lastIo = e;
@@ -98,8 +98,8 @@ public final class CachedHttp {
         return true;
     }
 
-    public static void download(Battery battery, String url) throws IOException {
-        Path path = imagePath(battery, url);
+    public static void download(Image image) throws IOException {
+        Path path = image.getPath();
         if (Files.exists(path)) {
             progress(PAGE_CACHED);
             return;
@@ -112,7 +112,7 @@ public final class CachedHttp {
         IOException lastIo = null;
         while (retries > 0 && document == null) {
             try {
-                document = Jsoup.connect(url).ignoreContentType(true).execute();
+                document = Jsoup.connect(image.getUrl()).ignoreContentType(true).execute();
                 Files.createDirectories(path.getParent());
                 Files.write(path, document.bodyAsBytes());
             } catch (IOException e) {
@@ -127,17 +127,7 @@ public final class CachedHttp {
         }
     }
 
-    public static void deleteDownload(Battery battery, String url) throws IOException {
-        Path path = imagePath(battery, url);
-        Files.deleteIfExists(path);
-    }
-
-    private static Path imagePath(Battery battery, String url) {
-        return new PathBuilder(CACHE_PATH)
-                .withSubFolder("image")
-                .withFileName(url, true)
-                .withFileNamePrefix(battery.getModel() + "-", false)
-                .withExtension(".jpg")
-                .build();
+    public static void deleteDownload(Image image) throws IOException {
+        Files.deleteIfExists(image.getPath());
     }
 }

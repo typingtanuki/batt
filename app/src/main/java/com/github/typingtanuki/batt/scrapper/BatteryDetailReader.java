@@ -64,7 +64,6 @@ public final class BatteryDetailReader {
             battery.addPartNo(Collections.emptySet());
         }
 
-        readCell(descriptionText, battery);
         readSize(descriptionText, battery);
 
         Elements properties = property.select("li, tr");
@@ -112,6 +111,7 @@ public final class BatteryDetailReader {
         resolveModel(battery);
         resolveConnector(battery);
         resolveForm(battery);
+        resolveSize(battery);
         batteryImages(page, battery);
 
         return battery;

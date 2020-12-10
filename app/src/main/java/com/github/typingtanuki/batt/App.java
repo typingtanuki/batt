@@ -1,15 +1,11 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.Battery;
-import com.github.typingtanuki.batt.battery.BatteryComparator;
-import com.github.typingtanuki.batt.battery.Maker;
-import com.github.typingtanuki.batt.battery.MakerComparator;
+import com.github.typingtanuki.batt.battery.*;
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.*;
-import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -20,7 +16,6 @@ import java.util.*;
 import static com.github.typingtanuki.batt.battery.Battery.cleanPartNo;
 import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
 import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
-import static com.github.typingtanuki.batt.utils.CachedHttp.deleteDownload;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
@@ -93,13 +88,12 @@ public class App {
                 Battery parsed;
                 try {
                     parsed = extractBatteryDetails(battery);
-                }catch(RuntimeException e){
-                    throw new IllegalStateException("Failed reading details on "+battery.getCurrentUrl(), e);
+                } catch (RuntimeException e) {
+                    throw new IllegalStateException("Failed reading details on " + battery.getCurrentUrl(), e);
                 }
                 if (parsed == null) {
                     continue;
                 }
-                boolean isValid = battery.isValid();
                 battery.consolidate();
                 if (battery.getAmp() == null) {
                     continue;
@@ -110,10 +104,10 @@ public class App {
                     progress(MERGED);
                     previous.mergeWith(parsed);
                     handleBatteryPost(parsed, false);
-                    handleBatteryPost(previous, isValid);
+                    handleBatteryPost(previous, true);
                 } else {
-                    handleBatteryPost(battery, isValid);
-                    if (isValid) {
+                    handleBatteryPost(battery, true);
+                    if (battery.isValid()) {
                         found.add(parsed);
                     }
                 }
@@ -123,28 +117,19 @@ public class App {
         return found;
     }
 
-    private static void handleBatteryPost(Battery battery, boolean isValid) throws IOException {
+    private static void handleBatteryPost(Battery battery, boolean download) {
+        boolean isValid = battery.isValid();
         if (isValid) {
             progress(BATTERY_MATCH);
-            BatteryDB.addBattery(battery, true);
-            downloadBatteryImages(battery);
         } else {
             progress(BATTERY_NO_MATCH);
-            BatteryDB.addBattery(battery, false);
-//            deleteBatteryImages(battery);
         }
-    }
-
-    private static void deleteBatteryImages(Battery battery) throws IOException {
-        for (String image : battery.getImages()) {
-            deleteDownload(battery, image);
+        if(isValid && download){
+            ImageDownloader.addImagesToDownload(battery);
+        }else{
+            ImageDownloader.addImagesToDelete(battery);
         }
-    }
-
-    private static void downloadBatteryImages(Battery battery) {
-        for (String image : battery.getImages()) {
-            ImageDownloader.addImageToDownload(battery, image);
-        }
+        BatteryDB.addBattery(battery, isValid);
     }
 
     private static Battery findSimilar(Battery battery) {

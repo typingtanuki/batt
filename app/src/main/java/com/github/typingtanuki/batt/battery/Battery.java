@@ -1,7 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.validator.Conditions;
-import org.jsoup.nodes.Document;
 
 import java.util.*;
 
@@ -43,10 +42,6 @@ public class Battery {
      */
     private Double watt;
     /**
-     * The number of cells in this battery
-     */
-    private int cells;
-    /**
      * The type of battery power
      */
     private BatteryType type;
@@ -67,7 +62,7 @@ public class Battery {
     private Double thickness;
     private Double height;
     private Double width;
-    private final Set<String> images = new HashSet<>();
+    private final Set<Image> images = new HashSet<>();
 
 
     /**
@@ -117,10 +112,6 @@ public class Battery {
         images.addAll(battery.images);
         setForm(battery.getForm());
         setConnector(battery.getConnector());
-
-        if (battery.cells == 0) {
-            cells = battery.cells;
-        }
     }
 
     public Double getVolt() {
@@ -145,14 +136,6 @@ public class Battery {
 
     public void setWatt(double watt) {
         this.watt = watt;
-    }
-
-    public int getCells() {
-        return cells;
-    }
-
-    public void setCells(int cells) {
-        this.cells = cells;
     }
 
     public void setBrand(String brand) {
@@ -270,7 +253,7 @@ public class Battery {
         if (!form.equals(BatteryForm.CUSTOM)) {
             if (width / height > 1.5) {
                 setForm(BatteryForm.RECTANGLE);
-            }else{
+            } else {
                 setForm(BatteryForm.SQUARE);
             }
             if (thickness > 30) {
@@ -288,11 +271,18 @@ public class Battery {
         return width + " x " + height + " x " + thickness;
     }
 
-    public Set<String> getImages() {
+    public double[] getSizes() {
+        return new double[]{
+                width == null ? 0d : width,
+                height == null ? 0d : height,
+                thickness == null ? 0d : thickness};
+    }
+
+    public Set<Image> getImages() {
         return images;
     }
 
-    public void addImage(String image){
-        images.add(image);
+    public void addImage(String image) {
+        images.add(new Image(this, image));
     }
 }

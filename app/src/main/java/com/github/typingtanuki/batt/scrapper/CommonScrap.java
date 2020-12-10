@@ -6,7 +6,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class CommonScrap {
-    private static final Pattern CELL_EXTRACT = Pattern.compile("(.*),\\s[^,]+\\s([0-9]+)\\s-?[Cc]ells?[^,]+$");
     private static final Pattern VOLT_EXTRACT = Pattern.compile(".*(?:\\s|or|/)([0-9.]+)V.*");
     private static final Pattern NO_VOLT_EXTRACT = Pattern.compile(".*\\sV\\s.*");
     private static final Pattern AMP_EXTRACT = Pattern.compile(".*\\s([0-9.]+)mAh.*");
@@ -45,14 +44,6 @@ public final class CommonScrap {
             battery.setWatt(Double.parseDouble(wattMatcher.group(1)));
         }
         // Watts are optional
-    }
-
-    public static void readCell(String s, Battery battery) {
-        Matcher cellMatcher = CELL_EXTRACT.matcher(s);
-        if (cellMatcher.matches()) {
-            battery.setCells(Integer.parseInt(cellMatcher.group(2)));
-        }
-        // Cells are optional
     }
 
     public static void readSize(String s, Battery battery) {

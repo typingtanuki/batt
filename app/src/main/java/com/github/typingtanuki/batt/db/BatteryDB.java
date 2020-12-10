@@ -17,6 +17,7 @@ public final class BatteryDB {
     private static final String BATTERY_FILE = "battery_db.csv";
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
+    private static final Map<String, String> DB_SIZE = new HashMap<>();
     private static final Map<String, Boolean> DB_MATCH = new HashMap<>();
     private static final Map<String, Boolean> DB_SCANNED = new HashMap<>();
     private static final Set<String> ALL_KEYS = new HashSet<>();
@@ -46,8 +47,14 @@ public final class BatteryDB {
                 ALL_KEYS.add(model);
                 String connectorStr = parts[1].strip();
                 boolean scanned = true;
+
+                String size = "";
+
                 if (parts.length >= 5) {
                     scanned = Boolean.parseBoolean(parts[4].trim());
+                }
+                if (parts.length >= 6) {
+                    size = parts[5].trim();
                 }
                 if (scanned) {
                     if (!connectorStr.isBlank()) {
@@ -58,6 +65,9 @@ public final class BatteryDB {
                     if (!formStr.isBlank()) {
                         BatteryForm form = BatteryForm.valueOf(formStr);
                         DB_FORM.put(model, form);
+                    }
+                    if (!size.isBlank()) {
+                        DB_SIZE.put(model, size);
                     }
                 }
             }
@@ -100,15 +110,28 @@ public final class BatteryDB {
         battery.setForm(form);
     }
 
+    public static void resolveSize(Battery battery) {
+        if (!battery.getSize().isBlank()) {
+            return;
+        }
+        init();
+        String size = DB_SIZE.get(battery.getModel());
+        if (size == null) {
+            return;
+        }
+        battery.setSize(size);
+    }
+
     public static void addBattery(Battery battery, boolean isMatch) {
         DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
         DB_FORM.put(battery.getModel(), battery.getForm());
         DB_MATCH.put(battery.getModel(), isMatch);
         DB_SCANNED.put(battery.getModel(), true);
+        DB_SIZE.put(battery.getModel(), battery.getSize());
     }
 
     public static void dump() throws IOException {
-        StringBuilder out = new StringBuilder("MODEL, CONNECTOR, FORM, MATCH, SCANNED");
+        StringBuilder out = new StringBuilder("MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE");
 
         Set<String> keySet = new HashSet<>();
         keySet.addAll(DB_CONNECTOR.keySet());
@@ -116,20 +139,31 @@ public final class BatteryDB {
 
         List<String> keys = new ArrayList<>(keySet);
         keys.sort(String::compareTo);
-        for (String key : keys) {
-            out.append(System.lineSeparator());
-            out.append(key);
-            out.append(", ");
-            out.append(handleMissing(DB_CONNECTOR.get(key)));
-            out.append(", ");
-            out.append(handleMissing(DB_FORM.get(key)));
-            out.append(", ");
-            out.append(DB_MATCH.getOrDefault(key, false));
-            out.append(", ");
-            out.append(DB_SCANNED.getOrDefault(key, false));
-        }
+
+        dump(out, keys, true);
+        dump(out, keys, false);
 
         Files.write(Paths.get(BATTERY_FILE), out.toString().getBytes(StandardCharsets.UTF_8));
+    }
+
+    private static void dump(StringBuilder out, List<String> keys, boolean matching) {
+        for (String key : keys) {
+            boolean matched = DB_MATCH.getOrDefault(key, false);
+            if (matched == matching) {
+                out.append(System.lineSeparator());
+                out.append(key);
+                out.append(", ");
+                out.append(handleMissing(DB_CONNECTOR.get(key)));
+                out.append(", ");
+                out.append(handleMissing(DB_FORM.get(key)));
+                out.append(", ");
+                out.append(DB_MATCH.getOrDefault(key, false));
+                out.append(", ");
+                out.append(DB_SCANNED.getOrDefault(key, false));
+                out.append(", ");
+                out.append(DB_SIZE.getOrDefault(key, ""));
+            }
+        }
     }
 
     private static String handleMissing(Enum<?> enumKey) {

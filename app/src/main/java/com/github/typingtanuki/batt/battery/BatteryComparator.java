@@ -13,10 +13,6 @@ public class BatteryComparator implements java.util.Comparator<Battery> {
             return -amp;
         }
 
-        int cell = Integer.compare(o1.getCells(), o2.getCells());
-        if (cell != 0) {
-            return -cell;
-        }
         int watt = Double.compare(o1.getWatt(), o2.getWatt());
         if (watt != 0) {
             return -watt;

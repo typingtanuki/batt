@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.output;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryConnector;
+import com.github.typingtanuki.batt.battery.Image;
 import com.github.typingtanuki.batt.battery.Source;
 
 import java.util.*;
@@ -15,8 +16,8 @@ public class MarkdownOutput {
     }
 
     private static String tableHeader() {
-        return "| Brand | Power | Size | Cell | Connector | Form factor | Part No. | URL |\r\n" +
-                "| ----- | ----- | ---- | ---- | --------- | ----------- | -------- | --- |\r\n";
+        return "| Brand | Power | Size | Connector | Form factor | Part No. | URL | Images |\r\n" +
+                "| ----- | ----- | ---- | --------- | ----------- | -------- | --- | ------ |\r\n";
     }
 
     private static String tableFooter() {
@@ -49,19 +50,20 @@ public class MarkdownOutput {
         return "| " + makeList(battery.getBrands()) +
                 " | " + makeList(formatPower(battery)) +
                 " | " + battery.getSize() +
-                " | " + formatCells(battery) +
                 " | " + formatEnum(battery.getConnector()) +
                 " | " + formatEnum(battery.getForm()) +
                 " | " + makeList(filterSet(battery.getPartNo())) +
                 " | " + formatUrls(battery) +
+                " | " + formatImages(battery) +
                 " |";
     }
 
-    private String formatCells(Battery battery) {
-        if (battery.getCells() > 0) {
-            return "" + battery.getCells();
+    private String formatImages(Battery battery) {
+        List<String> images = new ArrayList<>();
+        for (Image image : battery.getImages()) {
+            images.add("![](" + image.getPath() + ")");
         }
-        return "--";
+        return makeList(images);
     }
 
     private List<String> formatPower(Battery battery) {
