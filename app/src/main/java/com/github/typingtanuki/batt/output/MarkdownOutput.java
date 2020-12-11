@@ -16,8 +16,8 @@ public class MarkdownOutput {
     }
 
     private static String tableHeader() {
-        return "| Brand | Power | Size | Connector | Form factor | Part No. | URL | Images |\r\n" +
-                "| ----- | ----- | ---- | --------- | ----------- | -------- | --- | ------ |\r\n";
+        return "| _ID_ | Brand | Power | Size | Connector | Form factor | Part No. | URL | Images |\r\n" +
+                "| ---- | ----- | ----- | ---- | --------- | ----------- | -------- | --- | ------ |\r\n";
     }
 
     private static String tableFooter() {
@@ -47,7 +47,8 @@ public class MarkdownOutput {
 
     private String asTable(Battery battery) {
         battery.consolidate();
-        return "| " + makeList(battery.getBrands()) +
+        return "| " + battery.getModel() +
+                " | " + makeList(battery.getBrands()) +
                 " | " + makeList(formatPower(battery)) +
                 " | " + battery.getSize() +
                 " | " + formatEnum(battery.getConnector()) +
@@ -59,11 +60,13 @@ public class MarkdownOutput {
     }
 
     private String formatImages(Battery battery) {
-        List<String> images = new ArrayList<>();
+        StringBuilder images = new StringBuilder();
         for (Image image : battery.getImages()) {
-            images.add("![](" + image.getPath() + ")");
+            images.append("<img src=\"")
+                    .append(image.getPath())
+                    .append("\" style=\"width:150px;display:block;\"/>");
         }
-        return makeList(images);
+        return images.toString();
     }
 
     private List<String> formatPower(Battery battery) {
