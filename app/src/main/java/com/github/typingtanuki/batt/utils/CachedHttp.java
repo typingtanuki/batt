@@ -5,11 +5,13 @@ import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import org.jsoup.Connection;
 import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
+import org.jsoup.UncheckedIOException;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,8 +21,9 @@ import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class CachedHttp {
     public static final String CACHE_PATH = "url_cache";
+    public static final String OLD_CACHE_PATH = "url_cache/old";
     private static final Map<String, Long> TIMEOUT = new HashMap<>();
-    private static final long RETRY_INTERVAL = 1000;
+    private static final long RETRY_INTERVAL = 10_000;
     private static final int MAX_RETRIES = 10;
 
     static {
@@ -44,12 +47,21 @@ public final class CachedHttp {
             return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
         }
 
+        Path oldPath = Paths.get(path.toString().replaceFirst(CACHE_PATH, OLD_CACHE_PATH));
+        if (Files.exists(oldPath)) {
+            Files.createDirectories(path.getParent());
+            Files.move(oldPath, path);
+            progress(PAGE_OLD_CACHE);
+            return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
+        }
+
         progress(PAGE_DOWNLOAD);
 
         Document document = null;
         int retries = MAX_RETRIES;
         IOException lastIo = null;
         while (retries > 0 && document == null) {
+            lastIo = null;
             try {
                 document = Jsoup.connect(url).get();
             } catch (HttpStatusException e) {
@@ -60,6 +72,9 @@ public final class CachedHttp {
                 sleep();
             } catch (IOException e) {
                 lastIo = e;
+                sleep();
+            } catch (UncheckedIOException e) {
+                lastIo = new IOException("Unchecked IO in JSoup", e);
                 sleep();
             }
             retries--;
@@ -77,6 +92,7 @@ public final class CachedHttp {
 
     private static void sleep() {
         try {
+            progress(CONNECTION_RETRY);
             Thread.sleep(RETRY_INTERVAL);
         } catch (InterruptedException e) {
             Thread.currentThread().interrupt();
@@ -105,24 +121,36 @@ public final class CachedHttp {
             return;
         }
 
+        Path oldPath = Paths.get(path.toString().replaceFirst(CACHE_PATH, OLD_CACHE_PATH));
+        if (Files.exists(oldPath)) {
+            Files.createDirectories(path.getParent());
+            Files.move(oldPath, path);
+            progress(PAGE_OLD_CACHE);
+            return;
+        }
+
         progress(PAGE_DOWNLOAD);
 
         Connection.Response document = null;
         int retries = MAX_RETRIES;
         IOException lastIo = null;
         while (retries > 0 && document == null) {
+            lastIo = null;
             try {
-                document = Jsoup.connect(image.getUrl()).ignoreContentType(true).execute();
+                document = Jsoup.connect(image.getUrl()).ignoreContentType(true).timeout(5000).execute();
                 Files.createDirectories(path.getParent());
                 Files.write(path, document.bodyAsBytes());
             } catch (IOException e) {
                 lastIo = e;
                 sleep();
+            } catch (UncheckedIOException e) {
+                lastIo = new IOException("Unchecked failure in JSoup", e);
+                sleep();
             }
             retries--;
         }
 
-        if (document == null) {
+        if (lastIo != null) {
             throw lastIo;
         }
     }

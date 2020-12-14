@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.utils.PathBuilder;
 
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Objects;
 
@@ -13,12 +14,17 @@ public class Image {
 
     public Image(Battery battery, String url) {
         this.url = url;
-        this.path =  new PathBuilder(CACHE_PATH)
-                .withSubFolder("image")
-                .withFileName(url, true)
+        PathBuilder builder = new PathBuilder(CACHE_PATH)
+                .withSubFolder("image");
+
+        if (battery.getConnector() != BatteryConnector.CUSTOM && battery.getConnector() != BatteryConnector.UNKNOWN) {
+            builder.withSubFolder(battery.getConnector().name());
+        }
+
+        builder.withFileName(url, true)
                 .withFileNamePrefix(battery.getModel() + "-", false)
-                .withExtension(".jpg")
-                .build();
+                .withExtension(".jpg");
+        path = builder.build();
     }
 
     public String getUrl() {
