@@ -1,6 +1,6 @@
 package com.github.typingtanuki.batt.scrapper;
 
-public class NotePartsScrapper extends AbstractScrapper{
+public class NotePartsScrapper extends AbstractScrapper {
     public NotePartsScrapper() {
         super("https://www.noteparts.com/battery/");
     }

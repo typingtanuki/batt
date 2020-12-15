@@ -1,6 +1,9 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.*;
+import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.BatteryComparator;
+import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
@@ -124,9 +127,9 @@ public class App {
         } else {
             progress(BATTERY_NO_MATCH);
         }
-        if(isValid && download){
+        if (isValid && download) {
             ImageDownloader.addImagesToDownload(battery);
-        }else{
+        } else {
             ImageDownloader.addImagesToDelete(battery);
         }
         BatteryDB.addBattery(battery, isValid);

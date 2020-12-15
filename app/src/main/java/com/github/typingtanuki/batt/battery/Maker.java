@@ -9,10 +9,15 @@ public class Maker {
     public Maker(String name, Source source) {
         super();
 
-        if (name.isBlank()) {
-            this.name = "None";
+        String clean = name
+                .replaceAll("\\s", " ")
+                .replaceAll("[^A-Za-z0-9\\- ]", "")
+                .strip();
+
+        if (clean.isBlank()) {
+            this.name = "Other";
         } else {
-            this.name = name;
+            this.name = clean;
         }
         this.source = source.compact();
     }

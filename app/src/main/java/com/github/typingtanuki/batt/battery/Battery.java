@@ -3,6 +3,8 @@ package com.github.typingtanuki.batt.battery;
 import com.github.typingtanuki.batt.validator.Conditions;
 
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * A battery with its associated details
@@ -28,7 +30,7 @@ public class Battery {
      * The part numbers
      */
     private final Set<String> partNo = new HashSet<>();
-
+    private final Set<Image> images = new HashSet<>();
     /**
      * The volt output of this battery
      */
@@ -53,17 +55,21 @@ public class Battery {
      * The type of connector
      */
     private BatteryConnector connector = BatteryConnector.UNKNOWN;
-
     /**
      * A unique model ID for this battery (computed once)
      */
     private String model;
-
     private Double thickness;
     private Double height;
     private Double width;
-    private final Set<Image> images = new HashSet<>();
 
+
+    public Battery(Source source) {
+        super();
+
+        sources.add(source.compact());
+        currentUrl = source.getUrl();
+    }
 
     /**
      * Clean a part number to avoid special chars and duplication
@@ -73,13 +79,6 @@ public class Battery {
                 .strip()
                 .toUpperCase(Locale.ENGLISH)
                 .replaceAll("[/.\\s|\\-+#]", "_");
-    }
-
-    public Battery(Source source) {
-        super();
-
-        sources.add(source.compact());
-        currentUrl = source.getUrl();
     }
 
     public boolean isValid() {
@@ -228,6 +227,13 @@ public class Battery {
         return brands;
     }
 
+    public String getSize() {
+        if (thickness == null || height == null || width == null) {
+            return "";
+        }
+        return width + " x " + height + " x " + thickness;
+    }
+
     public void setSize(String size) {
         if (size.isBlank()) {
             return;
@@ -264,13 +270,6 @@ public class Battery {
         }
     }
 
-    public String getSize() {
-        if (thickness == null || height == null || width == null) {
-            return "";
-        }
-        return width + " x " + height + " x " + thickness;
-    }
-
     public double[] getSizes() {
         return new double[]{
                 width == null ? 0d : width,
@@ -284,5 +283,14 @@ public class Battery {
 
     public void addImage(String image) {
         images.add(new Image(this, image));
+    }
+
+    public String baseUri() {
+        Pattern a = Pattern.compile("^(https?://[^/]+)/.*$");
+        Matcher matcher = a.matcher(currentUrl);
+        if (!matcher.matches()) {
+            throw new IllegalStateException("Could not extract URL from: " + currentUrl);
+        }
+        return matcher.group(1) + "/";
     }
 }

@@ -2,7 +2,6 @@ package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.utils.PathBuilder;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Objects;
 

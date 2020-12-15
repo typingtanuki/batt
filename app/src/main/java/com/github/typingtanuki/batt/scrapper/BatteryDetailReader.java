@@ -118,7 +118,7 @@ public final class BatteryDetailReader {
     }
 
     public static void batteryImages(Document page, Battery battery) {
-        if (page.baseUri().contains("noteparts")) {
+        if (battery.baseUri().contains("noteparts")) {
             return;
         }
         Elements scripts = page.select("script");
@@ -127,9 +127,17 @@ public final class BatteryDetailReader {
             if (html.contains("images/large")) {
                 Matcher matcher = IMAGE_EXTRACTOR.matcher(html);
                 if (matcher.find()) {
-                    String url = page.baseUri() + matcher.group(1);
+                    String url = battery.baseUri() + matcher.group(1);
                     battery.addImage(url);
                 }
+            }
+        }
+        Elements details = page.select("img.detail-images");
+        for (Element detail : details) {
+            String url = detail.attr("src");
+            if (!url.startsWith("http")) {
+                url = battery.baseUri() + url;
+                battery.addImage(url);
             }
         }
     }
