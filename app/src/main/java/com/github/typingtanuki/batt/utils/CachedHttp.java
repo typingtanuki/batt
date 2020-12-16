@@ -27,8 +27,8 @@ public final class CachedHttp {
     private static final int MAX_RETRIES = 10;
 
     static {
-        TIMEOUT.put("list", TimeUnit.DAYS.toMillis(7));
-        TIMEOUT.put("maker", TimeUnit.DAYS.toMillis(14));
+        TIMEOUT.put("list", TimeUnit.DAYS.toMillis(14));
+        TIMEOUT.put("maker", TimeUnit.DAYS.toMillis(30));
     }
 
     private CachedHttp() {

@@ -9,6 +9,9 @@ import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.*;
+import com.github.typingtanuki.batt.scrapper.denchipro.DenchiProLaptopScrapper;
+import com.github.typingtanuki.batt.scrapper.denchipro.DenchiProOtherScrapper;
+import com.github.typingtanuki.batt.scrapper.denchipro.DenchiProTabletScrapper;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -18,7 +21,6 @@ import java.util.*;
 
 import static com.github.typingtanuki.batt.battery.Battery.cleanPartNo;
 import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
-import static com.github.typingtanuki.batt.scrapper.BatteryLister.listBatteriesForMaker;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
@@ -27,12 +29,16 @@ public class App {
     public static void main(String[] args) {
         try {
             List<Scrapper> scrappers = new ArrayList<>();
-            Set<Maker> makers = new LinkedHashSet<>();
+            List<Maker> makers = new ArrayList<>();
 
             scrappers.add(new NewLaptopAccessoryScrapper());
             scrappers.add(new LaptopBatteryShopScrapper());
             scrappers.add(new ReplacementLaptopBatteryScrapper());
             scrappers.add(new NotePartsScrapper());
+
+            scrappers.add(new DenchiProTabletScrapper());
+//            scrappers.add(new DenchiProLaptopScrapper());
+            scrappers.add(new DenchiProOtherScrapper());
 
             for (Scrapper scrapper : scrappers) {
                 makers.addAll(scrapper.makers());
@@ -86,11 +92,13 @@ public class App {
                 }
             }
 
-            List<Battery> allBatteries = listBatteriesForMaker(maker);
+
+            List<Battery> allBatteries = maker.listBatteries();
+            progress(" d(" + allBatteries.size() + ") ");
             for (Battery battery : allBatteries) {
                 Battery parsed;
                 try {
-                    parsed = extractBatteryDetails(battery);
+                    parsed = maker.extractBatteryDetails(battery);
                 } catch (RuntimeException e) {
                     throw new IllegalStateException("Failed reading details on " + battery.getCurrentUrl(), e);
                 }

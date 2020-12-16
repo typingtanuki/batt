@@ -6,7 +6,8 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public final class CommonScrap {
-    private static final Pattern VOLT_EXTRACT = Pattern.compile(".*(?:\\s|or|/)([0-9.]+)V.*");
+    private static final Pattern VOLT_EXTRACT = Pattern.compile(".*(?:\\s|or|/|:)([0-9.]+)V.*");
+    private static final Pattern VOLT_EXTRACT2 = Pattern.compile(".*電圧:([0-9.]+)\\s.*");
     private static final Pattern NO_VOLT_EXTRACT = Pattern.compile(".*\\sV\\s.*");
     private static final Pattern AMP_EXTRACT = Pattern.compile(".*\\s([0-9.]+)mAh.*");
     private static final Pattern WATT_EXTRACT = Pattern.compile(".*(?:\\s|\\()([0-9.]+)Wh.*");
@@ -20,6 +21,11 @@ public final class CommonScrap {
         Matcher voltMatcher = VOLT_EXTRACT.matcher(s);
         if (voltMatcher.matches()) {
             battery.setVolt(Double.parseDouble(voltMatcher.group(1)));
+            return;
+        }
+        Matcher voltMatcher2 = VOLT_EXTRACT2.matcher(s);
+        if (voltMatcher2.matches()) {
+            battery.setVolt(Double.parseDouble(voltMatcher2.group(1)));
             return;
         }
         Matcher noVoltMatcher = NO_VOLT_EXTRACT.matcher(s);

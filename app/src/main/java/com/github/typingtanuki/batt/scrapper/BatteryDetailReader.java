@@ -20,6 +20,7 @@ import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public final class BatteryDetailReader {
     private static final Pattern TYPE_EXTRACTOR = Pattern.compile("^(?:内蔵セル|Type:)\\s*(.*[^\\s])\\s*$");
+    private static final Pattern MODELS_EXTRACTOR = Pattern.compile("^(?:互換性:)\\s*(.*[^\\s])\\s*$");
     private static final Pattern IMAGE_EXTRACTOR = Pattern.compile(".*(images/large/[^\"]+\\.jpg).*");
 
     private BatteryDetailReader() {
@@ -83,6 +84,14 @@ public final class BatteryDetailReader {
                     battery.setType(BatteryType.UNKNOWN);
                 } else {
                     battery.setType(BatteryType.parse(type));
+                }
+                continue;
+            }
+            matcher = MODELS_EXTRACTOR.matcher(text);
+            if (matcher.matches()) {
+                String modelString = matcher.group(1).strip();
+                if (!modelString.isBlank()) {
+                    battery.addPartNo(Collections.singletonList(modelString));
                 }
             }
         }

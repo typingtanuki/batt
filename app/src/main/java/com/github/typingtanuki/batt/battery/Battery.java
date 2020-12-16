@@ -31,6 +31,7 @@ public class Battery {
      */
     private final Set<String> partNo = new HashSet<>();
     private final Set<Image> images = new HashSet<>();
+    private final Maker maker;
     /**
      * The volt output of this battery
      */
@@ -64,9 +65,10 @@ public class Battery {
     private Double width;
 
 
-    public Battery(Source source) {
+    public Battery(Maker maker, Source source) {
         super();
 
+        this.maker = maker;
         sources.add(source.compact());
         currentUrl = source.getUrl();
     }
@@ -198,9 +200,6 @@ public class Battery {
     }
 
     public void setModel(String model) {
-        if (this.model != null) {
-            throw new IllegalStateException("Model already set");
-        }
         if (model.isBlank()) {
             throw new IllegalStateException("Model is blank");
         }
@@ -212,9 +211,14 @@ public class Battery {
     }
 
     public void addPartNo(Collection<String> partNo) {
+        String makerName = maker.getName().toUpperCase(Locale.ENGLISH);
         for (String part : partNo) {
             if (!part.isBlank()) {
-                this.partNo.add(part.strip().toUpperCase(Locale.ENGLISH));
+                String partStr = part.strip().toUpperCase(Locale.ENGLISH);
+                this.partNo.add(partStr);
+                if (partStr.contains(makerName)) {
+                    this.partNo.add(partStr.replaceAll(makerName, "").strip());
+                }
             }
         }
     }
