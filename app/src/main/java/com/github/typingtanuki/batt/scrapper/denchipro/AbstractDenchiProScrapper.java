@@ -94,7 +94,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
             try {
                 readVolt(description, battery);
             } catch (IllegalStateException e) {
-                return null;
+                battery.setVolt(-1d);
             }
         }
         if (battery.getWatt() == null) {

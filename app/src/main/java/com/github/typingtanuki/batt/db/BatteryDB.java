@@ -46,29 +46,23 @@ public final class BatteryDB {
                 String model = parts[0].strip();
                 ALL_KEYS.add(model);
                 String connectorStr = parts[1].strip();
-                boolean scanned = true;
 
                 String size = "";
 
-                if (parts.length >= 5) {
-                    scanned = Boolean.parseBoolean(parts[4].trim());
-                }
                 if (parts.length >= 6) {
                     size = parts[5].trim();
                 }
-                if (scanned) {
-                    if (!connectorStr.isBlank()) {
-                        BatteryConnector connector = BatteryConnector.valueOf(connectorStr);
-                        DB_CONNECTOR.put(model, connector);
-                    }
-                    String formStr = parts[2].strip();
-                    if (!formStr.isBlank()) {
-                        BatteryForm form = BatteryForm.valueOf(formStr);
-                        DB_FORM.put(model, form);
-                    }
-                    if (!size.isBlank()) {
-                        DB_SIZE.put(model, size);
-                    }
+                if (!connectorStr.isBlank()) {
+                    BatteryConnector connector = BatteryConnector.valueOf(connectorStr);
+                    DB_CONNECTOR.put(model, connector);
+                }
+                String formStr = parts[2].strip();
+                if (!formStr.isBlank()) {
+                    BatteryForm form = BatteryForm.valueOf(formStr);
+                    DB_FORM.put(model, form);
+                }
+                if (!size.isBlank()) {
+                    DB_SIZE.put(model, size);
                 }
             }
             initialized = true;
@@ -136,6 +130,7 @@ public final class BatteryDB {
         Set<String> keySet = new HashSet<>();
         keySet.addAll(DB_CONNECTOR.keySet());
         keySet.addAll(DB_FORM.keySet());
+        keySet.addAll(DB_SIZE.keySet());
 
         List<String> keys = new ArrayList<>(keySet);
         keys.sort(String::compareTo);

@@ -37,7 +37,7 @@ public class App {
             scrappers.add(new NotePartsScrapper());
 
             scrappers.add(new DenchiProTabletScrapper());
-//            scrappers.add(new DenchiProLaptopScrapper());
+            scrappers.add(new DenchiProLaptopScrapper());
             scrappers.add(new DenchiProOtherScrapper());
 
             for (Scrapper scrapper : scrappers) {
