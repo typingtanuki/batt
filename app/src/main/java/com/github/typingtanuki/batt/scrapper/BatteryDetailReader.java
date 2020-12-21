@@ -51,11 +51,11 @@ public final class BatteryDetailReader {
         }
 
         Elements parts = page.select(".blkaDescription span[style]");
-        if (!parts.isEmpty()) {
-            String fullDescription = parts.text();
-            for (String part : fullDescription.split(",")) {
-                if (!part.isBlank()) {
-                    battery.addPartNo(Collections.singletonList(part));
+        for(Element part:parts){
+            String fullPart = part.text();
+            for (String partName : fullPart.split(",")) {
+                if (!partName.isBlank()) {
+                    battery.addPartNo(Collections.singletonList(partName));
                 }
             }
         }

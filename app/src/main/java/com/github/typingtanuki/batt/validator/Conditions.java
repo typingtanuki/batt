@@ -35,17 +35,6 @@ public final class Conditions {
                     new FormValidator(true,
                             BatteryForm.SQUARE,
                             BatteryForm.RECTANGLE,
-                            BatteryForm.FAT)),
-            new Condition("pin4",
-                    new VoltageValidator(11, 15),
-                    new AmperageValidator(1_000, 1_000_000),
-                    new ConnectorValidator(true,
-                            BatteryConnector.PIN_4),
-                    new TypeValidator(true,
-                            BatteryType.LI_POLYMER),
-                    new FormValidator(true,
-                            BatteryForm.SQUARE,
-                            BatteryForm.RECTANGLE,
                             BatteryForm.FAT))
     };
 

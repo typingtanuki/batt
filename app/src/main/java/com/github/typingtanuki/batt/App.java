@@ -146,7 +146,7 @@ public class App {
     private static Battery findSimilar(Battery battery) {
         Set<String> parts = new HashSet<>();
         for (String part : battery.getPartNo()) {
-            parts.add(cleanPartNo(part));
+            parts.add(cleanPartNo(part, true));
         }
         for (String part : parts) {
             Battery matched = ID_MATCHER.get(part);

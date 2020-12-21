@@ -43,7 +43,7 @@ public final class BatteryDB {
                 }
 
                 String[] parts = line.split(",");
-                String model = parts[0].strip();
+                String model = Battery.cleanPartNo(parts[0].strip(), true);
                 ALL_KEYS.add(model);
                 String connectorStr = parts[1].strip();
 
@@ -85,7 +85,7 @@ public final class BatteryDB {
     public static void resolveModel(Battery battery) {
         init();
         for (String part : battery.getPartNo()) {
-            String cleanedKey = Battery.cleanPartNo(part);
+            String cleanedKey = Battery.cleanPartNo(part, true);
             if (ALL_KEYS.contains(cleanedKey)) {
                 battery.setModel(cleanedKey);
                 progress(IN_DB);

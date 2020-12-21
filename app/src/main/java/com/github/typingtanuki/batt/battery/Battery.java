@@ -76,11 +76,46 @@ public class Battery {
     /**
      * Clean a part number to avoid special chars and duplication
      */
-    public static String cleanPartNo(String part) {
-        return part
+    public static String cleanPartNo(String part, boolean full) {
+        part = part
                 .strip()
-                .toUpperCase(Locale.ENGLISH)
-                .replaceAll("[/.\\s|\\-+#]", "_");
+                .toUpperCase(Locale.ENGLISH);
+        if (full) {
+            part = part.replaceAll("[/.\\s|\\-+#]", "_");
+        }
+        part = part.toUpperCase(Locale.ENGLISH)
+                .replaceAll("ACER", "")
+                .replaceAll("ADVENT", "")
+                .replaceAll("AKOYA", "")
+                .replaceAll("ALIENWARE", "")
+                .replaceAll("AMILO", "")
+                .replaceAll("AVERATEC", "")
+                .replaceAll("BANGHO", "")
+                .replaceAll("BANGHOO", "")
+                .replaceAll("BBEN", "")
+                .replaceAll("BENQ", "")
+                .replaceAll("CANON", "")
+                .replaceAll("CELSIUS", "")
+                .replaceAll("CLEVO", "")
+                .replaceAll("CHUWI", "")
+                .replaceAll("DYNABOOK", "")
+                .replaceAll("DELL", "")
+                .replaceAll("GIGABYTE", "")
+                .replaceAll("GETAC", "")
+                .replaceAll("HAIER", "")
+                .replaceAll("HASEE", "")
+                .replaceAll("MEDION", "")
+                .replaceAll("MITAC", "")
+                .replaceAll("SONY", "")
+                .replaceAll("UNIWILL", "")
+                .replaceAll("VAIO", "");
+        while (part.startsWith("_")) {
+            part = part.substring(1);
+        }
+        while (part.contains("__")) {
+            part = part.replaceAll("__", "_");
+        }
+        return part;
     }
 
     public boolean isValid() {
@@ -203,7 +238,7 @@ public class Battery {
         if (model.isBlank()) {
             throw new IllegalStateException("Model is blank");
         }
-        this.model = cleanPartNo(model);
+        this.model = cleanPartNo(model, true);
     }
 
     public Set<String> getPartNo() {
@@ -213,8 +248,9 @@ public class Battery {
     public void addPartNo(Collection<String> partNo) {
         String makerName = maker.getName().toUpperCase(Locale.ENGLISH);
         for (String part : partNo) {
+            part = Battery.cleanPartNo(part, false);
             if (!part.isBlank()) {
-                String partStr = part.strip().toUpperCase(Locale.ENGLISH);
+                String partStr = part.strip();
                 this.partNo.add(partStr);
                 if (partStr.contains(makerName)) {
                     this.partNo.add(partStr.replaceAll(makerName, "").strip());
