@@ -20,6 +20,7 @@ public final class BatteryDB {
     private static final Map<String, String> DB_SIZE = new HashMap<>();
     private static final Map<String, Boolean> DB_MATCH = new HashMap<>();
     private static final Map<String, Boolean> DB_SCANNED = new HashMap<>();
+    private static final Map<String, String> DB_MAKER = new HashMap<>();
     private static final Set<String> ALL_KEYS = new HashSet<>();
     private static boolean initialized = false;
 
@@ -122,15 +123,18 @@ public final class BatteryDB {
         DB_MATCH.put(battery.getModel(), isMatch);
         DB_SCANNED.put(battery.getModel(), true);
         DB_SIZE.put(battery.getModel(), battery.getSize());
+        DB_MAKER.put(battery.getModel(), battery.getMaker().getName());
     }
 
     public static void dump() throws IOException {
-        StringBuilder out = new StringBuilder("MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE");
+        StringBuilder out = new StringBuilder("MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER");
 
         Set<String> keySet = new HashSet<>();
         keySet.addAll(DB_CONNECTOR.keySet());
         keySet.addAll(DB_FORM.keySet());
         keySet.addAll(DB_SIZE.keySet());
+        keySet.addAll(DB_MATCH.keySet());
+        keySet.addAll(DB_MAKER.keySet());
 
         List<String> keys = new ArrayList<>(keySet);
         keys.sort(String::compareTo);
@@ -157,6 +161,8 @@ public final class BatteryDB {
                 out.append(DB_SCANNED.getOrDefault(key, false));
                 out.append(", ");
                 out.append(DB_SIZE.getOrDefault(key, ""));
+                out.append(", ");
+                out.append(DB_MAKER.getOrDefault(key, ""));
             }
         }
     }

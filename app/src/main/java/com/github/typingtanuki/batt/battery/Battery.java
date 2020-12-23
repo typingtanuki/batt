@@ -333,4 +333,8 @@ public class Battery {
         }
         return matcher.group(1) + "/";
     }
+
+    public Maker getMaker() {
+        return maker;
+    }
 }
