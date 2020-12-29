@@ -25,6 +25,29 @@ public abstract class AbstractScrapper implements Scrapper {
         this.rootUrl = rootUrl;
     }
 
+    private static List<Source> tryButtonList(Document index, Source source) {
+        Elements links = index.select(".rightContents .r_resultInfo_center .M_pager li:not(.next) a");
+        if (links.isEmpty()) {
+            return Collections.singletonList(source);
+        }
+        List<Source> out = new LinkedList<>();
+        String rootUrl = source.getUrl();
+        out.add(source);
+        for (Element link : links) {
+            String url = link.attr("href");
+            if (!url.startsWith("http")) {
+                Pattern a = Pattern.compile("^(https?://[^/]+)/.*$");
+                Matcher matcher = a.matcher(rootUrl);
+                if (!matcher.matches()) {
+                    throw new IllegalStateException("Could not extract URL from: " + rootUrl);
+                }
+                url = matcher.group(1) + url;
+            }
+            out.add(new Source(url, source.getScrapper()));
+        }
+        return out;
+    }
+
     @Override
     public List<Maker> makers() throws IOException, PageUnavailableException {
         return extractMakers(this, rootUrl);
@@ -115,29 +138,6 @@ public abstract class AbstractScrapper implements Scrapper {
             } else {
                 out.add(b);
             }
-        }
-        return out;
-    }
-
-    private static List<Source> tryButtonList(Document index, Source source) {
-        Elements links = index.select(".rightContents .r_resultInfo_center .M_pager li:not(.next) a");
-        if (links.isEmpty()) {
-            return Collections.singletonList(source);
-        }
-        List<Source> out = new LinkedList<>();
-        String rootUrl = source.getUrl();
-        out.add(source);
-        for (Element link : links) {
-            String url = link.attr("href");
-            if (!url.startsWith("http")) {
-                Pattern a = Pattern.compile("^(https?://[^/]+)/.*$");
-                Matcher matcher = a.matcher(rootUrl);
-                if (!matcher.matches()) {
-                    throw new IllegalStateException("Could not extract URL from: " + rootUrl);
-                }
-                url = matcher.group(1) + url;
-            }
-            out.add(new Source(url, source.getScrapper()));
         }
         return out;
     }

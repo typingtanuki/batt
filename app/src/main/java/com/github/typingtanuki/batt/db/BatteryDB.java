@@ -15,10 +15,11 @@ import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class BatteryDB {
     private static final String BATTERY_FILE = "battery_db.csv";
+    private static final Map<String, Set<String>> DB_LINK = new HashMap<>();
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
+    private static final Map<String, Boolean> DB_MATCH = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
     private static final Map<String, String> DB_SIZE = new HashMap<>();
-    private static final Map<String, Boolean> DB_MATCH = new HashMap<>();
     private static final Map<String, Boolean> DB_SCANNED = new HashMap<>();
     private static final Map<String, String> DB_MAKER = new HashMap<>();
     private static final Set<String> ALL_KEYS = new HashSet<>();
@@ -58,12 +59,16 @@ public final class BatteryDB {
                     DB_CONNECTOR.put(model, connector);
                 }
                 String formStr = parts[2].strip();
-                if (!formStr.isBlank()) {
-                    BatteryForm form = BatteryForm.valueOf(formStr);
-                    DB_FORM.put(model, form);
-                }
-                if (!size.isBlank()) {
-                    DB_SIZE.put(model, size);
+                try {
+                    if (!formStr.isBlank()) {
+                        BatteryForm form = BatteryForm.valueOf(formStr);
+                        DB_FORM.put(model, form);
+                    }
+                    if (!size.isBlank()) {
+                        DB_SIZE.put(model, size);
+                    }
+                } catch (IllegalArgumentException e) {
+                    throw new IllegalStateException("Could not load line: " + line, e);
                 }
             }
             initialized = true;
@@ -80,7 +85,7 @@ public final class BatteryDB {
         if (connector == null) {
             return;
         }
-        battery.setConnector(connector);
+        battery.setConnector(connector, battery.getModel());
     }
 
     public static void resolveModel(Battery battery) {
@@ -102,7 +107,7 @@ public final class BatteryDB {
         if (form == null) {
             return;
         }
-        battery.setForm(form);
+        battery.setForm(form, battery.getModel());
     }
 
     public static void resolveSize(Battery battery) {
@@ -118,9 +123,18 @@ public final class BatteryDB {
     }
 
     public static void addBattery(Battery battery, boolean isMatch) {
+        String dbId = battery.getDbId();
+        if (dbId != null) {
+            Set<String> links = DB_LINK.get(dbId);
+            if (links == null) {
+                links = new HashSet<>();
+            }
+            links.add(battery.getModel());
+            DB_LINK.put(dbId, links);
+        }
+        DB_MATCH.put(battery.getModel(), isMatch);
         DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
         DB_FORM.put(battery.getModel(), battery.getForm());
-        DB_MATCH.put(battery.getModel(), isMatch);
         DB_SCANNED.put(battery.getModel(), true);
         DB_SIZE.put(battery.getModel(), battery.getSize());
         DB_MAKER.put(battery.getModel(), battery.getMaker().getName());

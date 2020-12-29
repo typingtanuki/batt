@@ -86,7 +86,10 @@ public class MarkdownOutput {
         return str;
     }
 
-    private String makeList(Collection<String> list) {
+    private String makeList(Collection<String> collection) {
+        List<String> list = new ArrayList<>(collection);
+        Collections.sort(list);
+
         StringBuilder out = new StringBuilder();
         out.append("<ul>");
         for (String s : list) {

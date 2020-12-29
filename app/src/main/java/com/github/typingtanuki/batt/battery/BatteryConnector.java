@@ -22,5 +22,6 @@ public enum BatteryConnector {
     PIN_16,
     PIN_17,
     PIN_18,
-    UNKNOWN
+    UNKNOWN,
+    OTHER
 }

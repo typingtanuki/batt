@@ -1,5 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
+import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.validator.Conditions;
 
 import java.util.*;
@@ -63,6 +64,7 @@ public class Battery {
     private Double thickness;
     private Double height;
     private Double width;
+    private String dbId;
 
 
     public Battery(Maker maker, Source source) {
@@ -120,6 +122,12 @@ public class Battery {
 
     public boolean isValid() {
         consolidate();
+        if (getModel().contains("円")) {
+            return false;
+        }
+        if (getModel().length() < 2) {
+            return false;
+        }
         matchedConditions.clear();
 
         Conditions.validate(this, matchedConditions);
@@ -146,8 +154,30 @@ public class Battery {
         partNo.addAll(battery.partNo);
         sources.addAll(battery.sources);
         images.addAll(battery.images);
-        setForm(battery.getForm());
-        setConnector(battery.getConnector());
+
+        String mergedDbId = dbId;
+        if (mergedDbId == null) {
+            mergedDbId = battery.dbId;
+        }
+
+        if (BatteryForm.UNKNOWN == form) {
+            setForm(battery.getForm(), mergedDbId);
+        } else if (BatteryForm.CUSTOM == battery.getForm()) {
+            setForm(BatteryForm.CUSTOM, mergedDbId);
+        }
+        if (BatteryConnector.UNKNOWN == connector) {
+            setConnector(battery.getConnector(), mergedDbId);
+        } else if (BatteryConnector.CUSTOM == battery.getConnector()) {
+            setConnector(BatteryConnector.CUSTOM, mergedDbId);
+        }
+
+        battery.setForm(form, mergedDbId);
+        battery.setConnector(connector, mergedDbId);
+
+        BatteryDB.addBattery(this, isValid());
+        BatteryDB.addBattery(battery, isValid());
+
+        this.dbId = mergedDbId;
     }
 
     public Double getVolt() {
@@ -192,24 +222,26 @@ public class Battery {
         return form;
     }
 
-    public void setForm(BatteryForm form) {
+    public void setForm(BatteryForm form, String dbId) {
         if (form == BatteryForm.UNKNOWN) {
             return;
         }
 
         this.form = form;
+        this.dbId = dbId;
     }
 
     public BatteryConnector getConnector() {
         return connector;
     }
 
-    public void setConnector(BatteryConnector connector) {
+    public void setConnector(BatteryConnector connector, String dbId) {
         if (connector == BatteryConnector.UNKNOWN) {
             return;
         }
 
         this.connector = connector;
+        this.dbId = dbId;
     }
 
     public Set<String> getMatchedConditions() {
@@ -298,13 +330,13 @@ public class Battery {
 
         if (!form.equals(BatteryForm.CUSTOM)) {
             if (width / height > 1.5) {
-                setForm(BatteryForm.RECTANGLE);
+                setForm(BatteryForm.RECTANGLE, null);
             } else {
-                setForm(BatteryForm.SQUARE);
+                setForm(BatteryForm.SQUARE, null);
             }
             if (thickness > 30) {
                 if (!form.equals(BatteryForm.CUSTOM)) {
-                    setForm(BatteryForm.FAT);
+                    setForm(BatteryForm.FAT, null);
                 }
             }
         }
@@ -336,5 +368,9 @@ public class Battery {
 
     public Maker getMaker() {
         return maker;
+    }
+
+    public String getDbId() {
+        return dbId;
     }
 }

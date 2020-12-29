@@ -1,12 +1,10 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.Battery;
-import com.github.typingtanuki.batt.battery.BatteryComparator;
-import com.github.typingtanuki.batt.battery.Maker;
-import com.github.typingtanuki.batt.battery.MakerComparator;
+import com.github.typingtanuki.batt.battery.*;
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
+import com.github.typingtanuki.batt.output.ForumOutput;
 import com.github.typingtanuki.batt.output.MarkdownOutput;
 import com.github.typingtanuki.batt.scrapper.*;
 import com.github.typingtanuki.batt.scrapper.denchipro.DenchiProLaptopScrapper;
@@ -20,7 +18,6 @@ import java.nio.file.Paths;
 import java.util.*;
 
 import static com.github.typingtanuki.batt.battery.Battery.cleanPartNo;
-import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.extractBatteryDetails;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
@@ -58,10 +55,14 @@ public class App {
             }
 
             for (Map.Entry<String, List<Battery>> entry : batteriesPerCondition.entrySet()) {
-                MarkdownOutput output = new MarkdownOutput(entry.getValue());
+                MarkdownOutput markdown = new MarkdownOutput(entry.getValue());
                 Files.write(
                         Paths.get("detected_" + entry.getKey() + ".md"),
-                        output.generate().getBytes(StandardCharsets.UTF_8));
+                        markdown.generate().getBytes(StandardCharsets.UTF_8));
+                ForumOutput forum = new ForumOutput(entry.getValue());
+                Files.write(
+                        Paths.get("detected_" + entry.getKey() + ".frm"),
+                        forum.generate().getBytes(StandardCharsets.UTF_8));
             }
             BatteryDB.dump();
             ImageDownloader.downloadImages();
@@ -103,6 +104,10 @@ public class App {
                     throw new IllegalStateException("Failed reading details on " + battery.getCurrentUrl(), e);
                 }
                 if (parsed == null) {
+                    continue;
+                }
+                parsed.consolidate();
+                if (parsed.getAmp() == null) {
                     continue;
                 }
                 battery.consolidate();
@@ -151,11 +156,14 @@ public class App {
         for (String part : parts) {
             Battery matched = ID_MATCHER.get(part);
             if (matched != null) {
-                int oAmp = battery.getAmp();
-                int nAmp = matched.getAmp();
-                if (oAmp > nAmp) {
-                    matched.setAmp(oAmp);
-                    matched.setWatt(battery.getWatt());
+                if (!similarValue(battery.getVolt(), matched.getVolt())) {
+                    continue;
+                }
+                if (!similarValue(battery.getAmp(), matched.getAmp())) {
+                    continue;
+                }
+                if (!similarValue(battery.getType(), matched.getType())) {
+                    continue;
                 }
                 return matched;
             }
@@ -164,5 +172,25 @@ public class App {
             ID_MATCHER.put(part, battery);
         }
         return null;
+    }
+
+    private static boolean similarValue(Number a, Number b) {
+        if (a == null) {
+            return true;
+        }
+        if (b == null) {
+            return true;
+        }
+        return Math.abs((a.doubleValue() - b.doubleValue()) / a.doubleValue()) < 0.1;
+    }
+
+    private static boolean similarValue(BatteryType a, BatteryType b) {
+        if (a == null) {
+            return true;
+        }
+        if (b == null) {
+            return true;
+        }
+        return a == b;
     }
 }

@@ -20,7 +20,11 @@ public final class Conditions {
                             BatteryType.LI_POLYMER),
                     new FormValidator(true,
                             BatteryForm.SQUARE,
-                            BatteryForm.RECTANGLE)),
+                            BatteryForm.RECTANGLE),
+                    new SizeValidator(true,
+                            300,
+                            200,
+                            10)),
             new Condition("pin10",
                     new VoltageValidator(7.4, 8.2),
                     new AmperageValidator(3_500, 1_000_000),
@@ -33,7 +37,11 @@ public final class Conditions {
                             BatteryType.LI_POLYMER),
                     new FormValidator(true,
                             BatteryForm.SQUARE,
-                            BatteryForm.RECTANGLE))
+                            BatteryForm.RECTANGLE),
+                    new SizeValidator(true,
+                            300,
+                            200,
+                            10))
     };
 
     private Conditions() {

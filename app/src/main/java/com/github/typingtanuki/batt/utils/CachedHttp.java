@@ -48,7 +48,7 @@ public final class CachedHttp {
         }
 
         Path oldPath = Paths.get(path.toString().replaceFirst(CACHE_PATH, OLD_CACHE_PATH));
-        if (Files.exists(oldPath)) {
+        if (Files.exists(oldPath) && isUpToDate(oldPath, type)) {
             Files.createDirectories(path.getParent());
             Files.move(oldPath, path);
             progress(PAGE_OLD_CACHE);
