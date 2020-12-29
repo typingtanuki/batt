@@ -4,6 +4,7 @@ import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.Source;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
+import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -44,7 +45,7 @@ public abstract class AbstractScrapper implements Scrapper {
     }
 
     protected List<Source> listPages(Source source) throws IOException, PageUnavailableException {
-        Document index = http("list", source.getUrl());
+        Document index = http(PageType.LIST, source.getUrl());
         Elements counters = index.select("#productsListingBottomNumber strong");
         if (counters.isEmpty()) {
             return tryButtonList(index, source);
@@ -68,7 +69,7 @@ public abstract class AbstractScrapper implements Scrapper {
 
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
         List<Battery> out = new LinkedList<>();
-        Document index = http("list", source.getUrl());
+        Document index = http(PageType.LIST, source.getUrl());
         Elements batteries = index.select(".productListing-data");
         if (batteries.isEmpty()) {
             batteries = index.select(".laptop-brand-list");

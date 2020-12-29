@@ -5,6 +5,7 @@ import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.Source;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.scrapper.AbstractScrapper;
+import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -35,7 +36,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
 
     @Override
     protected List<Source> listPages(Source source) throws IOException, PageUnavailableException {
-        Document index = http("list", source.getUrl());
+        Document index = http(PageType.LIST, source.getUrl());
         Elements pageButtons = index.select("a.page-numbers:not(.next)");
         Element lastPage = pageButtons.get(pageButtons.size() - 1);
         int totalPages = Integer.parseInt(lastPage.text());
@@ -51,7 +52,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
     @Override
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
         List<Battery> out = new LinkedList<>();
-        Document index = http("list", source.getUrl());
+        Document index = http(PageType.LIST, source.getUrl());
         Elements batteries = index.select(".type-product");
         for (Element battery : batteries) {
             Elements link = battery.select("a");
@@ -72,7 +73,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
     public Battery extractBatteryDetails(Battery battery) throws IOException {
         Document page;
         try {
-            page = http("battery", battery.getCurrentUrl());
+            page = http(PageType.BATTERY, battery.getCurrentUrl());
         } catch (PageUnavailableException e) {
             progress(BATTERY_BAD_PAGE);
             return null;

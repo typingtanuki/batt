@@ -3,6 +3,7 @@ package com.github.typingtanuki.batt.scrapper;
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryType;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
+import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -30,7 +31,7 @@ public final class BatteryDetailReader {
     public static Battery extractBatteryDetails(Battery battery) throws IOException {
         Document page;
         try {
-            page = http("battery", battery.getCurrentUrl());
+            page = http(PageType.BATTERY, battery.getCurrentUrl());
         } catch (PageUnavailableException e) {
             progress(BATTERY_BAD_PAGE);
             return null;

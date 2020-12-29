@@ -44,6 +44,10 @@ public class PathBuilder {
         return this;
     }
 
+    public PathBuilder withSubFolder(PageType type) {
+        return this.withSubFolder(type.name().toLowerCase(Locale.ENGLISH));
+    }
+
     public PathBuilder withFileName(String fileName, boolean needsHashing) {
         if (!needsHashing) {
             this.fileName = fileName;

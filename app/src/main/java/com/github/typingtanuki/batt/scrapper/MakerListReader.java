@@ -4,6 +4,7 @@ import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.battery.Source;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
+import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -24,7 +25,7 @@ public final class MakerListReader {
 
     public static List<Maker> extractMakers(Scrapper scrapper, String rootUrl) throws IOException, PageUnavailableException {
         List<Maker> out = new LinkedList<>();
-        Document index = http("maker", rootUrl);
+        Document index = http(PageType.MAKER, rootUrl);
         Elements makers = index.select("#manufacturerslistContent a.manufacturerName");
         if (makers.isEmpty()) {
             makers = index.select(".categoryListBoxContents > a");

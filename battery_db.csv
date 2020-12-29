@@ -1,5 +1,4 @@
 MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
-016476433753, UNKNOWN, UNKNOWN, true, true, , Microsoft
 07G0164J1875, UNKNOWN, UNKNOWN, true, true, , Asus
 0813006, UNKNOWN, UNKNOWN, true, true, , Denchipro
 0B200_00200200, PIN_10, SQUARE, true, true, , Asus
@@ -10,7 +9,6 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 0B200_02100100, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02280000, PIN_10, RECTANGLE, true, true, , Asus
 0B23_00D7000M, MAYBE_PM, SQUARE, true, true, , Medion
-0F3YGT, UNKNOWN, UNKNOWN, true, true, , Dell
 0H754V, UNKNOWN, UNKNOWN, true, true, , Dell
 0VT26R, UNKNOWN, UNKNOWN, true, true, , Denchipro
 1018630, UNKNOWN, UNKNOWN, true, true, , Medion
@@ -18,8 +16,6 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 11CP3_65_114_2, PIN_10, RECTANGLE, true, true, , Acer
 11_01019, UNKNOWN, UNKNOWN, true, true, , Xplore
 12, UNKNOWN, RECTANGLE, true, true, 128.6 x 6.2 x 1.0, Denchipro
-121500224, UNKNOWN, UNKNOWN, true, true, , Lenovo
-121500225, UNKNOWN, UNKNOWN, true, true, , Lenovo
 121500233, UNKNOWN, UNKNOWN, true, true, , Lenovo
 121_P0, UNKNOWN, UNKNOWN, true, true, , Thtf
 15UD560_KX50K, PIN_10, RECTANGLE, true, true, , Lg
@@ -31,9 +27,9 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 2865165_2P, UNKNOWN, UNKNOWN, true, true, , Cube
 2869178, PANDA_PM, SQUARE, true, true, 169.0 x 126.0 x 3.4, Jumper
 2898141P, PM, SQUARE, true, true, , Prestigio
-2ICP338123, UNKNOWN, UNKNOWN, true, true, , Xiaomi
 2ICP3_100_107, MAYBE_PM, SQUARE, true, true, , Acer
 2ICP3_78_180, PM, SQUARE, true, true, , Prestigio
+2ICP4_74_131_3, UNKNOWN, UNKNOWN, true, true, , Wacom
 2ICP4_75_110, PIN_10, RECTANGLE, true, true, , Mcnair
 2ICP4_78_106, MAYBE_PM, RECTANGLE, true, true, , Mcnair
 2ICP4_79_101_2, MAYBE_PM, RECTANGLE, true, true, , Lenovo
@@ -46,13 +42,12 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 2ICP5_71_120, MAYBE_PM, RECTANGLE, true, true, , Medion
 2ICP6_68_143, MAYBE_PM, RECTANGLE, true, true, , Mcnair
 2ICP6_78_116, MAYBE_PM, RECTANGLE, true, true, , Other
-2ICP7_65_80_2, UNKNOWN, UNKNOWN, true, true, , Wacom
-2K184, UNKNOWN, UNKNOWN, true, true, , Dell
 30016810, UNKNOWN, UNKNOWN, true, true, , Medion
-30154200P, PANDA_PM, SQUARE, true, true, , Teclast
+30154200P, PANDA_PM, SQUARE, true, true, , Cube
 303C, UNKNOWN, UNKNOWN, true, true, , Samsung
 31130148P, PANDA_PM, UNKNOWN, true, true, , Chuwi
 31152200P, PANDA_PM, SQUARE, true, true, , Other
+31160201P, UNKNOWN, UNKNOWN, true, true, , Chuwi
 32160205P, PM, SQUARE, true, true, , Chuwi
 3376125_2S, UNKNOWN, UNKNOWN, true, true, , Other
 35125160P, UNKNOWN, UNKNOWN, true, true, , Onda
@@ -61,38 +56,28 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 40057161, UNKNOWN, UNKNOWN, true, true, , Medion
 40069191, UNKNOWN, UNKNOWN, true, true, , Medion
 40071698, UNKNOWN, UNKNOWN, true, true, , Medion
-441874200007, UNKNOWN, UNKNOWN, true, true, , Denchipro
-451_BBGS, UNKNOWN, UNKNOWN, true, true, , Dell
 5268100, UNKNOWN, UNKNOWN, true, true, , Other
-530U3_SERIES, UNKNOWN, UNKNOWN, true, true, , Samsung
 530U4E, UNKNOWN, UNKNOWN, true, true, , Samsung
-5B10H11759, UNKNOWN, UNKNOWN, true, true, , Lenovo
-5B10P53998, UNKNOWN, UNKNOWN, true, true, , Lenovo
-5B10W67296, UNKNOWN, UNKNOWN, true, true, , Lenovo
-70OA091B1000, UNKNOWN, UNKNOWN, true, true, , Asus
+5B10P23836, UNKNOWN, UNKNOWN, true, true, , Lenovo
+5B10Q82425, PIN_10, RECTANGLE, true, true, , Lenovo
+5B10U65274, UNKNOWN, UNKNOWN, true, true, , Lenovo
 70_OA011B1500P, UNKNOWN, UNKNOWN, true, true, , Asus
 70_OA0B2B3000, UNKNOWN, UNKNOWN, true, true, , Asus
 734746_221, UNKNOWN, UNKNOWN, true, true, , Hp
 738392_005, PIN_10, RECTANGLE, true, true, , Hp
 775624_121, UNKNOWN, UNKNOWN, true, true, , Hp
 812205001, UNKNOWN, UNKNOWN, true, true, , Hp
-826004_2B1, UNKNOWN, UNKNOWN, true, true, , Hp
 859027121, UNKNOWN, UNKNOWN, true, true, , Hp
 859470_121, UNKNOWN, UNKNOWN, true, true, , Hp
-900X3C_SERIES, UNKNOWN, UNKNOWN, true, true, , Samsung
+928QA225H, UNKNOWN, UNKNOWN, true, true, , Lenovo
 930X2K, UNKNOWN, UNKNOWN, true, true, , Samsung
 930X5J, UNKNOWN, UNKNOWN, true, true, , Samsung
 941190_1C1, UNKNOWN, UNKNOWN, true, true, , Hp
 A1534, UNKNOWN, UNKNOWN, true, true, , Denchipro
-AAPL3VC6S, UNKNOWN, RECTANGLE, true, true, 52.1 x 20.2 x 2.0, Samsung
 AA_PB0VC6B, UNKNOWN, UNKNOWN, true, true, , Samsung
-AA_PBMN2H0, UNKNOWN, UNKNOWN, true, true, , Samsung
-AA_PBQN4TR, UNKNOWN, UNKNOWN, true, true, , Samsung
 AA_PBTN2QB, UNKNOWN, UNKNOWN, true, true, , Denchipro
 AA_PBTN2TP, UNKNOWN, UNKNOWN, true, true, , Denchipro
-AA_PBXN4AR, UNKNOWN, UNKNOWN, true, true, , Samsung
 AA_PBZN4NP, UNKNOWN, UNKNOWN, true, true, , Denchipro
-AA_PBZNC6P, UNKNOWN, UNKNOWN, true, true, , Samsung
 AA_PL3VC6W, UNKNOWN, RECTANGLE, true, true, 52.1 x 20.2 x 2.0, Samsung
 AA_PLVN2TP, UNKNOWN, UNKNOWN, true, true, , Denchipro
 AA_PLVN4CR, UNKNOWN, UNKNOWN, true, true, , Samsung
@@ -102,7 +87,6 @@ AA_PLZN4NP, UNKNOWN, UNKNOWN, true, true, , Samsung
 AEROBOOK_CWI510, PANDA_PM, UNKNOWN, true, true, , Chuwi
 AH04041XL_PL, UNKNOWN, UNKNOWN, true, true, , Hp
 AK14, UNKNOWN, UNKNOWN, true, true, , Bben
-AL23901H, UNKNOWN, UNKNOWN, true, true, , Asus
 AP12F3J, UNKNOWN, UNKNOWN, true, true, , Denchipro
 AP12F9J, UNKNOWN, UNKNOWN, true, true, , Acer
 AP16B4J, UNKNOWN, UNKNOWN, true, true, , Acer
@@ -114,14 +98,10 @@ AT10LE_A_107, UNKNOWN, UNKNOWN, true, true, , Toshiba
 B074CZHZ64, UNKNOWN, RECTANGLE, true, true, , Asus
 B105_2S1P_3800, UNKNOWN, UNKNOWN, true, true, , Denchipro
 B21N1329, UNKNOWN, RECTANGLE, true, true, , Asus
-B21N1344, UNKNOWN, UNKNOWN, true, true, , Asus
 BA43_00315A, UNKNOWN, RECTANGLE, true, true, 85.0 x 8.0 x 0.0, Samsung
-BAT_LT_2S2P3800, UNKNOWN, UNKNOWN, true, true, , Iei
-BSN0485490, UNKNOWN, UNKNOWN, true, true, , Lenovo
 BTY_M47, UNKNOWN, UNKNOWN, true, true, , Msi
 BTY_S37, UNKNOWN, UNKNOWN, true, true, , Msi
 BYONE_C14U, UNKNOWN, UNKNOWN, true, true, , Byone
-C1551B, UNKNOWN, UNKNOWN, true, true, , Microsoft
 C21N1326, UNKNOWN, UNKNOWN, true, true, , Asus
 C21N1434, UNKNOWN, UNKNOWN, true, true, , Asus
 C21N1714, UNKNOWN, UNKNOWN, true, true, , Asus
@@ -132,7 +112,6 @@ C22_UX42, UNKNOWN, UNKNOWN, true, true, , Asus
 C22_UX52, UNKNOWN, UNKNOWN, true, true, , Asus
 C23_UX32, UNKNOWN, UNKNOWN, true, true, , Denchipro
 C4K9V, UNKNOWN, UNKNOWN, true, true, , Dell
-C5EA, UNKNOWN, UNKNOWN, true, true, , Ibm
 CF_VZSU0MR, UNKNOWN, UNKNOWN, true, true, , Panasonic
 CF_VZSU40U, UNKNOWN, UNKNOWN, true, true, , Panasonic
 CP305193L1, UNKNOWN, UNKNOWN, true, true, , Dell
@@ -151,9 +130,6 @@ EZPAD_6_PLUS, PANDA_PM, SQUARE, true, true, , Jumper
 E_BOOK_PRO_EB14AI32_14_1, UNKNOWN, UNKNOWN, true, true, , Microtech
 FORCE_S4, UNKNOWN, UNKNOWN, true, true, , Terrans force
 FSN_PUB2TF, UNKNOWN, UNKNOWN, true, true, , Denchipro
-G3HTA037H, UNKNOWN, UNKNOWN, true, true, , Denchipro
-G3HTA052H, UNKNOWN, UNKNOWN, true, true, , Microsoft
-G3HTA060H, UNKNOWN, UNKNOWN, true, true, , Microsoft
 G6FTA001F, UNKNOWN, UNKNOWN, true, true, , Getac
 GAG_M20, UNKNOWN, UNKNOWN, true, true, , Denchipro
 GA_U2142_2117U, UNKNOWN, UNKNOWN, true, true, , Gigabyte
@@ -164,18 +140,20 @@ GP_S20_6462B4_0100, UNKNOWN, UNKNOWN, true, true, , Simplo
 H91MK, UNKNOWN, UNKNOWN, true, true, , Dell
 HB4593R1ECW, UNKNOWN, UNKNOWN, true, true, , Denchipro
 HSTNH_W612_DP, UNKNOWN, UNKNOWN, true, true, , Hp
-HSTNN_I19C, UNKNOWN, UNKNOWN, true, true, , Denchipro
 HSTNN_LB50, UNKNOWN, UNKNOWN, true, true, , Hp
 HW_3487265, PANDA_PM, RECTANGLE, true, true, , Jumper
 H_31145165P, UNKNOWN, UNKNOWN, true, true, , Onda
+H_40110175P, UNKNOWN, UNKNOWN, true, true, , Chuwi
 I21P0, UNKNOWN, UNKNOWN, true, true, , Thtf
-J31N7, UNKNOWN, UNKNOWN, true, true, , Dell
 JUMPER_2869178, UNKNOWN, UNKNOWN, true, true, , Cube
 KK04XL, UNKNOWN, UNKNOWN, true, true, , Denchipro
-L09M4T09, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L13M4PO2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L16L2PB2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L16M4PB3, UNKNOWN, RECTANGLE, true, true, , Denchipro
+L13L4P21, UNKNOWN, UNKNOWN, true, true, , Denchipro
+L13N4P01, UNKNOWN, UNKNOWN, true, true, , Denchipro
+L15C2PB5, UNKNOWN, UNKNOWN, true, true, , Lenovo
+L15L4PC2, UNKNOWN, UNKNOWN, true, true, , Lenovo
+L15M4PC0, UNKNOWN, UNKNOWN, true, true, , Lenovo
+L17L2PB1, UNKNOWN, UNKNOWN, true, true, , Lenovo
+L19M4PD4, UNKNOWN, UNKNOWN, true, true, , Lenovo
 L42550_541, UNKNOWN, UNKNOWN, true, true, , Hp
 LBP7221E, UNKNOWN, UNKNOWN, true, true, , Lg
 M4, PM, SQUARE, true, true, , Haier
@@ -183,6 +161,7 @@ MAXBOOK_Y11_H1M6, PANDA_PM, SQUARE, true, true, , Teclast
 MG04040XL, UNKNOWN, RECTANGLE, true, true, , Hp
 MINIBOOK_CWI526, PANDA_PM, RECTANGLE, true, true, 144.0 x 54.0 x 6.5, Chuwi
 MLP2668145_2S, MAYBE_PM, SQUARE, true, true, , Mcnair
+MLP2874170_2S, UNKNOWN, UNKNOWN, true, true, , Trekstor
 MLP3490132_2S, PM, RECTANGLE, true, true, , Other
 MLP4087118, MAYBE_PM, RECTANGLE, true, true, , Mcnair
 MLP4270136_2S, MAYBE_PM, RECTANGLE, true, true, , Acer
@@ -193,27 +172,25 @@ NB125, PANDA_PM, SQUARE, true, true, , Irbis
 NB131, UNKNOWN, UNKNOWN, true, true, , Irbis
 NOTEBOOK_T7M, UNKNOWN, UNKNOWN, true, true, , Xtablet
 NV30140146, PIN_10, SQUARE, true, true, , Chuwi
+NV_25265154C, UNKNOWN, UNKNOWN, true, true, , Jumper
 NV_4774126_2S, MAYBE_PM, RECTANGLE, true, true, , Jumper
 NV_5267103_2S, PIN_10, RECTANGLE, true, true, , Prestigio
 OL02033XL, UNKNOWN, UNKNOWN, true, true, , Hp
 P26S001, UNKNOWN, UNKNOWN, true, true, , Dell
-PA5028U_1BRS, UNKNOWN, UNKNOWN, true, true, , Denchipro
 PL5267103P_2S, UNKNOWN, UNKNOWN, true, true, , Prestigio
 PRIMEBOOK_C11, UNKNOWN, UNKNOWN, true, true, , Trekstor
-PSU4RL_00700E, UNKNOWN, UNKNOWN, true, true, , Toshiba
 QT_50160201P, UNKNOWN, UNKNOWN, true, true, , Other
 RG04051XL, UNKNOWN, UNKNOWN, true, true, , Hp
 S13, UNKNOWN, RECTANGLE, true, true, , Denchipro
 S130, UNKNOWN, UNKNOWN, true, true, , Peaq
 SAILING_Y13A_N29G40500N8UH, UNKNOWN, UNKNOWN, true, true, , Haier
-SB10F46448, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SB10X87837, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SDI_P21GK3, UNKNOWN, UNKNOWN, true, true, , Samsung
+SB10F46456, UNKNOWN, UNKNOWN, true, true, , Lenovo
+SB10W67230, UNKNOWN, UNKNOWN, true, true, , Lenovo
+SB10X63137, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10056_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10056_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10056_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10056_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10069_10, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_11, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_12, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_14, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -222,7 +199,6 @@ SL10069_16, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_17, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_18, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10069_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10069_7, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -243,7 +219,6 @@ SL10082_6, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10082_7, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10082_8, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10082_9, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10085_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10085_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10085_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10085_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -299,7 +274,6 @@ SL10152_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10152_6, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10154_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10156_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10156_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10156_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10156_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10169_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -347,8 +321,6 @@ SL10232_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10232_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10232_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10232_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10243_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10243_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10243_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10243_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10243_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -379,16 +351,13 @@ SL10296_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10301_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10301_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10303_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10303_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10308_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10308_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10311_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10311_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10311_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10313_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10313_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10313_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10318_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10318_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10318_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10318_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -447,7 +416,6 @@ SL10426_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10429_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10429_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10435_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10435_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10435_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10435_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10440_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -531,7 +499,6 @@ SL10537_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10538_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10538_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10538_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10538_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10538_6, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10538_7, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10540_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -662,7 +629,6 @@ SL10713_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10714_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10714_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10715_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10718_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10718_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10718_5, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10721_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -689,7 +655,6 @@ SL10751_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10751_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10751_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10753_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10753_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10765_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10765_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10765_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -704,7 +669,6 @@ SL10775_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10776_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10776_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10777_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10779_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10779_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10779_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10779_4, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -783,7 +747,6 @@ SL10860_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10864_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10870_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10870_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL10872_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10872_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10875_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL10876_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -871,7 +834,6 @@ SL11068_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11068_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11069_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11077_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL11085_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11090_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11090_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL11098_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -925,7 +887,6 @@ SL20024_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20024_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20028_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20028_3, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SL20151_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20151_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20152_2, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20190_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
@@ -952,14 +913,12 @@ SL20292_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20293_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20295_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
 SL20296_1, UNKNOWN, UNKNOWN, true, true, , Denchipro
-SSBS24, UNKNOWN, UNKNOWN, true, true, , Haier
+SOCRATES, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SWO2XL, UNKNOWN, UNKNOWN, true, true, , Hp
 T12, UNKNOWN, UNKNOWN, true, true, , Other
-T7M_FSP, UNKNOWN, UNKNOWN, true, true, , Tabletkiosk
 THINKER_I35, PANDA_PM, SQUARE, true, true, 169.0 x 126.0 x 3.4, Cube
 THTF_121_P0, UNKNOWN, UNKNOWN, true, true, , Essentiel
 TM141WT720C, PIN_10, SQUARE, true, true, , Nuvision
-U70035L, UNKNOWN, UNKNOWN, true, true, , Gigabyte
 UTL_3178180_2S, UNKNOWN, UNKNOWN, true, true, , Other
 WY7CG, UNKNOWN, UNKNOWN, true, true, , Denchipro
 X502C, UNKNOWN, UNKNOWN, true, true, , Asus
@@ -981,7 +940,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 00HW006, UNKNOWN, UNKNOWN, false, true, , Lenovo
 00HW007, UNKNOWN, UNKNOWN, false, true, , Lenovo
 00HW008, UNKNOWN, UNKNOWN, false, true, , Lenovo
-00HW009, PIN_9, RECTANGLE, false, true, , Lenovo
+00HW009, PIN_9, RECTANGLE, false, false, , 
 00HW016, UNKNOWN, UNKNOWN, false, true, , Lenovo
 00HW020, PIN_7, SQUARE, false, true, , Denchipro
 00HW023, CUSTOM, CUSTOM, false, true, , Denchipro
@@ -1004,6 +963,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 00UR890, UNKNOWN, UNKNOWN, false, true, , Lenovo
 00WGKH, CUSTOM, CUSTOM, false, true, , Dell
 010863, UNKNOWN, RECTANGLE, false, true, 73.0 x 21.0 x 5.0, Hp
+016476433753, CUSTOM, UNKNOWN, false, true, , Microsoft
 016DPH, UNKNOWN, UNKNOWN, false, true, , Dell
 01AV401, CUSTOM, CUSTOM, false, true, , Lenovo
 01AV405, CUSTOM, CUSTOM, false, true, , Lenovo
@@ -1021,7 +981,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 01AV434, UNKNOWN, UNKNOWN, false, true, , Lenovo
 01AV436, UNKNOWN, UNKNOWN, false, true, , Lenovo
 01AV442, UNKNOWN, UNKNOWN, false, true, , Lenovo
-01AV445, UNKNOWN, RECTANGLE, false, true, , Lenovo
+01AV445, UNKNOWN, RECTANGLE, false, false, , 
 01AV446, UNKNOWN, UNKNOWN, false, true, , Lenovo
 01AV447, UNKNOWN, UNKNOWN, false, true, , Lenovo
 01AV448, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -1178,7 +1138,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 07PWXV, UNKNOWN, UNKNOWN, false, true, , Dell
 07VKV9, UNKNOWN, UNKNOWN, false, true, , Dell
 0813002, UNKNOWN, UNKNOWN, false, true, , Lenovo
-0813007, PIN_8, CUSTOM, false, true, , Lenovo
+0813007, PIN_8, CUSTOM, false, true, , Denchipro
 0813008, UNKNOWN, UNKNOWN, false, true, , Denchipro
 0813009, UNKNOWN, UNKNOWN, false, true, , Lenovo
 08B8178, UNKNOWN, UNKNOWN, false, true, , Ibm
@@ -1191,7 +1151,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 09KH5H, PIN_8, CUSTOM, false, true, , Dell
 09NTKM, UNKNOWN, UNKNOWN, false, true, , Dell
 0A03, CUSTOM, CUSTOM, false, false, , 
-0A36278, CUSTOM, CUSTOM, false, true, , Lenovo
+0A36278, CUSTOM, RECTANGLE, false, false, , 
 0A36279, UNKNOWN, UNKNOWN, false, true, , Lenovo
 0A36285, CUSTOM, CUSTOM, false, true, , Lenovo
 0A36285_0A36285, CUSTOM, CUSTOM, false, false, , 
@@ -1442,6 +1402,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 0B200_03550000, PIN_8, RECTANGLE, false, true, , Asus
 0B200_03560000, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_03560100, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_03660000, PIN_8, RECTANGLE, false, true, , Asus
 0B200_03670000, PIN_8, RECTANGLE, false, true, , Asus
 0B20_00ES000, CUSTOM, CUSTOM, false, true, , Benq
 0B20_01D1000M, CUSTOM, CUSTOM, false, true, , Medion
@@ -1466,12 +1427,13 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 0F116N, UNKNOWN, UNKNOWN, false, true, , Dell
 0F1KTM, CUSTOM, RECTANGLE, false, true, , Dell
 0F286H, UNKNOWN, UNKNOWN, false, true, , Dell
+0F3YGT, CUSTOM, UNKNOWN, false, true, , Dell
 0F7W7V, UNKNOWN, UNKNOWN, false, false, , 
 0FNY7, UNKNOWN, UNKNOWN, false, false, , 
 0FRVYX, CUSTOM, CUSTOM, false, true, , Dell
 0G05H0, UNKNOWN, UNKNOWN, false, true, , Dell
 0G4YJM, UNKNOWN, UNKNOWN, false, true, , Dell
-0G74G, UNKNOWN, UNKNOWN, false, true, , Dell
+0G74G, CUSTOM, UNKNOWN, false, true, , Dell
 0GD787, UNKNOWN, UNKNOWN, false, true, , Dell
 0GD787_0GD787_0GD787, CUSTOM, CUSTOM, false, false, , 
 0GFKG3, PIN_8, RECTANGLE, false, true, , Dell
@@ -1549,7 +1511,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 1200_SERIES_8028, UNKNOWN, UNKNOWN, false, false, , 
 121000610, UNKNOWN, UNKNOWN, false, true, , Lenovo
 121000679, UNKNOWN, UNKNOWN, false, true, , Lenovo
-121000723, UNKNOWN, UNKNOWN, false, true, , Lenovo
+121000723, UNKNOWN, UNKNOWN, false, false, , 
 121000919, UNKNOWN, UNKNOWN, false, false, , 
 121001071, UNKNOWN, UNKNOWN, false, true, , Lenovo
 121001071_121001071, UNKNOWN, UNKNOWN, false, false, , 
@@ -1566,6 +1528,8 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 121500191, CUSTOM, UNKNOWN, false, true, , Lenovo
 121500192, UNKNOWN, RECTANGLE, false, true, , Lenovo
 121500205, UNKNOWN, UNKNOWN, false, true, , Lenovo
+121500224, UNKNOWN, UNKNOWN, false, false, , 
+121500225, CUSTOM, RECTANGLE, false, true, , Lenovo
 121500230, UNKNOWN, RECTANGLE, false, true, , Lenovo
 121500234, UNKNOWN, UNKNOWN, false, true, , Lenovo
 121500253, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -1618,7 +1582,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 15G10N372500PB_15G10N372500PB, UNKNOWN, UNKNOWN, false, false, , 
 15G10N375140AW, UNKNOWN, UNKNOWN, false, true, , Dell
 15G10N375522, UNKNOWN, UNKNOWN, false, true, , Benq
-15G870_PA50K, UNKNOWN, UNKNOWN, false, true, , Lg
+15G870_PA50K, UNKNOWN, UNKNOWN, false, false, , 
 15G870_XA70K, UNKNOWN, UNKNOWN, false, true, , Hasee
 15N365_K, UNKNOWN, UNKNOWN, false, true, , Lg
 15N540_A, UNKNOWN, UNKNOWN, false, true, , Lg
@@ -1645,6 +1609,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 170_1012_00_REVC, UNKNOWN, UNKNOWN, false, true, , Amazon
 170_1012_00_REV_C, UNKNOWN, UNKNOWN, false, true, , Amazon
 170_1056_00, UNKNOWN, UNKNOWN, false, true, , Amazon
+171415G870, UNKNOWN, UNKNOWN, false, true, , Thunderobot
 171415G870_XA70K, UNKNOWN, UNKNOWN, false, true, , Thunderobot
 171502_AD, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 1762, UNKNOWN, UNKNOWN, false, true, , Msi
@@ -1668,7 +1633,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 196234_B22, UNKNOWN, UNKNOWN, false, true, , Hp compaq
 196345_B21, UNKNOWN, UNKNOWN, false, true, , Compaq
 1A_28, UNKNOWN, UNKNOWN, false, true, , Advent
-1BTIZZZ0LV1, CUSTOM, CUSTOM, false, true, , Lenovo
+1BTIZZZ0LV1, CUSTOM, SQUARE, false, true, , Lenovo
 1CPC159883_01, UNKNOWN, UNKNOWN, false, false, , 
 1FN05AA, CUSTOM, RECTANGLE, false, true, , Hp
 1FXDH, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -1718,6 +1683,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 1ICP4_83_103_2, UNKNOWN, UNKNOWN, false, true, , Acer
 1ICP4_83_113, UNKNOWN, UNKNOWN, false, true, , Lenovo
 1ICP4_83_115_2, UNKNOWN, UNKNOWN, false, true, , Hp
+1ICP4_86_103_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 1ICP4_86_94, UNKNOWN, UNKNOWN, false, true, , Acer
 1ICP4_86_95_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 1ICP4_90_84, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -1762,6 +1728,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 20C10023JP, UNKNOWN, UNKNOWN, false, true, , Nec
 20D9A008CD, PIN_8, FAT, false, true, , Lenovo
 20E3000YJP, UNKNOWN, UNKNOWN, false, true, , Lenovo
+20G8_S03400, UNKNOWN, UNKNOWN, false, true, , Lenovo
 210_G1, UNKNOWN, UNKNOWN, false, true, , Hp
 2133_MINI_NOTE, UNKNOWN, UNKNOWN, false, true, , Hp
 21430214, UNKNOWN, UNKNOWN, false, true, , Other
@@ -1810,6 +1777,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 242876800002, UNKNOWN, UNKNOWN, false, true, , Getac
 244_4S2000_S1S1, UNKNOWN, UNKNOWN, false, true, , Hasee
 245RR, UNKNOWN, RECTANGLE, false, true, , Dell
+25127145, UNKNOWN, UNKNOWN, false, true, , Other
 2524074, UNKNOWN, UNKNOWN, false, true, , Gateway
 2524264, UNKNOWN, RECTANGLE, false, false, , 
 2533T, UNKNOWN, UNKNOWN, false, false, , 
@@ -1826,8 +1794,10 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 26S1001, UNKNOWN, UNKNOWN, false, true, , Arm
 26S1004, UNKNOWN, UNKNOWN, false, true, , Amazon
 26S1006, UNKNOWN, UNKNOWN, false, true, , Amazon
+26S1014, UNKNOWN, UNKNOWN, false, true, , Amazon
 26S1017, UNKNOWN, UNKNOWN, false, true, , Amazon
 26S1018, UNKNOWN, UNKNOWN, false, true, , Amazon
+26_PB7001430000_01, UNKNOWN, UNKNOWN, false, true, , Nec
 271_00029_REV_B0, UNKNOWN, UNKNOWN, false, true, , Ibm
 2785143_2S, UNKNOWN, UNKNOWN, false, true, , Chuwi
 280_円, UNKNOWN, RECTANGLE, false, true, 132.5 x 56.7 x 5.0, Toshiba  dynabook
@@ -1847,6 +1817,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 2H2G4, UNKNOWN, UNKNOWN, false, true, , Dell
 2I, UNKNOWN, UNKNOWN, false, true, , Tan
 2ICP2_76_109_2, UNKNOWN, UNKNOWN, false, true, , Simplo
+2ICP338123, CUSTOM, UNKNOWN, false, true, , Xiaomi
 2ICP3_32_170, PIN_8, CUSTOM, false, true, , Hasee
 2ICP3_38_123, CUSTOM, RECTANGLE, false, true, , Xiaomi
 2ICP3_53_94, UNKNOWN, UNKNOWN, false, true, , Nec
@@ -1901,6 +1872,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 2ICP7_64_84, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 2ICP7_65_52, PIN_10, RECTANGLE, false, true, , Other
 2ICP7_65_80, CUSTOM, SQUARE, false, true, , Hp
+2ICP7_65_80_2, UNKNOWN, UNKNOWN, false, true, , Getac
 2ICP8_35_67, UNKNOWN, UNKNOWN, false, true, , Toshiba
 2ICP_49_100_2, PIN_8, RECTANGLE, false, true, , Lenovo
 2ICP_5_67_89, PIN_7, SQUARE, false, true, , Acer
@@ -1908,6 +1880,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 2INP5_60_80, UNKNOWN, UNKNOWN, false, true, , Sony
 2INR19_66_2, UNKNOWN, UNKNOWN, false, true, , Panasonic
 2INR19_66_3, UNKNOWN, UNKNOWN, false, true, , Panasonic
+2K184, CUSTOM, UNKNOWN, false, true, , Dell
 2N08XL, UNKNOWN, RECTANGLE, false, true, , Hp
 2NJNF, UNKNOWN, UNKNOWN, false, true, , Denchipro
 2PE_022CN, UNKNOWN, UNKNOWN, false, true, , Msi
@@ -1926,11 +1899,11 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 3000_C200, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3000_G230_20006, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3000_G430, UNKNOWN, UNKNOWN, false, false, , 
-3000_N200_SERIES, UNKNOWN, UNKNOWN, false, true, , Lenovo
+3000_N200_SERIES, UNKNOWN, UNKNOWN, false, false, , 
 3000_V100_0763, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3000_Y300_7759, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3000_Y400_9454, UNKNOWN, UNKNOWN, false, true, , Lenovo
-3000_Y510_7758, UNKNOWN, UNKNOWN, false, true, , Lenovo
+3000_Y510_7758, UNKNOWN, UNKNOWN, false, false, , 
 300E43_S03, UNKNOWN, UNKNOWN, false, true, , Samsung
 300E4M_SERIES, UNKNOWN, UNKNOWN, false, true, , Samsung
 300U_SERIES, UNKNOWN, UNKNOWN, false, false, , 
@@ -2028,6 +2001,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 32100165, UNKNOWN, UNKNOWN, false, true, , Teclast
 3272103_2S, UNKNOWN, UNKNOWN, false, true, , Jumper
 3275155P, UNKNOWN, UNKNOWN, false, true, , Irbis
+3296180, UNKNOWN, UNKNOWN, false, true, , Teclast
 330107A, UNKNOWN, UNKNOWN, false, true, , Bose
 3324J, UNKNOWN, UNKNOWN, false, true, , Dell
 3347_5PM, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -2098,6 +2072,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 3ICP3_78_101, UNKNOWN, UNKNOWN, false, true, , Huawei
 3ICP3_97_91, CUSTOM, CUSTOM, false, true, , Hp
 3ICP4, UNKNOWN, UNKNOWN, false, true, , Razer
+3ICP47997, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3ICP4_33_96_2, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 3ICP4_41_110, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3ICP4_43_110, UNKNOWN, UNKNOWN, false, true, , Nec
@@ -2131,6 +2106,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 3ICP5_70_82, UNKNOWN, RECTANGLE, false, true, , Asus
 3ICP5_72_81, PIN_8, RECTANGLE, false, true, , Vaio
 3ICP5_79_73, UNKNOWN, UNKNOWN, false, true, , Asus
+3ICP65490, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3ICP6_44_109, UNKNOWN, UNKNOWN, false, true, , Getac
 3ICP6_54_90, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3ICP6_55_90, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -2153,7 +2129,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 3ICP7_61_80, UNKNOWN, UNKNOWN, false, true, , Acer
 3ICP7_63_69_2, PIN_14, RECTANGLE, false, true, , Adata
 3ICP7_65_80, CUSTOM, RECTANGLE, false, true, , Hp
-3ICP7_67_66_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+3ICP7_67_66_2, UNKNOWN, UNKNOWN, false, false, , 
 3ICP7_67_90, PIN_8, RECTANGLE, false, true, , Acer
 3ICP7_73_64, UNKNOWN, UNKNOWN, false, true, , Dell
 3ICP_59_121, PIN_9, CUSTOM, false, true, , Hp
@@ -2187,6 +2163,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 3UR18650F_2_QC134, UNKNOWN, UNKNOWN, false, true, , Acer
 3UR18650F_2_QC163, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 3UR18650F_2_QC175, UNKNOWN, UNKNOWN, false, true, , Acer
+3UR18650F_2_QC186, UNKNOWN, UNKNOWN, false, true, , Lenovo
 3UR18650F_2_QC193, CUSTOM, UNKNOWN, false, true, , Founder
 3UR18650F_2_QC210, UNKNOWN, UNKNOWN, false, true, , Fujitsu-siemens
 3UR18650F_2_QC_EF6, UNKNOWN, UNKNOWN, false, true, , Fujitsu
@@ -2252,10 +2229,10 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 4082229C, UNKNOWN, UNKNOWN, false, true, , Ematic
 408545_761, UNKNOWN, UNKNOWN, false, true, , Hp
 408545_761_408545_761, UNKNOWN, UNKNOWN, false, false, , 
-40Y678, UNKNOWN, RECTANGLE, false, true, , Lenovo
+40Y678, UNKNOWN, RECTANGLE, false, false, , 
 40Y6791, UNKNOWN, UNKNOWN, false, true, , Ibm
 40Y6795, UNKNOWN, RECTANGLE, false, false, , 
-40Y6999, UNKNOWN, RECTANGLE, false, true, 61.3 x 21.3 x 9.0, Lenovo
+40Y6999, UNKNOWN, RECTANGLE, false, false, 61.3 x 21.3 x 9.0, 
 40Y6999_40Y6999_40Y6999, UNKNOWN, RECTANGLE, false, false, 61.3 x 21.3 x 9.0, 
 410031_06, UNKNOWN, UNKNOWN, false, true, , Rrc
 410148_03, UNKNOWN, UNKNOWN, false, true, , Rrc
@@ -2271,7 +2248,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 41NR19_60_2, UNKNOWN, UNKNOWN, false, true, , Philips
 41NR19_66_2, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 41U3196, UNKNOWN, UNKNOWN, false, true, , Lenovo
-41U5026, UNKNOWN, UNKNOWN, false, true, , Lenovo
+41U5026, UNKNOWN, UNKNOWN, false, false, , 
 41U5026_41U5026_41U5026, UNKNOWN, UNKNOWN, false, false, , 
 420_円, UNKNOWN, UNKNOWN, false, true, , Acer
 4214, UNKNOWN, UNKNOWN, false, true, , Advent
@@ -2282,28 +2259,37 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 42T4235, UNKNOWN, UNKNOWN, false, true, , Lenovo
 42T4518, UNKNOWN, UNKNOWN, false, true, , Ibm
 42T4521, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4535, UNKNOWN, UNKNOWN, false, true, , Ibm
-42T4558, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4564, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4654, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4714, UNKNOWN, RECTANGLE, false, true, 51.0 x 20.0 x 5.0, Lenovo
+42T4535, UNKNOWN, RECTANGLE, false, false, , 
+42T4542, UNKNOWN, RECTANGLE, false, true, 53.0 x 20.0 x 5.0, Lenovo
+42T4558, UNKNOWN, UNKNOWN, false, false, , 
+42T4564, UNKNOWN, RECTANGLE, false, false, , 
+42T4646, UNKNOWN, RECTANGLE, false, true, 53.0 x 20.0 x 5.0, Lenovo
+42T4654, UNKNOWN, UNKNOWN, false, false, , 
+42T4709, UNKNOWN, RECTANGLE, false, true, 51.0 x 20.0 x 5.0, Lenovo
+42T4714, UNKNOWN, RECTANGLE, false, false, 51.0 x 20.0 x 5.0, 
 42T4714_42T4714_42T4714_42T4714_42T4714_42T4714, UNKNOWN, RECTANGLE, false, false, 51.0 x 20.0 x 5.0, 
-42T4764, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T4753, UNKNOWN, RECTANGLE, false, true, 51.0 x 20.0 x 5.0, Lenovo
+42T4764, UNKNOWN, UNKNOWN, false, false, , 
 42T4764_42T4764_42T4764_42T4764, UNKNOWN, UNKNOWN, false, false, , 
 42T4769, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4806, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4815, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T4806, UNKNOWN, UNKNOWN, false, false, , 
+42T4808, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T4815, UNKNOWN, UNKNOWN, false, false, , 
 42T4815_42T4815_42T4815, UNKNOWN, UNKNOWN, false, false, , 
-42T4855, UNKNOWN, UNKNOWN, false, true, , Lenovo
-42T4899, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T4846, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T4855, UNKNOWN, UNKNOWN, false, false, , 
+42T4891, UNKNOWN, RECTANGLE, false, true, 54.3 x 21.9 x 8.0, Lenovo
+42T4899, UNKNOWN, UNKNOWN, false, false, , 
 42T4899_42T4899_42T4899, UNKNOWN, UNKNOWN, false, false, , 
 42T4930, PIN_6, SQUARE, false, true, , Lenovo
+42T4937, UNKNOWN, UNKNOWN, false, true, , Lenovo
 42T4942, UNKNOWN, UNKNOWN, false, true, , Lenovo
 42T4942_42T4942_42T4942, UNKNOWN, UNKNOWN, false, false, , 
 42T4963, UNKNOWN, UNKNOWN, false, true, , Lenovo
 42T4965, UNKNOWN, UNKNOWN, false, true, , Lenovo
+42T5236, UNKNOWN, UNKNOWN, false, true, , Lenovo
 42T5246, UNKNOWN, UNKNOWN, false, true, , Ibm
-42T5248, UNKNOWN, RECTANGLE, false, true, 61.3 x 21.3 x 9.0, Lenovo
+42T5248, UNKNOWN, RECTANGLE, false, false, 61.3 x 21.3 x 9.0, 
 431132_002, UNKNOWN, UNKNOWN, false, false, , 
 4320T, UNKNOWN, UNKNOWN, false, true, , Hp
 434045_141, CUSTOM, CUSTOM, false, true, , Hp
@@ -2313,10 +2299,11 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 436426_753, UNKNOWN, UNKNOWN, false, true, , Hp
 436981G_2P, UNKNOWN, UNKNOWN, false, true, , Byone
 43R9252, UNKNOWN, UNKNOWN, false, true, , Lenovo
+43R9256, UNKNOWN, RECTANGLE, false, true, 73.9 x 15.1 x 1.0, Lenovo
 43Y5235, UNKNOWN, RECTANGLE, false, true, 73.9 x 15.1 x 1.0, Asm
 440264_ABC, UNKNOWN, UNKNOWN, false, true, , Hp
 4410T_MOBILE_THIN_CLIENT, UNKNOWN, UNKNOWN, false, true, , Hp
-441122100002, UNKNOWN, UNKNOWN, false, true, , Getac
+441122100002, CUSTOM, UNKNOWN, false, true, , Getac
 441122100003, UNKNOWN, UNKNOWN, false, true, , Getac
 441128400007, UNKNOWN, UNKNOWN, false, true, , Denchipro
 441129000001, UNKNOWN, UNKNOWN, false, true, , Getac
@@ -2326,7 +2313,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 441142000004, UNKNOWN, UNKNOWN, false, true, , Getac
 441600000003, UNKNOWN, UNKNOWN, false, true, , Mitac
 4416700000051, UNKNOWN, UNKNOWN, false, true, , Ipc
-441677360001, UNKNOWN, UNKNOWN, false, true, , Lenovo
+441677360001, UNKNOWN, UNKNOWN, false, false, , 
 441677390001, UNKNOWN, UNKNOWN, false, true, , Cytron
 441677390001_441677390001, UNKNOWN, UNKNOWN, false, false, , 
 44168174005, UNKNOWN, UNKNOWN, false, true, , Amitech
@@ -2351,6 +2338,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 441871900001, UNKNOWN, UNKNOWN, false, true, , Getac
 441871910010, UNKNOWN, UNKNOWN, false, true, , Getac
 441873000005, UNKNOWN, UNKNOWN, false, true, , Getac
+441874200007, CUSTOM, FAT, false, true, , Denchipro
 441879100003, UNKNOWN, UNKNOWN, false, true, , Getac
 441880000001, UNKNOWN, UNKNOWN, false, true, , Getac
 4418946B0001, UNKNOWN, UNKNOWN, false, true, , Getac
@@ -2384,6 +2372,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 451_BBFS, UNKNOWN, UNKNOWN, false, true, , Dell
 451_BBFW, CUSTOM, RECTANGLE, false, true, , Dell
 451_BBGR, UNKNOWN, UNKNOWN, false, true, , Dell
+451_BBGS, CUSTOM, UNKNOWN, false, true, , Dell
 451_BBUE, UNKNOWN, UNKNOWN, false, true, , Dell
 451_BBZL, UNKNOWN, UNKNOWN, false, true, , Dell
 451_BCDH, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -2397,34 +2386,45 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 458274_421, UNKNOWN, UNKNOWN, false, false, , 
 458640_542, UNKNOWN, RECTANGLE, false, true, , Hp compaq
 458640_542_458640_542, UNKNOWN, UNKNOWN, false, false, , 
+45J7706, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45J7914, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45K1275, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45K1275, UNKNOWN, UNKNOWN, false, false, , 
+45N1017, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1022, UNKNOWN, UNKNOWN, false, false, , 
 45N1027, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1027_45N1027, UNKNOWN, UNKNOWN, false, false, , 
-45N1054, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1048, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1054, UNKNOWN, UNKNOWN, false, false, , 
 45N1054_45N1054, UNKNOWN, UNKNOWN, false, false, , 
 45N1070, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45N1084, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1075, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1084, UNKNOWN, UNKNOWN, false, false, , 
 45N1086, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1092, UNKNOWN, UNKNOWN, false, true, , Kohjinsha
-45N1096, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1096, UNKNOWN, UNKNOWN, false, false, , 
+45N1099, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1100, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45N1108, UNKNOWN, UNKNOWN, false, true, , Denchipro
+45N1108, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1108_45N1108, UNKNOWN, UNKNOWN, false, false, , 
 45N1118, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45N1120, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45N1128, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1120, UNKNOWN, UNKNOWN, false, false, , 
+45N1123, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1128, UNKNOWN, UNKNOWN, false, false, , 
 45N1128_45N1128_45N1128_45N1128, UNKNOWN, UNKNOWN, false, false, , 
 45N1138, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1143, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1148, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1148_45N1148, UNKNOWN, UNKNOWN, false, false, , 
+45N1167, UNKNOWN, CUSTOM, false, true, , Lenovo
 45N1168, UNKNOWN, UNKNOWN, false, true, , Lenovo
-45N1176, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1176, UNKNOWN, UNKNOWN, false, false, , 
 45N15E9, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1704, UNKNOWN, UNKNOWN, false, true, , Denchipro
-45N1717, UNKNOWN, UNKNOWN, false, true, , Lenovo
+45N1707, UNKNOWN, UNKNOWN, false, true, , Denchipro
+45N1717, UNKNOWN, UNKNOWN, false, false, , 
+45N1736, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1742, CUSTOM, RECTANGLE, false, true, , Lenovo
+45N1761, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1769, UNKNOWN, UNKNOWN, false, true, , Lenovo
 45N1769_45N1769, UNKNOWN, UNKNOWN, false, false, , 
 462889_121, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -2465,6 +2465,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 4ICP4_55_162, UNKNOWN, UNKNOWN, false, true, , Razer
 4ICP4_56_120, PIN_4, RECTANGLE, false, true, , Lenovo
 4ICP4_59_141, UNKNOWN, UNKNOWN, false, true, , Lenovo
+4ICP4_59_141_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 4ICP4_62_115, UNKNOWN, UNKNOWN, false, true, , Razer
 4ICP4_63_68, UNKNOWN, UNKNOWN, false, true, , Dynabook
 4ICP4_67_90, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -2473,7 +2474,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 4ICP4_70_88, UNKNOWN, UNKNOWN, false, true, , Acer
 4ICP4_80_104, UNKNOWN, UNKNOWN, false, true, , Acer
 4ICP4_91_91, UNKNOWN, UNKNOWN, false, true, , Acer
-4ICP5_41_110, UNKNOWN, UNKNOWN, false, true, , Lenovo
+4ICP5_41_110, UNKNOWN, UNKNOWN, false, false, , 
 4ICP5_41_110_4ICP5_41_110, UNKNOWN, UNKNOWN, false, false, , 
 4ICP5_41_119, UNKNOWN, UNKNOWN, false, true, , Mechrevo
 4ICP5_46_108, UNKNOWN, UNKNOWN, false, true, , Razer
@@ -2489,6 +2490,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 4ICP5_65_88, UNKNOWN, UNKNOWN, false, true, , Acer
 4ICP5_66_67, UNKNOWN, UNKNOWN, false, true, , Clevo
 4ICP5_70_81, UNKNOWN, UNKNOWN, false, true, , Asus
+4ICP65490, UNKNOWN, UNKNOWN, false, true, , Lenovo
 4ICP6_42_85, UNKNOWN, UNKNOWN, false, true, , Nec
 4ICP6_47_61, UNKNOWN, UNKNOWN, false, true, , Toshiba
 4ICP6_54_90, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -2510,7 +2512,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 4IMR19_65_2, UNKNOWN, UNKNOWN, false, true, , Toshiba
 4INP5_60_80, UNKNOWN, UNKNOWN, false, true, , Denchipro
 4INR19_65, UNKNOWN, RECTANGLE, false, true, , Lenovo
-4INR19_66, UNKNOWN, UNKNOWN, false, true, , Nec
+4INR19_66, UNKNOWN, UNKNOWN, false, true, , System76
 4INR19_66_1, UNKNOWN, UNKNOWN, false, true, , Acer
 4K, UNKNOWN, UNKNOWN, false, true, , Vulcan
 4PLUS, UNKNOWN, UNKNOWN, false, true, , Xiaomi
@@ -2542,12 +2544,14 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 519249_171, UNKNOWN, UNKNOWN, false, true, , Hp
 519329_002, UNKNOWN, UNKNOWN, false, true, , Hp
 519329_002_519329_002_519329_002_519329_002, UNKNOWN, UNKNOWN, false, false, , 
+51J0507, UNKNOWN, RECTANGLE, false, true, , Lenovo
 51WH, CUSTOM, UNKNOWN, false, true, , Dell
 52TWH, UNKNOWN, UNKNOWN, false, true, , Dell
 530972_761, UNKNOWN, UNKNOWN, false, true, , Hp
 530974_321, UNKNOWN, RECTANGLE, false, true, , Hp
 530S, UNKNOWN, UNKNOWN, false, true, , Lenovo
-530U4B_S03, UNKNOWN, UNKNOWN, false, true, , Samsung
+530U3_SERIES, UNKNOWN, CUSTOM, false, true, , Samsung
+530U4B_S03, UNKNOWN, CUSTOM, false, true, , Samsung
 532496_541, UNKNOWN, RECTANGLE, false, true, , Hp
 532497_241, UNKNOWN, RECTANGLE, false, true, 73.0 x 21.0 x 5.0, Hp
 532497_241_532497_241_532497_241, UNKNOWN, RECTANGLE, false, false, 73.0 x 21.0 x 5.0, 
@@ -2564,16 +2568,18 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 570421_171, UNKNOWN, RECTANGLE, false, true, 104.0 x 11.0 x 9.0, Hp
 570421_171_570421_171_570421_171, UNKNOWN, RECTANGLE, false, false, 104.0 x 11.0 x 9.0, 
 572831_121, UNKNOWN, UNKNOWN, false, true, , Hp
-57Y4545, UNKNOWN, UNKNOWN, false, true, , Lenovo
+57Y4545, UNKNOWN, UNKNOWN, false, false, , 
 57Y4545_57Y4545, UNKNOWN, UNKNOWN, false, false, , 
 57Y6354, UNKNOWN, UNKNOWN, false, true, , Lenovo
 57Y6440, UNKNOWN, UNKNOWN, false, true, , Lenovo
+57Y6442, UNKNOWN, UNKNOWN, false, true, , Lenovo
 57Y6450, UNKNOWN, UNKNOWN, false, true, , Lenovo
-57Y6455, UNKNOWN, UNKNOWN, false, true, , Lenovo
+57Y6455, UNKNOWN, UNKNOWN, false, false, , 
 57Y6455_57Y6455, UNKNOWN, UNKNOWN, false, false, , 
 57Y6601, UNKNOWN, UNKNOWN, false, true, , Lenovo
 57Y6625, UNKNOWN, UNKNOWN, false, false, , 
-57Y6655, UNKNOWN, UNKNOWN, false, true, , Lenovo
+57Y6632, UNKNOWN, UNKNOWN, false, true, , Lenovo
+57Y6655, UNKNOWN, UNKNOWN, false, false, , 
 57Y6655_57Y6655, UNKNOWN, UNKNOWN, false, false, , 
 580_円, UNKNOWN, RECTANGLE, false, true, 46.0 x 18.6 x 5.0, Vaio
 582213_121, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -2604,11 +2610,13 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 5AAXBT117JAA_, UNKNOWN, UNKNOWN, false, true, , Other
 5B10G62885, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10G78610, UNKNOWN, CUSTOM, false, true, , Lenovo
-5B10H09628, PIN_7, SQUARE, false, true, , Lenovo
+5B10H09628, PIN_7, SQUARE, false, false, , 
+5B10H09629, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10H09630, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10H09631, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10H11759, UNKNOWN, UNKNOWN, false, false, , 
 5B10H13091, UNKNOWN, CUSTOM, false, true, , Lenovo
-5B10H13092, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10H13092, UNKNOWN, CUSTOM, false, true, , Lenovo
 5B10H13095, PIN_7, RECTANGLE, false, true, , Lenovo
 5B10H13099, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10H13100, UNKNOWN, RECTANGLE, false, true, , Lenovo
@@ -2633,6 +2641,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 5B10K37675, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10K84291, PIN_8, RECTANGLE, false, true, , Lenovo
 5B10K84491, PIN_7, CUSTOM, false, false, , 
+5B10K84492, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10K84538, PIN_7, CUSTOM, false, true, , Lenovo
 5B10K85055, PIN_8, CUSTOM, false, true, , Lenovo
 5B10K85055_5B10K85055_5B10K85055, UNKNOWN, UNKNOWN, false, false, , 
@@ -2660,31 +2669,35 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 5B10L22508, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10L55039, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10L72502, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10L79053, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10L79053, UNKNOWN, UNKNOWN, false, false, , 
+5B10L79054, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10L79291, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M33724, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M41934, PIN_12, RECTANGLE, false, true, , Lenovo
-5B10M49822, UNKNOWN, CUSTOM, false, true, , Lenovo
+5B10M49822, UNKNOWN, CUSTOM, false, false, , 
 5B10M52211, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M52738, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M52739, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10M55951, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10M52817, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10M55951, UNKNOWN, UNKNOWN, false, false, , 
 5B10M55951_5B10M55951, UNKNOWN, UNKNOWN, false, false, , 
 5B10M86147, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M86148, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M86149, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10M88059, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10N00765, UNKNOWN, RECTANGLE, false, true, , Lenovo
+5B10N00765, UNKNOWN, CUSTOM, false, true, , Lenovo
 5B10N00766, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10N01565, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10N38140, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10N87357, UNKNOWN, SQUARE, false, true, , Lenovo
 5B10P23779, PIN_8, CUSTOM, false, true, , Denchipro
 5B10P53995, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10P53998, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10P53998_5B10P53998, UNKNOWN, UNKNOWN, false, false, , 
 5B10P53999, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10P54004, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10P98185, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10Q38232, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q39196, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q39197, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q39202, PIN_8, CUSTOM, false, true, , Lenovo
@@ -2692,33 +2705,37 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 5B10Q71251, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q71252, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q71254, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10Q82425, PIN_10, RECTANGLE, false, true, , Lenovo
 5B10Q88560, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q93417, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10Q93737, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10Q93737, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q93738, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10R32748, UNKNOWN, UNKNOWN, false, true, , Denchipro
 5B10R33000, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10R37085, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10R38648, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10R38659, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10R51232, CUSTOM, RECTANGLE, false, true, , Lenovo
-5B10S56966, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10S56966, UNKNOWN, UNKNOWN, false, false, , 
 5B10S73500, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10S75394, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T04980, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T0908, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10T09080, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T09093, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T09094, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T09095, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T11585, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T26390, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10T83738, UNKNOWN, UNKNOWN, false, true, , Lenovo
-5B10U97772, UNKNOWN, UNKNOWN, false, true, , Lenovo
+5B10U97772, UNKNOWN, UNKNOWN, false, false, , 
+5B10W13940, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10W13962, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10W67171, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10W67285, PIN_8, CUSTOM, false, true, , Lenovo
+5B10W67296, UNKNOWN, UNKNOWN, false, false, , 
 5B10W67356, UNKNOWN, UNKNOWN, false, true, , Samsung
-5B10W67379, PIN_8, CUSTOM, false, true, , Lenovo
+5B10W67379, PIN_8, CUSTOM, false, false, , 
+5B10W86939, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10X65680, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B18C03587, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5D91C, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -2780,6 +2797,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 6500190_6500190, UNKNOWN, UNKNOWN, false, false, , 
 6500718, UNKNOWN, UNKNOWN, false, true, , Gateway
 6500737, UNKNOWN, UNKNOWN, false, true, , Samsung
+6500821, UNKNOWN, UNKNOWN, false, true, , Lenovo
 6500855, UNKNOWN, UNKNOWN, false, true, , Gateway
 6501060, UNKNOWN, UNKNOWN, false, true, , Gateway
 6501060_6501060_6501060, UNKNOWN, UNKNOWN, false, false, , 
@@ -2935,6 +2953,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 70NM81B1300Z, UNKNOWN, UNKNOWN, false, true, , Asus
 70NM81B1300Z_70NM81B1300Z_70NM81B1300Z, UNKNOWN, UNKNOWN, false, false, , 
 70NVA1B1000Z, UNKNOWN, UNKNOWN, false, true, , Asus
+70OA091B1000, CUSTOM, CUSTOM, false, true, , Asus
 70OA0J1B1000, UNKNOWN, CUSTOM, false, true, , Asus
 70OA1J1B2100P, UNKNOWN, UNKNOWN, false, true, , Asus
 70OA2B2B2000, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -3065,7 +3084,8 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 817184_005, UNKNOWN, UNKNOWN, false, true, , Hp
 823908_1C1, UNKNOWN, CUSTOM, false, true, , Hp
 823909_141, UNKNOWN, UNKNOWN, false, true, , Hp
-827927_1B1, UNKNOWN, UNKNOWN, false, true, , Hp
+826004_2B1, UNKNOWN, CUSTOM, false, true, , Hp
+827927_1B1, UNKNOWN, CUSTOM, false, true, , Hp
 8299_PNH90MH44001, UNKNOWN, UNKNOWN, false, true, , Pegatron
 831532_421, PIN_8, RECTANGLE, false, true, , Hp
 838266_2C1, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -3109,11 +3129,12 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 8X463J, UNKNOWN, UNKNOWN, false, true, , Dell
 8Y03366ZA, UNKNOWN, UNKNOWN, false, true, , Nec
 9, UNKNOWN, RECTANGLE, false, true, 103.4 x 6.7 x 0.0, Vaio
-900X1, UNKNOWN, UNKNOWN, false, true, , Samsung
+900X1, UNKNOWN, CUSTOM, false, true, , Samsung
+900X3C_SERIES, CUSTOM, UNKNOWN, false, true, , Samsung
 900X3L_EG1, UNKNOWN, UNKNOWN, false, true, , Samsung
 900X3N_K03, UNKNOWN, UNKNOWN, false, true, , Samsung
 900X3T, UNKNOWN, UNKNOWN, false, true, , Samsung
-900X4_SERIES, UNKNOWN, UNKNOWN, false, true, , Samsung
+900X4_SERIES, UNKNOWN, CUSTOM, false, true, , Samsung
 900X5L, UNKNOWN, UNKNOWN, false, true, , Samsung
 900X5N, UNKNOWN, UNKNOWN, false, true, , Samsung
 901247_855, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -3158,7 +3179,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 911_F1, UNKNOWN, UNKNOWN, false, true, , Hasee
 911_PRO, UNKNOWN, UNKNOWN, false, true, , Thunderobot
 911_TARGA, PIN_9, RECTANGLE, false, true, , Thunderobot
-915030_171, UNKNOWN, UNKNOWN, false, true, , Hp
+915030_171, UNKNOWN, CUSTOM, false, true, , Hp
 916367421, UNKNOWN, UNKNOWN, false, true, , Hp
 916367_421, UNKNOWN, UNKNOWN, false, true, , Hp
 916AT023F, UNKNOWN, UNKNOWN, false, true, , Smp
@@ -3224,12 +3245,13 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 92P0999, UNKNOWN, UNKNOWN, false, true, , Ibm
 92P1010, UNKNOWN, UNKNOWN, false, true, , Ibm
 92P1010_92P1010, UNKNOWN, UNKNOWN, false, false, , 
-92P1062, UNKNOWN, UNKNOWN, false, true, , Lenovo
+92P1062, UNKNOWN, UNKNOWN, false, false, , 
 92P1062_92P1062, UNKNOWN, UNKNOWN, false, false, , 
+92P1074, UNKNOWN, UNKNOWN, false, true, , Ibm
 92P1119, UNKNOWN, UNKNOWN, false, true, , Ibm
 930QAA_K01, UNKNOWN, UNKNOWN, false, true, , Samsung
 931702_171, UNKNOWN, UNKNOWN, false, true, , Hp
-931QA086H, UNKNOWN, UNKNOWN, false, true, , Lenovo
+931QA086H, UNKNOWN, UNKNOWN, false, false, , 
 932823_171, UNKNOWN, UNKNOWN, false, true, , Hp
 932824_1C1, UNKNOWN, UNKNOWN, false, true, , Hp
 934T2085F, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -3238,6 +3260,7 @@ YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
 937519_171, UNKNOWN, UNKNOWN, false, true, , Hp
 93BQA001F, PIN_8, RECTANGLE, false, true, , Tongfang
 93HTA001H, UNKNOWN, CUSTOM, false, true, , Microsoft
+93P5032, UNKNOWN, UNKNOWN, false, true, , Lenovo
 9525BP, UNKNOWN, UNKNOWN, false, true, , Denchipro
 957_14XXXP_103, UNKNOWN, UNKNOWN, false, true, , Msi
 95BQ2005F, UNKNOWN, UNKNOWN, false, true, , Tongfang
@@ -3387,6 +3410,7 @@ AACR50100001K2, UNKNOWN, UNKNOWN, false, true, , Medion
 AAFQ50100005K6, UNKNOWN, UNKNOWN, false, true, , Gateway
 AAPB3VC4SE, CUSTOM, RECTANGLE, false, true, 52.1 x 20.2 x 2.0, Samsung
 AAPBRN4ZU, UNKNOWN, UNKNOWN, false, true, , Samsung
+AAPL3VC6S, CUSTOM, RECTANGLE, false, true, 52.1 x 20.2 x 2.0, Samsung
 AAPL3VC6S_AAPL3VC6S, UNKNOWN, RECTANGLE, false, false, 52.1 x 20.2 x 2.0, 
 AA_1D405QS_T_B, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PB0NC4B, UNKNOWN, UNKNOWN, false, true, , Samsung
@@ -3398,8 +3422,10 @@ AA_PB5NC6B, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PB6NC6E, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PB8NC6B, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B_AA_PB8NC6B, UNKNOWN, UNKNOWN, false, false, , 
+AA_PBMN2H0, CUSTOM, RECTANGLE, false, true, , Samsung
 AA_PBPN6LB, UNKNOWN, RECTANGLE, false, false, , 
 AA_PBPN8NP, UNKNOWN, UNKNOWN, false, true, , Samsung
+AA_PBQN4TR, CUSTOM, FAT, false, true, , Samsung
 AA_PBSN4AF, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PBTN4GP, UNKNOWN, UNKNOWN, false, true, , Denchipro
 AA_PBTN4LR, UNKNOWN, UNKNOWN, false, true, , Samsung
@@ -3407,8 +3433,10 @@ AA_PBTN8GB, UNKNOWN, UNKNOWN, false, true, , Denchipro
 AA_PBUN2TP, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PBUN4NP, UNKNOWN, UNKNOWN, false, true, , Denchipro
 AA_PBVN4NP, UNKNOWN, UNKNOWN, false, true, , Samsung
+AA_PBXN4AR, CUSTOM, UNKNOWN, false, true, , Samsung
 AA_PBXN4AR_AA_PBXN4AR, UNKNOWN, UNKNOWN, false, false, , 
 AA_PBXN6AR, UNKNOWN, UNKNOWN, false, true, , Clevo
+AA_PBZNC6P, UNKNOWN, CUSTOM, false, true, , Samsung
 AA_PL0TC6L_E, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PL0TC6L_E_AA_PL0TC6L_E_AA_PL0TC6L_E_AA_PL0TC6L_E, UNKNOWN, UNKNOWN, false, false, , 
 AA_PL1VC6B, UNKNOWN, UNKNOWN, false, true, , Samsung
@@ -3455,6 +3483,7 @@ AL12X32_AL12X32, UNKNOWN, UNKNOWN, false, false, ,
 AL15A32, UNKNOWN, RECTANGLE, false, true, , Acer
 AL1_003136_001, UNKNOWN, UNKNOWN, false, true, , Nec
 AL22_703, UNKNOWN, UNKNOWN, false, true, , Asus
+AL23901H, CUSTOM, CUSTOM, false, true, , Asus
 ALB_R24_SERIES, UNKNOWN, UNKNOWN, false, true, , Msi
 AM06095XL, UNKNOWN, UNKNOWN, false, true, , Hp
 AMV97V_JS, UNKNOWN, UNKNOWN, false, true, , Panasonic
@@ -3508,15 +3537,20 @@ AS16A5K, UNKNOWN, UNKNOWN, false, true, , Acer
 ASCENTIA_A40, UNKNOWN, UNKNOWN, false, true, , Clevo
 ASM_08K8199, UNKNOWN, UNKNOWN, false, true, , Ibm
 ASM_08K8199_ASM_08K8199, UNKNOWN, UNKNOWN, false, false, , 
-ASM_42T4523, UNKNOWN, UNKNOWN, false, true, , Lenovo
-ASM_42T4711, UNKNOWN, UNKNOWN, false, true, , Lenovo
+ASM_42T4523, UNKNOWN, UNKNOWN, false, false, , 
+ASM_42T4539, UNKNOWN, RECTANGLE, false, true, 53.0 x 20.0 x 5.0, Ibm
+ASM_42T4711, UNKNOWN, UNKNOWN, false, false, , 
 ASM_42T4711_ASM_42T4711_ASM_42T4711, UNKNOWN, UNKNOWN, false, false, , 
-ASM_42T4928, UNKNOWN, UNKNOWN, false, true, , Lenovo
-ASM_45N1182, UNKNOWN, UNKNOWN, false, true, , Lenovo
+ASM_42T4754, UNKNOWN, RECTANGLE, false, true, 51.0 x 20.0 x 5.0, Lenovo
+ASM_42T4928, UNKNOWN, UNKNOWN, false, false, , 
+ASM_42T4958, UNKNOWN, UNKNOWN, false, true, , Lenovo
+ASM_45N1182, UNKNOWN, UNKNOWN, false, false, , 
+ASM_92P1164, UNKNOWN, RECTANGLE, false, true, 61.3 x 21.3 x 9.0, Lenovo
 ASM_92P1170, UNKNOWN, RECTANGLE, false, true, 61.3 x 21.3 x 9.0, Ibm
 ASM_92P1170_ASM_92P1170, UNKNOWN, RECTANGLE, false, false, 61.3 x 21.3 x 9.0, 
 ASM_L08M6D23, UNKNOWN, UNKNOWN, false, true, , Lenovo
 ASM_P_N_42T4952, UNKNOWN, UNKNOWN, false, true, , Lenovo
+ASM_P_N_SB10F46447, UNKNOWN, UNKNOWN, false, true, , Lenovo
 ASO9A75, UNKNOWN, UNKNOWN, false, true, , Acer
 ASO9A75_ASO9A75_ASO9A75, UNKNOWN, UNKNOWN, false, false, , 
 ASPIRE_2000_SERIES, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -3554,6 +3588,7 @@ B14Y, UNKNOWN, UNKNOWN, false, true, , Cyberpower
 B1_870_K0WM, UNKNOWN, UNKNOWN, false, true, , Acer
 B1_ORION_4KXKSX_01, UNKNOWN, UNKNOWN, false, true, , Panasonic
 B2000, UNKNOWN, UNKNOWN, false, true, , Lg
+B21N1344, UNKNOWN, CUSTOM, false, true, , Asus
 B300, UNKNOWN, UNKNOWN, false, true, , Hasee
 B31N1427, UNKNOWN, UNKNOWN, false, true, , Denchipro
 B31N1629, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -3570,7 +3605,7 @@ BA06XL, UNKNOWN, RECTANGLE, false, true, , Hp
 BA43_00315A_BA43_00315A, UNKNOWN, RECTANGLE, false, false, 85.0 x 8.0 x 0.0, 
 BA860000, UNKNOWN, UNKNOWN, false, true, , Getac
 BACK_UP, UNKNOWN, UNKNOWN, false, true, , Dell
-BAHL00L65, UNKNOWN, UNKNOWN, false, true, , Lenovo
+BAHL00L65, UNKNOWN, UNKNOWN, false, false, , 
 BAT0016, UNKNOWN, UNKNOWN, false, true, , Gateway
 BAT1010, UNKNOWN, UNKNOWN, false, true, , Acer
 BAT2794, UNKNOWN, UNKNOWN, false, true, , Clevo
@@ -3584,6 +3619,7 @@ BATBJB0L11, UNKNOWN, UNKNOWN, false, true, , Gateway
 BATBLB3L62, UNKNOWN, UNKNOWN, false, true, , Benq
 BATCL50L4, UNKNOWN, UNKNOWN, false, true, , Acer
 BATCL50L4_BATCL50L4_BATCL50L4, UNKNOWN, UNKNOWN, false, false, , 
+BATDAT20, UNKNOWN, UNKNOWN, false, true, , Lenovo
 BATEDX20L4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 BATEDX20L8, UNKNOWN, UNKNOWN, false, true, , Motion
 BATEL80L6, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -3597,6 +3633,7 @@ BATZSX01L4, UNKNOWN, UNKNOWN, false, true, , Xplore
 BAT_3S1P, UNKNOWN, UNKNOWN, false, true, , Dell
 BAT_4094, UNKNOWN, UNKNOWN, false, true, , Clevo
 BAT_711, UNKNOWN, UNKNOWN, false, true, , Acer
+BAT_LT_2S2P3800, CUSTOM, FAT, false, true, , Iei
 BAT_P71, UNKNOWN, UNKNOWN, false, true, , Fujitsu-siemens
 BBQJBLT1312P, UNKNOWN, UNKNOWN, false, true, , Benq
 BC03XL, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -3644,6 +3681,8 @@ BP_NF11_32, UNKNOWN, UNKNOWN, false, true, , Sharp
 BQ902AA, UNKNOWN, UNKNOWN, false, true, , Hp
 BQ902AA_BQ902AA, UNKNOWN, UNKNOWN, false, false, , 
 BSN03372D8, UNKNOWN, UNKNOWN, false, true, , Lenovo
+BSN0485490, UNKNOWN, UNKNOWN, false, false, , 
+BSNO3558E5, UNKNOWN, CUSTOM, false, true, , Denchipro
 BT01BA4C, UNKNOWN, UNKNOWN, false, true, , Getac
 BT3105_B, UNKNOWN, UNKNOWN, false, true, , Msi
 BT810ABA, UNKNOWN, UNKNOWN, false, true, , Samsung
@@ -3739,6 +3778,7 @@ C12_TF600T, UNKNOWN, UNKNOWN, false, true, , Asus
 C12_TF810C, UNKNOWN, UNKNOWN, false, true, , Asus
 C14_S0_3S2P4400_0, UNKNOWN, UNKNOWN, false, true, , Hasee
 C14_S8_4S1P2200_0, UNKNOWN, UNKNOWN, false, true, , Positivo
+C1551B, UNKNOWN, CUSTOM, false, true, , Microsoft
 C1552B, UNKNOWN, UNKNOWN, false, true, , Google
 C201PA, UNKNOWN, CUSTOM, false, true, , Asus
 C20_TF20IX, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -3783,6 +3823,7 @@ C50_A_00C002, UNKNOWN, UNKNOWN, false, true, , Toshiba
 C5447, UNKNOWN, UNKNOWN, false, true, , Dell
 C5447_C5447_C5447, UNKNOWN, UNKNOWN, false, false, , 
 C55_A_1EK, UNKNOWN, UNKNOWN, false, true, , Toshiba
+C5EA, CUSTOM, CUSTOM, false, true, , Ibm
 C5KG6, UNKNOWN, UNKNOWN, false, true, , Dell
 C855_1QG, UNKNOWN, RECTANGLE, false, true, , Toshiba
 C901H, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -3961,7 +4002,7 @@ DXR10, UNKNOWN, UNKNOWN, false, true, , Dell
 DYNAPAD_WT12PE, UNKNOWN, UNKNOWN, false, true, , Toshiba
 DYNH01, UNKNOWN, UNKNOWN, false, true, , Microsoft
 DYNK01, UNKNOWN, UNKNOWN, false, true, , Microsoft
-DYNM02, UNKNOWN, UNKNOWN, false, true, , Microsoft
+DYNM02, CUSTOM, UNKNOWN, false, true, , Microsoft
 DYNU01, UNKNOWN, UNKNOWN, false, true, , Microsoft
 D_01H, UNKNOWN, UNKNOWN, false, true, , Huawei
 E100_3S2200_B1B1, UNKNOWN, UNKNOWN, false, true, , Hasee
@@ -4144,24 +4185,32 @@ FPT1C_FPT1C_FPT1C, UNKNOWN, UNKNOWN, false, false, ,
 FRNX916K_KD, UNKNOWN, UNKNOWN, false, true, , Founder
 FRU02K6520, UNKNOWN, UNKNOWN, false, true, , Ibm
 FRU02K6520_FRU02K6520, UNKNOWN, UNKNOWN, false, false, , 
-FRU42T4959, UNKNOWN, UNKNOWN, false, true, , Lenovo
-FRU_00HW029, UNKNOWN, UNKNOWN, false, true, , Lenovo
+FRU42T4959, UNKNOWN, UNKNOWN, false, false, , 
+FRU_00HW029, UNKNOWN, UNKNOWN, false, false, , 
+FRU_08K8198, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_08K8214, UNKNOWN, UNKNOWN, false, true, , Ibm
 FRU_08K8214_FRU_08K8214, UNKNOWN, UNKNOWN, false, false, , 
-FRU_42T4506, UNKNOWN, UNKNOWN, false, true, , Lenovo
-FRU_42T4655, UNKNOWN, UNKNOWN, false, true, , Lenovo
-FRU_42T4753, UNKNOWN, RECTANGLE, false, true, 51.0 x 20.0 x 5.0, Lenovo
+FRU_42T4506, UNKNOWN, UNKNOWN, false, false, , 
+FRU_42T4518, UNKNOWN, UNKNOWN, false, true, , Lenovo
+FRU_42T4655, UNKNOWN, UNKNOWN, false, false, , 
+FRU_42T4682, UNKNOWN, SQUARE, false, true, 40.8 x 37.3 x 9.0, Lenovo
+FRU_42T4753, UNKNOWN, RECTANGLE, false, false, 51.0 x 20.0 x 5.0, 
 FRU_42T4753_FRU_42T4753_FRU_42T4753, UNKNOWN, RECTANGLE, false, false, 51.0 x 20.0 x 5.0, 
-FRU_42T4848, UNKNOWN, UNKNOWN, false, true, , Lenovo
+FRU_42T4781, UNKNOWN, RECTANGLE, false, true, 54.3 x 21.9 x 8.0, Lenovo
+FRU_42T4848, UNKNOWN, UNKNOWN, false, false, , 
+FRU_42T4903, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_42T5227, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_42T5227_FRU_42T5227, UNKNOWN, UNKNOWN, false, false, , 
 FRU_42T5251, UNKNOWN, UNKNOWN, false, true, , Lenovo
+FRU_45N1043, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_92P1133, UNKNOWN, RECTANGLE, false, true, , Ibm
 FRU_92P1133_FRU_92P1133_FRU_92P1133, UNKNOWN, UNKNOWN, false, false, , 
 FRU_92P1169, UNKNOWN, RECTANGLE, false, true, 61.3 x 21.3 x 9.0, Ibm
 FRU_92P1169_FRU_92P1169_FRU_92P1169_FRU_92P1169, UNKNOWN, RECTANGLE, false, false, 61.3 x 21.3 x 9.0, 
+FRU_92P1173FRU, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_L10P6F01, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FRU_L10P6F01_FRU_L10P6F01, UNKNOWN, UNKNOWN, false, false, , 
+FRU_P_N_00HW022, UNKNOWN, UNKNOWN, false, true, , Lenovo
 FUJITSU_21_92348_01, UNKNOWN, UNKNOWN, false, true, , Oegstone
 FUJITSU_23_UD4000_3A, UNKNOWN, UNKNOWN, false, false, , 
 FUJITSU_23_UG5C1, UNKNOWN, RECTANGLE, false, false, , 
@@ -4169,6 +4218,7 @@ FUJITSU_40026509, UNKNOWN, UNKNOWN, false, true, , Akoya
 FUJITSU_FPB0327, UNKNOWN, UNKNOWN, false, true, , Arrows tab
 FUJITSU_SIEMENS_L50_3S4000_C1L1, UNKNOWN, UNKNOWN, false, true, , E system
 FUQ4PL002, UNKNOWN, CUSTOM, false, true, , Fujitsu
+FUR_42T4562, UNKNOWN, RECTANGLE, false, true, 73.9 x 15.1 x 1.0, Lenovo
 FV812EA, UNKNOWN, SQUARE, false, true, 56.0 x 40.0 x 0.0, Hp
 FV812EA_FV812EA_FV812EA_FV812EA, UNKNOWN, SQUARE, false, false, 56.0 x 40.0 x 0.0, 
 FVWT4, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -4194,11 +4244,14 @@ G3HTA003H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3HTA019H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3HTA021H, UNKNOWN, CUSTOM, false, true, , Microsoft
 G3HTA026H, UNKNOWN, CUSTOM, false, true, , Microsoft
+G3HTA037H, CUSTOM, UNKNOWN, false, true, , Denchipro
 G3HTA040H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3HTA041H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3HTA049H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3HTA050H, UNKNOWN, UNKNOWN, false, true, , Denchipro
+G3HTA052H, CUSTOM, UNKNOWN, false, true, , Microsoft
 G3HTA058H, UNKNOWN, UNKNOWN, false, true, , Microsoft
+G3HTA060H, CUSTOM, CUSTOM, false, true, , Microsoft
 G3HTA061H, UNKNOWN, UNKNOWN, false, true, , Microsoft
 G3VPN, UNKNOWN, UNKNOWN, false, true, , Dell
 G50VT_X5, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -4343,6 +4396,7 @@ HSTNN_E08C_HSTNN_E08C, UNKNOWN, UNKNOWN, false, false, ,
 HSTNN_FB21, UNKNOWN, UNKNOWN, false, true, , Hp compaq
 HSTNN_FB21_HSTNN_FB21, UNKNOWN, UNKNOWN, false, false, , 
 HSTNN_FB47, UNKNOWN, UNKNOWN, false, true, , Hp
+HSTNN_I19C, CUSTOM, UNKNOWN, false, true, , Denchipro
 HSTNN_I41C_5, UNKNOWN, UNKNOWN, false, true, , Hp
 HSTNN_I41C_5_HSTNN_I41C_5, UNKNOWN, UNKNOWN, false, false, , 
 HSTNN_I53C, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -4430,7 +4484,6 @@ H_3177150P, UNKNOWN, UNKNOWN, false, true, , Other
 H_3574250P, UNKNOWN, UNKNOWN, false, true, , Tan
 H_3576260P, UNKNOWN, UNKNOWN, false, true, , Irbis
 H_38150155P, UNKNOWN, UNKNOWN, false, false, , 
-H_40110175P, UNKNOWN, UNKNOWN, false, true, , Haier
 I1CP04_45_107_4, UNKNOWN, UNKNOWN, false, true, , Lenovo
 I21P0_I21P0, UNKNOWN, UNKNOWN, false, false, , 
 I40_3S5200_G1L3, UNKNOWN, UNKNOWN, false, true, , Unwill
@@ -4447,7 +4500,7 @@ IDEAPAD_320_15AST_80XV00V3SP, UNKNOWN, UNKNOWN, false, true, , Hp
 IDEAPAD_450U, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_A3000, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_FLEX_10, UNKNOWN, UNKNOWN, false, true, , Lenovo
-IDEAPAD_K1_TABLET_PC, PIN_14, SQUARE, false, true, , Lenovo
+IDEAPAD_K1_TABLET_PC, PIN_14, SQUARE, false, false, , 
 IDEAPAD_S10_2, UNKNOWN, SQUARE, false, true, , Lenovo
 IDEAPAD_S10_3T, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_S210_SERIES, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -4478,6 +4531,7 @@ IX101B2_TABLET, PIN_9, FAT, false, true, , Xplore
 J0PGR, UNKNOWN, UNKNOWN, false, true, , Dell
 J10_3S2200_G1B1, UNKNOWN, UNKNOWN, false, true, , Hasee
 J22_P4, UNKNOWN, UNKNOWN, false, true, , Benq
+J31N7, CUSTOM, UNKNOWN, false, true, , Dell
 J31N7_J31N7, UNKNOWN, UNKNOWN, false, false, , 
 J927H, UNKNOWN, UNKNOWN, false, true, , Dell
 JG176, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -4528,41 +4582,57 @@ KY477, UNKNOWN, RECTANGLE, false, true, , Dell
 KY477_KY477_KY477_KY477, UNKNOWN, UNKNOWN, false, false, , 
 L07350_1C1, UNKNOWN, UNKNOWN, false, true, , Hp
 L07_2S2600_S1C1, PIN_8, RECTANGLE, false, true, , Uniwill
-L08L6D12, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L08L6D12, UNKNOWN, UNKNOWN, false, false, , 
+L08M4B21, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L08S6C02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L08S6C02_L08S6C02, UNKNOWN, UNKNOWN, false, false, , 
+L08S6D02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L09C4P1, CUSTOM, CUSTOM, false, true, , Lenovo
+L09C6Y11, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L09M4T09, UNKNOWN, UNKNOWN, false, false, , 
 L09M4T09_L09M4T09, UNKNOWN, UNKNOWN, false, false, , 
-L09P6D21, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L09M6Y02, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L09P6D21, UNKNOWN, UNKNOWN, false, false, , 
 L09S3E31, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L09S4B21, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L09S6D21, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L10C6Y02, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L10C6Y02, UNKNOWN, UNKNOWN, false, false, , 
 L10C6Y02_L10C6Y02, UNKNOWN, UNKNOWN, false, false, , 
+L10M2121, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L10M2122, PIN_6, SQUARE, false, true, , Lenovo
 L10M4P21, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L10N4E21, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L10N4E21, UNKNOWN, UNKNOWN, false, false, , 
+L10P6F21, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L11421_1C2, UNKNOWN, UNKNOWN, false, true, , Hp
 L11L6R02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L11L6R02_L11L6R02, UNKNOWN, UNKNOWN, false, false, , 
-L12C4P11, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L12M4E01, UNKNOWN, UNKNOWN, false, true, , Denchipro
+L11M3P02, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L12C4P11, UNKNOWN, UNKNOWN, false, false, , 
+L12L3P53, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L12M4E01, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L12M4E01_L12M4E01, UNKNOWN, UNKNOWN, false, false, , 
+L12M4F02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L12N2P01, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L12S4K01, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L12S4K01, UNKNOWN, UNKNOWN, false, false, , 
 L12S4K01_L12S4K01_L12S4K01_L12S4K01, UNKNOWN, UNKNOWN, false, false, , 
-L13L4A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L12S4Z51, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L13L4A01, UNKNOWN, UNKNOWN, false, false, , 
 L13L4A01_L13L4A01, UNKNOWN, UNKNOWN, false, false, , 
 L13M4P71, CUSTOM, RECTANGLE, false, true, , Lenovo
+L13M4PO2, UNKNOWN, UNKNOWN, false, false, , 
 L14C2K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L14C3K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L14C3K32, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L14C3K32, UNKNOWN, UNKNOWN, false, false, , 
 L14C4K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L14L3PB0, PIN_8, CUSTOM, false, true, , Lenovo
+L14D3K32, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L14L3PB0, PIN_8, CUSTOM, false, false, , 
 L14M2921, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L14M3P21, UNKNOWN, UNKNOWN, false, true, , Denchipro
+L14M3PB0, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L14M4P72, PIN_8, CUSTOM, false, true, , Lenovo
-L14M6F01, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L14M6F01, UNKNOWN, UNKNOWN, false, false, , 
 L14M6F01_L14M6F01_L14M6F01_L14M6F01, UNKNOWN, UNKNOWN, false, false, , 
+L14S3A01, UNKNOWN, UNKNOWN, false, true, , Denchipro
 L152PB2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2K32, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -4570,34 +4640,50 @@ L15C2P31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2PB1, UNKNOWN, CUSTOM, false, true, , Lenovo
 L15C2PB1_L15C2PB1, UNKNOWN, UNKNOWN, false, false, , 
 L15D1P31, UNKNOWN, UNKNOWN, false, true, , Denchipro
+L15D3A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15L4P20, CUSTOM, RECTANGLE, false, true, , Denchipro
 L15M4A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15M6PA1, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L15S6A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L15S6A01, UNKNOWN, UNKNOWN, false, false, , 
 L15S6PA1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16C3K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16C3P31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16D1P34, UNKNOWN, UNKNOWN, false, true, , Denchipro
+L16L2PB2, UNKNOWN, UNKNOWN, false, false, , 
 L16L2PB2_L16L2PB2, UNKNOWN, UNKNOWN, false, false, , 
+L16L4PB2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16L8T2A, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16M4PA2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L16M4PB3, UNKNOWN, CUSTOM, false, true, , Denchipro
+L16S3P24, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17C3PE0, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17C3PE0_L17C3PE0, UNKNOWN, UNKNOWN, false, false, , 
+L17C3PG2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 L17D1P35, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17D2P31, CUSTOM, RECTANGLE, false, true, , Denchipro
 L17L3PE0, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17L3PE0_L17L3PE0, UNKNOWN, UNKNOWN, false, false, , 
+L17L3PH0, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17M2PB7, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L17M4P71, UNKNOWN, UNKNOWN, false, true, , Denchipro
+L17M2PF3, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L17M4P71, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L17M4PB1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17S3PG1, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L18C6P90, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L18L3PF4, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18C3P51, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18C6P90, UNKNOWN, UNKNOWN, false, false, , 
+L18D3PF2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18L3PF4, UNKNOWN, UNKNOWN, false, false, , 
 L18L3PF4_L18L3PF4, UNKNOWN, UNKNOWN, false, false, , 
-L18M3PFA, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L18S3P71, UNKNOWN, UNKNOWN, false, true, , Lenovo
-L19D3PF2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18L4P72, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18M3PFA, UNKNOWN, UNKNOWN, false, false, , 
+L18M4P72, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L18S3P71, UNKNOWN, UNKNOWN, false, false, , 
+L19C3PF0, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L19D3PD6, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L19D3PF2, UNKNOWN, UNKNOWN, false, false, , 
 L19D3PF2_L19D3PF2, UNKNOWN, UNKNOWN, false, false, , 
-L19M3PD5, CUSTOM, RECTANGLE, false, true, , Lenovo
+L19L6P71, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L19M3PD5, CUSTOM, RECTANGLE, false, false, , 
 L1P3116ERPC, UNKNOWN, UNKNOWN, false, true, , Sony
 L1P4128, CUSTOM, FAT, false, true, , Lg
 L22_P0, UNKNOWN, CUSTOM, false, true, , Tongfang
@@ -4636,7 +4722,7 @@ LBAV3KL, UNKNOWN, UNKNOWN, false, true, , Uniwill
 LBB122UH, PIN_9, RECTANGLE, false, true, , Lg
 LBB722FH, CUSTOM, RECTANGLE, false, true, , Lg
 LBF122KH, UNKNOWN, UNKNOWN, false, true, , Lg
-LBF_TS61, UNKNOWN, UNKNOWN, false, true, , Lenovo
+LBF_TS61, UNKNOWN, UNKNOWN, false, false, , 
 LBG522QH, PIN_9, RECTANGLE, false, true, , Lg
 LBG622RH, UNKNOWN, UNKNOWN, false, true, , Lg
 LBP7221E_LBP7221E, UNKNOWN, UNKNOWN, false, false, , 
@@ -4652,6 +4738,7 @@ LC_BTP00_036_LC_BTP00_036_LC_BTP00_036_LC_BTP00_036_LC_BTP00_036_LC_BTP00_036, U
 LC_BTP01_009, UNKNOWN, UNKNOWN, false, true, , Acer
 LC_BTP03_011, UNKNOWN, UNKNOWN, false, true, , Acer
 LC_BTP03_011_LC_BTP03_011_LC_BTP03_011, UNKNOWN, UNKNOWN, false, false, , 
+LC_P_N_121500158, UNKNOWN, UNKNOWN, false, true, , Lenovo
 LDW19050065, PIN_9, CUSTOM, false, true, , Mechrevo
 LE150T2W, UNKNOWN, UNKNOWN, false, true, , Nec
 LENOVO_42T4965, UNKNOWN, UNKNOWN, false, true, , Lenov
@@ -4663,7 +4750,7 @@ LIBREM_13, UNKNOWN, UNKNOWN, false, true, , Purism
 LIFEBOOK_E782, UNKNOWN, UNKNOWN, false, true, , Fujitsu-siemens
 LIFEP04, UNKNOWN, SQUARE, false, true, 38.0 x 35.0 x 1.0, Ibm
 LIMITED_EDITION_007, UNKNOWN, UNKNOWN, false, true, , Sony
-LINGYUE_GT, UNKNOWN, UNKNOWN, false, true, , Haier
+LINGYUE_GT, UNKNOWN, UNKNOWN, false, false, , 
 LINGYUE_S4, UNKNOWN, UNKNOWN, false, true, , Haier
 LIP8157IVPT_TW, UNKNOWN, UNKNOWN, false, true, , Benq
 LIP_9092CMPT_TW, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -4671,6 +4758,7 @@ LIS1532ERPC, UNKNOWN, UNKNOWN, false, true, , Sony
 LM750_H, UNKNOWN, UNKNOWN, false, true, , Nec
 LO8O6D13, UNKNOWN, UNKNOWN, false, true, , Lenovo
 LO8O6D13_LO8O6D13, UNKNOWN, UNKNOWN, false, false, , 
+LO9L6Y02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 LS150_N, UNKNOWN, UNKNOWN, false, true, , Nec
 LS550JS2JW, UNKNOWN, UNKNOWN, false, true, , Nec
 LT23_SERIES, UNKNOWN, UNKNOWN, false, true, , Gateway
@@ -4756,6 +4844,7 @@ N10PL3453130P, UNKNOWN, UNKNOWN, false, true, , Irbis
 N14A_PL4010088_2P, UNKNOWN, UNKNOWN, false, true, , Other
 N150BAT_4, UNKNOWN, UNKNOWN, false, true, , Clevo
 N157BAT_6, UNKNOWN, UNKNOWN, false, true, , Clevo
+N15B02W, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 N16PL3782117P, UNKNOWN, UNKNOWN, false, true, , Other
 N230BAT_3, UNKNOWN, UNKNOWN, false, true, , Clevo
 N230BAT_6, UNKNOWN, UNKNOWN, false, true, , Clevo
@@ -4834,7 +4923,7 @@ OLEVIA_SSBS02, UNKNOWN, UNKNOWN, false, false, ,
 OLEVIA_SSBS16, UNKNOWN, UNKNOWN, false, false, , 
 ONETOUCH_POP_8_P320A, UNKNOWN, UNKNOWN, false, true, , Alcatel
 ONYX_15, UNKNOWN, UNKNOWN, false, true, , Motion
-OOHW027, UNKNOWN, UNKNOWN, false, true, , Lenovo
+OOHW027, UNKNOWN, UNKNOWN, false, false, , 
 OOHW027_OOHW027, UNKNOWN, UNKNOWN, false, false, , 
 OP57077006, UNKNOWN, UNKNOWN, false, true, , Nec
 OP_570_70001, UNKNOWN, UNKNOWN, false, true, , Nec
@@ -4953,6 +5042,7 @@ PA3965U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PA3978U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PA5013U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PA5023U, UNKNOWN, UNKNOWN, false, true, , Toshiba
+PA5028U_1BRS, UNKNOWN, CUSTOM, false, true, , Denchipro
 PA5030U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PA5031U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PA5036U_1BRS, UNKNOWN, UNKNOWN, false, true, , Toshiba
@@ -5071,11 +5161,13 @@ PR_27A589G, UNKNOWN, UNKNOWN, false, true, , Other
 PR_2990150, UNKNOWN, UNKNOWN, false, true, , Acer
 PSKKWA_00J006, UNKNOWN, UNKNOWN, false, true, , Toshiba
 PST_3800_8162_SCUD, UNKNOWN, UNKNOWN, false, true, , Averatec
+PSU4RL_00700E, UNKNOWN, CUSTOM, false, true, , Toshiba
 PS_202S, UNKNOWN, UNKNOWN, false, true, , Samsung
 PT653, UNKNOWN, UNKNOWN, false, true, , Dell
 PW23Y, UNKNOWN, UNKNOWN, false, true, , Dell
 PW868, UNKNOWN, UNKNOWN, false, true, , Dell
 PW868_PW868, UNKNOWN, UNKNOWN, false, false, , 
+PXD3X2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 Q1458, UNKNOWN, UNKNOWN, false, true, , Gigabyte
 Q1732N, UNKNOWN, UNKNOWN, false, true, , Gigabyte
 Q2532N, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -5134,7 +5226,7 @@ S26391_F421_L200, UNKNOWN, UNKNOWN, false, true, , Fujitsu-siemens
 S26391_F5031_L400, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 S26393_E034_V414, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 S2691061, UNKNOWN, RECTANGLE, false, true, 47.6 x 27.1 x 9.0, Asus
-S306, UNKNOWN, UNKNOWN, false, true, , Schenker
+S306, UNKNOWN, UNKNOWN, false, false, , 
 S405, CUSTOM, CUSTOM, false, true, , Asus
 S406, UNKNOWN, UNKNOWN, false, true, , Schenker
 S40_4S4400_G1P3, UNKNOWN, UNKNOWN, false, true, , Uniwill
@@ -5152,17 +5244,28 @@ SATELLITE_J60_146C_5, UNKNOWN, UNKNOWN, false, false, ,
 SATELLITE_L55W_C5258, UNKNOWN, UNKNOWN, false, true, , Tongfang
 SATELLITE_S50_B_020, UNKNOWN, UNKNOWN, false, true, , Asus
 SB03XL, CUSTOM, CUSTOM, false, true, , Denchipro
-SB10F46474, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10F46448, UNKNOWN, UNKNOWN, false, false, , 
+SB10F46474, UNKNOWN, UNKNOWN, false, false, , 
+SB10H45075, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SB10J78998, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SB10K97577, UNKNOWN, UNKNOWN, false, true, , Lenovo
-SB10K97602, UNKNOWN, UNKNOWN, false, true, , Lenovo
-SB10K97624, UNKNOWN, UNKNOWN, false, true, , Lenovo
-SB10K97649, CUSTOM, RECTANGLE, false, true, , Lenovo
-SB10T83120, UNKNOWN, UNKNOWN, false, true, , Lenovo
-SB10W65282, UNKNOWN, UNKNOWN, false, true, , Lenovo
-SB10W86958, PIN_7, CUSTOM, false, true, , Lenovo
+SB10K10386, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10K97577, UNKNOWN, UNKNOWN, false, false, , 
+SB10K97584, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SB10K97602, UNKNOWN, UNKNOWN, false, false, , 
+SB10K97610, UNKNOWN, RECTANGLE, false, true, , Lenovo
+SB10K97624, UNKNOWN, UNKNOWN, false, false, , 
+SB10K97630, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10K97649, CUSTOM, RECTANGLE, false, false, , 
+SB10K97657, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10T83120, UNKNOWN, UNKNOWN, false, false, , 
+SB10T83196, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10W65282, UNKNOWN, UNKNOWN, false, false, , 
+SB10W86952, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SB10W86958, PIN_7, CUSTOM, false, false, , 
+SB10X87837, UNKNOWN, UNKNOWN, false, false, , 
 SBX23456783444285_1A_28, UNKNOWN, UNKNOWN, false, true, , Advent
 SDB_3S1PA, UNKNOWN, UNKNOWN, false, true, , Samsung
+SDI_P21GK3, CUSTOM, UNKNOWN, false, true, , Samsung
 SD_PBP94E, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SF20GM_2S4000_B1G1, UNKNOWN, UNKNOWN, false, true, , Other
 SGPBP02, UNKNOWN, UNKNOWN, false, true, , Sony
@@ -5940,7 +6043,9 @@ SL10068_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10068_8, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10068_9, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10069_1, UNKNOWN, CUSTOM, false, true, , Denchipro
+SL10069_10, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10069_13, CUSTOM, CUSTOM, false, true, , Denchipro
+SL10069_3, CUSTOM, RECTANGLE, false, true, , Denchipro
 SL10070_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10070_10, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10070_11, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -6068,6 +6173,7 @@ SL10084_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10084_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10084_8, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10084_9, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10085_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10088_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10088_10, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10088_11, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -6142,7 +6248,7 @@ SL10097_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10097_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10097_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10099_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10099_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10099_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10099_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10099_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10100_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -6494,6 +6600,7 @@ SL10155_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10155_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10155_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10155_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10156_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10157_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10157_10, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10157_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -6667,7 +6774,7 @@ SL10187_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10187_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10187_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10187_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10187_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10187_5, UNKNOWN, RECTANGLE, false, true, , Denchipro
 SL10187_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10187_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10187_8, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -6955,6 +7062,8 @@ SL10242_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10242_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10242_8, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10242_9, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10243_1, CUSTOM, UNKNOWN, false, true, , Denchipro
+SL10243_2, CUSTOM, UNKNOWN, false, true, , Denchipro
 SL10244_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10244_10, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10244_11, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -7218,6 +7327,7 @@ SL10302_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10302_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10302_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10302_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10303_2, CUSTOM, UNKNOWN, false, true, , Denchipro
 SL10304_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10304_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10304_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -7256,6 +7366,7 @@ SL10310_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10310_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10310_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10312_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10313_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10314_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10314_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10314_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -7290,6 +7401,7 @@ SL10317_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10317_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10317_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10317_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10318_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10319_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10319_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10319_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -7886,6 +7998,7 @@ SL10434_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10434_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10434_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10434_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10435_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10436_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10437_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10437_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8273,6 +8386,7 @@ SL10536_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10536_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10536_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10537_1, CUSTOM, RECTANGLE, false, true, , Denchipro
+SL10538_5, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10539_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10539_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10539_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8633,11 +8747,12 @@ SL10710_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10710_6, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10710_7, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10711_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10713_2, PIN_8, CUSTOM, false, true, , Denchipro
+SL10713_2, PIN_8, RECTANGLE, false, true, , Denchipro
 SL10716_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10716_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10717_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10717_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10718_2, CUSTOM, UNKNOWN, false, true, , Denchipro
 SL10719_1, CUSTOM, CUSTOM, false, true, , Denchipro
 SL10719_10, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10719_11, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8735,6 +8850,7 @@ SL10750_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10751_2, CUSTOM, CUSTOM, false, true, , Denchipro
 SL10752_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10752_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10753_3, CUSTOM, UNKNOWN, false, true, , Denchipro
 SL10754_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10754_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10754_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8790,6 +8906,7 @@ SL10777_1, PIN_8, CUSTOM, false, true, , Denchipro
 SL10778_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10778_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10778_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10779_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10780_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10780_4, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10781_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8809,7 +8926,7 @@ SL10790_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10790_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10792_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10792_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10793_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10793_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10793_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10794_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10795_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -8955,6 +9072,7 @@ SL10869_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10869_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10871_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10871_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10872_1, UNKNOWN, CUSTOM, false, true, , Denchipro
 SL10873_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10873_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10874_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9103,7 +9221,7 @@ SL10967_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10967_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10968_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10968_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10969_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL10969_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10969_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10970_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10970_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9116,7 +9234,7 @@ SL10975_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10975_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10976_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10976_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL10977_2, PIN_8, CUSTOM, false, true, , Denchipro
+SL10977_2, PIN_8, CUSTOM, false, false, , 
 SL10978_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10978_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL10979_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9232,7 +9350,7 @@ SL11052_1, CUSTOM, SQUARE, false, true, , Denchipro
 SL11053_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11053_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11054_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
-SL11054_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL11054_2, UNKNOWN, UNKNOWN, false, false, , 
 SL11056_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11056_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11057_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9281,6 +9399,7 @@ SL11084_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11084_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11084_4, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11084_5, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL11085_1, CUSTOM, RECTANGLE, false, true, , Denchipro
 SL11086_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11087_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL11087_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9558,6 +9677,7 @@ SL20053_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL20141_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL20141_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL20141_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
+SL20151_1, CUSTOM, UNKNOWN, false, true, , Denchipro
 SL20153_1, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL20153_2, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SL20153_3, UNKNOWN, UNKNOWN, false, true, , Denchipro
@@ -9826,7 +9946,7 @@ SQU_1311, UNKNOWN, UNKNOWN, false, true, , Acer
 SQU_1403, UNKNOWN, UNKNOWN, false, true, , Quanta
 SQU_1605, UNKNOWN, UNKNOWN, false, true, , Acer
 SQU_1904, UNKNOWN, UNKNOWN, false, true, , Haier
-SQU_504, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SQU_504, UNKNOWN, UNKNOWN, false, false, , 
 SQU_512, UNKNOWN, UNKNOWN, false, true, , Packard bell
 SQU_714, UNKNOWN, UNKNOWN, false, true, , Benq
 SQU_715_P, UNKNOWN, RECTANGLE, false, true, 50.2 x 22.1 x 2.0, Gateway
@@ -9840,6 +9960,7 @@ SSBS13, CUSTOM, RECTANGLE, false, true, , Haier
 SSBS15, UNKNOWN, UNKNOWN, false, false, , 
 SSBS16, UNKNOWN, UNKNOWN, false, true, , Cce
 SSBS19, CUSTOM, RECTANGLE, false, true, , Hasee
+SSBS24, CUSTOM, UNKNOWN, false, true, , Haier
 SSBS40, PIN_9, RECTANGLE, false, true, , Hasee
 SSBS46, UNKNOWN, UNKNOWN, false, true, , Denchipro
 SSBS71, CUSTOM, RECTANGLE, false, true, , Mcnair
@@ -9879,6 +10000,7 @@ T5443, UNKNOWN, UNKNOWN, false, true, , Dell
 T58, UNKNOWN, UNKNOWN, false, true, , Machenike
 T6, UNKNOWN, UNKNOWN, false, true, , Toshiba
 T621, UNKNOWN, UNKNOWN, false, true, , Haier
+T7M_FSP, CUSTOM, UNKNOWN, false, true, , Tabletkiosk
 TABLET_PC_ET1206_SERIES, UNKNOWN, UNKNOWN, false, true, , Clevo
 TAO3XL, UNKNOWN, UNKNOWN, false, true, , Hp
 TD175, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -9926,6 +10048,7 @@ U116D, UNKNOWN, UNKNOWN, false, true, , Dell
 U33X, UNKNOWN, UNKNOWN, false, true, , Sony
 U40_3S4400_C1M1, UNKNOWN, UNKNOWN, false, true, , Uniwill
 U40_4S2200_C1L3, UNKNOWN, UNKNOWN, false, true, , Tehom
+U70035L, CUSTOM, UNKNOWN, false, true, , Gigabyte
 U753_TS44_111, UNKNOWN, UNKNOWN, false, true, , Clevo
 U8735, UNKNOWN, UNKNOWN, false, true, , Dell
 U8735_U8735, UNKNOWN, UNKNOWN, false, false, , 

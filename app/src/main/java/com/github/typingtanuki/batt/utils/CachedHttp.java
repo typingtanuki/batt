@@ -22,20 +22,20 @@ import static com.github.typingtanuki.batt.utils.Progress.*;
 public final class CachedHttp {
     public static final String CACHE_PATH = "url_cache";
     public static final String OLD_CACHE_PATH = "url_cache/old";
-    private static final Map<String, Long> TIMEOUT = new HashMap<>();
+    private static final Map<PageType, Long> TIMEOUT = new HashMap<>();
     private static final long RETRY_INTERVAL = 10_000;
     private static final int MAX_RETRIES = 10;
 
     static {
-        TIMEOUT.put("list", TimeUnit.DAYS.toMillis(14));
-        TIMEOUT.put("maker", TimeUnit.DAYS.toMillis(30));
+        TIMEOUT.put(PageType.LIST, TimeUnit.DAYS.toMillis(14));
+        TIMEOUT.put(PageType.MAKER, TimeUnit.DAYS.toMillis(30));
     }
 
     private CachedHttp() {
         super();
     }
 
-    public static Document http(String type, String url) throws IOException, PageUnavailableException {
+    public static Document http(PageType type, String url) throws IOException, PageUnavailableException {
         Path path = new PathBuilder(CACHE_PATH)
                 .withSubFolder(type)
                 .withFileName(url, true)
@@ -99,7 +99,7 @@ public final class CachedHttp {
         }
     }
 
-    private static boolean isUpToDate(Path path, String type) throws IOException {
+    private static boolean isUpToDate(Path path, PageType type) throws IOException {
         long modified = Files.getLastModifiedTime(path).toMillis();
         long now = System.currentTimeMillis();
 
