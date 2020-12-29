@@ -53,6 +53,15 @@
 [*] Size: 
 [/list]
 
+[*] Cube JUMPER_2869178
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: JUMPER 2869178, JUMPER 2877167, JUMPER 52110118, JUMPER H28154165P, JUMPER I35, JUMPER QT31150165P, JUMPER ZP50100130, JUMPER ZP50110130, JUMPER ZP52110158, JUMPER ZP52110160
+[*] Size: 
+[/list]
+
 [*] Cube THINKER_I35
 [list]
 [*] 
@@ -122,6 +131,15 @@
 [*] 7.6V
 [*] Up to: 4000mAh
 [*] Parts: NB125, NV-2084161-28
+[*] Size: 
+[/list]
+
+[*] Chuwi NV30140146
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4000mAh
+[*] Parts: 30132140P, NV30140146, NV30140146-2S, SURBOOK MINI CWI540
 [*] Size: 
 [/list]
 
@@ -323,6 +341,24 @@
 [*] Size: 
 [/list]
 
+[*] Prestigio NV_5267103_2S
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: NV-5267103-2S, PSB141C02, SMARTBOOK 141 C2
+[*] Size: 
+[/list]
+
+[*] Other 3376125_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4600mAh
+[*] Parts: 3376125-2S
+[*] Size: 
+[/list]
+
 [*] Trekstor MLP2874170_2S
 [list]
 [*] 
@@ -350,12 +386,30 @@
 [*] Size: 
 [/list]
 
+[*] Denchipro AA_PBTN2QB
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 4280mAh
+[*] Parts: AA-PBTN2QB, SL11156-1
+[*] Size: 
+[/list]
+
 [*] Jumper NV_4774126_2S
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4000mAh
 [*] Parts: NV-4774126-2S
+[*] Size: 
+[/list]
+
+[*] Denchipro SL11035_2
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3940mAh
+[*] Parts: AA-PBTN2QB, AA-PBTN2TQ, NP900X3N, SL11035-2
 [*] Size: 
 [/list]
 

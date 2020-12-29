@@ -147,6 +147,17 @@ public final class BatteryDetailReader {
             String url = detail.attr("src");
             if (!url.startsWith("http")) {
                 url = battery.baseUri() + url;
+            }
+            battery.addImage(url);
+        }
+        Elements srcset = page.select("img[srcset]");
+        for (Element image : srcset) {
+            String set = image.attr("srcset");
+            for (String rawUrl : set.split(",")) {
+                String url = rawUrl.strip().split(" ")[0];
+                if (!url.startsWith("http")) {
+                    url = battery.baseUri() + url;
+                }
                 battery.addImage(url);
             }
         }
