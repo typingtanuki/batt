@@ -1,13 +1,4 @@
 [list]
-[*] Jumper 2ICP4_85_128
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5500mAh
-[*] Parts: 2ICP4/85/128, 40069133, MLP3785128-2S
-[*] Size: 
-[/list]
-
 [*] Jumper 2869178
 [list]
 [*] 
@@ -53,15 +44,6 @@
 [*] Size: 
 [/list]
 
-[*] Cube JUMPER_2869178
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: JUMPER 2869178, JUMPER 2877167, JUMPER 52110118, JUMPER H28154165P, JUMPER I35, JUMPER QT31150165P, JUMPER ZP50100130, JUMPER ZP50110130, JUMPER ZP52110158, JUMPER ZP52110160
-[*] Size: 
-[/list]
-
 [*] Cube THINKER_I35
 [list]
 [*] 
@@ -103,7 +85,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 4500mAh
-[*] Parts: 3282122-2S, 3382122-2S, CLTD-3487265, EZBOOK 3 PRO, EZBOOK 3 PRO 13.3, EZBOOK 3 PRO 64G LB10, EZBOOK 3 PRO 64GB, EZBOOK 3 PRO LB10, EZBOOK 3 PRO S, EZBOOK 3 PRO SSD, EZBOOK 3 PRO V3, EZBOOK 3 PRO V4, EZBOOK 3 PRO VS, EZBOOK 3 S, EZBOOK 3 SE, EZBOOK 3 SL, EZBOOK 3S, EZBOOK 3S MB10, EZBOOK 3SE, EZBOOK 3SL, EZBOOK I7, EZBOOK I7S, EZBOOK LB10, EZBOOK MB10 3S, EZBOOK PRO 3 LB10, EZBOOK X3, HW-3487265, HW-3687265, NOTEBOOK SLIM S130, P313R, PRIMEBOOK C11, S130, SLIM PEAQ S130-CG464IT, SLIM S130, SLIM S130-CA464PT, SLIM S130-CG464PT, SURFBOOK A13, SURFBOOK A13B, SURFBOOK A13B-CO, SURFBOOK A13B-PO, TREKSTOR SURFBOOK A 13N5000/4/64, TREKSTORE SURFBOOK A13B-P313R, WTL-3687265, Z140A-SD
+[*] Parts: 10LB, 3282122-2S, 3282122-2S,HW-3487265, 3382122-2S, CLTD-3487265, EZBOOK 3 PRO, EZBOOK 3 PRO 10LB, EZBOOK 3 PRO 13.3, EZBOOK 3 PRO 64G LB10, EZBOOK 3 PRO 64GB, EZBOOK 3 PRO LB10, EZBOOK 3 PRO S, EZBOOK 3 PRO SSD, EZBOOK 3 PRO V3, EZBOOK 3 PRO V4, EZBOOK 3 PRO VS, EZBOOK 3 S, EZBOOK 3 SE, EZBOOK 3 SL, EZBOOK 3S, EZBOOK 3S MB10, EZBOOK 3SE, EZBOOK 3SL, EZBOOK I7, EZBOOK I7S, EZBOOK LB10, EZBOOK MB10 3S, EZBOOK PRO 3 LB10, EZBOOK X3, HW-3487265, HW-3687265, NOTEBOOK SLIM S130, P313R, PRIMEBOOK C11, S130, SL10959-1, SL10959-2, SLIM PEAQ S130-CG464IT, SLIM S130, SLIM S130-CA464PT, SLIM S130-CG464PT, SURFBOOK A13, SURFBOOK A13B, SURFBOOK A13B-CO, SURFBOOK A13B-PO, TREKSTOR SURFBOOK A 13N5000/4/64, TREKSTORE SURFBOOK A13B-P313R, WTL-3687265, Z140A-SD
 [*] Size: 
 [/list]
 
@@ -139,7 +121,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 4000mAh
-[*] Parts: 30132140P, NV30140146, NV30140146-2S, SURBOOK MINI CWI540
+[*] Parts: 30132140P, CWI540, NV30140146, NV30140146-2S, SL20290-1, SURBOOK MINI CWI540
 [*] Size: 
 [/list]
 
@@ -197,15 +179,6 @@
 [*] Size: 
 [/list]
 
-[*] Prestigio 2ICP3_78_180
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2ICP3/78/180, UTL-277180-2S
-[*] Size: 
-[/list]
-
 [*] Chuwi 32160205P
 [list]
 [*] 
@@ -233,15 +206,6 @@
 [*] Size: 
 [/list]
 
-[*] Onda XIAOMA_31
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4500mAh
-[*] Parts: XIAOMA 31, XIAOMA 41
-[*] Size: 
-[/list]
-
 [*] Irbis NB111
 [list]
 [*] 
@@ -251,75 +215,12 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo 2ICP4_79_101_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 8060mAh
-[*] Parts: 2ICP4/79/101-2, L12L4P61
-[*] Size: 
-[/list]
-
-[*] Mcnair 2ICP6_68_143
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8000mAh
-[*] Parts: 2ICP6/68/143, MLP5568142-2S
-[*] Size: 
-[/list]
-
-[*] Other 2ICP6_78_116
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7000mAh
-[*] Parts: 2ICP6/78/116, MLP5278116-2S, YR133-V2.0
-[*] Size: 
-[/list]
-
-[*] Acer 1ICP5_60_80_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6060mAh
-[*] Parts: 1ICP5/60/80-2, 1ICP6/60/78-2, AP13D3K, ASPIRE S3, ASPIRE S3-392, ASPIRE S3-392G, SL10831-1
-[*] Size: 
-[/list]
-
 [*] Mcnair MLP4087118
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 6000mAh
 [*] Parts: MLP4087118, MLP4087118-2S
-[*] Size: 
-[/list]
-
-[*] Medion 2ICP4_86_125
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5400mAh
-[*] Parts: 2ICP4/86/125, 40069239, E4271, E4272
-[*] Size: 
-[/list]
-
-[*] Mcnair 2ICP4_78_106
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2ICP4/78/106, 3878106-2S, 40067920, 40069914, E2291, E2292, E2293, E2294, MLP4078106-2S
-[*] Size: 
-[/list]
-
-[*] Medion 2ICP5_71_120
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: 2ICP5/71/120, 40064487, E2216T, E3213, E3215, E3215T, E3216, MLP4372121-2S
 [*] Size: 
 [/list]
 
@@ -368,15 +269,6 @@
 [*] Size: 
 [/list]
 
-[*] Acer 2ICP3_100_107
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4550mAh
-[*] Parts: 2ICP3/100/107, AP15B8K, ASPIRE SWITCH 11 SW5-173, ASPIRE SWITCH 11 SW5-173P, ASPIRE SWITCH 11 V SW5-173, ASPIRE SWITCH 11 V SW5-173P, ASPIRE SWITCH 11V SW5-173-60VD, ASPIRE SWITCH 11V SW5-173-614T, ASPIRE SWITCH 11V SW5-173-61WR, ASPIRE SWITCH 11V SW5-173-632W, ASPIRE SWITCH 11V SW5-173-63NV, ASPIRE SWITCH 11V SW5-173-648Z, ASPIRE SWITCH 11V SW5-173P-61RD, ASPIRE SWITCH 12 S SW7-272-M3A0, ASPIRE SWITCH 12 S SW7-272-M5S2, ASPIRE SWITCH 12 S SW7-272-M6S5, ASPIRE SWITCH 12 S SW7-272P-M0J5, KT.0020G.005, NT.G74AA.002, SW5-173, SW5-173P-6603, SW5-173P-67K2, SWITCH 11 V PRO, SWITCH 11 V PRO SW5-173P-6603, SWITCH 11 V PRO SW5-173P-67K2, SWITCH 11 V SW5-173, SWITCH 11 V SW5-173-60VD, SWITCH 11 V SW5-173-614T, SWITCH 11 V SW5-173-61BS, SWITCH 11 V SW5-173-6337, SWITCH 11 V SW5-173-66EP, SWITCH 11 V SW5-173-6742, SWITCH 11 V SW5-173-6849, SWITCH 11 V SW5-173P-64Q8, SWITCH 11 V SW5-173P-6603, SWITCH 12 S SW7-272, SWITCH 12 S SW7-272-M0JS, SWITCH 12 S SW7-272-M51S, SWITCH 12 S SW7-272-M5FE, SWITCH 12 S SW7-272-MOIS, SWITCH 12 S SW7-272P, SWITCH 12 S SW7-272P-M8V4, SWITCH 12 S SW7-272P-M9JP
-[*] Size: 
-[/list]
-
 [*] Dell YN6W9
 [list]
 [*] 
@@ -386,30 +278,12 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro AA_PBTN2QB
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4280mAh
-[*] Parts: AA-PBTN2QB, SL11156-1
-[*] Size: 
-[/list]
-
 [*] Jumper NV_4774126_2S
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4000mAh
 [*] Parts: NV-4774126-2S
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11035_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: AA-PBTN2QB, AA-PBTN2TQ, NP900X3N, SL11035-2
 [*] Size: 
 [/list]
 
@@ -436,25 +310,7 @@
 [*] 
 [*] 7.4V
 [*] Up to: 3520mAh
-[*] Parts: 7WMM7, CFC6C, CP305193L1, D1R74, DL011301-PLP22G01, SL10848-1, VENUE 11 PRO CFC6C, VENUE 11 PRO D1R74, VENUE 11 PRO KEYBOARD
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10876_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7900mAh
-[*] Parts: 2, INCHMI PRO 15.6, INCHPRO 15.6, MI PRO 15.6, MI PRO 15.6 I3 8130U/4GB/128GB, MI PRO 15.6 I3 8130U/4GB/256GB, MI PRO 15.6 I5 8250U/4GB/128GB 1TB, MI PRO 15.6 I5 8250U/8GB/128GB 1TB, MI PRO 15.6 I7 8550U/8GB/128GB 1TB, MI PRO 15.6 INCH, PRO 15.6, PRO 15.6 INCH, PRO GTX, R15B01W, SL10876-1
-[*] Size: 
-[/list]
-
-[*] Asus 0B200_00160000
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 7070mAh
-[*] Parts: 0B200-00160000, ASUSPRO B400 ULTRABOOK, ASUSPRO B400A ULTRABOOK SERIE, ASUSPRO B400V ULTRABOOK SERIES, B400 ULTRABOOK, B400A ULTRABOOK, B400A-1C, B400A-CZ207H, B400A-W3010G, B400A-W3039X, B400A-W3040G, B400A-W3041X, B400A-W3045H, B400A-XH51, B400A-XH52, B400V ULTRABOOK SERIES, B400VC ULTRABOOK, B400VC-1C, B400VC-W3007H, B401LA, B401LG, BU400, BU400A, BU400A-W3010X, BU400E3317VC, BU400VC-W3040X ULTRABOOK, BU401LA, BU401LA-CZ020G, BU401LA-CZ040G, BU401LA-CZ070G, BU401LA-CZ084G, BU401LA-CZ088G, BU401LA-CZ111G, BU401LA-CZ130G, BU401LA-CZ180G, BU401LA-CZ187G, BU401LA-CZ188G, BU401LA-FA210G, BU401LA-FA221G, BU401LA-FA222H, BU401LA-FA230G, BU401LA-FA338G, BU401LA-FA366G, BU401LG, BU401LG-CZ033G, BU401LG-FA115G, BU401LG-FA123G, BU401LG-FA164G, BU401LG-FA169G, BU401LG-FA206G, C22-B400A, C22-BU400A, PRO B400 ULTRABOOK, PRO B400A ULTRABOOK SERIE, PRO B400V ULTRABOOK SERIES, PRO B400VC, PRO B400VC-CZ129G, PRO B400VC-CZ135G, PRO B400VC-W3001X, PRO B400VC-W3007G, PRO B400VC-W3007X, PRO B400VC-W3010G, PRO B400VC-W3010P, PRO B400VC-W3018P, PRO B400VC-W3020X, PRO B400VC-W3022X, PRO B400VC-W3029G, PRO B400VC-W3040X, PRO BU400, PRO BU400A, PRO BU400A-CC090H, PRO BU400A-CC132P, PRO BU400A-CZ133H, PRO BU400A-CZ146G, PRO BU400A-CZ146X, PRO BU400A-CZ147G, PRO BU400A-CZ148X, PRO BU400A-CZ168G, PRO BU400A-CZ185G, PRO BU400A-CZ233G, PRO BU400A-CZ252G, PRO BU400A-W3100X, PRO BU400A-W3101G, PRO BU400A-W3101X, PRO BU400A-W3102G, PRO BU400A-W3109G, PRO BU400A-W3117G, PRO BU400A-W3120H, PRO BU400A-W3121H, PRO BU400A-W3161G, PRO BU400A-W3212G, PRO BU400V
+[*] Parts: 7WMM7, CFC6C, CP305193L1, D1R74, DL011301-PLP22G01, KEYBOARD, SL10848-1, SL10848-2, VENUE 11 PRO CFC6C, VENUE 11 PRO D1R74, VENUE 11 PRO KEYBOARD
 [*] Size: 
 [/list]
 
@@ -467,30 +323,12 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10809_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: HSTNN-LB5R, SL10809-3
-[*] Size: 
-[/list]
-
-[*] Denchipro BTY_S37
+[*] Msi MS1_13F1
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6400mAh
-[*] Parts: BTY-S37, SL10801-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10801_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6400mAh
-[*] Parts: BTY-S37, GS30, GS30 2M 001US, GS30 2M-013CN, MS-13F1, MS1-13F1, SL10801-2
+[*] Parts: BTY-S37, GS30, GS30 2M 001US, GS30 2M-013CN, MS-13F1, MS1-13F1, SL10801-1, SL10801-2, SL10801-4
 [*] Size: 
 [/list]
 
@@ -503,30 +341,12 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10379_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5230mAh
-[*] Parts: INCHMI AIR 13.3, MI AIR 13.3, MI AIR 13.3 INCH, MI NOTEBOOK AIR 13.3 2018, NOTEBOOK AIR 13, NOTEBOOK AIR 13 2018, R13B01W, R13B02W, SL10379-1
-[*] Size: 
-[/list]
-
 [*] Iota 2310
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
 [*] Parts: 2310, SLIM 14
-[*] Size: 
-[/list]
-
-[*] Mcnair 2ICP4_75_110
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2ICP4/75/110, 40064592, MLP3975110-2S
 [*] Size: 
 [/list]
 
@@ -548,12 +368,12 @@
 [*] Size: 
 [/list]
 
-[*] Lg 21CP4_73_120
+[*] Hasee SQU_1209
 [list]
 [*] 
-[*] 7.6V
-[*] Up to: 4500mAh
-[*] Parts: 21CP4/73/120, LBK722WE
+[*] 7.4V
+[*] Up to: 11100mAh
+[*] Parts: SQU-1209
 [*] Size: 
 [/list]
 
@@ -575,21 +395,30 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10650_1
+[*] Lenovo SL10650_1
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 9870mAh
-[*] Parts: L15C4P22,L15M4P23, SL10650-1
+[*] Parts: L15C4P22, L15C4P22,L15M4P23, L15M4P23, SL10650-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10650_2
+[*] Lenovo YOGA_910
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 9870mAh
-[*] Parts: 910, SL10650-2
+[*] Parts: 910, SL10650-2, YOGA 910
+[*] Size: 
+[/list]
+
+[*] Wacom 2ICP4_74_131_3
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 9840mAh
+[*] Parts: 2ICP4/74/131-3
 [*] Size: 
 [/list]
 
@@ -602,79 +431,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11063_1
+[*] Wooking 2ICP5_50_112_2
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 9350mAh
-[*] Parts: LBS1224E, SL11063-1
+[*] Up to: 9650mAh
+[*] Parts: 2ICP5/50/112-2, L140BAT-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11063_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 9350mAh
-[*] Parts: 14Z990, SL11063-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11063_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 9350mAh
-[*] Parts: 15Z990, SL11063-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10932_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 9210mAh
-[*] Parts: OB23-011NORV,BP-MCALLAN-22,BP-MCALLAN-22/4630SP, SL10932-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10714_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 9110mAh
-[*] Parts: 920-13IKB, SL10714-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10615_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8680mAh
-[*] Parts: L14L4P24,L14M4P24, SL10615-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10615_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8680mAh
-[*] Parts: 900-13ISK, SL10615-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10352_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8500mAh
-[*] Parts: GJKNX, SL10352-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10352_2
+[*] Dell GD1JP
 [list]
 [*] 
 [*] 7.6V
@@ -683,57 +449,48 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10352_3
+[*] Dell SL10352_1
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8500mAh
-[*] Parts: 3520, SL10352-3
+[*] Parts: GJKNX, SL10352-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10352_4
+[*] Dell SL10352_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8500mAh
-[*] Parts: E5480, SL10352-4
+[*] Parts: 3520, PRECISION 15 3520, SL10352-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10352_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8500mAh
-[*] Parts: 5580, SL10352-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10974_1
+[*] Dell SL10974_1
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8420mAh
-[*] Parts: 5TF10,7M0T6, SL10974-1
+[*] Parts: 5TF10, 5TF10,7M0T6, 7M0T6, SL10974-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10974_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8420mAh
-[*] Parts: 7730, SL10974-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10085_2
+[*] Samsung NP900X4C_SERIES
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 8400mAh
-[*] Parts: SERIES, SL10085-2, SL10085-3, SL10085-4, SL10085-5
+[*] Parts: NP900X4B SERIES, NP900X4C SERIES, NP900X4D SERIES, SERIES, SL10085-3, SL10085-4, SL10085-5
+[*] Size: 
+[/list]
+
+[*] Dell 6MT4T
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 8150mAh
+[*] Parts: 6MT4T, SL10540-1
 [*] Size: 
 [/list]
 
@@ -746,88 +503,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10540_1
+[*] Dell LATITUDE_E5450
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8150mAh
-[*] Parts: 6MT4T, SL10540-1
+[*] Parts: E5450, LATITUDE E5450, SL10540-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10540_2
+[*] Dell LATITUDE_E5470
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8150mAh
-[*] Parts: E5270, SL10540-2
-[*] Size: 
+[*] Parts: E5470, LATITUDE E5470, SL10540-4
+[*] Size: 103.5mm x 7.3mm x 0.0mm
 [/list]
 
-[*] Denchipro SL10540_3
+[*] Dell SL10540_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8150mAh
-[*] Parts: E5450, SL10540-3
+[*] Parts: E5270, LATITUDE E5270, SL10540-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10540_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8150mAh
-[*] Parts: E5470, SL10540-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10540_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8150mAh
-[*] Parts: E5570, SL10540-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11034_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8150mAh
-[*] Parts: ROTMP,R0TMP, SL11034-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11189_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 8100mAh
-[*] Parts: L14M4P21,L14S4P21, SL11189-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11189_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 8100mAh
-[*] Parts: K41-70,K41-80, SL11189-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11189_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 8100mAh
-[*] Parts: M41-70,M41-80, SL11189-3
-[*] Size: 
-[/list]
-
-[*] Terrans force FORCE_S4
+[*] Terrans_force FORCE_S4
 [list]
 [*] 
 [*] 7.6V
@@ -836,169 +539,142 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10486_3
+[*] Msi GS40_Q6E
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8060mAh
-[*] Parts: Q6E, SL10486-3
+[*] Parts: GS40 Q6E, Q6E, SL10486-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10154_2
+[*] Lenovo 2ICP4_79_101_2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 8060mAh
-[*] Parts: SL10154-2, TOUCH
+[*] Parts: 2ICP4/79/101-2, L12L4P61
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11153_2
+[*] Lenovo SL10154_2
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 8060mAh
+[*] Parts: IDEAPAD U410 TOUCH, SL10154-2, TOUCH
+[*] Size: 
+[/list]
+
+[*] Microsoft SL11153_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8030mAh
-[*] Parts: KEYBOARD, SL11153-2
+[*] Parts: KEYBOARD, SL11153-2, SURFACE BOOK KEYBOARD
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10721_2
+[*] Mcnair 2ICP6_68_143
 [list]
 [*] 
-[*] 7.4V
+[*] 7.6V
 [*] Up to: 8000mAh
-[*] Parts: PIXEL, SL10721-2
+[*] Parts: 2ICP6/68/143, MLP5568142-2S
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10876_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7900mAh
-[*] Parts: GTX, SL10876-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10594_2
+[*] Dell LATITUDE_7280
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 7890mAh
-[*] Parts: 9360, SL10594-2
+[*] Parts: 7280, LATITUDE 7280, SL10698-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10698_3
+[*] Dell LATITUDE_7480
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 7890mAh
-[*] Parts: 7480, SL10698-3
+[*] Parts: 7480, LATITUDE 7480, SL10698-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10698_4
+[*] Dell SL10878_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 7890mAh
-[*] Parts: 7280, SL10698-4
+[*] Parts: 5289, LATITUDE 12 5285, LATITUDE 5289, SL10878-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10878_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7890mAh
-[*] Parts: 5289, SL10878-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10412_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7800mAh
-[*] Parts: SL10412-2, X300-2S2P-7900
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10412_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7800mAh
-[*] Parts: SL10412-3, U4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10412_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7800mAh
-[*] Parts: SL10412-5, U45
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10148_2
+[*] Dell 0PD19
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 1V2F6,DFVYN,58DP4, SL10148-2
+[*] Parts: 0PD19, SL10148-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10148_3
+[*] Dell 1V2F6
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 3550, SL10148-3
+[*] Parts: 1V2F6, 1V2F6,DFVYN,58DP4, 58DP4, DFVYN, SL10148-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10148_4
+[*] Dell INSPIRON_5542
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 14-3450, SL10148-4
+[*] Parts: 5548, INSPIRON 5542, INSPIRON 5543, INSPIRON 5545, INSPIRON 5547, INSPIRON 5548, SL10148-7
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10148_5
+[*] Dell SL10148_4
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 15-5550, SL10148-5
+[*] Parts: 14-3450, LATITUDE 14-3450, SL10148-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10148_6
+[*] Dell SL10148_5
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 5448, SL10148-6
+[*] Parts: 15-5550, LATITUDE 15-5550, SL10148-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10148_7
+[*] Dell SL10148_6
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7600mAh
-[*] Parts: 5548, SL10148-7
+[*] Parts: 5448, INSPIRON 5445, INSPIRON 5447, INSPIRON 5448, SL10148-6
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10585_1
+[*] Other 2ICP5_69_107_2
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 7600mAh
+[*] Parts: 2ICP5/69/107-2, S15AB, S15ABG2
+[*] Size: 
+[/list]
+
+[*] Lenovo SL10585_1
 [list]
 [*] 
 [*] 7.4V
@@ -1007,16 +683,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10425_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7560mAh
-[*] Parts: AA-PBWN4AB, SL10425-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10425_2
+[*] Samsung NP530U4E
 [list]
 [*] 
 [*] 7.6V
@@ -1025,7 +692,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10425_3
+[*] Samsung SL10425_3
 [list]
 [*] 
 [*] 7.6V
@@ -1034,88 +701,70 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10533_4
+[*] Dell LATITUDE_12_7204
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7560mAh
-[*] Parts: 7204, SL10533-4
+[*] Parts: 7204, LATITUDE 12 7204, SL10533-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10533_5
+[*] Dell SL10533_5
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7560mAh
-[*] Parts: 7404, SL10533-5
+[*] Parts: 7404, LATITUDE 14 7404, SL10533-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10805_2
+[*] Dell SL10805_2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7560mAh
-[*] Parts: 7548, SL10805-2
+[*] Parts: 7548, INSPIRON 15 7548, SL10805-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10399_2
+[*] Dell INSPIRON_14_7437
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7486mAh
-[*] Parts: 7000, SL10399-2
+[*] Parts: 7437, INSPIRON 14 7437, SL10399-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10399_3
+[*] Hasee 2ICP5_43_126_2
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 7486mAh
-[*] Parts: 7437, SL10399-3
+[*] 7.6V
+[*] Up to: 7400mAh
+[*] Parts: 2ICP5/43/126-2, KINGBOOK X55S1, UTL-4743126-2S2P, X55S1, X57S1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11077_1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 7460mAh
-[*] Parts: L18C4PG0,L18C4PGO, SL11077-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10308_3
+[*] Lenovo SL10308_2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7400mAh
-[*] Parts: PRO, SL10308-3
+[*] Parts: L13S4P21, SL10308-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10435_1
+[*] Huawei 2ICP5_62_81_2
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 7400mAh
-[*] Parts: L13M4P02, SL10435-1
+[*] 7.6V
+[*] Up to: 7330mAh
+[*] Parts: 2ICP5/62/81-2, HB4593R1ECW-22, MATEBOOK X PRO 2020
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10435_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7400mAh
-[*] Parts: SL10435-4, Y70-70
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10131_2
+[*] Samsung SL10131_2
 [list]
 [*] 
 [*] 7.6V
@@ -1124,97 +773,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10131_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7300mAh
-[*] Parts: NP940X3G, SL10131-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10131_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7300mAh
-[*] Parts: NP910S5J, SL10131-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10131_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7300mAh
-[*] Parts: NP940X3G-K08DE,NP940X3G-K01DE,NP940X3G-K04AT,NP940X3G-K01AT,NP940X3G-K03HK, SL10131-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10131_6
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7300mAh
-[*] Parts: NP940X3G-K01US,NP940X3G-K04US,NP940X3G-K05US,NP940X3G-K06US, SL10131-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10356_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7300mAh
-[*] Parts: E7470, SL10356-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10985_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 7290mAh
-[*] Parts: BM04056XL, BM04XL, ELITEBOOK 1030 X360 G3, ELITEBOOK X360 1030 G3, ELITEBOOK X360 1030 G3 3ZH01EA, ELITEBOOK X360 1030 G3 45X96UT, ELITEBOOK X360 1030 G3 4SU65UT, ELITEBOOK X360 1030 G3 4WW20PA, ELITEBOOK X360 1030 G3 4WW24PA, ELITEBOOK X360 1030 G3 4WW35PA, ELITEBOOK1030 G3, HSTNN-DB8L, HSTNN-UB7L, L02031-241, L02031-2C1, L02031-541, L02475-855, L02478-855, SL10985-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10985_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 7290mAh
-[*] Parts: HSTNN-UB7L,L02031-541,L02478-855, SL10985-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10985_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 7290mAh
-[*] Parts: G5, SL10985-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11163_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7290mAh
-[*] Parts: SL11163-2, U845
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11030_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7160mAh
-[*] Parts: SL11030-1, VGP-BPS5,VGP-BPS5A,VGP-BPS5AS
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11030_3
+[*] Sony PCG_4K1L
 [list]
 [*] 
 [*] 7.4V
@@ -1223,151 +782,88 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10444_2
+[*] Dell LATITUDE_E7450
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7100mAh
-[*] Parts: E7440, SL10444-2
+[*] Parts: E7450, LATITUDE E7450, SL10444-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10444_3
+[*] Lenovo SL10343_4
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7100mAh
-[*] Parts: E7450, SL10444-3
+[*] Parts: IDEAPAD U430P TOUCH, SL10343-4, TOUCH
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10343_3
+[*] Asus 0B200_00160000
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 7100mAh
-[*] Parts: SL10343-3, SL10343-4, TOUCH
+[*] 7.5V
+[*] Up to: 7070mAh
+[*] Parts: 0B200-00160000, ASUSPRO B400 ULTRABOOK, ASUSPRO B400A ULTRABOOK SERIE, ASUSPRO B400V ULTRABOOK SERIES, B400 ULTRABOOK, B400A ULTRABOOK, B400A-1C, B400A-CZ207H, B400A-W3010G, B400A-W3039X, B400A-W3040G, B400A-W3041X, B400A-W3045H, B400A-XH51, B400A-XH52, B400V ULTRABOOK SERIES, B400VC ULTRABOOK, B400VC-1C, B400VC-W3007H, B401LA, B401LG, BU400, BU400A, BU400A-W3010X, BU400E3317VC, BU400VC-W3040X ULTRABOOK, BU401LA, BU401LA-CZ020G, BU401LA-CZ040G, BU401LA-CZ070G, BU401LA-CZ084G, BU401LA-CZ088G, BU401LA-CZ111G, BU401LA-CZ130G, BU401LA-CZ180G, BU401LA-CZ187G, BU401LA-CZ188G, BU401LA-FA210G, BU401LA-FA221G, BU401LA-FA222H, BU401LA-FA230G, BU401LA-FA338G, BU401LA-FA366G, BU401LG, BU401LG-CZ033G, BU401LG-FA115G, BU401LG-FA123G, BU401LG-FA164G, BU401LG-FA169G, BU401LG-FA206G, C22-B400A, C22-BU400A, PRO B400 ULTRABOOK, PRO B400A ULTRABOOK SERIE, PRO B400V ULTRABOOK SERIES, PRO B400VC, PRO B400VC-CZ129G, PRO B400VC-CZ135G, PRO B400VC-W3001X, PRO B400VC-W3007G, PRO B400VC-W3007X, PRO B400VC-W3010G, PRO B400VC-W3010P, PRO B400VC-W3018P, PRO B400VC-W3020X, PRO B400VC-W3022X, PRO B400VC-W3029G, PRO B400VC-W3040X, PRO BU400, PRO BU400A, PRO BU400A-CC090H, PRO BU400A-CC132P, PRO BU400A-CZ133H, PRO BU400A-CZ146G, PRO BU400A-CZ146X, PRO BU400A-CZ147G, PRO BU400A-CZ148X, PRO BU400A-CZ168G, PRO BU400A-CZ185G, PRO BU400A-CZ233G, PRO BU400A-CZ252G, PRO BU400A-W3100X, PRO BU400A-W3101G, PRO BU400A-W3101X, PRO BU400A-W3102G, PRO BU400A-W3109G, PRO BU400A-W3117G, PRO BU400A-W3120H, PRO BU400A-W3121H, PRO BU400A-W3161G, PRO BU400A-W3212G, PRO BU400V
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10837_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7020mAh
-[*] Parts: CT15, SL10837-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10152_6
+[*] Dell SL10152_4
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7000mAh
-[*] Parts: 9333, SL10152-6
+[*] Parts: L321X, SL10152-4, XPS13 L321X
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10301_2
+[*] Dell SL10152_5
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7000mAh
-[*] Parts: CF-VZSU30,CF-VZSU30U,CF-VZSU30W,CF-VZSU30BU, SL10301-2
+[*] Parts: L322X, SL10152-5, XPS13 L322X
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10301_3
+[*] Dell SL10152_6
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 7000mAh
-[*] Parts: CF-VZSU30A,CF-VZSU30AR,CF-VZSU30AU, SL10301-3
+[*] Parts: 9333, SL10152-6, XPS13 9333
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10998_2
+[*] Other 2ICP6_78_116
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 6960mAh
-[*] Parts: HSTNN-DB8C,TPN-I128, SL10998-2
+[*] 7.6V
+[*] Up to: 7000mAh
+[*] Parts: 2ICP6/78/116, MLP5278116-2S, YR133-V2.0
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10998_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6960mAh
-[*] Parts: 921438-855,921408-271,921408-2C1, SL10998-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10998_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6960mAh
-[*] Parts: 13-AD037TU, SL10998-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10232_2
+[*] Dell SL10232_4
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6930mAh
-[*] Parts: 9350, SL10232-2, SL10286-5
+[*] Parts: 1708, SL10232-4, XPS 13 1708
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10232_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6930mAh
-[*] Parts: 9343, SL10232-3, SL10286-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10232_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6930mAh
-[*] Parts: 1708, SL10232-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11132_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6900mAh
-[*] Parts: L34449-005,L34209-2B1,L34209-1C1, SL11132-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11028_2
+[*] Vizio SL11028_2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6890mAh
-[*] Parts: CT14,CT14-A0,CT14-A1,CT14-A2,CT14-A4,CT14-A5, SL11028-2
+[*] Parts: CT14, CT14,CT14-A0,CT14-A1,CT14-A2,CT14-A4,CT14-A5, CT14-A0, CT14-A1, CT14-A2, CT14-A4, CT14-A5, SL11028-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10748_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6880mAh
-[*] Parts: L15M4P20, SL10748-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10748_2
+[*] Lenovo SL10748_2
 [list]
 [*] 
 [*] 7.7V
@@ -1376,61 +872,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10646_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6840mAh
-[*] Parts: L15L4PC2,L15M4PC2, SL10646-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10646_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6840mAh
-[*] Parts: 710-14IKB, SL10646-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10646_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6840mAh
-[*] Parts: 710-14ISK, SL10646-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10910_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6840mAh
-[*] Parts: 9370,0H754V, SL10910-2
-[*] Size: 
-[/list]
-
-[*] Hp RG04051XL
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6840mAh
-[*] Parts: RG04051XL
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10355_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6840mAh
-[*] Parts: SL10355-3, UX31
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10220_2
+[*] Dell 6MT4T
 [list]
 [*] 
 [*] 7.4V
@@ -1439,79 +881,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10220_4
+[*] Hp CHROMEBOOK_14_Q010NR，14_Q020NR
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 6800mAh
+[*] Parts: 14-Q010NR，14-Q020NR, CHROMEBOOK 14-Q010NR，14-Q020NR, SL10809-6
+[*] Size: 
+[/list]
+
+[*] Dell LATITUDE_E5440
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6800mAh
-[*] Parts: E5570, SL10220-4
+[*] Parts: E5470, LATITUDE E5440, LATITUDE E5450, LATITUDE E5470, SL10220-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10220_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6800mAh
-[*] Parts: E5470, SL10220-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10738_2
+[*] Microsoft SL10738_2
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 6800mAh
-[*] Parts: BOOK, SL10738-2
+[*] Parts: BOOK, SL10738-2, SURFACE BOOK
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10809_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: 14-Q, SL10809-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10809_6
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: 14-Q010NR，14-Q020NR, SL10809-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10809_7
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: 14-Q063CL, SL10809-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10849_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: HSTNN-LB5Q, SL10849-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10849_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6800mAh
-[*] Parts: 734998-001, SL10849-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10849_4
+[*] Hp SL10849_4
 [list]
 [*] 
 [*] 7.5V
@@ -1520,16 +917,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10849_5
+[*] Hp SL10849_5
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 6800mAh
-[*] Parts: 13T-3000, SL10849-5
+[*] Parts: 13T-3000, SL10849-5, SPECTRE 13-3000，SPECTRE 13T-3000
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10482_1
+[*] Dell SL10482_1
 [list]
 [*] 
 [*] 7.6V
@@ -1538,282 +935,84 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10482_2
+[*] Dell SL10482_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 6700mAh
-[*] Parts: E7240, SL10482-2
+[*] Parts: E7240, LATITUDE E7240, SL10482-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10482_3
+[*] Dell SL10482_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 6700mAh
-[*] Parts: E7250, SL10482-3
+[*] Parts: E7250, LATITUDE E7250, SL10482-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10169_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: AA-PB0TC4A,AA-PB0TC4M,AA-PB0TC4B,AA-PB0TC4L,AA-PB0TC4R,AA-PB0TC4T, SL10169-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: AA-PB0VC6S,AA-PB0VC6B,AA-PB0VC6F,AA-PB0VC6V,AA-PB0VC6W, SL10169-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: AA-PL0TC6A,AA-PL0TC6B,AA-PL0TC6L,AA-PL0TC6M,AA-PL0TC6P,AA-PL0TC6R,AA-PL0TC6T,AA-PL0TC6W,AA-PL0TC6Y, SL10169-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: ,300U1A,305U,305U1A,305U1Z, SL10169-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: NP-N310,NP-N311,NP-N315,NP-NC310,NP-NF310, SL10169-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_6
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: NP-X118,NP-X120,NP-X170,NP-X171, SL10169-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10169_7
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: NP300U,NP300U1A,NP305U,NP305U1A,NP305U1Z, SL10169-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10426_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6600mAh
-[*] Parts: L13M4P01, SL10426-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-3, XQ700T1C,XE700T1C-K01US
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-4, XE700T1C-A01FR,XE700T1C-A01PL
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-5, XE700T1C-A02AU,XE700T1C-A02DE,XE700T1C-A02FR,XE700T1C-A02NL
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_6
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-6, XE700T1C-A03CH,XE700T1C-A03PL
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_7
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-7, XE700T1C-A05UK,XE700T1C-AB1AU,XE700T1C-AB2AU
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_8
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-8, XE700T1C-G01DE,XE770T1C-G02CH
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10331_9
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6540mAh
-[*] Parts: SL10331-9, XE700T1C-H01MY,XE700T1C-H01UK
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10261_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6520mAh
-[*] Parts: SL10261-3, UX32V,UX32VD
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10990_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6480mAh
-[*] Parts: CB515-1HT, SL10990-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10538_1
+[*] Lenovo 5B10W67296
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 6460mAh
-[*] Parts: ET04XL, SL10538-1
+[*] Up to: 6610mAh
+[*] Parts: 2ICP5/41/110-2, 5B10U40209, 5B10U40210, 5B10W67185, 5B10W67296, L18L4PE0, L18M4PE0, SB10W67235, SB10W67368, YOGA C740 14, YOGA C740-14IML
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10538_2
+[*] Asus AP23_901
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 6460mAh
-[*] Parts: HSTNN-IB7U, SL10538-2
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: AP23-901
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10538_4
+[*] Samsung 300U
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 6460mAh
-[*] Parts: 915030-1C1, SL10538-4
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: ,300U1A,305U,305U1A,305U1Z, 300U, 300U1A, 305U, 305U1A, 305U1Z, SL10169-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10538_6
+[*] Samsung SL10169_7
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 6460mAh
-[*] Parts: 915191-955, SL10538-6
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: NP300U, NP300U,NP300U1A,NP305U,NP305U1A,NP305U1Z, NP300U1A, NP305U, NP305U1A, NP305U1Z, SL10169-7
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10538_7
+[*] Lenovo Y40_70
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 6460mAh
-[*] Parts: G2, SL10538-7
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: ERAZER Y40-59423030, ERAZER Y40-59423035, ERAZER Y40-70 20347, ERAZER Y40-70 80DR, ERAZER Y40-70-IFI, ERAZER Y40-70-ISE, ERAZER Y40-70AM-IFI, ERAZER Y40-70AM-ISE, ERAZER Y40-70AS-IFI, ERAZER Y40-70AS-ISE, ERAZER Y40-70AT-ISE, ERAZER Y40-80, ERAZER Y40-80 20399, ERAZER Y40-80 80FA, ERAZER Y40-80-IFI, ERAZER Y40-80-ISE, ERAZER Y40-80AT-IFI, ERAZER Y40-80AT-ISE, ERAZER Y40-80FA, L13C4P01, L13L4P01, L13M4P01, S41-70-ISE, S41-70-ITH, S41-70AM-IFI, SL10426-1, SL10426-2, SL10426-3, Y40-70, Y40-70AT-IFI, Y40-70AT-ISE, Y40-80, Y40-80-IFI, Y40-80-ISE, Y40-80AT-ISE
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10429_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6400mAh
-[*] Parts: SL10429-2, ULTRABOOK
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10801_3
+[*] Msi GS30_2M_013C
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6400mAh
-[*] Parts: 2M-013C, SL10801-3
+[*] Parts: 2M-013C, GS30 2M-013C, SL10801-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10801_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6400mAh
-[*] Parts: MS1-13F1, SL10801-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10766_2
+[*] Hasee UT47_D1，UT45_D1，UT43_D1
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6390mAh
-[*] Parts: D1, SL10766-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10126_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6350mAh
-[*] Parts: L321X, SL10126-5, SL10152-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10126_6
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6350mAh
-[*] Parts: L322X, SL10126-6, SL10152-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10126_7
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6350mAh
-[*] Parts: 9Q23, SL10126-7
+[*] Parts: D1, SL10766-2, UT47 D1，UT45 D1，UT43 D1
 [*] Size: 
 [/list]
 
@@ -1826,88 +1025,43 @@
 [*] Size: 85.0mm x 8.0mm x 0.0mm
 [/list]
 
-[*] Denchipro SL11125_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6290mAh
-[*] Parts: HSTNN-IB8E,941617-855,941190-1C1, SL11125-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10484_2
+[*] Acer ASPIRE_S7_392
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 6280mAh
-[*] Parts: S7-392, SL10484-2
+[*] Parts: 21CP4/63/114-2, 2ICP4/63/114-2, AP13F3N, ASPIRE S7-391-6822, ASPIRE S7-392, ASPIRE S7-392 ULTRABOOK, ASPIRE S7-392-54208G12TWS, ASPIRE S7-392-54208G25TWS, ASPIRE S7-392-5427, ASPIRE S7-392-5626, ASPIRE S7-392-6402, ASPIRE S7-392-6411, ASPIRE S7-392-6832, ASPIRE S7-392-74508G25TWS, ASPIRE S7-392-7836, ASPIRE S7-392-9404, ASPIRE S7-392-9460, ASPIRE S7-392-9877, ASPIRE S7-392-9890, ASPIRE S7-393, ASPIRE S7-393-55204G25EWS, ASPIRE S7-393-55208G25EWS, ASPIRE S7-393-5853, ASPIRE S7-393-7451, ASPIRE S7-393-75508G25EWS, ASPIRE S7-393-7810, NX.MT5EK.001, S7-392, S7-392-9890, SL10484-1, SL10484-2, SL10484-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10484_3
+[*] Acer SL10484_4
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 6280mAh
-[*] Parts: S7-392-9890, SL10484-3
+[*] Parts: ASPIRE S7-392-54204G12TWS, S7-392-54204G12TWS, SL10484-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10484_4
+[*] Samsung BA43_00364A
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 6280mAh
-[*] Parts: S7-392-54204G12TWS, SL10484-4
+[*] 7.6V
+[*] Up to: 6260mAh
+[*] Parts: AA-PLVN4CR, BA43-00364A
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10911_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6210mAh
-[*] Parts: L16L4PB3,L16C4PB3, SL10911-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10911_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6210mAh
-[*] Parts: 720S-13IKB, SL10911-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10252_2
+[*] Dell SL10252_3
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6200mAh
-[*] Parts: E7440, SL10252-2
+[*] Parts: E7450, LATITUDE E7450, SL10252-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10252_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6200mAh
-[*] Parts: E7450, SL10252-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10313_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6150mAh
-[*] Parts: NP900X3A, SL10313-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10313_3
+[*] Samsung 900X3A
 [list]
 [*] 
 [*] 7.4V
@@ -1916,25 +1070,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10860_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6130mAh
-[*] Parts: 710S-13ISK, SL10622-2, SL10860-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10318_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6120mAh
-[*] Parts: NP530U4B, SL10318-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10318_3
+[*] Samsung NP530U4C
 [list]
 [*] 
 [*] 7.4V
@@ -1943,7 +1079,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10318_4
+[*] Samsung SL10318_4
 [list]
 [*] 
 [*] 7.4V
@@ -1952,102 +1088,48 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11133_1
+[*] Asus 0B200_03340000
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 6100mAh
-[*] Parts: 901247-855, 901307-541, ELITE X2 1012 G2, ELITE X2 1012 G2-1LV76EA, HSN-I07C, HSTNN-DB8I, HSTNN-UB7E, J104XL, JI04047XL, JI04XL, SL11133-1
+[*] Parts: 0B200-03340000, 2ICP5/74/110, BX431FA, BX431FB, C21N1833, C21PTJH, K431FA, K431FL, S431FA, S431FL, S431FL-AM043T, S431FL-EB064T, S4500FA, S4500FL, U4500FA, U4500FB, UX431DA, UX431DA-2B, UX431FA, UX431FA-2B, UX431FA-3B, UX431FA-ES51, UX431FA-ES74, UX431FB, UX431FL, UX431FL-AN024T, UX431FN, UX431FN-0023B8565U, V431FA, V431FL, VIVOBOOK S S431FA-EB131T, VIVOBOOK S14 S431FA, VIVOBOOK S14 S431FA-AM001T, VIVOBOOK S14 S431FA-AM010T, VIVOBOOK S14 S431FA-AM012T, VIVOBOOK S14 S431FA-AM016T, VIVOBOOK S14 S431FA-AM041T, VIVOBOOK S14 S431FA-AM049T, VIVOBOOK S14 S431FA-AM106T, VIVOBOOK S14 S431FA-AM107T, VIVOBOOK S14 S431FA-AM129T, VIVOBOOK S14 S431FA-AM149, VIVOBOOK S14 S431FA-EB019T, VIVOBOOK S14 S431FA-EB020T, VIVOBOOK S14 S431FA-EB030T, VIVOBOOK S14 S431FA-EB032T, VIVOBOOK S14 S431FA-EB039T, VIVOBOOK S14 S431FA-EB045, VIVOBOOK S14 S431FA-EB058T, VIVOBOOK S14 S431FA-EB061, VIVOBOOK S14 S431FA-EB068T, VIVOBOOK S14 S431FA-EB096T, VIVOBOOK S14 S431FA-EB104T, VIVOBOOK S14 S431FA-EB141T, VIVOBOOK S14 S431FA-EB156T, VIVOBOOK S14 S431FA-EB159T, VIVOBOOK S14 S431FA-EB168T, VIVOBOOK S14 S431FA-EB503T, VIVOBOOK S14 S431FA-EB511T, VIVOBOOK S14 S431FA-EB512T, VIVOBOOK S14 S431FA-EB513T, VIVOBOOK S14 S431FA-EB514T, VIVOBOOK S14 S431FA-EB525T, VIVOBOOK S14 S431FL-AM028T, VIVOBOOK S14 S431FL-AM034T, VIVOBOOK S14 S431FL-AM035T, VIVOBOOK S14 S431FL-AM037T, VIVOBOOK S14 S431FL-AM038T, VIVOBOOK S14 S431FL-AM039T, VIVOBOOK S14 S431FL-AM040T, VIVOBOOK S14 S431FL-AM041T, VIVOBOOK S14 S431FL-AM042T, VIVOBOOK S14 S431FL-AM043T, VIVOBOOK S14 S431FL-EB061, VIVOBOOK S431FA-EB130T, X431FL, ZENBOOK 14 14 UX431FA-AN004T, ZENBOOK 14 UM431, ZENBOOK 14 UM431-AM010T, ZENBOOK 14 UM431DA, ZENBOOK 14 UM431DA-AM001T, ZENBOOK 14 UM431DA-AM003T, ZENBOOK 14 UM431DA-AM005T, ZENBOOK 14 UM431DA-AM006T, ZENBOOK 14 UM431DA-AM007, ZENBOOK 14 UM431DA-AM007T, ZENBOOK 14 UM431DA-AM009T, ZENBOOK 14 UM431DA-AM010T, ZENBOOK 14 UM431DA-AM011T, ZENBOOK 14 UM431DA-AM012T, ZENBOOK 14 UM431DA-AM020T, ZENBOOK 14 UM431DA-AM021T, ZENBOOK 14 UM431DA-AM022, ZENBOOK 14 UM431DA-AM023, ZENBOOK 14 UM431DA-AM026, ZENBOOK 14 UM431DA-AM028T, ZENBOOK 14 UM431DA-AM030, ZENBOOK 14 UM431DA-AM038T, ZENBOOK 14 UM431DA-AM045T, ZENBOOK 14 UM431DA-AM045TS, ZENBOOK 14 UM431DA-AM053, ZENBOOK 14 UM431DA-AM053T, ZENBOOK 14 UM431DA-AM055T, ZENBOOK 14 UM431DA-AM056R, ZENBOOK 14 UM431DA-AM056T, ZENBOOK 14 UM431DA-AM058T, ZENBOOK 14 UM431DA-AM062T, ZENBOOK 14 UM431DA-AM070T, ZENBOOK 14 UM431DA-AM581TS, ZENBOOK 14 UM431DA-AM701T, ZENBOOK 14 UM431DA-PURE1, ZENBOOK 14 UM431DA-PURE3, ZENBOOK 14 UM431DA-R5DV8AB1, ZENBOOK 14 UX431FA, ZENBOOK 14 UX431FA-AM013T, ZENBOOK 14 UX431FA-AM018R, ZENBOOK 14 UX431FA-AM018T, ZENBOOK 14 UX431FA-AM020D, ZENBOOK 14 UX431FA-AM020T, ZENBOOK 14 UX431FA-AM021T, ZENBOOK 14 UX431FA-AM022R, ZENBOOK 14 UX431FA-AM022T, ZENBOOK 14 UX431FA-AM023T, ZENBOOK 14 UX431FA-AM025T, ZENBOOK 14 UX431FA-AM033T, ZENBOOK 14 UX431FA-AM043T, ZENBOOK 14 UX431FA-AM055T, ZENBOOK 14 UX431FA-AM058T, ZENBOOK 14 UX431FA-AM059T, ZENBOOK 14 UX431FA-AM060T, ZENBOOK 14 UX431FA-AM061T, ZENBOOK 14 UX431FA-AM065T, ZENBOOK 14 UX431FA-AM076T, ZENBOOK 14 UX431FA-AM082T, ZENBOOK 14 UX431FA-AM102T, ZENBOOK 14 UX431FA-AM106R, ZENBOOK 14 UX431FA-AM123T, ZENBOOK 14 UX431FA-AM130, ZENBOOK 14 UX431FA-AM131, ZENBOOK 14 UX431FA-AM132, ZENBOOK 14 UX431FA-AM132T, ZENBOOK 14 UX431FA-AM140T, ZENBOOK 14 UX431FA-AM179T, ZENBOOK 14 UX431FA-AM181T, ZENBOOK 14 UX431FA-AM853T, ZENBOOK 14 UX431FA-AM892T, ZENBOOK 14 UX431FA-AM925, ZENBOOK 14 UX431FA-AN001T, ZENBOOK 14 UX431FA-AN004T, ZENBOOK 14 UX431FA-AN006T, ZENBOOK 14 UX431FA-AN012T, ZENBOOK 14 UX431FA-AN013T, ZENBOOK 14 UX431FA-AN015R, ZENBOOK 14 UX431FA-AN016T, ZENBOOK 14 UX431FA-AN022T, ZENBOOK 14 UX431FA-AN051, ZENBOOK 14 UX431FA-AN058T, ZENBOOK 14 UX431FA-AN060T, ZENBOOK 14 UX431FA-AN063, ZENBOOK 14 UX431FA-AN080T, ZENBOOK 14 UX431FA-AN090T, ZENBOOK 14 UX431FA-AN102T, ZENBOOK 14 UX431FA-AN106R, ZENBOOK 14 UX431FA-AN121T, ZENBOOK 14 UX431FA-AN136T, ZENBOOK 14 UX431FA-AN144T, ZENBOOK 14 UX431FA-AN177T, ZENBOOK 14 UX431FA-AN202T, ZENBOOK 14 UX431FA-EH55, ZENBOOK 14 UX431FA-PURE1, ZENBOOK 14 UX431FL-AN001T, ZENBOOK 14 UX431FL-AN002T, ZENBOOK 14 UX431FL-AN007T, ZENBOOK 14 UX431FL-AN009T, ZENBOOK 14 UX431FL-AN012T, ZENBOOK 14 UX431FL-AN018T, ZENBOOK 14 UX431FN, ZENBOOK 14 UX431FN-AN002T, ZENBOOK 14 UX434FAC-A5058T, ZENBOOK UX431, ZENBOOK UX431FA, ZENBOOK UX431FL-AN012T, ZENBOOK UX431FN
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11133_2
+[*] Lenovo IDEAPAD_U330T
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6100mAh
+[*] Parts: IDEAPAD U330T, SL10225-4, U330T
+[*] Size: 
+[/list]
+
+[*] Acer ASPIRE_S3_392G
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 6060mAh
+[*] Parts: 1ICP5/60/80-2, 1ICP6/60/78-2, AP13D3K, ASPIRE S3, ASPIRE S3-392, ASPIRE S3-392G, S3-392G, SL10831-1, SL10831-2
+[*] Size: 
+[/list]
+
+[*] Asus 2ICP5_40_115_2
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 6100mAh
-[*] Parts: HSTNN-UB7E, SL11133-2
+[*] Up to: 6044mAh
+[*] Parts: 2ICP5/40/115-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11133_3
+[*] Asus C22N1623
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 6100mAh
-[*] Parts: 901247-855,901307-541, SL11133-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11133_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6100mAh
-[*] Parts: G2, SL11133-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10225_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6100mAh
-[*] Parts: SL10225-2, TOUCH
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10225_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6100mAh
-[*] Parts: SL10225-3, U330P
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10225_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6100mAh
-[*] Parts: SL10225-4, U330T
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10637_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6080mAh
-[*] Parts: SL10637-1, TU131-TS63-74,TU131
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10872_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6080mAh
-[*] Parts: NP530U3B,NP530U3C,NP535U3C,NP532U3X,NP540U3C, SL10872-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10622_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6050mAh
-[*] Parts: L15M4PC0,L15L4PC0, SL10622-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10699_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 6050mAh
-[*] Parts: 9365, SL10699-2
+[*] Up to: 6005mAh
+[*] Parts: 0B200-02400000, 0B200-02400100, C22N1623, SL10715-1, UX3490UA, UX490, UX490UA, UX490UA-1A, UX490UA-1C, UX490UA-BE010T, UX490UA-BE012T, UX490UA-BE029T, UX490UA-BE032T, UX490UA-BE038T, UX490UA-BE043T, UX490UA-BE044T, UX490UA-BE045T, UX490UA-BE106T, UX490UA-BE107R, UX490UA-BE111T, UX490UA-IH74-BL, UX490UA-XS74-BL, UX490UAK, UX490UAR, UX490UAR-BE082T, UX490UAR-BE087R, UX490UAR-BE087T, UX490UAR-BE088R, UX490UAR-BE088T, UX490UAR-BE094T, UX490UAR-BE104T, UX490UAR-BE110T, ZENBOOK 3 DELUXE, ZENBOOK 3 DELUXE UX3490UA, ZENBOOK 3 DELUXE UX3490UA-7R8512, ZENBOOK 3 DELUXE UX3490UA-BE011T, ZENBOOK 3 DELUXE UX3490UA-BE020T, ZENBOOK 3 DELUXE UX3490UA-BE025R, ZENBOOK 3 DELUXE UX3490UA-BE025T, ZENBOOK 3 DELUXE UX3490UA-BE027T, ZENBOOK 3 DELUXE UX3490UA-BE028T, ZENBOOK 3 DELUXE UX3490UA-BE041T, ZENBOOK 3 DELUXE UX3490UA-BE081R, ZENBOOK 3 DELUXE UX3490UA-BE133T, ZENBOOK 3 DELUXE UX490UA, ZENBOOK 3 DELUXE UX490UA-BE009T, ZENBOOK 3 DELUXE UX490UA-BE023T, ZENBOOK 3 DELUXE UX490UA-BE032R, ZENBOOK 3 DELUXE UX490UA-BE033T, ZENBOOK 3 DELUXE UX490UA-BE048T, ZENBOOK 3 DELUXE UX490UA-BE049R, ZENBOOK 3 DELUXE UX490UA-BE053R, ZENBOOK 3 DELUXE UX490UA-BE087T, ZENBOOK 3 DELUXE UX490UA-BE108T, ZENBOOK UX490UA, ZENBOOK3V
 [*] Size: 
 [/list]
 
@@ -2060,178 +1142,52 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10324_2
+[*] Dell LATITUDE_E7270
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6000mAh
-[*] Parts: E7240, SL10324-2
+[*] Parts: E7270, LATITUDE E7270, SL10324-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10324_3
+[*] Asus 70_OA282B1000
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6000mAh
-[*] Parts: E7250, SL10324-3
+[*] Parts: 70-OA282B1000
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10324_4
+[*] Lenovo SL10802_3
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 6000mAh
-[*] Parts: E7270, SL10324-4
+[*] Parts: 80H1, EDGE 15 80H1, SL10802-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10324_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6000mAh
-[*] Parts: E7440, SL10324-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10614_1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6000mAh
-[*] Parts: L14M4P72,L14S4P72, SL10614-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10614_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6000mAh
-[*] Parts: 700-14ISK, SL10614-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10831_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 6000mAh
-[*] Parts: S3-392G, SL10831-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10802_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6000mAh
-[*] Parts: L13L4P61,L13M4P61, SL10802-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10802_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6000mAh
-[*] Parts: 80K9, SL10802-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10802_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6000mAh
-[*] Parts: 80H1, SL10802-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10642_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5950mAh
-[*] Parts: 720-13IKB, SL10642-2, SL10648-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20151_2
+[*] Microsoft SURFACE_PRO_5_1796
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5940mAh
-[*] Parts: 1796, SL20151-2
+[*] Parts: 1796, SL20151-2, SURFACE PRO 5 1796
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20284_1
+[*] Lenovo 2ICP5_38_67_4
 [list]
 [*] 
 [*] 7.6V
-[*] Up to: 5940mAh
-[*] Parts: 1782, SL20152-2, SL20284-1
+[*] Up to: 5922mAh
+[*] Parts: 2ICP5/38/67-4, L16L8TA2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10194_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5900mAh
-[*] Parts: PRO, SL10194-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10194_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5900mAh
-[*] Parts: 1370, SL10194-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10243_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5880mAh
-[*] Parts: BA43-00349A, SL10243-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10243_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5880mAh
-[*] Parts: NP900X3C, SL10243-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10243_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5880mAh
-[*] Parts: NP900X3D, SL10243-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10243_6
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5880mAh
-[*] Parts: NP900X3E, SL10243-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10243_7
+[*] Samsung NP900X3K
 [list]
 [*] 
 [*] 7.5V
@@ -2240,97 +1196,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10582_2
+[*] Olivetti OLIBOOK_T14
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5700mAh
-[*] Parts: SL10582-2, T14
+[*] Parts: OLIBOOK T14, SL10582-2, T14
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10582_3
+[*] Olivetti SL10582_3
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5700mAh
-[*] Parts: AVIU-145C6, SL10582-3
+[*] Parts: AVIU-145C6, OLIBOOK AVATAR AVIU-145C6, SL10582-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10599_1
+[*] Hp BF04XL
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 5670mAh
-[*] Parts: DR02XL, SL10599-1
+[*] Up to: 5685mAh
+[*] Parts: 924843-421, 924960-855, BF04043XL, BF04XL, HSTNN-LB8C, SL11195-1, SL11195-2, SPECTRE 13-AF000, SPECTRE 13-AF000NC, SPECTRE 13-AF000ND, SPECTRE 13-AF000NF, SPECTRE 13-AF000NG, SPECTRE 13-AF000NH, SPECTRE 13-AF000NJ, SPECTRE 13-AF000NK, SPECTRE 13-AF000NM, SPECTRE 13-AF000NN, SPECTRE 13-AF000NO, SPECTRE 13-AF000NS, SPECTRE 13-AF000NT, SPECTRE 13-AF000NV, SPECTRE 13-AF000NW, SPECTRE 13-AF000NX, SPECTRE 13-AF000TU, SPECTRE 13-AF000UR, SPECTRE 13-AF001LA, SPECTRE 13-AF001NB, SPECTRE 13-AF001ND, SPECTRE 13-AF001NE, SPECTRE 13-AF001NF, SPECTRE 13-AF001NG, SPECTRE 13-AF001NH, SPECTRE 13-AF001NJ, SPECTRE 13-AF001NK, SPECTRE 13-AF001NL, SPECTRE 13-AF001NN, SPECTRE 13-AF001NO, SPECTRE 13-AF001NP, SPECTRE 13-AF001NV, SPECTRE 13-AF001NW, SPECTRE 13-AF001NX, SPECTRE 13-AF001TU, SPECTRE 13-AF001UR, SPECTRE 13-AF002LA, SPECTRE 13-AF002NA, SPECTRE 13-AF002NB, SPECTRE 13-AF002NC, SPECTRE 13-AF002NE, SPECTRE 13-AF002NF, SPECTRE 13-AF002NG, SPECTRE 13-AF002NJ, SPECTRE 13-AF002NL, SPECTRE 13-AF002NO, SPECTRE 13-AF002NP, SPECTRE 13-AF002NT, SPECTRE 13-AF002NW, SPECTRE 13-AF002TU, SPECTRE 13-AF002UR, SPECTRE 13-AF003NA, SPECTRE 13-AF003NB, SPECTRE 13-AF003NC, SPECTRE 13-AF003NE, SPECTRE 13-AF003NG, SPECTRE 13-AF003NO, SPECTRE 13-AF003TU, SPECTRE 13-AF003UR, SPECTRE 13-AF004NA, SPECTRE 13-AF004NE, SPECTRE 13-AF004NF, SPECTRE 13-AF004NI, SPECTRE 13-AF004NIA, SPECTRE 13-AF004NO, SPECTRE 13-AF004TU, SPECTRE 13-AF004UR, SPECTRE 13-AF005ND, SPECTRE 13-AF005NE, SPECTRE 13-AF005NF, SPECTRE 13-AF005NG, SPECTRE 13-AF005NL, SPECTRE 13-AF005NN, SPECTRE 13-AF005NO, SPECTRE 13-AF005TU, SPECTRE 13-AF005UR, SPECTRE 13-AF006NE, SPECTRE 13-AF006NF, SPECTRE 13-AF006NL, SPECTRE 13-AF006NN, SPECTRE 13-AF006TU, SPECTRE 13-AF006UR, SPECTRE 13-AF007NB, SPECTRE 13-AF007NE, SPECTRE 13-AF007NF, SPECTRE 13-AF007NI, SPECTRE 13-AF007NIA, SPECTRE 13-AF007NN, SPECTRE 13-AF007TU, SPECTRE 13-AF007UR, SPECTRE 13-AF008NC, SPECTRE 13-AF008NE, SPECTRE 13-AF008NF, SPECTRE 13-AF008NI, SPECTRE 13-AF008NIA, SPECTRE 13-AF008NN, SPECTRE 13-AF008TU, SPECTRE 13-AF008UR, SPECTRE 13-AF009NI, SPECTRE 13-AF009NN, SPECTRE 13-AF009TU, SPECTRE 13-AF009UR, SPECTRE 13-AF010CA, SPECTRE 13-AF010NI, SPECTRE 13-AF010NN, SPECTRE 13-AF010TU, SPECTRE 13-AF010UR, SPECTRE 13-AF011NF, SPECTRE 13-AF011NI, SPECTRE 13-AF011NN, SPECTRE 13-AF011TU, SPECTRE 13-AF011UR, SPECTRE 13-AF012DX, SPECTRE 13-AF012TU, SPECTRE 13-AF012UR, SPECTRE 13-AF013NF, SPECTRE 13-AF013NN, SPECTRE 13-AF013TU, SPECTRE 13-AF013UR, SPECTRE 13-AF014TU, SPECTRE 13-AF014UR, SPECTRE 13-AF015NF, SPECTRE 13-AF015TU, SPECTRE 13-AF016NF, SPECTRE 13-AF016TU, SPECTRE 13-AF017TU, SPECTRE 13-AF018CA, SPECTRE 13-AF018TU, SPECTRE 13-AF019TU, SPECTRE 13-AF020ND, SPECTRE 13-AF020TU, SPECTRE 13-AF021NF, SPECTRE 13-AF021TU, SPECTRE 13-AF022NF, SPECTRE 13-AF022TU, SPECTRE 13-AF023NF, SPECTRE 13-AF023TU, SPECTRE 13-AF024NF, SPECTRE 13-AF024TU, SPECTRE 13-AF025NF, SPECTRE 13-AF025TU, SPECTRE 13-AF026NF, SPECTRE 13-AF026TU, SPECTRE 13-AF027TU, SPECTRE 13-AF028TU, SPECTRE 13-AF029TU, SPECTRE 13-AF030ND, SPECTRE 13-AF030TU, SPECTRE 13-AF031NG, SPECTRE 13-AF031TU, SPECTRE 13-AF032NG, SPECTRE 13-AF032TU, SPECTRE 13-AF033NG, SPECTRE 13-AF033TU, SPECTRE 13-AF034NG, SPECTRE 13-AF034TU, SPECTRE 13-AF035NG, SPECTRE 13-AF035TU, SPECTRE 13-AF036TU, SPECTRE 13-AF037TU, SPECTRE 13-AF038TU, SPECTRE 13-AF039TU, SPECTRE 13-AF040TU, SPECTRE 13-AF041TU, SPECTRE 13-AF042TU, SPECTRE 13-AF043TU, SPECTRE 13-AF044TU, SPECTRE 13-AF045TU, SPECTRE 13-AF046TU, SPECTRE 13-AF047TU, SPECTRE 13-AF048TU, SPECTRE 13-AF049TU, SPECTRE 13-AF050TU, SPECTRE 13-AF051NR, SPECTRE 13-AF051TU, SPECTRE 13-AF052NA, SPECTRE 13-AF052TU, SPECTRE 13-AF053TU, SPECTRE 13-AF054NA, SPECTRE 13-AF054TU, SPECTRE 13-AF055TU, SPECTRE 13-AF056TU, SPECTRE 13-AF057TU, SPECTRE 13-AF058TU, SPECTRE 13-AF059TU, SPECTRE 13-AF060NZ, SPECTRE 13-AF060TU, SPECTRE 13-AF061NZ, SPECTRE 13-AF061TU, SPECTRE 13-AF062TU, SPECTRE 13-AF063TU, SPECTRE 13-AF064TU, SPECTRE 13-AF065TU, SPECTRE 13-AF066TU, SPECTRE 13-AF067TU, SPECTRE 13-AF068TU, SPECTRE 13-AF069TU, SPECTRE 13-AF070TU, SPECTRE 13-AF071TU, SPECTRE 13-AF072TU, SPECTRE 13-AF073TU, SPECTRE 13-AF074TU, SPECTRE 13-AF075TU, SPECTRE 13-AF076TU, SPECTRE 13-AF077TU, SPECTRE 13-AF078TU, SPECTRE 13-AF079TU, SPECTRE 13-AF080TU, SPECTRE 13-AF081NZ, SPECTRE 13-AF081TU, SPECTRE 13-AF082TU, SPECTRE 13-AF083TU, SPECTRE 13-AF084TU, SPECTRE 13-AF085TU, SPECTRE 13-AF086TU, SPECTRE 13-AF087TU, SPECTRE 13-AF088TU, SPECTRE 13-AF089TU, SPECTRE 13-AF090NZ, SPECTRE 13-AF090TU, SPECTRE 13-AF091TU, SPECTRE 13-AF092TU, SPECTRE 13-AF093TU, SPECTRE 13-AF094TU, SPECTRE 13-AF095TU, SPECTRE 13-AF096TU, SPECTRE 13-AF097NP, SPECTRE 13-AF097TU, SPECTRE 13-AF098NP, SPECTRE 13-AF098TU, SPECTRE 13-AF099NP, SPECTRE 13-AF099TU, SPECTRE 13-AF100TU, SPECTRE 13-AF101TU, SPECTRE 13-AF102TU, SPECTRE 13-AF103TU, SPECTRE 13-AF104TU, SPECTRE 13-AF105TU, SPECTRE 13-AF106TU, SPECTRE 13-AF107TU, SPECTRE 13-AF108TU, SPECTRE 13-AF109TU, SPECTRE 13-AF110TU, SPECTRE 13-AF111TU, SPECTRE 13-AF112TU, SPECTRE 13-AF113TU, SPECTRE 13-AF114TU, SPECTRE 13-AF115TU, SPECTRE 13-AF116TU, SPECTRE 13-AF117TU, SPECTRE 13-AF118TU, SPECTRE 13-AF119TU, SPECTRE 13-AF120TU, SPECTRE 13-AF121TU, SPECTRE 13-AF122TU, SPECTRE 13-AF123TU, SPECTRE 13-AF124TU, SPECTRE 13-AF125TU, SPECTRE 13-AF126TU, SPECTRE 13-AF127TU, SPECTRE 13-AF128TU, SPECTRE 13-AF129TU, SPECTRE 13-AF130TU, SPECTRE 13-AF131TU, SPECTRE 13-AF132TU, SPECTRE 13-AF133TU, SPECTRE 13-AF134TU, SPECTRE 13-AF135TU, SPECTRE 13-AF136TU, SPECTRE 13-AF137TU, SPECTRE 13-AF138TU, SPECTRE 13-AF139TU, SPECTRE 13-AF140TU, SPECTRE 13-AF141TU, SPECTRE 13-AF142TU, SPECTRE 13-AF143TU, SPECTRE 13-AF144TU, SPECTRE 13-AF146TU, SPECTRE 13-AF147TU, SPECTRE 13-AF148TU, SPECTRE 13-AF149TU, SPECTRE 13-AF150TU, SPECTRE 13-AF151TU, SPECTRE 13-AF152TU, SPECTRE 13-AF153TU, SPECTRE 13-AF500, SPECTRE 13-AF500TU, SPECTRE 13-AF501TU, SPECTRE 13-AF502TU, SPECTRE 13-AF503TU, SPECTRE 13-AF504TU, SPECTRE 13-AF505TU, SPECTRE 13-AF506TU, SPECTRE 13-AF507TU, SPECTRE 13-AF508TU, SPECTRE 13-AF509TU, SPECTRE 13-AF510TU, SPECTRE 13-AF511TU, SPECTRE 13-AF512TU, SPECTRE 13-AF513TU, SPECTRE 13-AF514TU, SPECTRE 13-AF515TU, SPECTRE 13-AF516TU, SPECTRE 13-AF517TU, SPECTRE 13-AF518TU, SPECTRE 13-AF519TU, SPECTRE 13-AF520TU, SPECTRE 13-AF521TU, SPECTRE 13-AF522TU, SPECTRE 13-AF523TU, SPECTRE 13-AF524TU, SPECTRE 13-AF525TU, SPECTRE 13-AF526TU, SPECTRE 13-AF527TU, TPN-C132, TPN-C132,HSTNN-LB8C,924843-421
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10599_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5670mAh
-[*] Parts: HSTNN-IB7M,HSTNN-LB7M, SL10599-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10599_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5670mAh
-[*] Parts: 859027-121,859027-421, SL10599-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10599_5
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5670mAh
-[*] Parts: G5, SL10599-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11195_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5670mAh
-[*] Parts: SL11195-2, TPN-C132,HSTNN-LB8C,924843-421
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10303_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5670mAh
-[*] Parts: A1601, SL10303-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11191_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5670mAh
-[*] Parts: CF-J10,CF-J9, SL11191-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10446_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5547mAh
-[*] Parts: G3HTA005H, SL10446-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10446_3
+[*] Microsoft MS011301
 [list]
 [*] 
 [*] 7.6V
@@ -2339,34 +1232,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10446_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5547mAh
-[*] Parts: 1631, SL10446-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10709_1
+[*] Dell SL10709_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5520mAh
-[*] Parts: JOPGR,J0PGR, SL10709-1
+[*] Parts: 5290, LATITUDE 5290, SL10709-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10709_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5520mAh
-[*] Parts: 5290, SL10709-2
-[*] Size: 
-[/list]
-
-[*] Denchipro 1588_3366
+[*] Samsung SL10185_2
 [list]
 [*] 
 [*] 7.4V
@@ -2375,25 +1250,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10185_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5520mAh
-[*] Parts: SL10185-4, XE7001T1A-A02,XE700T1A-A02US,XE700T1A-A03US,XE700T1A-A04US,XE700T1A-A05US,XE700T1A-A06US,XE700T1A-H02FR
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20291_1
+[*] Jumper 2ICP4_85_128
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5500mAh
-[*] Parts: 13.3, SL10379-2, SL20291-1
+[*] Parts: 2ICP4/85/128, 40069133, MLP3785128-2S
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10537_2
+[*] Chuwi HW_34154184
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5500mAh
+[*] Parts: 13.3, AEROBOOK 13.3, AIR 13.3, HW-34154184, SL10379-2, SL20291-1
+[*] Size: 
+[/list]
+
+[*] Lenovo SL10537_1
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 5440mAh
+[*] Parts: L16L4P91, SL10537-1
+[*] Size: 
+[/list]
+
+[*] Lenovo SL10537_2
 [list]
 [*] 
 [*] 7.7V
@@ -2411,43 +1295,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10952_1
+[*] Medion 2ICP4_86_125
 [list]
 [*] 
-[*] 7.7V
+[*] 7.6V
 [*] Up to: 5400mAh
-[*] Parts: SE04XL, SL10952-1
+[*] Parts: 2ICP4/86/125, 40069239, E4271, E4272
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10952_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5400mAh
-[*] Parts: 860724-2B1,860708-855,860724-2C1, SL10952-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10952_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5400mAh
-[*] Parts: G2, SL10952-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10821_2
+[*] Dell XPS_11_9P33
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5400mAh
-[*] Parts: 9P33, SL10821-2
+[*] Parts: 9P33, SL10821-2, XPS 11 9P33
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10624_1
+[*] Hasee SSBS47
 [list]
 [*] 
 [*] 7.4V
@@ -2456,34 +1322,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10311_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5381mAh
-[*] Parts: 7370, SL10311-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11198_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5330mAh
-[*] Parts: L15M4PC3,L15L4PC3, SL11198-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11198_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5330mAh
-[*] Parts: PRO, SL11198-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10531_1
+[*] Hp BP02XL
 [list]
 [*] 
 [*] 7.7V
@@ -2492,16 +1331,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10531_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5320mAh
-[*] Parts: SL10531-3, TPN-Q172
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10531_4
+[*] Hp HSTNN_UB7B
 [list]
 [*] 
 [*] 7.7V
@@ -2510,52 +1340,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10531_5
+[*] Hp SL10531_3
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5320mAh
-[*] Parts: 15-AW000, SL10531-5
+[*] Parts: SL10531-3, TPN-Q172
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10531_6
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5320mAh
-[*] Parts: 15-AU123CL,15-AU057CL, SL10531-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10531_7
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5320mAh
-[*] Parts: 15-AU030NR, SL10531-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11039_2
+[*] Acer 2ICP5_60_80_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5280mAh
-[*] Parts: SL11039-2, X
+[*] Parts: 2ICP5/60/80-2, AC13A3L, ASPIRE P3-131, ASPIRE P3-131-21292G06AS, ASPIRE P3-131-21292G12AS, ASPIRE P3-131-21292G60AS, ASPIRE P3-131-21294G06AS, ASPIRE P3-131-2129Y, ASPIRE P3-131-4427, ASPIRE P3-131-4602, ASPIRE P3-131-4833, ASPIRE P3-171, ASPIRE P3-171-3322Y2G06AS, ASPIRE P3-171-3322Y2G12AS, ASPIRE P3-171-3322Y4G06AS, ASPIRE P3-171-3322Y4G12AS, ASPIRE P3-171-5333Y2G12AS, ASPIRE P3-171-5333Y4G06AS, ASPIRE P3-171-5333Y4G12AS, ASPIRE P3-171-6442, ASPIRE P3-171-6820, ASPIRE P3-171-N32Q, KT.00403.013, KT00403013, P3-171-5533Y2G12AS, P3-171-5533Y4G06AS, P3-171-5533Y4G12AS, SL10820-1, TRAVELMATE X313, TRAVELMATE X313-E, TRAVELMATE X313-M, TRAVELMATE X313-M-5333Y4G12AS, TRAVELMATE X313-M-6824
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11139_1
+[*] Getak SL11139_1
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5270mAh
-[*] Parts: BP2S2P2600(S),441814800016, SL11139-1
+[*] Parts: 441814800016, BP2S2P2600(S), BP2S2P2600(S),441814800016, SL11139-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11139_2
+[*] Getak SL11139_2
 [list]
 [*] 
 [*] 7.4V
@@ -2564,88 +1376,43 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10440_3
+[*] Apple SL10440_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5263mAh
-[*] Parts: 2015, SL10440-3
+[*] Parts: 2015, 2016, SL10440-3, SL10440-4, [MACBOOK
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10440_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5263mAh
-[*] Parts: 2016, SL10440-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10603_2
+[*] Acer ASPIRE_P3，P3_131，P3_171
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5260mAh
-[*] Parts: L15M4PC1, SL10603-2
+[*] Parts: ASPIRE P3，P3-131，P3-171, P3，P3-131，P3-171, SL10820-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10603_3
+[*] Lenovo SB10J79000
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5260mAh
-[*] Parts: 711, SL10603-3
+[*] Parts: 01AV403, SB10J79000, SB10J79000,01AV403, SL11069-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10649_1
+[*] Lenovo SL10603_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5260mAh
-[*] Parts: L15C4P71,L15L4P71, SL10649-1
+[*] Parts: 711, SL10603-3, YOGA 710, YOGA 711
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10649_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5260mAh
-[*] Parts: 700-12ISK, SL10649-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10777_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5260mAh
-[*] Parts: 700-11ISK, SL10777-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10820_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5260mAh
-[*] Parts: P3，P3-131，P3-171, SL10820-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11069_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5260mAh
-[*] Parts: SB10J79000,01AV403, SL11069-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20226_1
+[*] Samsung SL20226_1
 [list]
 [*] 
 [*] 7.5V
@@ -2654,79 +1421,61 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20226_2
+[*] Samsung SL20226_2
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 5260mAh
-[*] Parts: SL20226-2, W700N
+[*] Parts: GALAXY TAB PRO S W700N, SL20226-2, W700N
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10922_1
+[*] Other R13B01W
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 5230mAh
+[*] Parts: INCHMI AIR 13.3, MI AIR 13.3, MI AIR 13.3 INCH, MI NOTEBOOK AIR 13.3 2018, NOTEBOOK AIR 13, NOTEBOOK AIR 13 2018, R13B01W, R13B02W, SL10379-1
+[*] Size: 
+[/list]
+
+[*] Xiaomi SL10922_1
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5230mAh
-[*] Parts: R13B02W, SL10922-1
+[*] Parts: MI R13B02W, R13B02W, SL10922-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10922_2
+[*] Asus 0B200_02210000
 [list]
 [*] 
-[*] 7.6V
-[*] Up to: 5230mAh
-[*] Parts: 13.3″, SL10922-2, SL11002-1
+[*] 7.7V
+[*] Up to: 5195mAh
+[*] Parts: 0B200-02210000, 0B200-02210100, C23N1606, C23PQCH, SL10673-1, SL10673-2, UX390UA, UX390UA-1A, UX390UA-1B, UX390UA-1C, UX390UA-GS031T, UX390UA-GS032T, UX390UA-GS034T, UX390UA-GS039T, UX390UA-GS041T, UX390UA-GS046T, UX390UA-GS063T, UX390UA-XH74-BL, UX390UA-XH78-BL, UX390UAK, ZENBOOK 3, ZENBOOK 3 UX390, ZENBOOK 3 UX390UA, ZENBOOK 3 UX390UA-GS041T, ZENBOOK FLIP UX390UA, ZENBOOK UX390UA, ZENBOOK UX390UA-GS031T, ZENBOOK UX390UA-GS032T, ZENBOOK UX390UA-GS034T, ZENBOOK UX390UA-GS039T, ZENBOOK UX390UA-GS041T, ZENBOOK UX390UA-GS046T, ZENBOOK UX390UA-GS063T, ZENBOOK UX390UAK
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10526_1
+[*] Hp N4E62AV
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5190mAh
-[*] Parts: MG04XL, SL10526-1
+[*] Parts: N4E62AV, N4E62AV,N4E64AV, N4E64AV, SL10526-6
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10526_3
+[*] Asus 0B200_00200200
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 5190mAh
-[*] Parts: 812060-2C1,812060-2B1, SL10526-3
+[*] 7.4V
+[*] Up to: 5136mAh
+[*] Parts: 0B200-00200200, C21-P1801, TRANSFORMER AIO P1801, TRANSFORMER AIO P1801 TABLET PC, TRANSFORMER AIO P1801-B003M, TRANSFORMER AIO P1801-B037K, TRANSFORMER AIO P1801-B038K, TRANSFORMER AIO P1801-B039K, TRANSFORMER AIO P1801-B040K, TRANSFORMER AIO P1801-B041K, TRANSFORMER AIO P1801-B046K, TRANSFORMER AIO P1801-B054K, TRANSFORMER AIO P1801-B061K, TRANSFORMER AIO P1801-B062K, TRANSFORMER AIO P1801-B068K, TRANSFORMER AIO P1801-B073K, TRANSFORMER AIO P1801-B074K, TRANSFORMER AIO P1801-B101K, TRANSFORMER AIO P1801-B122K, TRANSFORMER AIO P1801-B134K, TRANSFORMER AIO P1801-B143K, TRANSFORMER AIO P1801-T, TRANSFORMER AIO P1801-T-B003M, TRANSFORMER AIO P1801-T-B012M, TRANSFORMER AIO P1801-T-B016M, TRANSFORMER AIO P1802, TRANSFORMER AIO P1802-B003Q, TRANSFORMER AIO P1802-B015Q, TRANSFORMER AIO P1802-T, TRANSFORMER AIO P1802-T-B006M
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10526_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5190mAh
-[*] Parts: 812205-001, SL10526-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10526_6
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5190mAh
-[*] Parts: N4E62AV,N4E64AV, SL10526-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10526_7
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5190mAh
-[*] Parts: G1, SL10526-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10403_2
+[*] Asus SL10403_2
 [list]
 [*] 
 [*] 7.4V
@@ -2735,7 +1484,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10403_4
+[*] Asus SL10403_4
 [list]
 [*] 
 [*] 7.4V
@@ -2744,115 +1493,79 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11171_2
+[*] Asus 0B200_00580000
 [list]
 [*] 
-[*] 7.6V
-[*] Up to: 5130mAh
-[*] Parts: S11M7, SL11171-2
+[*] 7.4V
+[*] Up to: 5135mAh
+[*] Parts: 0B200-00580000, 0B200-00580100M, AS301C, C21N1309, C21PQ2H, PS6354B3, Q301L, R304LA, R304LP, R304LP-C1067H, S301L, S301L,S301LA,S301LP, S301LA, S301LA-1A, S301LA-C1011H, S301LA-C1016H, S301LA-C1023H, S301LA-C1027H, S301LA-C1047H, S301LA-C1072H, S301LA-C1073H, S301LA-C1074H, S301LA-C1075H, S301LA-C1097H, S301LA-DH122H, S301LP, S301LP-1A, S301LP-C1014P, S301LP-C1015H, S301LP-C1017H, S301LP-C1042H, S301LP-C1048H, S301LP-C1059H, SL10843-1, SL10843-2, SL10843-3, V301LA, V301LP, VIEWBOOK Q301LA, VIEWBOOK Q301LA-BHI5T02, VIEWBOOK Q301LA-BHI5T17, VIEWBOOK Q301LA-BSI5T17, VIEWBOOK Q301LP, VIEWBOOK S301LP, VIEWBOOK S301LP-C1014P, VIEWBOOK S301LP-C1022H, VIEWBOOK S301LP-C1031H, VIEWBOOK S301LP-C1047H, VIEWBOOK S301LP-C1059H, VIVOBOOK Q301L, VIVOBOOK Q301LA, VIVOBOOK Q301LA-BHI5T02, VIVOBOOK Q301LA-BSI5T17, VIVOBOOK Q301LA-C1157H, VIVOBOOK R304LA-C1080H, VIVOBOOK R304LA-DH071H, VIVOBOOK R304LA-DH077H, VIVOBOOK R304LA-DH110H, VIVOBOOK S301L, VIVOBOOK S301LA, VIVOBOOK S301LA-C1008H, VIVOBOOK S301LA-C1011H, VIVOBOOK S301LA-C1015H, VIVOBOOK S301LA-C1016H, VIVOBOOK S301LA-C1021H, VIVOBOOK S301LA-C1021P, VIVOBOOK S301LA-C1022H, VIVOBOOK S301LA-C1023H, VIVOBOOK S301LA-C1027H, VIVOBOOK S301LA-C1033P, VIVOBOOK S301LA-C1047H, VIVOBOOK S301LA-C1072H, VIVOBOOK S301LA-C1073H, VIVOBOOK S301LA-C1074H, VIVOBOOK S301LA-C1075H, VIVOBOOK S301LA-C1079H, VIVOBOOK S301LA-C1094H, VIVOBOOK S301LA-C1097H, VIVOBOOK S301LA-C1102H, VIVOBOOK S301LA-C1141H, VIVOBOOK S301LA-DH062H, VIVOBOOK S301LA-DH063H, VIVOBOOK S301LA-DH084H, VIVOBOOK S301LA-DH122H, VIVOBOOK S301LA-DH125H, VIVOBOOK S301LA-DS71T, VIVOBOOK S301LA-DS71T-CA, VIVOBOOK S301LP, VIVOBOOK S301LP-C1014P, VIVOBOOK S301LP-C1015H, VIVOBOOK S301LP-C1016H, VIVOBOOK S301LP-C1017H, VIVOBOOK S301LP-C1042H, VIVOBOOK S301LP-C1048H, VIVOBOOK S301LP-C1059H, VIVOBOOK V301LA-C1026H, VIVOBOOK V301LA-C1036H, VIVOBOOK V301LA-C1081H, VIVOBOOK V301LA-C1089H, VIVOBOOK V301LA-C1112H, VIVOBOOK V301LA-C1132H, VIVOBOOK V301LA-DH076H, VIVOBOOK V301LP-C1066H, VIVOBOOK V301LP-C1068H, VIVOBOOK V301LP-DS51T
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10875_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5130mAh
-[*] Parts: SL10875-2, XE513C24,XE513C24-K01US,XE510C24
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10843_2
+[*] Asus S200
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5130mAh
-[*] Parts: S301L,S301LA,S301LP, SL10843-2
+[*] Parts: EF20-2S5000-B1C1, EF20-2S5000-G1A1, EF20-2S5000-G1L1, Q200E, S200, S200,S200E,X201E,X201E,X202E,Q200E, S200E, SL10944-1, SL11031-2, X201E, X202E
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10851_2
+[*] Dell SL10811_2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5130mAh
-[*] Parts: SL10851-2, X402C,X402CA
+[*] Parts: 7140, SL10811-2, VENUE 11 7140
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11031_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5130mAh
-[*] Parts: S200,S200E,X201E,X201E,X202E,Q200E, SL11031-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20295_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5130mAh
-[*] Parts: 13.5, SL20295-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10451_4
+[*] Microsoft SL10451_4
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 5087mAh
-[*] Parts: 1724, SL10451-4
+[*] Parts: 1724, SL10451-4, SURFACE PRO 4 1724
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11068_1
+[*] Asus 0B200_02270000
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5070mAh
-[*] Parts: L17C2P51,L17S2P51, SL11068-1
+[*] Parts: 0B200-02100100, 0B200-02100200, 0B200-02100300, 0B200-02270000, 3,T305CA,T305CA-3A,T305CA-3G, B9440UA, B9440UA-XS51, C21N1603, C21N1612, SL20257-1, SL20257-2, T302, T302C, T302CA, T303, T303U, T303UA, T303UA-0053G6200U, T303UA-3G, T303UA-6200GY, T303UA-DH54T, T303UA-DS75T, T303UA-DS76T, T303UA-GN027T, T303UA-GN028R, T303UA-GN032R, T303UA-GN039R, T303UA-GN040T, T303UA-GN041R, T303UA-GN043R, T303UA-GN043T, T303UA-GN044R, T303UA-GN045T, T303UA-GN046R, T303UA-GN047R, T303UA-GN050R, T303UA-GN051R, T303UA-GN052T, T303UA-GN053T, T303UA-GN054T, T303UA-GN060R, T303UA-GN060T, T303UA-GN063T, T303UA-XH74T, T304UA, T304UA-0123B7500U, T304UA-77DHDSB1, T304UA-BC002R, T304UA-BC003R, T304UA-BC003T, T304UA-BC005R, T304UA-BC005T, T304UA-BC006T, T304UA-BC007T, T304UA-BC009R, T304UA-BC011R, T304UA-BC011T, T304UA-BC028R, T304UA-BC029R, T304UA-DS71T, T304UA-GN042R, T304UA-GN042T, T304UA-GN043R, T304UA-GN048T, T304UA-GN049R, T304UA-GN051T, T304UA-GN052T, T304UA-GN061T, T304UA-XS74T, T305, T305C, T305CA, T305CA-0023G7Y30, T305CA-3A, T305CA-3G, T305CA-7Y30, T305CA-7Y54, T305CA-GW006T, T305CA-GW014T, T305CA-GW017, T305CA-GW019T, T305CA-GW021T, T305CA-GW023T, T305CA-GW033R, T305CA-GW048T, T305CA-GW052R, T305CA-GW054T, T305CA-GW055T, T305CA-GW058T, T305CA-GW063T, T305CA-GW072T, TRANSFORMER 3, TRANSFORMER 3 PRO T303UA, TRANSFORMER 3 PRO T303UA-0053G6200U, TRANSFORMER 3 PRO T303UA-GN050T, TRANSFORMER 3 T305CA, TRANSFORMER 3 T305CA-GW002T, TRANSFORMER 3 T305CA-GW015T, TRANSFORMER PRO T304UA, UX390UA, UX391UA, UX490UA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11068_2
+[*] Asus 0B200_02420000
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5070mAh
-[*] Parts: 01AV469,SB10K97616, SL11068-2
+[*] Parts: 0B200-02420000, 0B200-02420000P-B2B2A-711-005R, 0B200-02420200, C21N1624, C21N1706, Q325U, Q325U-BI7T18, Q325UA, Q325UA-BI7T18, Q325UA-BI7T21, Q325UAR, UX370F, UX370UA, UX370UA LASER LABE, UX370UA-0061A7500U, UX370UA-1A, UX370UA-1B, UX370UA-C4058T, UX370UA-C4059T, UX370UA-C4060T, UX370UA-C4118T, UX370UA-C4124T, UX370UA-C4125T, UX370UA-C4131T, UX370UA-C4136T, UX370UA-C4160T, UX370UA-C4170T, UX370UA-C4178T, UX370UA-C4181T, UX370UA-C4184T, UX370UA-C4185T, UX370UA-C4195T, UX370UA-C4196T, UX370UA-C4197T, UX370UA-C4210T, UX370UA-C4217T, UX370UA-C4241T, UX370UA-C4256T, UX370UA-C4290T, UX370UA-C4305T, UX370UA-C4308T, UX370UA-C4331T, UX370UA-C4341T, UX370UA-C4347T, UX370UA-C4364T, UX370UA-C4367T, UX370UA-EA294R, UX370UA-EA315R, UX370UA-EA328T, UX370UA-EA346R, UX370UA-EA349T, UX370UA-EA371T, UX370UA-EA373T, UX370UA-EA376R, UX370UAF, UX370UAR, UX370UAR-1B, ZENBOOK FLIP S UX370U, ZENBOOK FLIP S UX370UA, ZENBOOK FLIP S UX370UA-C4016T, ZENBOOK FLIP S UX370UA-C4060R, ZENBOOK FLIP S UX370UA-C4061T, ZENBOOK FLIP S UX370UA-C4072T, ZENBOOK FLIP S UX370UA-C4093T, ZENBOOK FLIP S UX370UA-C4104T, ZENBOOK FLIP S UX370UA-C4129T, ZENBOOK FLIP S UX370UA-C4137T, ZENBOOK FLIP S UX370UA-C4143R, ZENBOOK FLIP S UX370UA-C4147T, ZENBOOK FLIP S UX370UA-C4196R, ZENBOOK FLIP S UX370UA-C4198R, ZENBOOK FLIP S UX370UA-C4198T, ZENBOOK FLIP S UX370UA-C4201T, ZENBOOK FLIP S UX370UA-C4202T, ZENBOOK FLIP S UX370UA-C4207T, ZENBOOK FLIP S UX370UA-C4219T, ZENBOOK FLIP S UX370UA-C4220T, ZENBOOK FLIP S UX370UA-C4221T, ZENBOOK FLIP S UX370UA-C4222T, ZENBOOK FLIP S UX370UA-C4227T, ZENBOOK FLIP S UX370UA-C4237R, ZENBOOK FLIP S UX370UA-C4372T, ZENBOOK FLIP S UX370UA-XB74T-BL, ZENBOOK FLIP S UX370UA-XH74T-BL, ZENBOOK UX370UA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10532_2
+[*] Asus 0B200_02640000
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 5060mAh
-[*] Parts: NP940X3L, SL10532-2
+[*] Up to: 5070mAh
+[*] Parts: 0B200-02640000, C21N1701, C21PQC5, K406UA, K406UA-BM141T, K406UA-BM142T, K406UA-BM219T, K406UA-BM229T, K406UA-BM230T, S406UA, S406UA-0043C8250U, S406UA-0051B8250U, S406UA-BM007T, S406UA-BM012T, S406UA-BM013T, S406UA-BM029T, S406UA-BM031T, S406UA-BM033R, S406UA-BM145T, S406UA-BM146T, S406UA-BM148T, S406UA-BM151, S406UA-BM165T, S406UA-BM169T, S406UA-BM174T, S406UA-BM191T, S406UA-BM204T, S406UA-BM216T, S406UA-BM225R, S406UA-BM228T, S406UA-BM231T, S406UA-BM240T, S406UA-BM248T, S406UA-BM256, S406UA-BM258T, S406UA-BM290T, S406UA-BM356T, S406UA-BM421, S406UA-BV021T, S406UA-BV023T, S406UA-BV026T, S406UA-BV027T, S406UA-BV070T, S406UA-BV121T, S406UA-BV175T, S406UA-BV260T, S406UA-BV300T, S406UA-BV357T, S406UA-BV414T, S406UA-GS8202T, S406UA-GS8505T, V406UA, V406UA7100, VIVOBOOK S14 S406 REVIEW, VIVOBOOK S14 S406UA, VIVOBOOK S14 S406UA REVIEW, VIVOBOOK S14 S406UA-0373C4405U, VIVOBOOK S14 S406UA-BM012T, VIVOBOOK S14 S406UA-BM013T, VIVOBOOK S14 S406UA-BM019T, VIVOBOOK S14 S406UA-BM028T, VIVOBOOK S14 S406UA-BM033T, VIVOBOOK S14 S406UA-BM159T, VIVOBOOK S14 S406UA-BM165T, VIVOBOOK S14 S406UA-BM174T, VIVOBOOK S14 S406UA-BM191T, VIVOBOOK S14 S406UA-BM204T, VIVOBOOK S14 S406UA-BM208T, VIVOBOOK S14 S406UA-BM213T, VIVOBOOK S14 S406UA-BM216T, VIVOBOOK S14 S406UA-BM223T, VIVOBOOK S14 S406UA-BM248T, VIVOBOOK S14 S406UA-BM258T, VIVOBOOK S14 S406UA-BM299T, VIVOBOOK S14 S406UA-BM360T, VIVOBOOK S14 S406UA-BM865T, VIVOBOOK S14 S406UA-BV021T, VIVOBOOK S14 S406UA-BV023T, VIVOBOOK S14 S406UA-BV026T, VIVOBOOK S14 S406UA-BV027T, VIVOBOOK S14 S406UA-BV041T, VIVOBOOK S14 S406UA-BV121T, VIVOBOOK S14 S406UA-BV181T, VIVOBOOK S14 S406UA-BV260T, VIVOBOOK S14 S406UA-GS7001T, VIVOBOOK S14 S406UA-GS8202T, VIVOBOOK S14 S406UA-GS8503T, VIVOBOOK S14 S406UA-GS8505T, VIVOBOOK X406UA, VIVOBOOKS14 S406UA-BM204T, VIVOBOOKS14 S406UA-BM290T, X406, X406UA, X406UA-1B, X406UA-3C, X406UA-BM013T
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10532_3
+[*] Asus K451LN
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 5060mAh
-[*] Parts: NP900X5L, SL10532-3
+[*] 7.5V
+[*] Up to: 5066mAh
+[*] Parts: 0B200-00530100, 0B200-00530200, C21N1335, K451L, K451LN, K451LN-WX162H, S451L, S451L,S451LA,S451LB,S451LN, S451LA, S451LB, S451LN, S451LN-1A, S451LN-2A, S451LN-2B, S451LN-9E, S451LN-9F, SL10803-1, SL10803-2, SL10803-3, VIVOBOOK S451, VIVOBOOK S451LA, VIVOBOOK S451LB, VIVOBOOK S451LN, VIVOBOOK S451LN-CA004H, VIVOBOOK S451LN-CA009H, VIVOBOOK S451LN-CA020H, VIVOBOOK S451LN-CA021H, VIVOBOOK S451LN-CA032H, VIVOBOOK S451LN-CA036H, VIVOBOOK S451LN-CA132H, VIVOBOOK S451LN-CA159H, VIVOBOOK S451LN-CA160H
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10532_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5060mAh
-[*] Parts: SL10532-4, SPIN
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10675_1
+[*] Asus C21N1603
 [list]
 [*] 
 [*] 7.7V
@@ -2861,93 +1574,120 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10675_2
+[*] Samsung NOTEBOOK_9_PEN
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5060mAh
-[*] Parts: SL10675-2, T303UA
+[*] Parts: NOTEBOOK 9 PEN, PEN, SL11142-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11055_2
+[*] Samsung SL10532_2
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5060mAh
-[*] Parts: C302,C302C,C302CA, SL11055-2
+[*] Parts: NP940X3L, SL10532-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11142_2
+[*] Samsung SL10532_3
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5060mAh
-[*] Parts: 930QAA,NP930QAA, SL11142-2
+[*] Parts: NP900X5L, SL10532-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11142_3
+[*] Samsung SL10532_4
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5060mAh
-[*] Parts: PEN, SL11142-3
+[*] Parts: ATIV BOOK 9 SPIN, SL10532-4, SPIN
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20257_2
+[*] Asus SL10675_2
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5060mAh
-[*] Parts: 3,T305CA,T305CA-3A,T305CA-3G, SL20257-2
+[*] Parts: SL10675-2, T303UA, TRANSFORMER 3 PRO T303UA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10803_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5060mAh
-[*] Parts: S451L,S451LA,S451LB,S451LN, SL10803-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10776_1
+[*] Lenovo V330_14
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5050mAh
-[*] Parts: L15L2PB5, SL10776-1
+[*] Parts: SL11008-2, V330-14, V330-14,V330-15, V330-15
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10776_2
+[*] Asus 0B200_00860000
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 5050mAh
-[*] Parts: 510-15ISK, SL10776-2
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-00860000, 0B200-00860100, 0B200-00860200, 0B200-00860300, 0B200-00860400, C21N1333, C21NI333, J550LA, J550LAB, J550LD, J550LJ, R554LA, R554LA-RH31T, R554LA-RH51T, R554LA-RH71T, R554LA-RS51T, R554LA-RS71T, R554LAB, R554LD, R554LJ, R554LJ-XO009H, R554LJ-XO092H, TP550L, TP550LA, TP550LA-1A, TP550LA-2B, TP550LA-CJ005H, TP550LA-CJ025H, TP550LA-CJ028H, TP550LA-CJ040H, TP550LA-CJ060H, TP550LA-CJ070P, TP550LA-CJ080H, TP550LA-CJ086H, TP550LA-CJ127H, TP550LA-CJ130P, TP550LA-RHI5T01, TP550LA-UH51T, TP550LAB, TP550LD, TP550LD-1A, TP550LD-2B, TP550LD-CJ001H, TP550LD-CJ002H, TP550LD-CJ030H, TP550LD-CJ032H, TP550LD-CJ034H, TP550LD-CJ046H, TP550LD-CJ053H, TP550LD-CJ055H, TP550LD-CJ060H, TP550LJ, TP550LJ-1A, TP550LJ-2B, TP550LJ-BB71T, TP550LJ-CJ014H, TP550LJ-CJ021H, TP550LJ-CJ022H, TP550LJ-CJ023H, TP550LJ-CJ025H, TP550LJ-CJ027H, TP550LJ-CJ039D, TP550LJ-DN015H, TRANSFORMER BOOK FLIP TP500LA-EB31T, TRANSFORMER BOOK FLIP TP550, TRANSFORMER BOOK FLIP TP550LA, TRANSFORMER BOOK FLIP TP550LAB, TRANSFORMER BOOK FLIP TP550LD, TRANSFORMER BOOK FLIP TP550LD-CJ015H, TRANSFORMER BOOK FLIP TP550LD-CJ020H, TRANSFORMER BOOK FLIP TP550LD-CJ029H, TRANSFORMER BOOK FLIP TP550LD-CJ033H, TRANSFORMER BOOK FLIP TP550LD-CJ035H, TRANSFORMER BOOK FLIP TP550LD-CJ041H, TRANSFORMER BOOK FLIP TP550LD-CJ056H, TRANSFORMER BOOK FLIP TP550LD-CJ057H, TRANSFORMER BOOK FLIP TP550LD-CJ059H, TRANSFORMER BOOK FLIP TP550LD-CJ067H, TRANSFORMER BOOK FLIP TP550LD-CJ079H, TRANSFORMER BOOK FLIP TP550LD-CJ080H, TRANSFORMER BOOK FLIP TP550LD-CJ083H, TRANSFORMER BOOK FLIP TP550LD-CJ084H, TRANSFORMER BOOK FLIP TP550LD-CJ111H, X454
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11008_1
+[*] Asus 0B200_00870000
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 5050mAh
-[*] Parts: L17L2PB6,L17M2PB6, SL11008-1
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-00870000, 0B200-00870200, 0B200-00870300, C21N1334, T200TA, T200TA-1A, T200TA-1K, T200TA-1R, T200TA-CP001H, T200TA-CP003H, T200TA-CP004H, T200TA-CP005H, T200TA-CP017H, T200TA-CP018H, T200TA-CP019P, T200TA-DB11T-CA, T200TA-DB12T-CA, T200TA-DB14T-CA, TRANSFORMER BOOK T200TA, TRANSFORMER BOOK T200TA-C1-BL, TRANSFORMER T200TA-CP016H
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11008_2
+[*] Chuwi 2877164_2S
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 5050mAh
-[*] Parts: SL11008-2, V330-14,V330-15
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2877164-2S, LAPBOOK SE, SE, SL20296-1
+[*] Size: 
+[/list]
+
+[*] Prestigio 2ICP3_78_180
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2ICP3/78/180, UTL-277180-2S
+[*] Size: 
+[/list]
+
+[*] Mcnair 2ICP4_75_110
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2ICP4/75/110, 40064592, MLP3975110-2S
+[*] Size: 
+[/list]
+
+[*] Mcnair 2ICP4_78_106
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2ICP4/78/106, 3878106-2S, 40067920, 40069914, E2291, E2292, E2293, E2294, MLP4078106-2S
+[*] Size: 
+[/list]
+
+[*] Prestigio 2ICP6_61_115
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2ICP6/61/115, UTL5261115-2S
 [*] Size: 
 [/list]
 
@@ -2957,6 +1697,42 @@
 [*] 7.6V
 [*] Up to: 5000mAh
 [*] Parts: AK14
+[*] Size: 
+[/list]
+
+[*] Asus C21N1421
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-01520000, C21N1421, SL10668-1, SL10668-2, T300CHI, T300CHI-1A, T300CHI-2A, T300CHI-2G, T300CHI-FH003H, T300CHI-FH011H, T300CHI-FL040H, T300CHI-FL040P, T300CHI-FL043H, T300CHI-FL043T, T300CHI_C, T300CHI_C-1A, T300CHI_C-2A, T302CHI, T302CHI-2C, TRANSFORMER BOOK T300CHI, TRANSFORMER BOOK T302CA, TRANSFORMER BOOK T302CA-FL010T, TRANSFORMER BOOK T302CA-FL012R, TRANSFORMER BOOK T302CA-FL012T, TRANSFORMER BOOK T302CA-FL013T, TRANSFORMER BOOK T302CA-FL020T, TRANSFORMER BOOK T302CA-FL021T, TRANSFORMER BOOK T302CA-FL022T, TRANSFORMER BOOK T302CHI
+[*] Size: 
+[/list]
+
+[*] Asus C21N1508
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-01740000, 0B200-01740100, C21N1508, R457UA, R457UA-FA135T, R457UA-FA198T, R457UA-WX195T, R457UB, R457UB-WX022T, R457UB-WX024T, R457UB-WX037T, R457UF, R457UJ, R457UQ, R457UQ-FA062T, R457UQ-FA066T, R457UQ-FA117T, R457UQ-WX049T, R457UR, R457UR-FA174T, R457UR-WX053T, R457UR-WX088T, R457UV, R457UV-FA047T, R457UV-FA086T, R457UV-GA055T, R457UV-GA068T, R457UV-GA069T, R457UV-WX035T, R457UV-WX053T, SL10621-1, SL10621-2, VIVOBOOK X456UA, VIVOBOOK X456UB, VIVOBOOK X456UF, VIVOBOOK X456UJ, VIVOBOOK X456UQ, VIVOBOOK X456UR, VIVOBOOK X456UV, X456, X456UA, X456UA-1A, X456UA-1B, X456UA-1C, X456UA-3F, X456UA-3G, X456UA-WX006T, X456UA-WX015T, X456UA-WX016, X456UA-WX121T, X456UB, X456UB-1A, X456UB-1B, X456UB-1C, X456UB-WX009T, X456UB-WX010T, X456UF, X456UF-1A, X456UF-1B, X456UF-1C, X456UF-3F, X456UF-3G, X456UF-WX012, X456UF-WX057T, X456UJ, X456UJ,X456UV,X456UF, X456UJ-1A, X456UJ-1B, X456UJ-1C, X456UJ-3F, X456UJ-3G, X456UJ-BS71-CB, X456UQ, X456UQ-1A, X456UQ-1B, X456UQ-1C, X456UQ-3F, X456UQ-3G, X456UQ-GA055T, X456UQ-GA060T, X456UQ-WX005T, X456UQ-WX016T, X456UQ-WX034T, X456UR, X456UR-1A, X456UR-1B, X456UR-1C, X456UR-3F, X456UR-3G, X456UR-FA159D, X456UR-FA180D, X456UR-GA114T, X456UR-GA154D, X456UV, X456UV-1A, X456UV-1B, X456UV-1C, X456UV-3F, X456UV-3G, X456UV-BB71-CB, X456UV-GA050T, X456UV-GA063T
+[*] Size: 
+[/list]
+
+[*] Asus C21_TX300P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-00310200, C21-TX300P, SL10401-1, SL10401-2, SL10401-3, TRANSFORMER BOOK TX300, TRANSFORMER BOOK TX300CA, TX300, TX300CA
+[*] Size: 
+[/list]
+
+[*] Asus CHROMEBOOK_C202SA
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 0B200-01990000, 0B200-02670000, C202SA, C202SA-2A, C202SA-3A, C202SA-GJ0024, C202SA-GJ0025, C202SA-GJ0027, C202SA-GJ0033, C202SA-GJ0050, C202SA-GJ0066, C202SA-RB02-C, C202SA-YS04, C21N1530, CHROMEBOOK C202, CHROMEBOOK C202SA, CHROMEBOOK C202SA -GJ0048, CHROMEBOOK C202SA-2A, CHROMEBOOK C202SA-GJ0016, CHROMEBOOK C202SA-GJ0026, CHROMEBOOK C202SA-GJ0031, CHROMEBOOK C202SA-GJ0048, CHROMEBOOK C202SA-GJ0056, CHROMEBOOK C202SA-GJ0062, CHROMEBOOK C202SA-YS01, CHROMEBOOK C202SA-YS02, E201NA-1B, E201NA-1D, E201NA-GJ005T, E201NA-GJ006T, E201NA-GJ008T, E201NA-GJ022T, E201NA-GJ023T, SL10660-1, SL10660-2, VIVOBOOK E201NA, VIVOBOOK E201NA-GJ005T, VIVOBOOK E201NA-GJ006T, VIVOBOOK E201NA-GJ008T, VIVOBOOK E201NA-GJ009T, VIVOBOOK E201NA-GJ022T, VIVOBOOK E201NA-GJ023T
 [*] Size: 
 [/list]
 
@@ -2978,6 +1754,15 @@
 [*] Size: 
 [/list]
 
+[*] Cube JUMPER_2869178
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: JUMPER 2869178, JUMPER 2877167, JUMPER 52110118, JUMPER H28154165P, JUMPER I35, JUMPER QT31150165P, JUMPER ZP50100130, JUMPER ZP50110130, JUMPER ZP52110158, JUMPER ZP52110160
+[*] Size: 
+[/list]
+
 [*] Grefu MT133
 [list]
 [*] 
@@ -2996,6 +1781,15 @@
 [*] Size: 
 [/list]
 
+[*] Chuwi PT2877164_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 13.3″, CHROMEBOOK 2 13.3", LAPBOOK SE 13.3", MI AIR 13.3", PT2877164-2S, SL10525-3, SL10922-2, SL11002-1
+[*] Size: 
+[/list]
+
 [*] Other QT_50160201P
 [list]
 [*] 
@@ -3005,142 +1799,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10143_6
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10143-6, TP550
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10143_7
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: R554L, SL10143-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10401_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10401-2, TX300
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10507_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10507-2, X302L,X302LA,X302LJ
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10507_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: F302L,F302LA,F302LJ, SL10507-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10507_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: R301LA,R301LJ, SL10507-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10512_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: R753UA,R753UB,R753UX, SL10512-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10512_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10512-3, X756UX,X756UW,X756UQ,X756UV
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10555_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10555-2, X205T
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10555_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10555-3, X205TA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10601_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10601-2, X556,X556U,X556UA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10601_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10601-3, X556UJ,X556UB,X556UV
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10621_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10621-2, X456UJ,X456UV,X456UF
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10668_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10668-2, T302CHI
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10775_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SL10775-2, TP501UA，TP501UB,TP501UQ
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10880_2
+[*] Asus R542UR
 [list]
 [*] 
 [*] 7.6V
@@ -3149,142 +1808,79 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10981_2
+[*] Asus R554L
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: F442U,A480U, SL10981-2
+[*] Parts: R554L, SL10143-7
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11014_1
+[*] Asus SL10555_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: PC-VP-BP112,PC-VP-BP111, SL11014-1
+[*] Parts: SL10555-2, X205T
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20233_1
+[*] Asus SL10555_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: PLUS, SL20233-1
+[*] Parts: SL10555-3, X205TA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20234_1
+[*] Asus X302L
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: PRO, SL20234-1
+[*] Parts: 0B200-01360100, C21N1423, F302L, F302L,F302LA,F302LJ, F302LA, F302LA-FN066H, F302LA-FN067H, F302LA-FN073H, F302LA-FN081T, F302LA-FN086H, F302LA-FN093T, F302LA-FN096T, F302LA-FN113T, F302LA-FN165T, F302LA-FN186T, F302LA-FN194T, F302LA-FN226T, F302LA-R4013H, F302LJ, F302LJ-FN023H, F302LJ-FN024H, F302LJ-FN055T, F302LJ-R4021H, F302LJ-R4025H, F302LJ-R4035T, F302LJ-R4051H, F302LJ-R4052H, F302U, F302UA, F302UA-FN033T, F302UA-FN150T, F302UA-FN187T, F302UA-FN205T, F302UA-R4025T, F302UA-R4261T, F302UJ, F302UJ-R, F302UJ-R4025T, F302UV, F302UV-FN024T, F302UV-FN039T, P2330LA, P2330UA, P2330UA-FN172R, P302L, P302LA, P302LJ, P302UA, P302UA-FN069R, P302UA-FN070R, P302UA-FN093R, P302UA-FN176T, P302UA-FN181T, P302UA-FN230D, P302UA-FN230T, P302UA-R4208T, P302UA-R4273T, P302UJ, P302UV, R301LA, R301LA,R301LJ, R301LA-FN011H, R301LA-FN020H, R301LA-FN028T, R301LA-FN043D, R301LA-FN043H, R301LA-FN043V, R301LA-FN063H, R301LA-FN074D, R301LA-FN075G, R301LA-FN075H, R301LA-FN111H, R301LA-FN124H, R301LA-FN129H, R301LA-FN161T, R301LA-FN185T, R301LA-FN218T, R301LA-FN225T, R301LA-FN237T, R301LA-FN238T, R301LA-FN260T, R301LA-R286T, R301LA-R4144T, R301LA-R4240T, R301LJ, R301LJ-FN030T, R301LJ-FN068H, R301LJ-FN070H, R301LJ-FN103T, R301LJ-FN105T, R301LJ-FN119T, R301LJ-FN130T, R301LJ-FN135T, R301LJ-FN143T, R301LJ-FN148T, R301LJ-FN153T, R301LJ-R4031D, R301LJ-R4031H, R301LJ-R4031P, R301LJ-R4031V, R301UA-FN005T, R301UA-FN031T, R301UA-FN032T, R301UA-FN089T, R301UA-FN092T, R301UA-FN094T, R301UA-FN107T, R301UA-FN115T, R301UA-FN133T, R301UA-FN135T, R301UA-FN137T, R301UA-FN170T, R301UA-FN179T, R301UA-FN196T, R301UA-FN197T, R301UA-FN224T, R301UA-R4017T, R301UA-R4091T, R301UA-R4129T, R301UA-R4217T, R301UA-R4262T, R301UA-R4270T, R301UJ, R301UV, R301UV-FN026T, R301UV-FN037T, R301UV-FN061T, R301UV-FN062T, R301UV-FN072T, R301UV-FNO27T, SL10507-1, SL10507-2, SL10507-3, SL10507-4, SL10507-5, SL10507-6, X302L, X302L,X302LA,X302LJ, X302LA, X302LA-1A, X302LA-1B, X302LA-FN002H, X302LA-FN012H, X302LA-FN015H, X302LA-FN031H, X302LA-FN033H, X302LA-FN036H, X302LA-FN049H, X302LA-FN051H, X302LA-FN052H, X302LA-FN092H, X302LA-FN097H, X302LA-FN116D, X302LA-FN137H, X302LA-FN177T, X302LA-FN215T, X302LA-R4101, X302LA_C-1A, X302LJ, X302LJ-1A, X302LJ-1B, X302LJ-FN016H, X302LJ-FN017H, X302LJ-FN026H, X302LJ-FN027H, X302LJ-FN037H, X302LJ-FN050H, X302LJ-FN067H, X302LJ-FN081H, X302LJ-FN089H, X302LJ-FN113T, X302LJ-FN115T, X302LJ-R4004H, X302LJ-R4018D, X302LJ-R4020D, X302LJ-R4036H, X302LJ-R4073, X302UA, X302UA-1A, X302UA-1B, X302UA-FN014D, X302UA-FN037T, X302UA-FN054, X302UA-FN054T, X302UA-FN174T, X302UA-FN193T, X302UA-FN257T, X302UA-R4010T, X302UA-R4020T, X302UA-R4269T, X302UJ, X302UJ-1A, X302UJ-1B, X302UJ-FN005T, X302UJ-R4007T, X302UV, X302UV-1A, X302UV-1B, X302UV-FN016T
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20296_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: SE, SL20296-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10944_1
+[*] Medion 2ICP5_71_120
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5000mAh
-[*] Parts: S200, SL10944-1
+[*] Parts: 2ICP5/71/120, 40064487, E2216T, E3213, E3215, E3215T, E3216, MLP4372121-2S
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20028_3
+[*] Lenovo 121500232
 [list]
 [*] 
 [*] 7.4V
-[*] Up to: 4980mAh
-[*] Parts: 7140, SL10098-7, SL10811-2, SL20028-3
+[*] Up to: 4950mAh
+[*] Parts: 121500232, 2ICP5/67/123, L13S2P21, MIIX-2 11 INCH, MIIX2 11-ITH
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10679_2
+[*] Asus 0B200_03060000
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: 844199-855,843534-1C1, SL10679-2
+[*] Up to: 4940mAh
+[*] Parts: 0B200-03060000, 0B200-03130000, C21N1808, C423, C423NA, C423NA-0031AN4200, C423NA-1A, C423NA-BV0001, C423NA-BV0017, C423NA-BV0028, C423NA-BV0044, C423NA-BV0051, C423NA-BV0054, C423NA-BV0078, C423NA-BZ0004, C423NA-BZ0027, C423NA-BZ0038, C423NA-BZ0057, C423NA-DH02, C423NA-EB0020, C423NA-EB0033, C423NA-EB0050, C423NA-EB0063, C423NA-EB0108, C423NA-RH91T-CB, C523, C523NA, C523NA-0021AN4200, C523NA-1A, C523NA-A20007, C523NA-A20025, C523NA-A20026, C523NA-A20033, C523NA-A20045, C523NA-A20057, C523NA-A20093, C523NA-A20105, C523NA-BR0035, C523NA-BR0043, C523NA-BR0067, C523NA-EJ0052, C523NA-EJ0053, C523NA-EJ0054, C523NA-EJ0058, CHROMEBOOK C423NA, CHROMEBOOK C423NA-1A, CHROMEBOOK C423NA-BV0016, CHROMEBOOK C423NA-BV0047, CHROMEBOOK C423NA-BZ0040, CHROMEBOOK C423NA-BZ0045, CHROMEBOOK C423NA-DH02, CHROMEBOOK C423NA-EB0020, CHROMEBOOK C423NA-EB0030, CHROMEBOOK C423NA-EB0048, CHROMEBOOK C423NA-EB0049, CHROMEBOOK C423NA-EC0109, CHROMEBOOK C523NA, CHROMEBOOK C523NA-1A, CHROMEBOOK C523NA-A20026, CHROMEBOOK C523NA-A20045, CHROMEBOOK C523NA-A20057, CHROMEBOOK C523NA-A20071, CHROMEBOOK C523NA-BR0067, CHROMEBOOK C523NA-DH02, CHROMEBOOK C523NA-EJ0054, CHROMEBOOK C523NA-EJ0055, CHROMEBOOK C523NA-EJ0130, CHROMEBOOK C523NA-IH24T, CHROMEBOOK-C523NA-A20117
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10679_3
+[*] Asus C21N1613
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: HSTNN-IB7J, SL10679-3
+[*] Up to: 4920mAh
+[*] Parts: 0B200-02280000, 2ICP3/99/109, C21N1613, C302, C302,C302C,C302CA, C302C, C302CA, C302CA-0041A6Y30, C302CA-1A, C302CA-F6Y30, CHROMEBOOK FLIP C302, CHROMEBOOK FLIP C302C, CHROMEBOOK FLIP C302CA, CHROMEBOOK FLIP C302CA-0041A6Y30, CHROMEBOOK FLIP C302CA-DH54, CHROMEBOOK FLIP C302CA-DH75, CHROMEBOOK FLIP C302CA-DHM3, CHROMEBOOK FLIP C302CA-DHM3-G, CHROMEBOOK FLIP C302CA-DHM4, CHROMEBOOK FLIP C302CA-E91T-CB, CHROMEBOOK FLIP C302CA-GU001, CHROMEBOOK FLIP C302CA-GU003, CHROMEBOOK FLIP C302CA-GU005, CHROMEBOOK FLIP C302CA-GU006, CHROMEBOOK FLIP C302CA-GU009, CHROMEBOOK FLIP C302CA-GU010, CHROMEBOOK FLIP C302CA-GU011, CHROMEBOOK FLIP C302CA-GU017, CHROMEBOOK FLIP C302CA-GU043, SL11055-1, SL11055-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10679_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: SL10679-4, TPN-C127
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10679_5
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: 13-V014TU, SL10679-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10679_6
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: 13-V123TU, SL10679-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10779_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: 828226-005, SL10779-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10779_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: HSTNN-IB71, SL10779-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10779_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4930mAh
-[*] Parts: 827927-1C1,827927-1B1, SL10779-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10713_1
+[*] Lenovo SL10713_1
 [list]
 [*] 
 [*] 7.7V
@@ -3293,7 +1889,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20238_1
+[*] Hasee PT3488127_2S
 [list]
 [*] 
 [*] 7.4V
@@ -3302,219 +1898,120 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10693_2
+[*] Asus SL10804_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4860mAh
-[*] Parts: 824560-005,823908-2C1, SL10693-2
+[*] Parts: A455L, K455L, K455L,A455L,R455L, R455L, SL10804-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10693_3
+[*] Asus SL10804_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4860mAh
-[*] Parts: HSTNN-IB7G, SL10693-3
+[*] Parts: F455L, F455L,X455L,Y483L, SL10804-3, X455L, Y483L
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10693_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4860mAh
-[*] Parts: 11-R, SL10693-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10693_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4860mAh
-[*] Parts: 11-R014WM, SL10693-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10740_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4860mAh
-[*] Parts: SL10740-2, VM490,VM490L
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10804_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4860mAh
-[*] Parts: K455L,A455L,R455L, SL10804-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10804_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4860mAh
-[*] Parts: F455L,X455L,Y483L, SL10804-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10847_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4860mAh
-[*] Parts: 00HW004,SB10F46442, SL10847-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10485_2
+[*] Asus 0B200_01710100
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4840mAh
-[*] Parts: SL10485-2, TP200S,TP200SA
+[*] Parts: 0B200-01710100, B21N1504, C21N1504, E205SA, E205SA-3B, E205SA-3G, E205SA-EDU3, E205SA-FV0136T, E205SA-FV0142T, E205SA-FV0165T, E205SA-FV0185T, E205SA-FV0239T, E205SA-FV0243T, E205SA-FV0245T, EEEBOOK E205SA, EEEBOOK FLIP E205SA-FV0114TS, SL10485-1, SL10485-2, TP200S, TP200S,TP200SA, TP200SA, TP200SA-FV0076TS, TP200SA-FV0108TS, TP200SA-FV0110TS, TP200SA-FV0130T, TP200SA-FV0131T, TP200SA-FV0132T, TP200SA-FV0133T, TP200SA3050
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10216_1
+[*] Asus R753UA
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4840mAh
+[*] Parts: 0B200-01800000, 0B200-01800100, C21N1515, F756UA, F756UA-T4278T, F756UA-T4295T, F756UA-T4349T, F756UA-T4565T, F756UA-TY021T, F756UA-TY031T, F756UA-TY037T, F756UA-TY347T, F756UA-TY403T, F756UB, F756UB-T4024T, F756UB-T4025T, F756UB-T4027T, F756UB-TY004T, F756UB-TY005T, F756UB-TY007T, F756UB-TY054T, F756UB-TY129T, F756UJ, F756UJ-T4027T, F756UJ-TY008T, F756UJ-TY028T, F756UJ-TY044D, F756UJ-TY045T, F756UQ, F756UQ-T4073T, F756UQ-T4146T, F756UQ-T4147T, F756UQ-T4281T, F756UQ-T4282D, F756UQ-T4350T, F756UQ-TY007T, F756UQ-TY014D, F756UQ-TY145T, F756UQ-TY192T, F756UQ-TY193T, F756UQ-TY283T, F756UQ-TY355T, F756UV, F756UV-T4123T, F756UV-TY157T, F756UV-TY358T, F756UW, F756UW-T4065T, F756UX, F756UX-T4035T, F756UX-T4061T, F756UX-T4192T, F756UX-T4282T, F756UX-T7013T, F756UX-T7014T, F756UX-T7015T, F756UX-T7016T, K756UA, K756UA-T4279D, K756UA-T4456T, K756UA-TY167T, K756UA-TY266T, K756UA-TY575D, K756UB, K756UB-T4030T, K756UB-T4034T, K756UB-T4077T, K756UB-T4085T, K756UB-T4103T, K756UB-T4116T, K756UB-TY016T, K756UB-TY017T, K756UB-TY069T, K756UB-TY083T, K756UJ, K756UJ TY097T, K756UJ-T4072T, K756UJ-TY016T, K756UJ-TY059T, K756UJ-TY062T, K756UJ-TY064T, K756UJ-TY074T, K756UJ-TY084T, K756UJ-TY089T, K756UJ-TY090T, K756UJ-TY093T, K756UJ-TY100T, K756UJ-TY101T, K756UJ-TY104T, K756UQ, K756UQ-T4022D, K756UQ-T4069T, K756UQ-T4071T, K756UQ-T4105T, K756UQ-T4180T, K756UQ-T4182D, K756UQ-T4185T, K756UQ-T4194T, K756UQ-T4195T, K756UQ-T4202T, K756UQ-T4220D, K756UQ-T4221T, K756UQ-T4239T, K756UQ-T4340R, K756UQ-T4478T, K756UQ-T4479T, K756UQ-T4524T, K756UQ-T4527T, K756UQ-T4528T, K756UQ-T4538T, K756UQ-TY137T, K756UQ-TY193T, K756UQ-TY277T, K756UQ-TY376T, K756UQ-TY428T, K756UV, K756UV-T4198T, K756UV-T4274T, K756UV-T4275T, K756UV-T4290T, K756UV-TY045T, K756UV-TY084T, K756UV-TY096T, K756UV-TY108T, K756UV-TY144T, K756UV-TY146T, K756UV-TY152T, K756UV-TY154T, K756UV-TY168T, K756UV-TY210T, K756UV-TY218T, K756UV-TY267T, K756UV-TY295T, K756UV-TY297T, K756UV-TY306T, K756UV-TY313T, K756UV-TY316T, K756UV-TY370T, K756UV-TY372T, K756UW, K756UW-T4040T, K756UW-T4048T, K756UW-T4071T, K756UW-TY041T, K756UW-TY055T, K756UX, K756UX-T4025T, K756UX-T4086T, K756UX-T4166T, K756UX-T4226T, K756UX-T4248D, K756UX-T4301T, K756UX-T4302T, K756UX-T4330T, K756UX-T4340T, K756UX-TY084T, K756UX-TY122T, K756UX-TY148T, K756UX-TY216T, K756UX-TY243T, K756UX-TY300T, P2730UA, P2730UA-TY388RB, P2730UQ, P2730UQ-T4151R, P2730UV, P2730UV-T4130R, P2740UJ, P2740UJ-DM4290R, P2740UQ, P2740UQ-T4280R, P2740UQ-T4290R, P2740UV, P2740UV-T4327R, P2740UV-T4328R, P756UA, P756UA-T4113T, P756UA-T4577D, P756UA-TY083R, P756UA-TY157T, P756UA-TY294T, P756UA-TY401T, P756UA-TY402T, P756UA-TY463T, P756UA-TY502R, P756UA-TY537R, P756UA-TY538R, P756UB, P756UB-T4092R, P756UB-T4112R, P756UB-T4148R, P756UB-T4149R, P756UB-TY155R, P756UJ, P756UQ, P756UQ-T4066T, P756UQ-T4225T, P756UQ-T4244T, P756UQ-T4356T, P756UQ-T4357T, P756UQ-T4406T, P756UV, P756UV-T4279R, P756UW, P756UX, PRO P756UA-T4319D, R753UA, R753UA,R753UB,R753UX, R753UA-T4040T, R753UA-T4170T, R753UA-T4172T, R753UA-T4249T, R753UA-TY030T, R753UA-TY049T, R753UA-TY169T, R753UB, R753UB-T4079T, R753UB-TY045T, R753UB-TY046T, R753UB-TY082T, R753UB-TY115T, R753UB-TY128T, R753UB-TY132T, R753UJ, R753UJ-TY043T, R753UJ-TY049T, R753UJ-TY060T, R753UQ, R753UQ-T4024T, R753UQ-T4109T, R753UQ-T4173T, R753UQ-T4201T, R753UQ-TY023T, R753UQ-TY058T, R753UQ-TY110T, R753UQ-TY178T, R753UQ-TY295T, R753UV, R753UV-T4174T, R753UV-T4209T, R753UV-T4241T, R753UV-TY082T, R753UV-TY103T, R753UV-TY131T, R753UV-TY183T, R753UV-TY196T, R753UV-TY284T, R753UV-TY301T, R753UV-TY302T, R753UV-TY353T, R753UV-TY391T, R753UW, R753UW-T4002T, R753UW-T4006T, R753UW-T4011T, R753UW-T4021T, R753UW-T4022T, R753UW-T4023T, R753UW-T4029T, R753UW-T4039T, R753UW-T4042T, R753UW-T4043T, R753UW-T4062T, R753UW-T4078T, R753UW-T4079T, R753UW-T4080T, R753UW-T4088D, R753UX, R753UX-T4024T, R753UX-T4039T, R753UX-T4040T, R753UX-T4042T, R753UX-T4043T, R753UX-T4058T, R753UX-T4060T, R753UX-T4115D, R753UX-T4115T, R753UX-T4116T, R753UX-T4142T, R753UX-T4154T, R753UX-T4155T, R753UX-T4160T, R753UX-T4180T, R753UX-T4223T, R753UX-T4230T, R753UX-T4262T, R753UX-T4279T, R753UX-T4280T, R753UX-T7006T, SL10512-1, SL10512-2, SL10512-3, VIVOBOOK X756UA, VIVOBOOK X756UA-T4025T, VIVOBOOK X756UA-T4587T, VIVOBOOK X756UA-TY005T, VIVOBOOK X756UA-TY006T, VIVOBOOK X756UA-TY052T, VIVOBOOK X756UA-TY338T, VIVOBOOK X756UA-TY355T, VIVOBOOK X756UA-TY439T, VIVOBOOK X756UA-TY484T, VIVOBOOK X756UA-TY578T, VIVOBOOK X756UA-TY588T, VIVOBOOK X756UB, VIVOBOOK X756UB-T4089T, VIVOBOOK X756UB-TY019T, VIVOBOOK X756UB-TY028T, VIVOBOOK X756UB-TY047T, VIVOBOOK X756UB-TY055T, VIVOBOOK X756UB-TY088T, VIVOBOOK X756UJ, VIVOBOOK X756UJ-T4053T, VIVOBOOK X756UJ-TY008T, VIVOBOOK X756UJ-TY050T, VIVOBOOK X756UJ-TY051T, VIVOBOOK X756UQ, VIVOBOOK X756UQ-T4018T, VIVOBOOK X756UQ-T4123T, VIVOBOOK X756UQ-T4206T, VIVOBOOK X756UQ-T4246T, VIVOBOOK X756UQ-T4288T, VIVOBOOK X756UQ-TY016T, VIVOBOOK X756UQ-TY017T, VIVOBOOK X756UQ-TY193T, VIVOBOOK X756UQ-TY204T, VIVOBOOK X756UQ-TY355T, VIVOBOOK X756UV, VIVOBOOK X756UV-T4007D, VIVOBOOK X756UV-T4012T, VIVOBOOK X756UV-T4013T, VIVOBOOK X756UV-T4016T, VIVOBOOK X756UV-T4017T, VIVOBOOK X756UV-T4117T, VIVOBOOK X756UV-T4143T, VIVOBOOK X756UV-TY087T, VIVOBOOK X756UV-TY118D, VIVOBOOK X756UV-TY119T, VIVOBOOK X756UV-TY120T, VIVOBOOK X756UW, VIVOBOOK X756UW-T4063T, VIVOBOOK X756UW-T4068T, VIVOBOOK X756UX, VIVOBOOK X756UX-T4027T, VIVOBOOK X756UX-T4244T, VIVOBOOK X756UX-T4336T, X756, X756UA, X756UA-1A, X756UA-3F, X756UA-3G, X756UB, X756UB-1A, X756UB-3C, X756UB-3G, X756UJ, X756UJ-1A, X756UJ-3G, X756UQ, X756UQ-1A, X756UQ-3C, X756UQ-3G, X756UQK, X756UV, X756UV-1A, X756UV-3F, X756UV-3G, X756UW, X756UW-1A, X756UW-3C, X756UX, X756UX,X756UW,X756UQ,X756UV, X756UX-1A, X756UX-3C, X756UX-3G
+[*] Size: 
+[/list]
+
+[*] Asus C21N1347
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4840mAh
-[*] Parts: C21N1347, SL10216-1
+[*] Parts: 0B200-00860000, 0B200-00860100, 0B200-00860200, 0B200-00860300, 0B200-00860400, 0B200-01000000, 0B200-01000100, 0B200-01000200, 0B200-01000300, 0B200-01000400, 0B200-01000500, 0B200-01000700, 0B200-01040000, 0B200-01040100, 0B200-01040200, 0B200-01040300, 0B200-01200000, 0B200-01200100, 0B200-01200200, 0B200-01200300, 0B200-01200400, 0B200-01320000, 0B200-01320100, 0B200-01320200, 0B200-01320300, 0B200-01320400, 0B200-01320500, 0B200-01320600, 2ICP4/63/134, A455LA, A455LAB, A455LDB, A455LNB, A555, A555BA, A555BP, A555DA, A555L, A555L,K555L,F555L,F555LA, A555LA, A555LAB, A555LB, A555LD-XX390H, A555LD4010, A555LD4030, A555LD4210, A555LD5200, A555LF5200, A555LI, A555LN, A555LNB, A555LP5200, A555LPB, A555QA, A555SJ, A555UA, A555UB, A555UB-DM159T, A555UF, A555UJ, A555YA, C21IN401, C21INI401, C21N1333, C21N1347, C21N1401, C21NI333, DX992LB, DX992LD, DX992LJ, DX992LN, DX992LNB, DX992LP, DX992LPB, DX992SJ, DX992UA, DX992UB, DX992UF, DX992UJ, DX992YI, F430YA, F430YI, F454LA, F454LA-WX390LD, F454LA-WX526T, F454LAB, F454LD, F454LD-VX176H, F454LDB, F454LJ, F454WA, F454WE, F455DG, F455DG-WX016T, F455DG-WX021T, F455LA, F455LA-WX046H, F455LA-WX383H, F455LAB, F455LD-WX091H, F455LD-WX209H, F455LD-WX210H, F455LDB, F455WA, F455WE, F455YA, F455YI, F51LN, F51LNB, F530LB, F530LD, F530LJ, F530LN, F530LNB, F554L, F554LA, F554LA-WB71, F554LA-XX1437H, F554LA-XX1492H, F554LA-XX2235H, F554LA-XX784H, F554LA-XX896H, F554LAB, F554LB, F554LI, F554LJ, F554LJ-XO173H, F554LJ-XX1294T, F554LJ-XX1376T, F554LJ-XX1384T, F554LJ-XX206H, F554LJ-XX224H, F554LJ-XX425H, F554LJ-XX426H, F554LJ-XX483H, F554LJ-XX488T, F554LJ-XX531T, F554LJ-XX535H, F554LJ-XX638T, F554LJ-XX650H, F554LJ-XX652H, F554LJ-XX770T, F554LJ-XX844T, F554LJ-XX919T, F554LJ-XX926T, F554LN, F554LNB, F554LP, F554LPB, F554SJ, F554UA, F554UB, F554UF, F554UI, F554UJ, F554YA, F555, F555BA, F555BA-XO059T, F555BP, F555BP-DM245T, F555BP-X0004T, F555BP-XO004T, F555BP-XO067T, F555BP-XO091T, F555BP-XO175T, F555DA, F555DG-XO075T, F555DG-XO114T, F555L, F555LA, F555LA-AB31, F555LA-EH51, F555LA-US71, F555LAB, F555LB, F555LB-DM280H, F555LB-DM283H, F555LB-XO238T, F555LB-XO278H, F555LB-XO402H, F555LD, F555LF, F555LJ, F555LN, F555LN-DM358H, F555LN-XO055D, F555LN-XO055H, F555LN-XO128D, F555LN-XO355D, F555LN-XO363H, F555LNB, F555LPB, F555QA, F555QG, F555QG-DM076T, F555QG-DM188T, F555QG-DM200T, F555QG-XO195T, F555QG-XX033T, F555QG-XX077T, F555QG-XX161T, F555SJ, F555SJ-XX029T, F555SJ-XX048T, F555UA, F555UA-EB51, F555UA-MS51, F555UF, F555UJ, F555UJ-XX072T, F555UJ-XX073T, F555YA, F555YA-XO048T, F555YI, F555YI-XO179T, F555YI-XX115T, FL5500L, FL5600LP, FL5600LPB, J550LA, J550LAB, J550LD, J550LJ, K455DG, K455LA, K455LA-WX069D, K455LA-WX070D, K455LA-WX071D, K455LA-WX124D, K455LA-WX148D, K455LA-WX149D, K455LA-WX207H, K455LA-WX242H, K455LA-WX286D, K455LA-WX287D, K455LA-WX388D, K455LA-WX389D, K455LA-WX415T, K455LA-WX539D, K455LA-WX541D, K455LA-WX561D, K455LA-WX562D, K455LA-WX609D, K455LA-WX610D, K455LA-WX611D, K455LA-WX637T, K455LA-WX714D, K455LA-WX725D, K455LA-WX736D, K455LA-WX755D, K455LAB, K455LD-FH71-CB, K455LD-WX062D, K455LD-WX064D, K455LD-WX065D, K455LD-WX066D, K455LD-WX067D, K455LD-WX069D, K455LD-WX071D, K455LD-WX086D, K455LD-WX089D, K455LD-WX090H, K455LD-WX096H, K455LD-WX181D, K455LD-WX212D, K455LD-WX249D, K455LDB, K455LF-WX026D, K455LF-WX027D, K455LF-WX054D, K455LF-WX068D, K455LF-WX082D, K455LF-WX089T, K455LF-WX135D, K455LF-WX139D, K455LF-WX157D, K455LF-WX168D, K455LF-WX177D, K455LF-WX178D, K455LF-WX193D, K455LJ, K455LJ-WX332T, K455LJ-WX333T, K455LJ-WX406D, K455LJ-WX418D, K455LJ-WX419D, K455WE, K455YA, K455YI, K555BA, K555BP, K555DA, K555DG, K555L, K555L,K555LB,K555LN,K555U, K555LA, K555LA-MH51, K555LA-QH52, K555LA-XO848H, K555LA-XX2439T, K555LAB, K555LB, K555LB-XO474T, K555LB-XX303D, K555LB-XX423T, K555LD, K555LD-XX284D, K555LD-XX285D, K555LD-XX286D, K555LF, K555LI, K555LJ, K555LJ-XO654D, K555LJ-XX1008T, K555LJ-XX1349T, K555LJ-XX135D, K555LJ-XX974T, K555LN, K555LNB, K555LP, K555LPB, K555QA, K555QA-DM025T, K555QG, K555QG-XO118T, K555QG-XO176T, K555QG-XX151D, K555SJ, K555U, K555UA, K555UB, K555UB-DM073T, K555UB-DM161T, K555UB-DM162T, K555UB-DM165T, K555UB-DM285T, K555UB-XO066T, K555UB-XO067T, K555UB-XO092T, K555UB-XO096T, K555UB-XO097T, K555UB-XO099D, K555UB-XO099T, K555UB-XO198T, K555UB-XO227D, K555UB-XO266T, K555UB-XX033T, K555UB-XX176T, K555UB-XX177T, K555UB-XX201T, K555UB-XX243T, K555UF, K555UF-DM067, K555UJ, K555UJ-XO237T, K555UJ-XX158D, K555YA, K555YI, K555YI-XX176T, K555YI-XX209D, PP21AT149Q-1, PP21LG150Q-1, R406LD, R406LDB, R419LD, R419LDB, R41LD, R41LDB, R454LA, R454LA-WX461T, R454LA-WX462R, R454LA-WX462T, R454LA-WX494AU, R454LA-WX494T, R454LA-WX516AU, R454LA-WX656, R454LAB, R454LD, R454LDB, R454LF, R454LJ, R454LJ-WX148, R454LJ-WX149H, R454WA, R454WE, R454YA, R454YI, R455LA, R455LA-WX018H, R455LA-WX036D, R455LA-WX043H, R455LA-WX083D, R455LA-WX083H, R455LA-WX120H, R455LA-WX314T, R455LA-WX468T, R455LAB, R455LD-WX031H, R455LD-WX093H, R455LD-WX099H, R455LD-WX100H, R455LDB, R455LF, R455LJ-WX063H, R455LJ-WX165T, R455LJ-WX274T, R455LJ-WX275T, R455LJ-WX342T, R455LJ-WX386T, R455LJ-WX390, R455LJ-WX393T, R455WA, R455WE, R455YA, R455YI, R506LN, R511LA, R511LA-DM2529T, R511LA-DM2539T, R511LA-DM2577T, R511LA-DM769H, R511LA-DM860H, R511LA-XO1327H, R511LA-XO2634T, R511LA-XO733H, R511LA-XX1107H, R511LA-XX1296H, R511LA-XX1314H, R511LA-XX1433T, R511LA-XX1892T, R511LA-XX2023T, R511LA-XX2661T, R511LA-XX2668T, R511LA-XX2982T, R511LA-XX3010T, R511LA-XX320H, R511LA-XX358H, R511LB, R511LB-XX365T, R511LB-XX519T, R511LD, R511LD,R556M,R556LB,R557LP, R511LD-XX376H, R511LD-XX911H, R511LJ, R511LJ-XO1482T, R511LJ-XX1207T, R511LJ-XX219H, R511LJ-XX855T, R511LN, R511LNB, R511LP-XX098H, R511UJ-XX161T, R554LA, R554LA-RH31T, R554LA-RH51T, R554LA-RH71T, R554LA-RS51T, R554LA-RS71T, R554LAB, R554LD, R554LJ, R554LJ-XO009H, R554LJ-XO092H, R556, R556BA-DM083T, R556BA-XO209T, R556BP-XX114T, R556L, R556LA, R556LA-MH31, R556LA-XX1012H, R556LA-XX1221H, R556LA-XX1289H, R556LA-XX1554T, R556LA-XX1667T, R556LA-XX2436T, R556LA-XX278H, R556LA-XX289H, R556LA-XX388H, R556LA-XX790H, R556LB, R556LB-DM312T, R556LB-XO153H, R556LB-XX287H, R556LB-XX706T, R556LD, R556LD-DM445H, R556LD-XO096H, R556LD-XX1006, R556LD-XX212H, R556LD-XX217H, R556LD-XX219H, R556LD-XX248H, R556LD-XX260H, R556LD-XX261H, R556LD-XX262H, R556LD-XX263H, R556LD-XX360H, R556LD-XX444H, R556LD-XX476H, R556LD-XX477H, R556LD-XX478H, R556LD-XX479H, R556LD-XX480H, R556LD-XX655H, R556LD-XX969H, R556LF, R556LF-XO078H, R556LF-XO079H, R556LF-XO080H, R556LF-XO080T, R556LF-XO373T, R556LF-XO375T, R556LF-XO377T, R556LF-XO411T, R556LF-XO433T, R556LJ, R556LJ-XO877T, R556LJ-XX1339T, R556LJ-XX475H, R556LJ-XX476H, R556LJ-XX477H, R556LJ-XX478H, R556LJ-XX526T, R556LJ-XX966T, R556LN, R556LN-DM217H, R556LN-DM459H, R556LN-XO046D, R556LN-XO046H, R556LN-XO065H, R556LP, R556M, R556QA, R556QA-DM090T, R556QG, R556QG-FX9720P, R556UA, R556UA-XO228T, R556UA-XX099T, R556UA-XX139T, R556UB, R556UB-DM079T, R556UB-DM217T, R556UB-DM277T, R556UB-XO078T, R556UB-XO100T, R556UB-XO118T, R556UB-XO146T, R556UB-XX083, R556UF, R556UF-DM018T, R556UF-X0036T, R556UF-XX003T, R556UJ, R556UJ-XX079T, R556UJ-XX090T, R556UJ-XX150T, R556YA-XX051T, R556YI-DM198T, R556YI-XX200T, R557LA, R557LA-XO1133H, R557LA-XO1290H, R557LA-XO1543H, R557LA-XO1544H, R557LA-XO1545H, R557LA-XO1556H, R557LA-XO2034T, R557LA-XO2511T, R557LA-XO2670T, R557LA-XO852H, R557LA-XX2663T, R557LA-XX2868T, R557LA-XX2895T, R557LA-XX749H, R557LAB, R557LD, R557LD-XX901H, R557LJ-XX1013T, R557LJ-XX1348T, R557LN, R557LNB, R557LP, R557LPB, SL10182-2, SL10182-3, SL10216-1, SL10216-2, SL10216-3, SL10216-4, SL10216-5, SL10216-6, TP550L, TP550LA, TP550LA-1A, TP550LA-2B, TP550LA-CJ005H, TP550LA-CJ025H, TP550LA-CJ028H, TP550LA-CJ040H, TP550LA-CJ060H, TP550LA-CJ070P, TP550LA-CJ080H, TP550LA-CJ086H, TP550LA-CJ127H, TP550LA-CJ130P, TP550LA-RHI5T01, TP550LA-UH51T, TP550LAB, TP550LD, TP550LD-1A, TP550LD-2B, TP550LD-CJ001H, TP550LD-CJ002H, TP550LD-CJ030H, TP550LD-CJ032H, TP550LD-CJ034H, TP550LD-CJ046H, TP550LD-CJ053H, TP550LD-CJ055H, TP550LD-CJ060H, TP550LJ, TP550LJ-1A, TP550LJ-2B, TP550LJ-BB71T, TP550LJ-CJ014H, TP550LJ-CJ021H, TP550LJ-CJ022H, TP550LJ-CJ023H, TP550LJ-CJ025H, TP550LJ-CJ027H, TP550LJ-CJ039D, TP550LJ-DN015H, TRANSFORMER BOOK FLIP TP500LA-EB31T, TRANSFORMER BOOK FLIP TP550, TRANSFORMER BOOK FLIP TP550LA, TRANSFORMER BOOK FLIP TP550LAB, TRANSFORMER BOOK FLIP TP550LD, TRANSFORMER BOOK FLIP TP550LD-CJ015H, TRANSFORMER BOOK FLIP TP550LD-CJ020H, TRANSFORMER BOOK FLIP TP550LD-CJ029H, TRANSFORMER BOOK FLIP TP550LD-CJ033H, TRANSFORMER BOOK FLIP TP550LD-CJ035H, TRANSFORMER BOOK FLIP TP550LD-CJ041H, TRANSFORMER BOOK FLIP TP550LD-CJ056H, TRANSFORMER BOOK FLIP TP550LD-CJ057H, TRANSFORMER BOOK FLIP TP550LD-CJ059H, TRANSFORMER BOOK FLIP TP550LD-CJ067H, TRANSFORMER BOOK FLIP TP550LD-CJ079H, TRANSFORMER BOOK FLIP TP550LD-CJ080H, TRANSFORMER BOOK FLIP TP550LD-CJ083H, TRANSFORMER BOOK FLIP TP550LD-CJ084H, TRANSFORMER BOOK FLIP TP550LD-CJ111H, V555L, VIVOBOOK F555BA, VIVOBOOK F555BA-DM077T, VIVOBOOK F555BA-DM144T, VIVOBOOK F555BA-DM176T, VIVOBOOK F555BA-XO177T, VIVOBOOK F555BA-XX188T, VIVOBOOK F555QA, VIVOBOOK F555QA-DM297T, VIVOBOOK F555QA-DM300T, VIVOBOOK F555QA-DM320T, VIVOBOOK F555QA-XO149T, VIVOBOOK F555QA-XO323T, VIVOBOOK F555QA-XO358T, VIVOBOOK F555UA, VIVOBOOK F555UA-DM156T, VIVOBOOK F555UA-EH71, VIVOBOOK F555UA-XX030T, VIVOBOOK F555UA-XX065T, VIVOBOOK F555UA-XX066T, VIVOBOOK F555UA-XX124T, VIVOBOOK X555BA, VIVOBOOK X555BA-XO005T, VIVOBOOK X555BA-XO006D, VIVOBOOK X555BA-XO006T, VIVOBOOK X555BP, VIVOBOOK X555BP-DM201T, VIVOBOOK X555BP-DM257T, VIVOBOOK X555BP-XO006T, VIVOBOOK X555BP-XO007D, VIVOBOOK X555BP-XO007T, VIVOBOOK X555DA, VIVOBOOK X555DA-AS11, VIVOBOOK X555DA-WS11, VIVOBOOK X555DG, VIVOBOOK X555LA, VIVOBOOK X555LA-DM1672T, VIVOBOOK X555LA-XX036H, VIVOBOOK X555LA-XX046H, VIVOBOOK X555LA-XX053D, VIVOBOOK X555LA-XX060H, VIVOBOOK X555LA-XX092D, VIVOBOOK X555LA-XX092H, VIVOBOOK X555LA-XX145D, VIVOBOOK X555LA-XX152D, VIVOBOOK X555LA-XX152H, VIVOBOOK X555LA-XX2129T, VIVOBOOK X555LA-XX2276T, VIVOBOOK X555LA-XX2717T, VIVOBOOK X555LA-XX2811D, VIVOBOOK X555LA-XX521D, VIVOBOOK X555LA-XX521H, VIVOBOOK X555LA-XX546H, VIVOBOOK X555LB, VIVOBOOK X555LB-DM137H, VIVOBOOK X555LB-DM223H, VIVOBOOK X555LB-DM252H, VIVOBOOK X555LB-XO040H, VIVOBOOK X555LB-XO040HH, VIVOBOOK X555LB-XO060D, VIVOBOOK X555LB-XO101H, VIVOBOOK X555LB-XO122H, VIVOBOOK X555LB-XO238D, VIVOBOOK X555LB-XO238H, VIVOBOOK X555LB-XO246H, VIVOBOOK X555LB-XO247H, VIVOBOOK X555LB-XO248H, VIVOBOOK X555LB-XO273H, VIVOBOOK X555LB-XO275H, VIVOBOOK X555LB-XO294D, VIVOBOOK X555LB-XO316H, VIVOBOOK X555LB-XO359H, VIVOBOOK X555LD, VIVOBOOK X555LD-X0067H, VIVOBOOK X555LD-X0069H, VIVOBOOK X555LD-XO067H, VIVOBOOK X555LD-XO078H, VIVOBOOK X555LD-XO080H, VIVOBOOK X555LD-XO123D, VIVOBOOK X555LD-XO296D, VIVOBOOK X555LD-XX062H, VIVOBOOK X555LD-XX087H, VIVOBOOK X555LD-XX137D, VIVOBOOK X555LD-XX167H, VIVOBOOK X555LD-XX221H, VIVOBOOK X555LD-XX283H, VIVOBOOK X555LD-XX325H, VIVOBOOK X555LD-XX326H, VIVOBOOK X555LD-XX717H, VIVOBOOK X555LF, VIVOBOOK X555LF-XO052H, VIVOBOOK X555LF-XO063H, VIVOBOOK X555LF-XO282T, VIVOBOOK X555LI, VIVOBOOK X555LJ, VIVOBOOK X555LJ-DM169T, VIVOBOOK X555LJ-DM417H, VIVOBOOK X555LJ-XO079H, VIVOBOOK X555LJ-XO133H, VIVOBOOK X555LJ-XO160H, VIVOBOOK X555LJ-XO198H, VIVOBOOK X555LJ-XO199H, VIVOBOOK X555LJ-XO295H, VIVOBOOK X555LJ-XX037H, VIVOBOOK X555LJ-XX060H, VIVOBOOK X555LJ-XX109H, VIVOBOOK X555LJ-XX110H, VIVOBOOK X555LJ-XX111H, VIVOBOOK X555LJ-XX112H, VIVOBOOK X555LJ-XX116H, VIVOBOOK X555LJ-XX118H, VIVOBOOK X555LJ-XX127D, VIVOBOOK X555LJ-XX130D, VIVOBOOK X555LJ-XX131D, VIVOBOOK X555LJ-XX1369D, VIVOBOOK X555LJ-XX145H, VIVOBOOK X555LJ-XX177H, VIVOBOOK X555LJ-XX196H, VIVOBOOK X555LJ-XX200H, VIVOBOOK X555LJ-XX227H, VIVOBOOK X555LJ-XX228H, VIVOBOOK X555LJ-XX229H, VIVOBOOK X555LJ-XX230H, VIVOBOOK X555LJ-XX353D, VIVOBOOK X555LJ-XX353H, VIVOBOOK X555LJ-XX388H, VIVOBOOK X555LJ-XX389H, VIVOBOOK X555LJ-XX390H, VIVOBOOK X555LJ-XX391H, VIVOBOOK X555LJ-XX392H, VIVOBOOK X555LJ-XX393H, VIVOBOOK X555LJ-XX394H, VIVOBOOK X555LJ-XX395H, VIVOBOOK X555LJ-XX397H, VIVOBOOK X555LJ-XX398H, VIVOBOOK X555LJ-XX403H, VIVOBOOK X555LJ-XX995T, VIVOBOOK X555LJ-XXX231H, VIVOBOOK X555LN, VIVOBOOK X555LN-DM176H, VIVOBOOK X555LN-DM197H, VIVOBOOK X555LN-DM473H, VIVOBOOK X555LN-DM497H, VIVOBOOK X555LN-X0112H, VIVOBOOK X555LN-X0113H, VIVOBOOK X555LN-X0275H, VIVOBOOK X555LN-XO028H, VIVOBOOK X555LN-XO031D, VIVOBOOK X555LN-XO112H, VIVOBOOK X555LN-XO113H, VIVOBOOK X555LN-XO128D, VIVOBOOK X555LN-XO130H, VIVOBOOK X555LN-XO275H, VIVOBOOK X555LN-XO469H, VIVOBOOK X555LN-XO470H, VIVOBOOK X555LN-XO498H, VIVOBOOK X555LN-XO500D, VIVOBOOK X555LN-XX025H, VIVOBOOK X555LN-XX026H, VIVOBOOK X555LP, VIVOBOOK X555LP-XO060H, VIVOBOOK X555N, VIVOBOOK X555QA, VIVOBOOK X555QA-DM020T, VIVOBOOK X555QG, VIVOBOOK X555QG-DM200T, VIVOBOOK X555QG-XO004T, VIVOBOOK X555QG-XO008T, VIVOBOOK X555SJ, VIVOBOOK X555SJ-XO008D, VIVOBOOK X555SJ-XO012D, VIVOBOOK X555U, VIVOBOOK X555U-JXX201D, VIVOBOOK X555UA, VIVOBOOK X555UA-DM156T, VIVOBOOK X555UA-XX030T, VIVOBOOK X555UA-XX066T, VIVOBOOK X555UA-XX124T, VIVOBOOK X555UF, VIVOBOOK X555UJ, VIVOBOOK X555UJ-XO112T, VIVOBOOK X555UJ-XO113T, VIVOBOOK X555UJ-XX073T, VIVOBOOK X555UJ-XX124T, VIVOBOOK X555YA, VIVOBOOK X555YA-XO010D, VIVOBOOK X555YA-XO010T, VIVOBOOK X555YA-XO015T, VIVOBOOK X555YA-XX008T, VIVOBOOK X555YI, VIVOBOOK X555YI-XO014D, VIVOBOOK X555YI-XO028D, VIVOBOOK X555YI-XX022D, VIVOBOOK X555YI-XX054T, VM510LN, VM510LPB, VM590, VM590LN, VM590UB, W409LD, W409LDB, W519LN, W519LNB, W519LP, X454, X454DG, X454LA-5005U, X454LA-5010U, X454LA-VX168D, X454LA-VX177D, X454LA-VX215B, X454LA-VX289D, X454LA-VX290D, X454LA-WX277D, X454LA-WX280T, X454LA-WX292D, X454LA-WX301D, X454LA-WX375D, X454LA-WX390D, X454LA-WX402T, X454LA-WX422D, X454LA-WX424D, X454LA-WX426D, X454LA-WX473T, X454LA-WX577D, X454LA-WX675D, X454LA-WX751D, X454LAB, X454LD-VX152H, X454LD-VX246B, X454LDB, X454LJ-VX043D, X454LJ-VX044D, X454LJ-VX045D, X454LJ-VX059H, X454LJ-VX074H, X454LJ-VX080D, X454LJ-VX084D, X454LJ-VX099H, X454LJ-WX120H, X454LJ-WX150B, X454LJ-WX151B, X454LJ-WX273T, X454LJ-WX282T, X454LJ-WX319T, X454WA-VX004D, X454WA-VX005D, X454WA-VX011D, X454WA-VX025D, X454WA-WX051D, X454YA, X454YA-BX801D, X454YA-BX802D, X454YA-WX006D, X454YA-WX033D, X454YA-WX101D, X454YA-WX102D, X454YA-WX103D, X454YI, X454YI-BX801D, X454YI-WX023T, X454YI-WX024D, X454YI-WX601D, X454YI-WX602D, X455DG, X455DG-1A, X455DG-WX027D, X455DG-WX030T, X455LA-1A, X455LA-1B, X455LA-3C, X455LA-3D, X455LA-3E, X455LA-3F, X455LA-3G, X455LA-7K, X455LA-7L, X455LA-7M, X455LA-7N, X455LA-N4030U, X455LA-WX004H, X455LA-WX005H, X455LA-WX054H, X455LA-WX055H, X455LA-WX058H, X455LA-WX127D, X455LA-WX128D, X455LA-WX159D, X455LA-WX182, X455LA-WX222D, X455LA-WX235H, X455LA-WX283H, X455LA-WX284H, X455LA-WX414T, X455LAB, X455LD-1A, X455LD-1B, X455LD-3D, X455LD-3E, X455LD-3F, X455LD-3G, X455LD-3H, X455LD-7K, X455LD-7L, X455LD-WX006H, X455LD-WX022H, X455LD-WX032H, X455LD-WX045D, X455LD-WX045H, X455LD-WX098H, X455LD-WX110D, X455LD-WX168D, X455LD-WX174H, X455LD-WX203D, X455LD-WX204D, X455LDB, X455LF-1A, X455LF-1B, X455LF-3C, X455LF-3D, X455LF-3E, X455LF-3F, X455LF-3G, X455LF-3H, X455LF-WX031DC, X455LF-WX055T, X455LF-WX062T, X455LF-WX067D, X455LF-WX084T, X455LF-WX113T, X455LF-WX114T, X455LF-WX115T, X455LF-WX146, X455LF-WX146T, X455LF-WX147T, X455LF-WX182D, X455LJ-1A, X455LJ-1B, X455LJ-3C, X455LJ-3D, X455LJ-3E, X455LJ-3F, X455LJ-3G, X455LJ-3H, X455LJ-7K, X455LJ-7L, X455LJ-7M, X455LJ-7N, X455LJ-WX024H, X455LJ-WX032T, X455LJ-WX033T, X455LJ-WX034T, X455LJ-WX042H, X455LJ-WX048H, X455LJ-WX058H, X455LJ-WX072H, X455LJ-WX083D, X455LJ-WX085D, X455LJ-WX116D, X455LJ-WX190D, X455LJ-WX193B, X455LJ-WX196H, X455LJ-WX218, X455LJ-WX319T, X455LJ-WX362T, X455WA, X455WA-7K, X455WA-7L, X455WA-7M, X455WA-7N, X455WE, X455WE-7L, X455WE-7M, X455WE-7N, X455YA, X455YA-1A, X455YA-7M, X455YA-BX101D, X455YA-WX015T, X455YI, X455YI-1A, X455YI-7K, X455YI-7M, X455YI-7N, X455YI-WX026T, X554L, X554L,X554LA, X554LA, X554LA-XO1253H, X554LA-XO1404T, X554LA-XO496H, X554LA-XO515D, X554LA-XO563H, X554LA-XX1180H, X554LA-XX1579T, X554LA-XX1671T, X554LA-XX2168, X554LA-XX2560D, X554LA-XX371H, X554LA-XX449H, X554LA-XX569T, X554LA-XX936H, X554LAB, X554LD, X554LD-XO598D, X554LD-XX498H, X554LD-XX929H, X554LJ, X554LJ-XO010D, X554LJ-XO1209T, X554LJ-XO587T, X554LJ-XX002D, X554LJ-XX1014T, X554LJ-XX106H, X554LJ-XX1162T, X554LJ-XX286H, X554LJ-XX807D, X554LJ-XX861D, X554LJ-XX965T, X554LN, X554LNB, X554LP, X554LP-XX050D, X554LPB, X554QG, X554S, X554SJ-XX024D, X554SJ-XX030T, X554UA, X554UJ-XO005T, X555, X555,X555LA,X555LD,X555LN,X555LJ, X555BA, X555BA-1B, X555BA-7K, X555BA-BX901D, X555BA-BX901T, X555BA-RH91, X555BA-XO012T, X555BA-XO202T, X555BA-XO212T, X555BA-XO259T, X555BA-XX019T, X555BA-XX046T, X555BP, X555BP-1B, X555BP-7K, X555BP-7L, X555BP-BX901D, X555BP-BX901T, X555BP-BX921T, X555BP-XX005D, X555BP-XX011T, X555BP-XX022D, X555BP-XX100T, X555BP-XX101T, X555BP-XX202T, X555BP-XX246T, X555BP-XX248T, X555BP-XX304, X555DA, X555DA-1B, X555DA-3E, X555DA-3F, X555DA-AS11, X555DA-BB11, X555DA-BB12, X555DA-SS10, X555DA-US11, X555DA-WB11, X555DG, X555DG-1B, X555DG-XO020T, X555DG-XO052, X555DG-XO053D, X555DG-XO053T, X555DG-XO091T, X555DG-XO100T, X555DG-XX027D, X555DG-XX029D, X555DG-XX033T, X555DG-XX133D, X555DG-XX133T, X555DG-XX165D, X555DG-XX166T, X555L, X555LA, X555LA-1A, X555LA-1B, X555LA-3C, X555LA-3D, X555LA-3E, X555LA-3F, X555LA-3G, X555LA-3H, X555LA-7K, X555LA-7L, X555LA-DB71, X555LA-XO077D, X555LA-XO126H, X555LA-XO300H, X555LA-XX036H, X555LA-XX046H, X555LA-XX053D, X555LA-XX060H, X555LA-XX092H, X555LA-XX152D, X555LA-XX152H, X555LA-XX1734T, X555LA-XX200H, X555LA-XX2129T, X555LA-XX2276T, X555LA-XX2717T, X555LA-XX273H, X555LA-XX521D, X555LA-XX521H, X555LA-XX546H, X555LAB, X555LB, X555LB-1A, X555LB-1B, X555LB-3C, X555LB-3D, X555LB-3E, X555LB-3F, X555LB-3G, X555LB-3H, X555LB-DM137H, X555LB-DM223H, X555LB-DM226H, X555LB-DM252H, X555LB-DM703D, X555LB-NS51, X555LB-NS71, X555LB-XO017H, X555LB-XO040H, X555LB-XO040HH, X555LB-XO060D, X555LB-XO067H, X555LB-XO086D, X555LB-XO101D, X555LB-XO101H, X555LB-XO122H, X555LB-XO141D, X555LB-XO168H, X555LB-XO180H, X555LB-XO190H, X555LB-XO238D, X555LB-XO238H, X555LB-XO244H, X555LB-XO246H, X555LB-XO247H, X555LB-XO248H, X555LB-XO275H, X555LB-XO294D, X555LB-XO316H, X555LB-XO359H, X555LB-XO361H, X555LB-XX002T, X555LB-XX127T, X555LB-XX198H, X555LD, X555LD-1A, X555LD-1B, X555LD-3C, X555LD-3D, X555LD-3E, X555LD-3F, X555LD-3G, X555LD-3H, X555LD-7K, X555LD-7L, X555LD-XO015H, X555LD-XO030H, X555LD-XO034H, X555LD-XO049H, X555LD-XO051H, X555LD-XO052H, X555LD-XO067H, X555LD-XO069H, X555LD-XO078H, X555LD-XO080H, X555LD-XO195H, X555LD-XO211H, X555LD-XO330H, X555LD-XO334H, X555LD-XO338H, X555LD-XO412H, X555LD-XO413H, X555LD-XO549H, X555LD-XX020D, X555LD-XX056H, X555LD-XX062H, X555LD-XX085H, X555LD-XX087H, X555LD-XX1016H, X555LD-XX111H, X555LD-XX138H, X555LD-XX162H, X555LD-XX167H, X555LD-XX221H, X555LD-XX250H, X555LD-XX283H, X555LD-XX325H, X555LD-XX326H, X555LD-XX397H, X555LD-XX717H, X555LD-XX853H, X555LD-XX982H, X555LD-XX984H, X555LD4010, X555LD4030, X555LD4210, X555LF, X555LF-1A, X555LF-1B, X555LF-3C, X555LF-3D, X555LF-3E, X555LF-3F, X555LF-3G, X555LF-3H, X555LF-XO052H, X555LF-XO063H, X555LF-XO075H, X555LF-XO083H, X555LF-XO084H, X555LF-XO144H, X555LF-XO147H, X555LF-XO147T, X555LF-XO188T, X555LF-XO256D, X555LF-XO282T, X555LF-XO393D, X555LF-XX245T, X555LI, X555LI-1A, X555LI-1B, X555LI-7K, X555LJ, X555LJ-1A, X555LJ-1B, X555LJ-2A, X555LJ-2B, X555LJ-3C, X555LJ-3D, X555LJ-3E, X555LJ-3F, X555LJ-3G, X555LJ-3H, X555LJ-7K, X555LJ-7L, X555LJ-XX200H, X555LN, X555LN,V555L,F555LJ, X555LN-1A, X555LN-1B, X555LN-3C, X555LN-3D, X555LN-3E, X555LN-3F, X555LN-3G, X555LN-3H, X555LN-DM176H, X555LN-DM197H, X555LN-DM473H, X555LN-DM474H, X555LN-DM497H, X555LN-XO002D, X555LN-XO003H, X555LN-XO004D, X555LN-XO004H, X555LN-XO029H, X555LN-XO030D, X555LN-XO031D, X555LN-XO034H, X555LN-XO044H, X555LN-XO060H, X555LN-XO062H, X555LN-XO112H, X555LN-XO115H, X555LN-XO126H, X555LN-XO127H, X555LN-XO163, X555LN-XO184D, X555LN-XO244H, X555LN-XO246H, X555LN-XO248H, X555LN-XO252D, X555LN-XO317H, X555LN-XO420H, X555LN-XO437H, X555LN-XX024H, X555LN-XX025H, X555LN-XX026H, X555LN-XX057D, X555LN-XX058D, X555LN-XX144H, X555LN-XX206H, X555LN-XX308D, X555LN-XX413H, X555LNB, X555LP, X555LP-1A, X555LP-1B, X555LP-7K, X555LP-XO060H, X555LPB, X555MA, X555QA, X555QA-1B, X555QA-BH10, X555QA-BH11, X555QA-BH12, X555QA-BX101T, X555QA-DH12, X555QA-DM155T, X555QA-DM199T, X555QA-DM2019T, X555QA-DM201T, X555QA-DM335T, X555QA-DM336T, X555QG, X555QG-1B, X555QG-3M, X555QG-BX101D, X555QG-BX121D, X555QG-BX151D, X555QG-BX221D, X555QG-BX601D, X555QG-DM013T, X555QG-DM015T, X555QG-DM022D, X555QG-DM039D, X555QG-DM065D, X555QG-DM093T, X555QG-DM094T, X555QG-DM114T, X555QG-DM116T, X555QG-DM127T, X555QG-DM130T, X555QG-DM142T, X555QG-DM206D, X555QG-DM227T, X555QG-DM242, X555QG-DM248T, X555QG-DM253T, X555QG-DM278D, X555QG-DM279D, X555QG-DM341T, X555QG-DM397T, X555QG-XO008T, X555QG-XO052T, X555QG-XO099T, X555QG-XO108T, X555QG-XO164T, X555QG-XO208T, X555QG-XO299T, X555QG-XO308T, X555QG-XO362T, X555QG-XX007T, X555QG-XX009D, X555QG-XX058T, X555QG-XX059T, X555QG-XX068T, X555QG-XX069T, X555QG-XX070T, X555QG-XX111T, X555QG-XX157T, X555QG-XX175T, X555QG-XX228T, X555QG-XX232T, X555QG-XX261T, X555QG-XX262T, X555QG-XX283T, X555QG-XX342T, X555QG-XX354T, X555QG-XX385T, X555QG-XX423T, X555SJ, X555SJ-7K, X555SJ-7L, X555SJ-XO001D, X555SJ-XO003D, X555SJ-XO004D, X555SJ-XO007T, X555SJ-XO011T, X555SJ-XO020D, X555SJ-XO020T, X555U, X555UA, X555UA-1A, X555UA-1B, X555UA-3E, X555UA-3F, X555UA-3G, X555UA-3I, X555UA-3J, X555UA-DM059T, X555UA-DM062T, X555UA-DM111T, X555UA-XO032D, X555UA-XO042D, X555UA-XO073T, X555UA-XO136T, X555UA-XO140D, X555UA-XO220D, X555UA-XX030T, X555UA-XX036D, X555UA-XX039T, X555UA-XX066T, X555UA-XX088T, X555UA-XX122T, X555UA-XX124T, X555UA-XX163T, X555UB, X555UB-1A, X555UB-1B, X555UB-3C, X555UB-3E, X555UB-3F, X555UB-3G, X555UB-3H, X555UB-3I, X555UB-3J, X555UB-DM065T, X555UB-DM080T, X555UB-DM106T, X555UB-DM141T, X555UB-NH51, X555UB-NS71, X555UB-XO029D, X555UB-XO047T, X555UB-XO064D, X555UB-XO064T, X555UB-XO105T, X555UB-XO138T, X555UB-XO139T, X555UB-XO140T, X555UB-XO227D, X555UB-XO253R, X555UB-XX014T, X555UB-XX018T, X555UB-XX077T, X555UB-XX082T, X555UB-XX126T, X555UB-XX190T, X555UB-XX299T, X555UF, X555UF-1B, X555UF-3E, X555UF-3F, X555UF-3G, X555UF-SH51, X555UF-XO012T, X555UF-XO013T, X555UJ, X555UJ-1A, X555UJ-1B, X555UJ-3E, X555UJ-3F, X555UJ-3G, X555UJ-XO018T, X555UJ-XO023T, X555UJ-XO050T, X555UJ-XO070T, X555UJ-XO112T, X555UJ-XO113T, X555UJ-XO114T, X555UJ-XX072T, X555UJ-XX073T, X555UJ-XX124T, X555UQ, X555UQ-3C, X555UQ-3I, X555UQ-3J, X555UQ-XO075T, X555UQ-XX305T, X555YA, X555YA-1B, X555YA-7K, X555YA-7L, X555YA-DB84Q, X555YA-RB81-CB, X555YA-XO010D, X555YA-XO010T, X555YA-XO015T, X555YA-XX008T, X555YA-XX053D, X555YA-XX069D, X555YA-XX074T, X555YA-XX088, X555YA-XX114T, X555YA-XX119T, X555YA-XX208T, X555YI, X555YI-7K, X555YI-7L, X555YI-XO014D, X555YI-XO014T, X555YI-XO028D, X555YI-XO077T, X555YI-XO103T, X555YI-XO137T, X555YI-XO138T, X555YI-XO180T, X555YI-XX022D, X555YI-XX054T, X555YI-XX057T, X555YI-XX074T, X555YI-XX108D, X555YI-XX135, X555YI-XX150T, X555YI-XX163, Y483LDB, Y583L, Y583L,VM590, Y583LD, Y583LN, Y583LP
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10216_2
+[*] Asus SL10216_7
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4840mAh
-[*] Parts: SL10216-2, X555,X555LA,X555LD,X555LN,X555LJ
+[*] Parts: SL10216-7, W509L, W509L,W519L, W519L
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10216_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4840mAh
-[*] Parts: A555L,K555L,F555L,F555LA, SL10216-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10216_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4840mAh
-[*] Parts: SL10216-4, Y583L,VM590
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10216_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4840mAh
-[*] Parts: SL10216-5, X554L,X554LA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10216_6
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4840mAh
-[*] Parts: R511LD,R556M,R556LB,R557LP, SL10216-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10216_7
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4840mAh
-[*] Parts: SL10216-7, W509L,W519L
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11157_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4830mAh
-[*] Parts: SL11157-2, TPN-W124,HSTNN-UB7F,916365-541,916809-855
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11157_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4830mAh
-[*] Parts: 11M-AD013DX, SL11157-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10182_2
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4829mAh
-[*] Parts: K555L,K555LB,K555LN,K555U, SL10182-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10182_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4829mAh
-[*] Parts: SL10182-3, X555LN,V555L,F555LJ
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10182_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4829mAh
-[*] Parts: 4000, SL10182-5
-[*] Size: 
-[/list]
-
-[*] Hp 812205001
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4820mAh
-[*] Parts: 812205001
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10921_2
+[*] Acer ASPIRE_3_A315_21
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 4810mAh
-[*] Parts: A315-51, SL10921-2
+[*] Parts: A315-51, ASPIRE 3 A315-21, ASPIRE 3 A315-41, ASPIRE 3 A315-51, SL10921-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10383_2
+[*] Asus 0B200_03190800
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 4805mAh
+[*] Parts: 0B200-03190800, 0B200-03200000, 0B200-03280600, A412FA, A412UA, A412UB, A420UA, A420UA-EK115T, C21N1818, C21N1818-1, C21N1819, C21N1819_1, F412DA, F412FA, F412UA, F420UA, F512FA-BQ067T, P1402FA, P1402UA, PRO 14 R424FA-EK109R, PRO 14 R459UA, R424FA-EK109R, R424UB, R459UA, R459UA-EK138R, VIVOBOOK 14 F412DA, VIVOBOOK 14 F412FA, VIVOBOOK 14 F412FA-EB025T, VIVOBOOK 14 F412FA-EB089T, VIVOBOOK 14 F412FA-EB506T, VIVOBOOK 14 F412FA-EK659T, VIVOBOOK 14 F412FJ-EB118T, VIVOBOOK 14 F412FJ-EB119T, VIVOBOOK 14 F412UA, VIVOBOOK 14 F412UA-BV156T, VIVOBOOK 14 F412UA-EB607T, VIVOBOOK 14 F412UA-EK334T, VIVOBOOK 14 X403FA-EB021T, VIVOBOOK 14 X412DA, VIVOBOOK 14 X412DA-BV287, VIVOBOOK 14 X412DA-EB454, VIVOBOOK 14 X412DA-EK140T, VIVOBOOK 14 X412DA-EK181T, VIVOBOOK 14 X412DA-EK325T, VIVOBOOK 14 X412DA-EK330T, VIVOBOOK 14 X412DA-EK335T, VIVOBOOK 14 X412DA-EK504T, VIVOBOOK 14 X412DK, VIVOBOOK 14 X412FA, VIVOBOOK 14 X412FA-EB019T, VIVOBOOK 14 X412FA-EB025, VIVOBOOK 14 X412FA-EB057, VIVOBOOK 14 X412FA-EB099T, VIVOBOOK 14 X412FA-EB103T, VIVOBOOK 14 X412FA-EB235T, VIVOBOOK 14 X412FA-EB487R, VIVOBOOK 14 X412FA-EK173R, VIVOBOOK 14 X412FA-EK177T, VIVOBOOK 14 X412FA-EK186T, VIVOBOOK 14 X412FA-EK230T, VIVOBOOK 14 X412FA-EK236T, VIVOBOOK 14 X412FA-EK268R, VIVOBOOK 14 X412FA-EK295T, VIVOBOOK 14 X412FA-EK315R, VIVOBOOK 14 X412FA-EK319T, VIVOBOOK 14 X412FA-EK376T, VIVOBOOK 14 X412FA-EK401T, VIVOBOOK 14 X412FA-EK747T, VIVOBOOK 14 X412FA-EK748T, VIVOBOOK 14 X412FA-EK839T, VIVOBOOK 14 X412FA-EK865T, VIVOBOOK 14 X412FA-EK866T, VIVOBOOK 14 X412FJ, VIVOBOOK 14 X412FJ-BV201T, VIVOBOOK 14 X412FJ-BV207T, VIVOBOOK 14 X412FJ-EB023T, VIVOBOOK 14 X412FJ-EB090T, VIVOBOOK 14 X412FJ-EB102, VIVOBOOK 14 X412FJ-EK215T, VIVOBOOK 14 X412FJ-EK216T, VIVOBOOK 14 X412FJ-FT831T, VIVOBOOK 14 X412FL-EB105T, VIVOBOOK 14 X412FL-EB124T, VIVOBOOK 14 X412FL-EK084T, VIVOBOOK 14 X412FL-EK154T, VIVOBOOK 14 X412FL-EK294T, VIVOBOOK 14 X412FL-FI871T, VIVOBOOK 14 X412FL-FI872T, VIVOBOOK 14 X412UA, VIVOBOOK 14 X412UA-BV182T, VIVOBOOK 14 X412UA-BV518T, VIVOBOOK 14 X412UA-EB191T, VIVOBOOK 14 X412UA-EK038T, VIVOBOOK 14 X412UA-EK184T, VIVOBOOK 14 X412UA-EK187T, VIVOBOOK 14 X412UA-EK255T, VIVOBOOK 14 X412UA-EK266T, VIVOBOOK 14 X412UA-EK319T, VIVOBOOK 14 X412UA-EK333T, VIVOBOOK 14 X412UA-EK341T, VIVOBOOK 14 X412UA-EK342T, VIVOBOOK 14 X412UA-EK343T, VIVOBOOK 14 X412UA-EK384T, VIVOBOOK 14 X412UA-EK425T, VIVOBOOK 14 X412UB-EB039T, VIVOBOOK 14 X412UB-EB040T, VIVOBOOK 14 X412UB-EK030T, VIVOBOOK 14 X412UF, VIVOBOOK 14 X420FA, VIVOBOOK 14 X420FA-8202T, VIVOBOOK 14 X420FA-BV021T, VIVOBOOK 14 X420FA-BV082AT, VIVOBOOK 14 X420FA-EB035T, VIVOBOOK 14 X420FA-EB075T, VIVOBOOK 14 X420FA-EB085T, VIVOBOOK 14 X420FA-EB086T, VIVOBOOK 14 X420FA-EB089T, VIVOBOOK 14 X420FA-EB148T, VIVOBOOK 14 X420FA-EB149, VIVOBOOK 14 X420FA-EB157T, VIVOBOOK 14 X420FA-EB234T, VIVOBOOK 14 X420FA-EK037T, VIVOBOOK 14 X420FA-EK040T, VIVOBOOK 14 X420FA-EK051T, VIVOBOOK 14 X420FA-EK177T, VIVOBOOK 14 X420UA, VIVOBOOK 14 X420UA-BV083T, VIVOBOOK 14 X420UA-BV124T, VIVOBOOK 14 X420UA-BV143T, VIVOBOOK 14 X420UA-BV165T, VIVOBOOK 14 X420UA-CBI5A, VIVOBOOK 14 X420UA-EB075T, VIVOBOOK 14 X420UA-EB112T, VIVOBOOK 14 X420UA-EB113T, VIVOBOOK 14 X420UA-EB119T, VIVOBOOK 14 X420UA-EB184T, VIVOBOOK 14 X420UA-EK019T, VIVOBOOK 14 X420UA-EK019TS, VIVOBOOK 14 X420UA-EK023T, VIVOBOOK 14 X420UA-EK050T, VIVOBOOK 14 X420UA-EK053T, VIVOBOOK 14 X420UA-EK059T, VIVOBOOK 14 X420UA-EK073T, VIVOBOOK 14 X420UA-EK112T, VIVOBOOK 14 X420UA-EK127T, VIVOBOOK 14 X420UA-EK150TS, VIVOBOOK 14 X420UA-EK220T, VIVOBOOK 14 X420UA-EV075T, VIVOBOOK 14-X420FA-EK204T, VIVOBOOK 15 F512DA-BQ085T, VIVOBOOK 15 F512DA-BQ245T, VIVOBOOK 15 F512DA-BQ648T, VIVOBOOK 15 F512DA-DB34, VIVOBOOK 15 F512DA-EB51, VIVOBOOK 15 F512DA-EJ109T, VIVOBOOK 15 F512DA-R5AV8SB1, VIVOBOOK 15 F512DA-RS51, VIVOBOOK 15 F512DA-SH31, VIVOBOOK 15 F512DA-WH31, VIVOBOOK 15 F512FA-AB34, VIVOBOOK 15 F512FA-BQ067T, VIVOBOOK 15 F512FA-BQ148T, VIVOBOOK 15 F512FA-BQ150R, VIVOBOOK 15 F512FA-BR751TS, VIVOBOOK 15 F512FA-EJ061T, VIVOBOOK 15 F512FA-EJ516T, VIVOBOOK 15 F512FA-EJ574T, VIVOBOOK 15 F512FA-EJ610T, VIVOBOOK 15 F512FA-EJ849T, VIVOBOOK 15 F512FB-EJ175T, VIVOBOOK 15 F512FL-BQ093T, VIVOBOOK 15 F512FL-BQ378T, VIVOBOOK 15 F512FL-EJ054T, VIVOBOOK 15 F512FL-EJ314T, VIVOBOOK 15 F512FL-EJ786T, VIVOBOOK 15 F512UA-BQ251T, VIVOBOOK 15 F512UA-EJ233T, VIVOBOOK 15 F512UA-EJ260T, VIVOBOOK 15 F512UA-EJ269T, VIVOBOOK 15 F512UB, VIVOBOOK 15 F512UB-BQ039T, VIVOBOOK 15 F512UB-EJ130T, VIVOBOOK 15 F512UB-EJ131T, VIVOBOOK 15 F512UB-EJ132T, VIVOBOOK 15 S512FB-EJ255T, VIVOBOOK 15 S512JA-BQ448T-BE, VIVOBOOK 15 X420FA-BV195T, VIVOBOOK 15 X512DA-EJ271T, VIVOBOOK 15 X512DK-EJ036, VIVOBOOK 15 X512DK-EJ045, VIVOBOOK 15 X512FA-BQ062T, VIVOBOOK 15 X512FA-BQ063T, VIVOBOOK 15 X512FA-BQ067T, VIVOBOOK 15 X512FA-EJ135T, VIVOBOOK 15 X512FA-EJ136T, VIVOBOOK 15 X512FB, VIVOBOOK 15 X512FB-EJ016T, VIVOBOOK 15 X512FJ-EJ167T, VIVOBOOK 15 X512FL-0241G8565U, VIVOBOOK 15 X512FL-0348B8265U, VIVOBOOK 15 X512FL-0398S8265U, VIVOBOOK 15 X512FL-BQ259T, VIVOBOOK 15 X512FL-BQ260T, VIVOBOOK 15 X512FL-BQ261T, VIVOBOOK 15 X512FL-BQ262T, VIVOBOOK 15 X512FL-EJ158T, VIVOBOOK 15 X512FL-EJ161T, VIVOBOOK 15 X512FL-EJ197T, VIVOBOOK 15 X512FL-EJ201T, VIVOBOOK 15 X512FL-EJ205T, VIVOBOOK 15 X512FL-EJ207T, VIVOBOOK 15 X512FL-EJ372T, VIVOBOOK P3500FA, VIVOBOOK P3500FA-BQ145, VIVOBOOK S14 S412DA-EK025T, VIVOBOOK S412DA-EK004T, VIVOBOOK S412DA-EK005T, VIVOBOOK S412DA-EK032T, VIVOBOOK S412DA-EK173T, VIVOBOOK S412DA-EK319T, VIVOBOOK S412DA-EK320T, VIVOBOOK S412DA-EK321T, VIVOBOOK S412DA-EK473T, VIVOBOOK S512JA-BQ161, VIVOBOOK S512JA-BR192T, VIVOBOOK S512JA-EJ072T, VIVOBOOK S512JA-EJ087T, VIVOBOOK S512JA-EJ157T, VIVOBOOK S512JA-EJ223T-BE, X412FA-8B, X412FJ, X412FJ-EK091T, X412UA, X412UA-1G, X412UB, X412UB-1G, X412UB-8B, X412UF, X420FA-58BHDSP1, X420FA-EK013T, X420FA-EK037T, X420FA-EK040T, X420FA-EK051T, X420FA-EK083T, X420UA, X420UA-8S, Y4100FA
+[*] Size: 
+[/list]
+
+[*] Asus 0B200_01130000
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4800mAh
-[*] Parts: 12.5, SL10383-2
+[*] Parts: 0B200-01130000, 0B200-01130200, C21N1409, DX882LD, DX882LDB, F41LD, F41LDB, F430LB, F430LD, F430LDB, F455LB, F455LN, F455LNB, K455LB, K455LB-WX005D, K455LB-WX041T, K455LB-WX042T, K455LB-WX043T, K455LB-WX044D, K455LB-WX051T, K455LB-WX055T, K455LB-WX056D, K455LB-WX064D, K455LB-WXO13H, K455LN, K455LN-WX006D, K455LN-WX013H, K455LN-WX014D, K455LN-WX029H, K455LNB, NOTEBOOK X SERIES X455LB, NOTEBOOK X SERIES X455LF, NOTEBOOK X SERIES X455LJ, NOTEBOOK X SERIES X455LN, R454LN, R455LB, R455LN, R455LNB, SL10740-1, SL10740-2, VM410LD, VM410LDB, VM490, VM490,VM490L, VM490L, VM490LB, VM490LD, VM490LN, VM490LNB, W419LD, W419LDB, W41LD, W41LDB, W429LD, W429LDB, X454LB, X454LN, X455LB, X455LB-3C, X455LB-3D, X455LN
+[*] Size: 
+[/list]
+
+[*] Other AIR_12_5
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4800mAh
+[*] Parts: 12.5, AIR 12.5, SL10383-2
+[*] Size: 
+[/list]
+
+[*] Other HT06_V3_0
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4800mAh
+[*] Parts: HT06-V3.0, MLP3187115-2S
+[*] Size: 
+[/list]
+
+[*] Other SL10383_1
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4800mAh
+[*] Parts: 161201-01, 161201-AA, 161201-AI, 161201-AQ, INCHMI AIR 12.5, MI AIR 12.5, MI AIR 12.5 INCH, ML AIR 12.5, R10B01W, R10BO1W, SL10383-1
+[*] Size: 
+[/list]
+
+[*] Asus 0B200_02780000
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 4800mAh
+[*] Parts: 0B200-02780000, 2ICP4/73/110, C21N1717, TP202, TP202NA, TP202NA-1K, TP202NA-EH022T, VIVOBOOK FLIP 12 TP202NA, VIVOBOOK FLIP 12 TP202NA-DH01T, VIVOBOOK FLIP 12 TP202NA-EH001T, VIVOBOOK FLIP 12 TP202NA-EH008T, VIVOBOOK FLIP 12 TP202NA-EH012TS, VIVOBOOK FLIP 12 TP202NA-EH015T, VIVOBOOK FLIP 12 TP202NA-EH088TS, VIVOBOOK FLIP TP202NA, VIVOBOOK FLIP TP202NA-EH007T, VIVOBOOK FLIP TP202NA-OB04T
 [*] Size: 
 [/list]
 
@@ -3527,34 +2024,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10951_1
+[*] Medion ES1AU_00_00_15_2S1P_0
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4800mAh
-[*] Parts: 477592-00-07-07-2S1P-0,477592-00-00-11-2S1P-0, SL10951-1
+[*] Parts: ES1AU-00-00-15-2S1P-0
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10951_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4800mAh
-[*] Parts: S4220, SL10951-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10265_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4800mAh
-[*] Parts: SL10265-2, UX21
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10265_3
+[*] Asus SL10265_3
 [list]
 [*] 
 [*] 7.4V
@@ -3563,7 +2042,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10265_4
+[*] Asus UX21E
 [list]
 [*] 
 [*] 7.4V
@@ -3572,16 +2051,7 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10268_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4770mAh
-[*] Parts: FZ-A1, SL10268-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11147_1
+[*] Xplore XLBM1
 [list]
 [*] 
 [*] 7.6V
@@ -3590,30 +2060,21 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10201_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4740mAh
-[*] Parts: SL10201-4, SVP132A1CL
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10201_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4740mAh
-[*] Parts: SL10201-5, SVP1321BPXB
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10201_6
+[*] Sony SVP132190S
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4740mAh
 [*] Parts: SL10201-6, SVP132190S
+[*] Size: 
+[/list]
+
+[*] Chuwi CLTD_3585282
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4736mAh
+[*] Parts: CLTD-3585282, LAPBOOK PLUS
 [*] Size: 
 [/list]
 
@@ -3626,30 +2087,12 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10731_2
+[*] Hasee 21CP5_74_109
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 4710mAh
-[*] Parts: HSTNN-DB6M, SL10731-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10731_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4710mAh
-[*] Parts: HSTNN-I28C,HSTNN-I26C, SL10731-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10731_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4710mAh
-[*] Parts: G1, SL10731-5, SL10779-5
+[*] 7.6V
+[*] Up to: 4720mAh
+[*] Parts: 21CP5/74/109, SQU-1601
 [*] Size: 
 [/list]
 
@@ -3662,34 +2105,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10457_2
+[*] Sony PRO_13_SVP1322J4E
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4690mAh
-[*] Parts: SL10457-2, SVP1322J4E
+[*] Parts: PRO 13 SVP1322J4E, SL10457-2, SVP1322J4E
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10457_3
+[*] Sony VGP_BPSE38
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4690mAh
-[*] Parts: SL10201-2, SL10457-3, SVP132A1CM
+[*] Parts: SL10457-1, VGP-BPSE38
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10457_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4690mAh
-[*] Parts: SL10201-3, SL10457-4, SVP132A1CP
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10483_2
+[*] Acer SL10483_2
 [list]
 [*] 
 [*] 7.4V
@@ -3698,61 +2132,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10350_2
+[*] Clevo 2ICP5_50_112
 [list]
 [*] 
-[*] 7.6V
-[*] Up to: 4680mAh
-[*] Parts: L14L4P71, SL10350-2
+[*] 7.7V
+[*] Up to: 4675mAh
+[*] Parts: 2ICP5/50/112, L140BAT-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10350_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4680mAh
-[*] Parts: 80J8, SL10350-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10350_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4680mAh
-[*] Parts: 5Y10, SL10350-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10525_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: 13.3″, SL10525-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10525_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: SL10525-4, XE503C32
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10684_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: 5175, SL10684-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10706_1
+[*] Lenovo L15C2P01
 [list]
 [*] 
 [*] 7.6V
@@ -3761,7 +2150,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10706_2
+[*] Lenovo SL10706_3
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4600mAh
+[*] Parts: SL10706-3, V310-14, V310-14,V310-15, V310-15
+[*] Size: 
+[/list]
+
+[*] Lenovo V110_15
 [list]
 [*] 
 [*] 7.6V
@@ -3770,97 +2168,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10706_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: SL10706-3, V310-14,V310-15
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10749_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: L14L2P22, SL10749-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10749_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: E31-80, SL10749-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10772_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: 510-14ISK, SL10772-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10772_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: 510-14IKB, SL10772-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10913_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: SL10913-3, VJS131C0211S,VJS131C0411B,VJS112C0111B
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10056_1
+[*] Panasonic FZ_VZSU74U
 [list]
 [*] 
 [*] 7.4V
-[*] Up to: 4600mAh
-[*] Parts: 45N1750, SL10056-1
+[*] Up to: 4590mAh
+[*] Parts: 2ICP5/44/62-3, FZ-A1, FZ-VZSU74U, RAM-HOL-TAB9U, SL10268-1, SL10268-2, TABLET TOUGHPAD FZ-A1, TOUGHPAD FZ-A1, TOUGHPAD FZ-A1BDAAA1M, TOUGHPAD FZ-A1BDAAEAA, TOUGHPAD FZ-A1BDAAV1M, TOUGHPAD FZ-A1BDAAZCE, TOUGHPAD TM FZ-A1, VZSU74U
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10056_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4600mAh
-[*] Parts: 45N1751, SL10056-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10056_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4600mAh
-[*] Parts: 45N1749, SL10056-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10056_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4600mAh
-[*] Parts: 11E, SL10056-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10098_2
+[*] Dell T07G
 [list]
 [*] 
 [*] 7.4V
@@ -3869,102 +2186,48 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10098_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4588mAh
-[*] Parts: 7130, SL10098-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10098_6
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4588mAh
-[*] Parts: 7139, SL10098-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10712_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4570mAh
-[*] Parts: SL10712-3, SP111-32N
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10791_1
+[*] Acer 2ICP3_100_107
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4550mAh
-[*] Parts: LBM722YE, SL10791-1
+[*] Parts: 2ICP3/100/107, AP15B8K, ASPIRE SWITCH 11 SW5-173, ASPIRE SWITCH 11 SW5-173P, ASPIRE SWITCH 11 V SW5-173, ASPIRE SWITCH 11 V SW5-173P, ASPIRE SWITCH 11V SW5-173-60VD, ASPIRE SWITCH 11V SW5-173-614T, ASPIRE SWITCH 11V SW5-173-61WR, ASPIRE SWITCH 11V SW5-173-632W, ASPIRE SWITCH 11V SW5-173-63NV, ASPIRE SWITCH 11V SW5-173-648Z, ASPIRE SWITCH 11V SW5-173P-61RD, ASPIRE SWITCH 12 S SW7-272-M3A0, ASPIRE SWITCH 12 S SW7-272-M5S2, ASPIRE SWITCH 12 S SW7-272-M6S5, ASPIRE SWITCH 12 S SW7-272P-M0J5, KT.0020G.005, NT.G74AA.002, SW5-173, SW5-173P-6603, SW5-173P-67K2, SWITCH 11 V PRO, SWITCH 11 V PRO SW5-173P-6603, SWITCH 11 V PRO SW5-173P-67K2, SWITCH 11 V SW5-173, SWITCH 11 V SW5-173-60VD, SWITCH 11 V SW5-173-614T, SWITCH 11 V SW5-173-61BS, SWITCH 11 V SW5-173-6337, SWITCH 11 V SW5-173-66EP, SWITCH 11 V SW5-173-6742, SWITCH 11 V SW5-173-6849, SWITCH 11 V SW5-173P-64Q8, SWITCH 11 V SW5-173P-6603, SWITCH 12 S SW7-272, SWITCH 12 S SW7-272-M0JS, SWITCH 12 S SW7-272-M51S, SWITCH 12 S SW7-272-M5FE, SWITCH 12 S SW7-272-MOIS, SWITCH 12 S SW7-272P, SWITCH 12 S SW7-272P-M8V4, SWITCH 12 S SW7-272P-M9JP
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10780_2
+[*] Hp TPN_W117
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 4540mAh
-[*] Parts: 844200-850, SL10780-2
+[*] Parts: SL10780-4, TPN-W117
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10780_3
+[*] Acer 2ICP6_56_77
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 4540mAh
-[*] Parts: HSTNN-UB6U, SL10780-3
+[*] 7.6V
+[*] Up to: 4515mAh
+[*] Parts: 2ICP6/56/77, AP18H18J, SPIN 3 SP314-53, SPIN 3 SP314-53-32KJ, SPIN 3 SP314-53-51VC, SPIN 3 SP314-53-598C
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10780_6
+[*] Lg 21CP4_73_120
 [list]
 [*] 
-[*] 7.7V
-[*] Up to: 4540mAh
-[*] Parts: M1-U001DX, SL10780-6
+[*] 7.6V
+[*] Up to: 4500mAh
+[*] Parts: 21CP4/73/120, LBK722WE
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10859_1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4530mAh
-[*] Parts: L15M2PB0,L15C2PB0, SL10859-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10156_1
+[*] Lenovo YOGA_2332
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4500mAh
-[*] Parts: L13M4P21, SL10156-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10156_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4500mAh
-[*] Parts: GD761, SL10156-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10156_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4500mAh
-[*] Parts: 20428, SL10156-5
+[*] Parts: 20428, SL10156-5, YOGA 20332, YOGA 20428, YOGA 2332
 [*] Size: 
 [/list]
 
@@ -3977,52 +2240,43 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10413_2
+[*] Onda XIAOMA_31
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4500mAh
+[*] Parts: XIAOMA 31, XIAOMA 41
+[*] Size: 
+[/list]
+
+[*] Lg SL10413_5
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 4495mAh
-[*] Parts: LBF7221E, SL10413-2
+[*] Parts: 15Z975, GRAM 15Z970, GRAM 15Z975, SL10413-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10413_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4495mAh
-[*] Parts: 15Z960, SL10413-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10413_5
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4495mAh
-[*] Parts: 15Z975, SL10413-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10520_3
+[*] Chuwi 3685105
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4470mAh
-[*] Parts: 7370, SL10520-3
+[*] Parts: 12.3, 3685105, CLTD38150155, LAPBOOK 12.3, SL20293-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10520_4
+[*] Chuwi CL_NA14_40110180
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4470mAh
-[*] Parts: E7370, SL10520-4
+[*] Parts: 14.1, CL-NA14-40110180, LAPBOOK 14.1, SL20292-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10551_1
+[*] Dell J7HTX
 [list]
 [*] 
 [*] 7.6V
@@ -4031,97 +2285,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10551_2
+[*] Dell LATITUDE_12_7202
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4470mAh
-[*] Parts: 7202, SL10551-2
+[*] Parts: 7202, LATITUDE 12 7202, SL10551-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10551_3
+[*] Dell LATITUDE_7212
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4470mAh
-[*] Parts: 7212, SL10551-3
+[*] Parts: 7212, LATITUDE 7212, SL10551-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10937_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4470mAh
-[*] Parts: SL10937-1, YX0XH,YXOXH
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10937_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4470mAh
-[*] Parts: OWYCVV,0WYCVV, SL10937-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20292_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4470mAh
-[*] Parts: 14.1, SL20292-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20293_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4470mAh
-[*] Parts: 12.3, SL20293-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10789_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4450mAh
-[*] Parts: 750334-2C1,750549-001, SL10789-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10789_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4450mAh
-[*] Parts: HSTNN-DB5Z, SL10789-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10789_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4450mAh
-[*] Parts: G1, SL10789-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10817_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4450mAh
-[*] Parts: AT10LE-A-107, AT10LE-A-108, AT10PE-A-004, AT10PE-A-104, AT10PE-A-105, AT10PE-A-106, AT15LE-A32, EXCITE PRO, EXCITE PRO AT10LE-A, EXCITE PRO AT10LE-A-103, EXCITE PRO AT10LE-A-104, EXCITE PRO AT10LE-A-105, EXCITE PRO AT10LE-A-106, EXCITE PRO AT10LE-A-107, EXCITE PRO AT10LE-A-108, EXCITE PRO AT10LE-A-109, EXCITE PRO AT10LE-A-10C, EXCITE PRO AT10LE-A-10D, EXCITE PRO AT10LE-A-10F, EXCITE PRO AT10LE-A-10H, EXCITE WRITE AT10PE-A, EXCITE WRITE AT10PE-A-103, EXCITE WRITE AT10PE-A-104, EXCITE WRITE AT10PE-A-105, EXCITE WRITE AT10PE-A-106, PA5123U-1BRS, SL10817-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10817_2
+[*] Toshiba AT10PE，AT10LE
 [list]
 [*] 
 [*] 7.4V
@@ -4130,7 +2312,16 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10817_3
+[*] Hp SL10789_4
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 4450mAh
+[*] Parts: ELITE X2 1011 G1, G1, SL10789-4
+[*] Size: 
+[/list]
+
+[*] Toshiba SL10817_3
 [list]
 [*] 
 [*] 7.4V
@@ -4139,25 +2330,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11000_1
+[*] Asus 0B200_00600000
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 4450mAh
-[*] Parts: SL11000-1, SU341-TS46-74,CL341-TS23
+[*] 7.5V
+[*] Up to: 4400mAh
+[*] Parts: 0B200-00600000, C21N1313, C21P095, C21PO95, SL10815-1, SL10815-3, TRANSFORMER BOOK TRIO TX201LA, TRANSFORMER BOOK TRIO TX201LA-CQ012H, TRANSFORMER BOOK TRIO TX201LA-CQ013, TX201 SERIES, TX201LA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10751_1
+[*] Malata BT_8001
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4400mAh
-[*] Parts: SL10751-1, SQU-810
+[*] Parts: BT-8001
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10751_3
+[*] Fujitsu SL10751_3
 [list]
 [*] 
 [*] 7.4V
@@ -4166,88 +2357,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10751_4
+[*] Fujitsu SL10751_4
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4400mAh
-[*] Parts: PC, SL10751-4
+[*] Parts: INTEL CONVERTIBLE CLASSMATE PC, PC, SL10751-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10765_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4380mAh
-[*] Parts: GI02XL, SL10765-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10765_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4380mAh
-[*] Parts: 832489-421, SL10765-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10765_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4380mAh
-[*] Parts: 833657-005, SL10765-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10815_2
+[*] Asus TRANSFORMER_BOOK_TRIO_TX201
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4370mAh
-[*] Parts: SL10815-2, TX201
+[*] Parts: SL10815-2, TRANSFORMER BOOK TRIO TX201, TX201
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10815_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4370mAh
-[*] Parts: SL10815-3, TX201LA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10890_1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4370mAh
-[*] Parts: C21O1412,C2101412, SL10890-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10753_1
+[*] Acer BP_GOLF2
 [list]
 [*] 
 [*] 7.4V
-[*] Up to: 4320mAh
-[*] Parts: BP2S2P2100S, SL10753-1
+[*] Up to: 4350mAh
+[*] Parts: 21CP4/70/125, 2ICP3/70/125, 40051000, ASPIRE ONE CLOUDBOOK 11, BP-GOLF2, BP-GOLF2 4200/21 H, BP-GOLF2,40051000, CALTECH 21CP4/70/125, CHROMEBOOK A01-131-C9RK, CHROMEBOOK AO1-131-C0A6, CLOUDBOOK 11 AO1-131, CLOUDBOOK 11 AO1-131-C0A6, CLOUDBOOK 11 AO1-131-C1G9, CLOUDBOOK 11 AO1-131-C216, CLOUDBOOK 11 AO1-131-C2MV, CLOUDBOOK 11 AO1-131-C39W, CLOUDBOOK 11 AO1-131-C3UJ, CLOUDBOOK 11 AO1-131-C58K, CLOUDBOOK 11 AO1-131-C5D5, CLOUDBOOK 11 AO1-131-C5VW, CLOUDBOOK 11 AO1-131-C620, CLOUDBOOK 11 AO1-131-C726, CLOUDBOOK 11 AO1-131-C7DW, CLOUDBOOK 11 AO1-131-C7U3, CLOUDBOOK 11 AO1-131-C9PM, CLOUDBOOK 11 AO1-131-C9RK, CLOUDBOOK 11 AO1-131-F12N/KK, CLOUDBOOK 11 AO1-131M-C667, SL11177-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11043_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4320mAh
-[*] Parts: 50560, SL11043-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11150_1
+[*] Getak SL11150_1
 [list]
 [*] 
 [*] 7.4V
@@ -4256,48 +2393,12 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL11177_1
+[*] Hp 775624_121
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 4320mAh
-[*] Parts: BP-GOLF2,40051000, SL11177-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20001_5
-[list]
-[*] 
-[*] 7.4V
+[*] 7.6V
 [*] Up to: 4300mAh
-[*] Parts: 5130, SL20001-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10959_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4260mAh
-[*] Parts: 3282122-2S,HW-3487265, SL10959-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10959_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4260mAh
-[*] Parts: 10LB, SL10959-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20190_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4250mAh
-[*] Parts: 1516, SL20190-1
+[*] Parts: 775624-121, 775624-1C1, 776621-001, 776621-006, BV02033XL, BV02XL, ENVY 13-J000, ENVY 13-J000NA, ENVY 13-J000NE, ENVY 13-J000NG, ENVY 13-J000NO, ENVY 13-J000NP, ENVY 13-J000NS, ENVY 13-J000NT, ENVY 13-J000NX, ENVY 13-J001NE, ENVY 13-J001NF, ENVY 13-J001NG, ENVY 13-J001NX, ENVY 13-J002NE, ENVY 13-J010NE, ENVY 13-J010NIA, ENVY 13-J010NW, ENVY 13-J011NF, ENVY 13-J011NW, ENVY 13-J020ND, ENVY 13-J020NE, ENVY 13-J020NI, ENVY 13-J021ND, ENVY 13-J021NI, ENVY 13-J030NG, ENVY 13-J031NG, ENVY 13-J050NA, ENVY 13-J050SA, ENVY 13-J070NZ, ENVY 13-J071NZ, ENVY 13-J079NG, ENVY 13-J080NO, ENVY 13-J098NX, ENVY 13-J099NT, ENVY 13-J099NX, ENVY 13T-J000, ENVY X2 13-J000NA, ENVY X2 13-J000NE, ENVY X2 13-J000NF, ENVY X2 13-J000NG, ENVY X2 13-J000NI, ENVY X2 13-J000NO, ENVY X2 13-J000NP, ENVY X2 13-J000NS, ENVY X2 13-J000NT, ENVY X2 13-J000NX, ENVY X2 13-J001NE, ENVY X2 13-J001NF, ENVY X2 13-J001NG, ENVY X2 13-J001NI, ENVY X2 13-J001NX, ENVY X2 13-J001TU, ENVY X2 13-J002DX, ENVY X2 13-J002NE, ENVY X2 13-J002TU, ENVY X2 13-J003TU, ENVY X2 13-J010NE, ENVY X2 13-J010NIA, ENVY X2 13-J010NW, ENVY X2 13-J011NF, ENVY X2 13-J011NW, ENVY X2 13-J012DX, ENVY X2 13-J020CA, ENVY X2 13-J020ND, ENVY X2 13-J020NE, ENVY X2 13-J020NI, ENVY X2 13-J021ND, ENVY X2 13-J021NI, ENVY X2 13-J030CA, ENVY X2 13-J030NG, ENVY X2 13-J031NG, ENVY X2 13-J050NA, ENVY X2 13-J050SA, ENVY X2 13-J070NZ, ENVY X2 13-J071NZ, ENVY X2 13-J079NG, ENVY X2 13-J080NO, ENVY X2 13-J098NX, ENVY X2 13-J099NT, ENVY X2 13-J099NX, ENVY X2 13-J102DX, ENVY X2 DETACHABLE 13, HSTNN-1B6Q, HSTNN-IB6Q, TPN-I116
 [*] Size: 
 [/list]
 
@@ -4310,196 +2411,97 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10554_1
+[*] Toshiba AT10LE_A_107
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 4230mAh
+[*] Parts: AT10LE-A-107, AT10LE-A-108, AT10PE-A-004, AT10PE-A-104, AT10PE-A-105, AT10PE-A-106, AT15LE-A32, EXCITE PRO, EXCITE PRO AT10LE-A, EXCITE PRO AT10LE-A-103, EXCITE PRO AT10LE-A-104, EXCITE PRO AT10LE-A-105, EXCITE PRO AT10LE-A-106, EXCITE PRO AT10LE-A-107, EXCITE PRO AT10LE-A-108, EXCITE PRO AT10LE-A-109, EXCITE PRO AT10LE-A-10C, EXCITE PRO AT10LE-A-10D, EXCITE PRO AT10LE-A-10F, EXCITE PRO AT10LE-A-10H, EXCITE WRITE AT10PE-A, EXCITE WRITE AT10PE-A-103, EXCITE WRITE AT10PE-A-104, EXCITE WRITE AT10PE-A-105, EXCITE WRITE AT10PE-A-106, PA5123U-1BRS, SL10817-1
+[*] Size: 
+[/list]
+
+[*] Microsoft 2ICP3_97_106
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4220mAh
+[*] Parts: 2ICP3/97/106, MH29581, P21G2B, SURFACE 2, SURFACE RT2 1572, SURFACE RT2 1572 10.6 INCH, SURFACE RT2 1572 PLUTO, SURFACE2 RT2 1572
+[*] Size: 
+[/list]
+
+[*] Asus 0B200_03560000
 [list]
 [*] 
 [*] 7.7V
-[*] Up to: 4220mAh
-[*] Parts: SL10554-1, SW02XL
+[*] Up to: 4210mAh
+[*] Parts: 0B200-03560000, B9450, B9450F, B9450FA, C21N1903, EXPERTBOOK B9 B9450FA, EXPERTBOOK B9 B9450FA-BM0165R, EXPERTBOOK B9 B9450FA-BM0193R, EXPERTBOOK B9 B9450FA-BM0280R
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10554_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4220mAh
-[*] Parts: 859470-1B1, SL10554-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10554_4
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4220mAh
-[*] Parts: 889517-855, SL10554-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10554_6
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4220mAh
-[*] Parts: G2, SL10554-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10557_1
+[*] Asus B21N1404
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: HV02XL, SL10557-1
+[*] Parts: 0B200-01060000, 0B200-01060100, B21BN95, B21N1404, BU201 SERIES, BU201L SERIES, BU201LA SERIES, BU201LA-1C, PRO ADVANCED BU201 SERIES, PRO ADVANCED BU201L SERIES, PRO ADVANCED BU201LA, PRO ADVANCED BU201LA SERIES, PRO ADVANCED BU201LA-DT006P, PRO ADVANCED BU201LA-DT020G, PRO ADVANCED BU201LA-DT022G, PRO ADVANCED BU201LA-DT028G, PRO ADVANCED BU201LA-DT030G, PRO ADVANCED BU201LA-DT034G, PRO ADVANCED BU201LA-DT036G, PRO ADVANCED BU201LA-DT043G, PRO ADVANCED BU201LA-DT048G, PRO ADVANCED BU201LA-DT055G, PRO ADVANCED BU201LA-DT124G, PRO ADVANCED BU201LA-DT178G, PRO ADVANCED BU201LA-DT189G, SL11007-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_10
+[*] Hp PAVILION_X360_11_K001NS
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: 11-K100NL, SL10557-10
+[*] Parts: 11-K, 11-K000NF, 11-K001NS, 796219-421, 796219-541, 796355-005, HSTNN-LB6P, HV02XL, PAVILION 11-F001TU, PAVILION 11-F004TU, PAVILION 11-F006TU, PAVILION 11-F007TU, PAVILION 11-F008TU, PAVILION 11-F011TU, PAVILION 11-F013TU, PAVILION 11-F103TU, PAVILION 11-F104TU, PAVILION 11-F105TU, PAVILION 11-F106TU, PAVILION 11-F107TU, PAVILION 11-F108TU, PAVILION X360 11-K, PAVILION X360 11-K000, PAVILION X360 11-K000NA, PAVILION X360 11-K000NF, PAVILION X360 11-K001NC, PAVILION X360 11-K001ND, PAVILION X360 11-K001NF, PAVILION X360 11-K001NL, PAVILION X360 11-K001NS, PAVILION X360 11-K001NT, PAVILION X360 11-K001NX, PAVILION X360 11-K001TU, PAVILION X360 11-K002NT, PAVILION X360 11-K002TU, PAVILION X360 11-K003NS, PAVILION X360 11-K003TU, PAVILION X360 11-K004TU, PAVILION X360 11-K005NA, PAVILION X360 11-K005TU, PAVILION X360 11-K006NA, PAVILION X360 11-K006TU, PAVILION X360 11-K007TU, PAVILION X360 11-K008TU, PAVILION X360 11-K009NA, PAVILION X360 11-K009TU, PAVILION X360 11-K010NW, PAVILION X360 11-K010TU, PAVILION X360 11-K011TU, PAVILION X360 11-K011WM, PAVILION X360 11-K012TU, PAVILION X360 11-K013CL, PAVILION X360 11-K013TU, PAVILION X360 11-K014TU, PAVILION X360 11-K015TU, PAVILION X360 11-K016TU, PAVILION X360 11-K017TU, PAVILION X360 11-K018TU, PAVILION X360 11-K019TU, PAVILION X360 11-K020CA, PAVILION X360 11-K020CY, PAVILION X360 11-K020NR, PAVILION X360 11-K020TU, PAVILION X360 11-K021CY, PAVILION X360 11-K021TU, PAVILION X360 11-K022CY, PAVILION X360 11-K022NR, PAVILION X360 11-K022TU, PAVILION X360 11-K023CY, PAVILION X360 11-K023TU, PAVILION X360 11-K024TU, PAVILION X360 11-K025TU, PAVILION X360 11-K026CA, PAVILION X360 11-K026TU, PAVILION X360 11-K027TU, PAVILION X360 11-K028TU, PAVILION X360 11-K029TU, PAVILION X360 11-K030TU, PAVILION X360 11-K031NG, PAVILION X360 11-K031TU, PAVILION X360 11-K032NG, PAVILION X360 11-K032TU, PAVILION X360 11-K033TU, PAVILION X360 11-K034TU, PAVILION X360 11-K035TU, PAVILION X360 11-K036TU, PAVILION X360 11-K037TU, PAVILION X360 11-K038TU, PAVILION X360 11-K039TU, PAVILION X360 11-K040TU, PAVILION X360 11-K041TU, PAVILION X360 11-K042TU, PAVILION X360 11-K043TU, PAVILION X360 11-K044TU, PAVILION X360 11-K045TU, PAVILION X360 11-K046TU, PAVILION X360 11-K047TU, PAVILION X360 11-K048TU, PAVILION X360 11-K049TU, PAVILION X360 11-K050NB, PAVILION X360 11-K050TU, PAVILION X360 11-K051NA, PAVILION X360 11-K051TU, PAVILION X360 11-K052TU, PAVILION X360 11-K053NA, PAVILION X360 11-K053SA, PAVILION X360 11-K053TU, PAVILION X360 11-K054TU, PAVILION X360 11-K055TU, PAVILION X360 11-K056TU, PAVILION X360 11-K057NA, PAVILION X360 11-K057TU, PAVILION X360 11-K058TU, PAVILION X360 11-K059TU, PAVILION X360 11-K061NR, PAVILION X360 11-K062NR, PAVILION X360 11-K063NA, PAVILION X360 11-K063NR, PAVILION X360 11-K064NA, PAVILION X360 11-K064NR, PAVILION X360 11-K065NA, PAVILION X360 11-K065SA, PAVILION X360 11-K082NO, PAVILION X360 11-K084NO, PAVILION X360 11-K099NR, PAVILION X360 11-K100, PAVILION X360 11-K100NG, PAVILION X360 11-K100NK, PAVILION X360 11-K100NO, PAVILION X360 11-K100UR, PAVILION X360 11-K101NG, PAVILION X360 11-K101TU, PAVILION X360 11-K102LA, PAVILION X360 11-K102NA, PAVILION X360 11-K102ND, PAVILION X360 11-K102NF, PAVILION X360 11-K102NG, PAVILION X360 11-K102NS, PAVILION X360 11-K102TU, PAVILION X360 11-K103NG, PAVILION X360 11-K103NS, PAVILION X360 11-K103TU, PAVILION X360 11-K104NA, PAVILION X360 11-K104NW, PAVILION X360 11-K104TU, PAVILION X360 11-K105NA, PAVILION X360 11-K105TU, PAVILION X360 11-K106TU, PAVILION X360 11-K107TU, PAVILION X360 11-K108NF, PAVILION X360 11-K108TU, PAVILION X360 11-K109NA, PAVILION X360 11-K109TU, PAVILION X360 11-K117CL, PAVILION X360 11-K120NR, PAVILION X360 11-K127TU, PAVILION X360 11-K133TU, PAVILION X360 11-K145TU, PAVILION X360 11-K150NB, PAVILION X360 11-K161NR, PAVILION X360 11-K162NR, PAVILION X360 11-K164NR, PAVILION X360 11T-K000, PAVILION X360 11T-K100, SL10557-1, SL10557-2, SL10557-3, SL10557-4, SL10557-5, SL10557-6, SL10557-7, SL10557-8, SL10557-9, TPN-Q164, TPN-W112, X360 310 G2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_4
+[*] Hp PAVILION_X360_11_K100NL
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: HSTNN-LB6P, SL10557-4
+[*] Parts: 11-K100NL, PAVILION X360 11-K100NL, SL10557-10
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_5
+[*] Dell SL10655_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: SL10557-5, TPN-Q164
+[*] Parts: 3168, INSPIRON 3162, INSPIRON 3164, INSPIRON 3168, SL10655-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_6
+[*] Dell SL10655_3
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: SL10557-6, TPN-W112
+[*] Parts: 3000, INSPIRON 11 3000, SL10655-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_7
+[*] Asus SL11007_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: 11-K, SL10557-7
+[*] Parts: BU201L, BU201L,BU201LA,BU201LG, BU201LA, BU201LG, SL11007-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_8
+[*] Lenovo THINKPAD_10_2RD
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
-[*] Parts: 11-K000NF, SL10557-8
+[*] Parts: 2RD, SL20251-2, THINKPAD 10 2RD
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10557_9
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: 11-K001NS, SL10557-9
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10653_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: E402M,E402MA, SL10653-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10653_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: E402S,E502S, SL10653-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10655_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: 3168, SL10655-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10655_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: 3000, SL10655-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10672_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: E502M, SL10672-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11007_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: BU201L,BU201LA,BU201LG, SL11007-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20251_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: SB10F46454,00HW016, SL20251-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20251_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: 2RD, SL20251-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10509_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4200mAh
-[*] Parts: 0813002, 5B10K65026, IDEAPAD 100S-14IBR, IDEAPAD 100S-14IBR 80R9, NC140BW1-2S1P, SL10509-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10509_2
+[*] Lenovo 80R9
 [list]
 [*] 
 [*] 7.6V
@@ -4508,178 +2510,79 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10509_3
+[*] Lenovo IDEAPAD_100S_141BR
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4200mAh
-[*] Parts: 100S-141BR, SL10509-3
+[*] Parts: 100S-141BR, IDEAPAD 100S-141BR, SL10509-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10509_4
+[*] Lenovo NC140BW1_2S1P
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4200mAh
-[*] Parts: 100S-14IBR, SL10509-4
+[*] Parts: NC140BW1-2S1P, SL10509-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20290_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4200mAh
-[*] Parts: CWI540, SL20290-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20232_1
+[*] Teclast P3361160
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4180mAh
-[*] Parts: P3362160,P3361160, SL20232-1
+[*] Parts: P3361160, P3362160, P3362160,P3361160, SL20232-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20232_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4180mAh
-[*] Parts: PRO, SL20232-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10864_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4150mAh
-[*] Parts: SL10864-2, U49F,U49F1,U49F2,U410
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10977_1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4130mAh
-[*] Parts: 0813007,5B10P23779, SL10977-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10977_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4130mAh
-[*] Parts: 120S-14IAP, SL10656-3, SL10977-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10475_2
+[*] Sony VGP_BPS37
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4125mAh
-[*] Parts: SL10475-2, SVP112A1CM
+[*] Parts: PRO 11, PRO 11 SVP11227SCB, PRO 11 SVP112A1CM, PRO 11 TOUCH ULTRABOOK, PRO 11 ULTRABOOK, SL10475-1, SL10475-2, SL10475-3, SVP1121, SVP112100C, SVP11213CXB, SVP11213CXS, SVP11214CXB, SVP11214CXS, SVP11215CBB, SVP11215CDB, SVP11215CLB, SVP11215PXB, SVP11215PXS, SVP11216CW, SVP11216PXB, SVP11216PXS, SVP11216ST, SVP11216STB, SVP11217PG, SVP11217PGB, SVP11217PW/B, SVP11217SCS, SVP11218SCS, SVP112190S, SVP112190X, SVP1121A4E, SVP1121B4E, SVP1121C4E, SVP1121C5E, SVP1121C5ER, SVP1121D4E, SVP1121M1E, SVP1121M1EBI, SVP1121M2E, SVP1121M2EB, SVP1121M2R, SVP1121M2RS, SVP1121V9R, SVP1121V9RB, SVP1121W9E, SVP1121W9EB, SVP1121X2E, SVP1121X2EB, SVP1121X2R, SVP1121X2RB, SVP1121X9E, SVP1121X9EB, SVP1121X9R, SVP1121X9RB, SVP1121Z9E, SVP1121Z9EB, SVP1121Z9R, SVP1121Z9RB, SVP1121ZPWR, SVP11222CXB, SVP11222CXS, SVP11223CXB, SVP11226PXB, SVP11226PXS, SVP11227SCB, SVP11229PGB, SVP1122C5E, SVP1122M2E, SVP1122M2EB, SVP1122YCG, SVP112A17T, SVP112A19T, SVP112A1CL, SVP112A1CM, SVP112A1CP, SVP112A1CT, SVP112A2CL, VGP-BPS37
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10082_1
+[*] Asus 0B200_03190400
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: AA-PBZN2TP, SL10082-1
+[*] 7.6V
+[*] Up to: 4110mAh
+[*] Parts: 0B200-03190400, 0B200-03190400E, A512FB, ASUS X712FA-GC102T, B21BNEH, B21N1818, F512DK, F512FB, P1504FA, R564DK, V5000FA, V5000FB, VIVOBOOK 15 R564DA, VIVOBOOK 15 R564DA-EJ889T, VIVOBOOK 15 R564DA-EJ960T, VIVOBOOK 15 X512DA EJ852T, VIVOBOOK 15 X512DA-BQ579T, VIVOBOOK 15 X512DA-BQ836, VIVOBOOK 15 X512DA-BQ883T, VIVOBOOK 15 X512DA-BQ884T, VIVOBOOK 15 X512DA-EJ039T, VIVOBOOK 15 X512DA-EJ1015T, VIVOBOOK 15 X512DA-EJ1020T, VIVOBOOK 15 X512DA-EJ254T, VIVOBOOK 15 X512DA-EJ270T, VIVOBOOK 15 X512DA-EJ389T, VIVOBOOK 15 X512DA-EJ440T, VIVOBOOK 15 X512DA-EJ445T, VIVOBOOK 15 X512DA-EJ449T, VIVOBOOK 15 X512DA-EJ478T, VIVOBOOK 15 X512DA-EJ502T, VIVOBOOK 15 X512DA-EJ504T, VIVOBOOK 15 X512DA-EJ558T, VIVOBOOK 15 X512DA-EJ572T, VIVOBOOK 15 X512DA-EJ614T, VIVOBOOK 15 X512DA-EJ720T, VIVOBOOK 15 X512DA-EJ747T, VIVOBOOK 15 X512DA-SS3502T, VIVOBOOK 15 X512DK-BQ069T, VIVOBOOK 15 X512DK-BQ114T, VIVOBOOK 15 X512DK-BQ155T, VIVOBOOK 15 X512DK-EJ005T, VIVOBOOK 15 X512DK-EJ045T, VIVOBOOK 15 X512DK-EJ178T, VIVOBOOK 15 X512FA-BQ056T, VIVOBOOK 15 X512FA-BQ062T, VIVOBOOK 15 X512FA-BQ459T, VIVOBOOK 15 X512FA-BQ481T, VIVOBOOK 15 X512FA-EJ025T, VIVOBOOK 15 X512FA-EJ033T, VIVOBOOK 15 X512FA-EJ1298T, VIVOBOOK 15 X512FA-EJ1346T, VIVOBOOK 15 X512FA-EJ137T, VIVOBOOK 15 X512FA-EJ1504T, VIVOBOOK 15 X512FA-EJ372T, VIVOBOOK 15 X512FA-EJ548T, VIVOBOOK 15 X512FA-EJ550T, VIVOBOOK 15 X512FA-EJ555T, VIVOBOOK 15 X512FA-EJ646T, VIVOBOOK 15 X512FA-EJ955T, VIVOBOOK 15 X512FB-78AM1SB1, VIVOBOOK 15 X512FB-BQ088T, VIVOBOOK 15 X512FB-BQ093, VIVOBOOK 15 X512FB-BQ094T, VIVOBOOK 15 X512FB-BR177T, VIVOBOOK 15 X512FB-BR332T, VIVOBOOK 15 X512FB-EJ056T, VIVOBOOK 15 X512FB-EJ224T, VIVOBOOK 15 X512FB-EJ239T, VIVOBOOK 15 X512FJ-EJ023T, VIVOBOOK 15 X512FJ-EJ036R, VIVOBOOK 15 X512FJ-EJ057T, VIVOBOOK 15 X512FJ-EJ153T, VIVOBOOK 15 X512FJ-EJ228T, VIVOBOOK 15 X512FJ-EJ275, VIVOBOOK 15 X512FJ-EJ320T, VIVOBOOK 15 X512FJ-EJ370, VIVOBOOK 15 X512FJ-EJ462T, VIVOBOOK 15 X512FL-EJ205T, VIVOBOOK 15 X512UA, VIVOBOOK 15 X512UA-BQ448T, VIVOBOOK 15 X512UA-BQ639T, VIVOBOOK 15 X512UA-BR154T, VIVOBOOK 15 X512UA-BR220T, VIVOBOOK 15 X512UA-EJ049T, VIVOBOOK 15 X512UA-EJ141T, VIVOBOOK 15 X512UA-EJ258T, VIVOBOOK 15 X512UA-EJ265T, VIVOBOOK 15 X512UA-EJ296T, VIVOBOOK 15 X512UA-EJ331T, VIVOBOOK 15 X512UA-EJ364R, VIVOBOOK 15 X512UA-EJ418T, VIVOBOOK 15 X512UA-EJ497T, VIVOBOOK 15 X512UB-BQ039T, VIVOBOOK 15 X512UB-BQ128T, VIVOBOOK 15 X512UB-BR010T, VIVOBOOK 15 X512UB-BR106TC, VIVOBOOK 15 X512UB-BR140T, VIVOBOOK 15 X512UF-BQ129T, VIVOBOOK 15 X512UF-BQ132T, VIVOBOOK 15 X512UF-BQ133T, VIVOBOOK 15 X512UF-BQ184T, VIVOBOOK 15 X512UF-EJ076, VIVOBOOK 15 X512UF-EJ128T, VIVOBOOK 15-X512DA-EJ314T, VIVOBOOK 17 D712DA-AU017T, VIVOBOOK 17 D712DA-AU022T, VIVOBOOK 17 D712DA-AU071, VIVOBOOK 17 D712DA-AU077T, VIVOBOOK 17 D712DA-AU128, VIVOBOOK 17 D712DA-AU143, VIVOBOOK 17 D712DA-BX023T, VIVOBOOK 17 D712DA-BX028T, VIVOBOOK 17 D712DA-BX042T, VIVOBOOK 17 D712DA-BX066T, VIVOBOOK 17 D712DA-BX070T, VIVOBOOK 17 D712DA-BX161, VIVOBOOK 17 D712DK-AU001T, VIVOBOOK 17 D712DK-AU013T, VIVOBOOK 17 D712DK-BX017T, VIVOBOOK 17 M712DA-AU016T, VIVOBOOK 17 M712DA-AU017T, VIVOBOOK 17 M712DA-AU037T, VIVOBOOK 17 M712DA-AU061T, VIVOBOOK 17 M712DA-AU100, VIVOBOOK 17 M712DA-AU148T, VIVOBOOK 17 M712DA-AU166T, VIVOBOOK 17 M712DA-BX065T, VIVOBOOK 17 M712DA-BX070T, VIVOBOOK 17 M712DA-WB321C, VIVOBOOK 17 P1701FB, VIVOBOOK 17 P1701FB-AU123R, VIVOBOOK 17 P1701FB-AU214R, VIVOBOOK 17 P1701FB-AU337R, VIVOBOOK 17 X712FA-AU165T, VIVOBOOK 17 X712FA-AU166T, VIVOBOOK 17 X712FA-AU192T, VIVOBOOK 17 X712FA-AU250T, VIVOBOOK 17 X712FA-AU276T, VIVOBOOK 17 X712FA-AU306T, VIVOBOOK 17 X712FA-AU310T, VIVOBOOK 17 X712FA-AU311R, VIVOBOOK 17 X712FA-AU458T, VIVOBOOK 17 X712FA-AU486T, VIVOBOOK 17 X712FA-BX020T, VIVOBOOK 17 X712FA-BX230T, VIVOBOOK 17 X712FA-BX320, VIVOBOOK 17 X712FB, VIVOBOOK 17 X712FB-AU167T, VIVOBOOK 17 X712FB-BX015T, VIVOBOOK F512DA-EJ108T, VIVOBOOK F512DA-EJ320, VIVOBOOK F512DA-EJ613T, VIVOBOOK F512DA-EJ868T, VIVOBOOK F512DA-EJ870T, VIVOBOOK F512DA-EJ871T, VIVOBOOK F512DA-EJ872T, VIVOBOOK F512DA-EJ873T, VIVOBOOK F512DA-EJ8874T, VIVOBOOK X712FA-AU256T, VIVOBOOK X712FB-AU121T, VIVOBOOK X712FB-AU155T, X512C, X512DA-EJ039T, X512DA-EJ040T, X512DA-EJ139T, X512DA-EJ142T, X512DA-EJ314T, X512FA-1G, X512FA-8S, X512FB-8S, X512FF, X512UA-1G, X512UA-8B, X512UA-8S, X512UB-1G, X512UB-BR059T, X512UB-EJ085, X512UF-8B, X712DA, X712DA-8S, X712DK, X712FA, X712FA-AU165T, X712FA-BX230T, X712FA-GC102T, X712FB, X712FB-AU116T, X712FB-AU134, X712FB-BX016T, X712FB-BX182, X712FB-BX183, X712UA, Y5100DK, Y5100FA, Y5100FB
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10082_11
+[*] Asus 0B200_03450000
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: NP910S3G, SL10082-11
+[*] 7.6V
+[*] Up to: 4110mAh
+[*] Parts: 0B200-03450000, A409FA, A409FB, A409FJ, A409FL, A509FA, A509FA-EJ145T, A509FA-EJ146T, A509FA-EJ178T, A509FA-EJ211T, A509FA-EJ253T, A509FB, A509FJ, A509FL, B21N1818-1, B21N1818-2, F409FA, F409FB, F409FL, F509FA, F509FA-EJ207T, F509FB, F509FB-EJ117T, F509FB-EJ118T, F509FJ, F509FL, FL8700FB, FL8700FJ, FL8700FL, LAPTOP 15 X509JA, LAPTOP 15 X509JA-BQ040T, LAPTOP 15 X509UA, LAPTOP 15 X509UB, LAPTOP 15 X509UJ, M509DA, M509DA-EJ153T, R427FA, R427FB, R427FJ, R427FL, R521FA, R521FA-EJ111T, R521FA-EJ112T, R521FB, R521FJ, R521FL, VIVOBOOK 14 X409FA-BV012AT, VIVOBOOK 14 X409FA-EK034T, VIVOBOOK 14 X409FA-EK041T, VIVOBOOK 14 X409FA-EK070T, VIVOBOOK 14 X409FA-EK098T, VIVOBOOK 14 X409FA-EK099T, VIVOBOOK 14 X409FA-EK149T, VIVOBOOK 14 X409FA-EK199T, VIVOBOOK 14 X409FA-EK502T, VIVOBOOK 14 X409FA-EK555T, VIVOBOOK 14 X409UA, VIVOBOOK 14 X409UA-BV050T, VIVOBOOK 14 X409UA-BV074T, VIVOBOOK 14 X409UA-BV105T, VIVOBOOK 14 X409UA-BV111T, VIVOBOOK 14 X409UA-EB053T, VIVOBOOK 14 X409UA-EK035T, VIVOBOOK 14 X409UA-EK036T, VIVOBOOK 14 X409UA-EK054T, VIVOBOOK 14 X409UA-EK080T, VIVOBOOK 14 X409UA-EK092T, VIVOBOOK 14 X409UA-EK093T, VIVOBOOK 14 X409UA-EK341T, VIVOBOOK 14 X409UA-EK342T, VIVOBOOK 14 X409UA-EK361TS, VIVOBOOK 14 X409UA-EK362TS, VIVOBOOK 14 X409UA-HT071T, VIVOBOOK 15 F509FA, VIVOBOOK 15 F509FA-EJ014T, VIVOBOOK 15 F509FA-EJ207, VIVOBOOK 15 F509FA-EJ255T, VIVOBOOK 15 F509FA-EJ337, VIVOBOOK 15 F509FA-EJ337T, VIVOBOOK 15 F509FA-EJ501T, VIVOBOOK 15 F509FA-EJ551, VIVOBOOK 15 F509FA-EJ672T, VIVOBOOK 15 M509DA, VIVOBOOK 15 M509DA-BQ206, VIVOBOOK 15 M509DA-BQ321T, VIVOBOOK 15 M509DA-BR123T, VIVOBOOK 15 M509DA-BR132T, VIVOBOOK 15 M509DA-BR139T, VIVOBOOK 15 M509DA-BR151, VIVOBOOK 15 M509DA-BR155T, VIVOBOOK 15 M509DA-BR218, VIVOBOOK 15 M509DA-BR241, VIVOBOOK 15 M509DA-BR260, VIVOBOOK 15 M509DA-BR290T, VIVOBOOK 15 M509DA-EJ024T, VIVOBOOK 15 M509DA-EJ025T, VIVOBOOK 15 M509DA-EJ034T, VIVOBOOK 15 M509DA-EJ043, VIVOBOOK 15 M509DA-EJ051T, VIVOBOOK 15 M509DA-EJ058T, VIVOBOOK 15 M509DA-EJ068, VIVOBOOK 15 M509DA-EJ068T, VIVOBOOK 15 M509DA-EJ072T, VIVOBOOK 15 M509DA-EJ073T, VIVOBOOK 15 M509DA-EJ084T, VIVOBOOK 15 M509DA-EJ085T, VIVOBOOK 15 M509DA-EJ098T, VIVOBOOK 15 M509DA-EJ102T, VIVOBOOK 15 M509DA-EJ126T, VIVOBOOK 15 M509DA-EJ153T, VIVOBOOK 15 M509DA-EJ156T, VIVOBOOK 15 M509DA-EJ176T, VIVOBOOK 15 M509DA-EJ194T, VIVOBOOK 15 M509DA-EJ292T, VIVOBOOK 15 M509DA-EJ333T, VIVOBOOK 15 M509DA-EJ443T, VIVOBOOK 15 M509DA-EJ541T, VIVOBOOK 15 M509DA-EJ561T, VIVOBOOK 15 M509DA-EJ562T, VIVOBOOK 15 M509DA-EJ581T, VIVOBOOK 15 M509DA-EJ582T, VIVOBOOK 15 M509DA-EJ641T, VIVOBOOK 15 M509DA-EJ94T, VIVOBOOK 15 M509DA-EJ95T, VIVOBOOK 15 M509DA-WB302, VIVOBOOK 15 M509DA-WB331, VIVOBOOK 15 M509DA-WB332, VIVOBOOK 15 M509DA-WB502, VIVOBOOK 15 M509DA-WB712, VIVOBOOK 15 M509DA-WB712T, VIVOBOOK 15 X509UA, VIVOBOOK 15 X509UA-EJ001T, VIVOBOOK 15 X509UA-EJ021T, VIVOBOOK 15 X509UA-EJ050T, VIVOBOOK 15 X509UA-EJ062T, VIVOBOOK 15 X509UA-EJ064T, VIVOBOOK 15 X509UA-EJ071T, VIVOBOOK 15 X509UA-EJ073T, VIVOBOOK 15 X509UB, VIVOBOOK 15 X509UB-BR061T, VIVOBOOK 15 X509UB-EJ009T, VIVOBOOK 15 X509UB-EJ010T, VIVOBOOK 15 X509UB-EJ021T, VIVOBOOK 15 X509UJ, VIVOBOOK 15 X509UJ-BR044T, VIVOBOOK 15 X509UJ-EJ036T, VIVOBOOK 15 X509UJ-EJ048T, VIVOBOOK 15 X545FA, VIVOBOOK 15 X545FA-EJ085T, VIVOBOOK 15 X545FA-EJ116T, VIVOBOOK 15 X545FJ, VIVOBOOK 15 X545FJ-BQ034T, VIVOBOOK 15 X545FJ-EJ009T, VIVOBOOK 15 X545FJ-EJ064T, VIVOBOOK 15 X545FJ-EJ065T, VIVOBOOK F509FA-EJ255T, X409FA, X409FB, X409FL, X509FA, X509FA-BR030T, X509FA-BR032T, X509FA-DB51, X509FA-DB71, X509FA-EJ099T, X509FA-EJ101T, X509FA-EJ103T, X509FB, X509FB-EJ024, X509FJ, X509FJ-0111G8265U, X509FJ-0131S8265U, X509FJ-AP8205T, X509FJ-BR012T, X509FJ-BR013T, X509FJ-EJ014, X509FJ-EJ049T, X509FJ-EJ051T, X509FJ-EJ053T, X509FJ-EJ055T, X509FJ-EJ115T, X509FJ-EJ121T, X509FJ-EJ139T, X509FJ-EJ145T, X509FJ-EJ155T, X509FJ-EJ501T, X509FJ-EJ701T, X509FL, X509JA, X509JA-BQ039T, X509JA-BQ084T, X509JA-BR072T, X509JA-BR104T, X509JA-BR131T, X509JA-EJ024T, X509JA-EJ025T, X509JA-EJ026T, X509JA-EJ027T, X509JA-EJ028T, X509JA-EJ031T, X509JA-EJ105T, X509JA-EJ107T, X509JA-EJ114T, X509JA-EJ129T-BE, X509JA-EJ140T, X509JA-EJ141T, X509JA-EJ147R, X509JA-WB501T, X509UA, X509UA-BR011T, X509UA-BR035T, X509UA-BR036T, X509UA-BR112T, X509UA-BR113T, X509UA-BR236T, X509UA-EJ009T, X509UA-EJ050T, X509UA-EJ061T, X509UA-EJ062T, X509UA-EJ064T, X509UA-EJ071T, X509UA-EJ073T, X509UA-EJ103T, X509UB, X509UB-EJ009T, X509UB-EJ010T, X509UB-EJ021T, X509UJ, X509UJ-BQ022T, Y4200FA, Y4200FB, Y4200FJ, Y4200FL, Y5200, Y5200FA, Y5200FB, Y5200FJ, Y5200FL
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10082_12
+[*] Asus B21N1505
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: K05CN, SL10082-12
+[*] 7.6V
+[*] Up to: 4110mAh
+[*] Parts: 0B200-01400200, 0B200-01400300, 0B200-01400500, B21N1505, E402, E402M, E402M,E402MA, E402MA, E402MA-WX0001H, E402MA-WX0001T, E402MA-WX0002T, E402MA-WX0018H, E402N, E402NA-0072AN3450, E402NA-1R, E402NA-2A, E402NA-2B, E402NA-BS91-CB, E402NA-DB01-BL, E402NA-FA014T, E402NA-FA021T, E402NA-FA027T, E402NA-FA040T, E402NA-FA041T, E402NA-FA045T, E402NA-FA101T, E402NA-FA109T, E402NA-FA117T, E402NA-FA123T, E402NA-FA136T, E402NA-FA137T, E402NA-FA161T, E402NA-FA164T, E402NA-FA183T, E402NA-FA214T, E402NA-GA001T, E402NA-GA002T, E402NA-GA005T, E402NA-GA010T, E402NA-GA019T, E402NA-GA022T, E402NA-GA025T, E402NA-GA029T, E402NA-GA034T, E402NA-GA046T, E402NA-GA048T, E402NA-GA056T, E402NA-GA058T, E402NA-GA064T, E402NA-GA065T, E402NA-GA071T, E402NA-GA072T, E402NA-GA073T, E402NA-GA076T, E402NA-GA091T, E402NA-GA103T, E402NA-GA147T, E402NA-GA165T, E402NA-GA167T, E402NA-GA188T, E402NA-GA226T, E402NA-GA227T, E402NA-GA239T, E402NA-GA245T, E402NA-GA248T, E402NA-GA251T, E402NA-GA291T, E402NA-GA294T, E402NA-GA314T, E402NA-GA315T, E402NA-QN2-CB, E402S, E402S,E502S, E402SA, E402SA-0072AN3160, E402SA-1R, E402SA-2A, E402SA-2B, E402SA-DB02-BL, E402SA-DS01-BL, E402SA-FR171T, E402SA-FR173T, E402SA-FR218T, E402SA-FR233T, E402SA-FR268T, E402SA-FR269T, E402SA-FR290T, E402SA-FR291T, E402SA-UB03-BL, E402SA-WX001T, E402SA-WX006T, E402SA-WX007D, E402SA-WX007T, E402SA-WX008T, E402SA-WX009T, E402SA-WX013T, E402SA-WX014T, E402SA-WX027T, E402SA-WX030T, E402SA-WX032T, E402SA-WX034T, E402SA-WX035T, E402SA-WX043D, E402SA-WX060T, E402SA-WX089T, E402SA-WX113T, E402SA-WX116T, E402SA-WX126T, E402SA-WX130T, E402SA-WX132T, E402SA-WX134T, E402SA-WX149T, E402SA-WX152T, E402SA-WX153T, E402SA-WX155D, E402SA-WX158T, E402SA-WX166T, E402SA-WX167D, E402SA-WX185T, E402SA-WX190T, E402SA-WX191T, E402SA-WX195T, E402SA-WX204T, E402SA-WX205T, E402SA-WX207T, E402SA-WX214T, E402SA-WX227T, E402SA-WX228T, E402SA-WX240T, E402SA-WX245T, E402SA-WX249T, E402SA-WX251D, E402SA-WX251T, E402SA-WX252T, E402WA, E402WA-0102BE26110, E402WA-2A, E402WA-2B, E402WA-E2-6110, E402WA-E2DR2AX1, E402WA-EB107T, E402WA-FA006TS, E402WA-FA011TS, E402WA-FA078TS, E402WA-FA084TS, E402WA-GA001T, E402WA-GA002T, E402WA-GA002TS, E402WA-GA007T, E402WA-GA010T, E402WA-GA020T, E402WA-GA036, E402WA-GA040, E402WA-GA074T, E402WA-GA101T, E402WA-GA570, E402WA-WH21, E402YA, E402YA-FA031TS, E402YA-GA002T, E402YA-GA109T, E502S, EEEBOOK E402SA, EEEBOOK E402SA-WX0045T, EEEBOOK E402SA-WX016T, EEEBOOK E402YA-GA002TS, EEEBOOK L402MA, EEEBOOK L402S, EEEBOOK L402SA, EEEBOOK L403S, EEEBOOK L403SA, EEEBOOK L403SA-WX0011T, EEEBOOK L403SA-WX0016T, F402MA, F402NA, F402NA-GA015T, F402NA-GA102T, F402NA-GA124T, F402NA-GA182T, F402NA-GA208T, F402NA-GA223T, F402NA-GA224T, F402SA, F402SA-WX113T, F402SA-WX164T, F402SA-WX185T, F402SA-WX197T, F402SA-WX202T, F402SA-WX287T, F402SA-WX288T, F402SA-WX330T, F402WA, F402WA-FA018TS, F402WA-FA026T, F402WA-FA026TS, F402WA-FA035T, F402WA-FA055T, F402WA-GA019T, F402WA-GA035T, F402WA-GA072T, L402MA-P929, L402MA-WX0064B, L402MA-WX0065D, L402MA-WX0066D, L402MA-WX0067B, L402MA-WX0088T, L402MA-WX0102H, L402MA-WX0102T, L402MA-WX0139T, L402MA-WX0146T, L402NA-0032AN3450, L402NA-0042BN3450, L402NA-0142AN3450, L402NA-FA016TS, L402NA-FA017TS, L402NA-FA292TS, L402NA-GA016TS, L402NA-GA042TS, L402NA-GA047TS, L402NA-GA095TS, L402NA-GA191TS, L402NA-GA290TS, L402SA-0042AN3160, L402SA-0062BN3160, L402SA-BB01-BL, L402SA-WH02-OFCE, L402SA-WX018TS, L402SA-WX065TS, L402SA-WX066TS, L402SA-WX070TS, L402SA-WX071TS, L402SA-WX097TS, L402SA-WX223TS, L402SA-WX273TS, L402SA-WX294TS, L402SA-WX306TS, L403NA-FA017TS, L403NA-FA055TS, L403NA-FA067TS, L403NA-FA115TS, L403NA-GA013TS, L403NA-GA018TS, L403NA-GA021TS, L403SA-FA0046T, L403SA-FA0083T, L403SA-WH22, L403SA-WH22-OFCE, L403SA-WX0026T, L403SA-WX0055T, L403SA-WX0091TS, R417MA, R417MA-WX0059H, R417MA-WX0059T, R417MA-WX0060T, R417MA-WX0079H, R417MA-WX0079T, R417MA-WX0129T, R417MA-WX0130T, R417MA-WX0144T, R417MA-WX0145T, R417NA, R417NA-FA254T, R417NA-GA006T, R417NA-RS01, R417SA-WX235T, R417WA, R417WA-FA114TS, R417WA-GA033T, R417WA-GA033TS, R417WA-GA046T, R417WA-GA052T, SL10653-1, SL10653-2, SL10653-3, VIVOBOOK E14 E402WA, VIVOBOOK E14 E402WA-FA084TS, VIVOBOOK E14 E402WA-GA001T, VIVOBOOK E14 E402WA-GA002T, VIVOBOOK E14 E402WA-GA010T, VIVOBOOK E14 E402WA-GA020T, VIVOBOOK E14 E402WA-GA040, VIVOBOOK E14 E402WA-WH21, VIVOBOOK E14 L403NA, VIVOBOOK E402NA, VIVOBOOK E402NA-BS91-CB, VIVOBOOK E402NA-FA021T, VIVOBOOK E402NA-FA109T, VIVOBOOK E402NA-FA123T, VIVOBOOK E402NA-GA001, VIVOBOOK E402NA-GA005T, VIVOBOOK E402NA-GA020T, VIVOBOOK E402NA-GA029T, VIVOBOOK E402NA-GA056T, VIVOBOOK E402NA-GA071T, VIVOBOOK E402NA-GA167T, VIVOBOOK E402NA-GA239T, VIVOBOOK E402NA-GA251T, VIVOBOOK E402NA-GA294T, VIVOBOOK E402NA-GA314T, VIVOBOOK E402NA-QN2-CB, VIVOBOOK E402SA, VIVOBOOK E402SA-DS01, VIVOBOOK E402SA-FR171T, VIVOBOOK E402SA-FR291T, VIVOBOOK E402SA-WX014T, VIVOBOOK E402SA-WX016T, VIVOBOOK E402SA-WX027T, VIVOBOOK E402SA-WX035T, VIVOBOOK E402SA-WX089T, VIVOBOOK E402SA-WX113T, VIVOBOOK E402SA-WX167D, VIVOBOOK E402SA-WX190T, VIVOBOOK E402SA-WX196T, VIVOBOOK E402SA-WX214T, VIVOBOOK E402SA-WX228T, VIVOBOOK E402SA-WX240T, VIVOBOOK E402SA-WX249T, VIVOBOOK E402YA-FA031TS, VIVOBOOK E402YA-FA094TS, VIVOBOOK E402YA-GA002TS, VIVOBOOK E402YA-GA007TS, VIVOBOOK E402YA-GA027T, VIVOBOOK E402YA-GA041TC, VIVOBOOK E402YA-GA067T, VIVOBOOK E402YA-GA077T, VIVOBOOK E402YA-GA109T, VIVOBOOK E402YA-GA201T, VIVOBOOK E402YA-GA202T, VIVOBOOK E402YA-GA256T, VIVOBOOK L402N, VIVOBOOK L402NA, VIVOBOOK L403N, VIVOBOOK L403NA, VIVOBOOK L403NA-FA017TS, VIVOBOOK L403NA-GA021TS, X402MA, X402NA, X402NA-FA112T, X402NA-FA229T, X402NA-GA111T, X402NA-GA160T, X402NA-GA170T, X402NA-GA173, X402NA-GA180T, X402NA-GA211T, X402NA-GA259T, X402SA, X402SA-WX014T, X402SA-WX251D
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10082_2
+[*] Asus B21N1506
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: AA-PB2N2TP, SL10082-2
+[*] 7.6V
+[*] Up to: 4110mAh
+[*] Parts: 0B200-01430600, 0B200-01430700, 0B200-01430800, B21N1506, E502M, E502NA-2A, E502NA-2B, E502NA-2C, E502NA-DM001T, E502NA-DM002T, E502NA-DM003, E502NA-DM005, E502NA-DM006, E502NA-DM013T, E502NA-DM014T, E502NA-DM016, E502NA-DM017, E502NA-DM017T, E502NA-DM018T, E502NA-DM019, E502NA-DM029T, E502NA-DM047T, E502NA-GO001T, E502NA-GO010T, E502NA-GO021, E502NA-GO022T, E502NA-GO035, E502NA-GO036, E502NA-GO047T, E502NA-GO048T, E502NA-GO067, E502NA-GO068, E502NA-GO108T, E502NA-GO109, E502NA-GO113T, E502SA-2A, E502SA-2B, E502SA-2C, E502SA-DM049T, E502SA-DM051T, E502SA-DM065, E502SA-DM110, E502SA-DM136T, E502SA-XO002T, E502SA-XO004T, E502SA-XO005D, E502SA-XO013T, E502SA-XO014T, E502SA-XO023D, E502SA-XO040T, E502SA-XO041T, E502SA-XO043T, E502SA-XO123T, E502SA-XO124D, E502SA-XO124T, E502SA-XO135T, E502SA-XO141T, E502SA-XO143T, E502SA-XO144T, E502SA-XX015, E502SA-XX016T, E502SA-XX017T, E502SA-XX024D, E502SA-XX024T, E502SA-XX070D, E502SA-XX183T, E502SA-XX219T, EEEBOOK E502M, EEEBOOK E502MA, EEEBOOK E502MA-2A, EEEBOOK E502MA-2B, EEEBOOK E502MA-XX0002D, EEEBOOK E502MA-XX0002H, EEEBOOK E502MA-XX0009D, EEEBOOK E502MA-XX0009H, EEEBOOK E502MA-XX0016H, EEEBOOK E502MA-XX0024T, EEEBOOK E502MA-XX0026D, EEEBOOK E502MA-XX0026T, EEEBOOK E502MA-XX0030D, EEEBOOK E502MA-XX0030H, EEEBOOK E502MA-XX0049T, EEEBOOK E502MA-XX0065B, EEEBOOK E502MA-XX0082T, EEEBOOK E502S, EEEBOOK E502SA, EEEBOOK E502SA-DM060T, EEEBOOK E502SA-XO017T, EEEBOOK E502SA-XO141D, EEEBOOK E502SA-XO151T, EEEBOOK L502MA-XX0003T, EEEBOOK L502MA-XX0014D, EEEBOOK L502MA-XX0015D, EEEBOOK L502MA-XX0032T, EEEBOOK L502MA-XX0033D, EEEBOOK L502MA-XX0036D, EEEBOOK L502MA-XX0036H, L502MA, L502MA-XX0031T, L502SA, L502SA-DM059T, L502SA-XX007D, L502SA-XX008D, L502SA-XX009T, L502SA-XX011D, L502SA-XX129D, L502SA-XX131T, L502SA-XX132D, L502SA-XX133D, SL10672-1, SL10672-2, VIVOBOOK E502NA, VIVOBOOK E502NA-DM001T, VIVOBOOK E502NA-DM002T, VIVOBOOK E502NA-DM003T, VIVOBOOK E502NA-DM019T, VIVOBOOK E502NA-DM029T, VIVOBOOK E502NA-DM047T, VIVOBOOK E502NA-GO001T, VIVOBOOK E502NA-GO010T, VIVOBOOK E502NA-GO011T, VIVOBOOK E502NA-GO021T, VIVOBOOK E502NA-GO022T, VIVOBOOK E502NA-GO091, VIVOBOOK E502NA-GO108T, VIVOBOOK E502NA-GO113T
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10082_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: BA43-00355A, SL10082-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: SL10082-4, XE303C12
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_5
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: SL10082-5, XE303C12-A01US
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_6
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: NP905S3K, SL10082-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_7
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: 910S3K, SL10082-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_8
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4080mAh
-[*] Parts: 905S3G, SL10082-8
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10082_9
+[*] Samsung 910S3G
 [list]
 [*] 
 [*] 7.5V
@@ -4688,106 +2591,34 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10558_2
+[*] Samsung SL10082_6
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 4080mAh
+[*] Parts: NP905S3K, SL10082-6
+[*] Size: 
+[/list]
+
+[*] Samsung SL10082_7
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 4080mAh
+[*] Parts: 910S3K, SL10082-7
+[*] Size: 
+[/list]
+
+[*] Asus SL10558_2
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4070mAh
-[*] Parts: SL10558-2, T300CHI
+[*] Parts: SL10558-2, T300CHI, TRANSFORMER BOOK T300CHI
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10069_11
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: S41, SL10069-11
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_12
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: S41-70,S41-70-ISE,S41-70-ITH, SL10069-12
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_14
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 80N5), SL10069-14
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_15
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 500-141SK, SL10069-15
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_16
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 500-151BD, SL10069-16
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_17
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 500-15ISK,500-151SK, SL10069-17
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_18
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 500-14ACL(80NA), SL10069-18
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: L14L2P21, SL10069-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: L14S2P21, SL10069-4, SL10270-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 300S,300S-14ISK,300S-I4ISK, SL10069-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10069_7
+[*] Lenovo 80Q4
 [list]
 [*] 
 [*] 7.4V
@@ -4796,151 +2627,115 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10069_8
+[*] Lenovo S41
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: 310S-14,310S-14ISK,310S-14ISK-IFI, SL10069-8
+[*] Parts: S41, SL10069-11
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10110_1
+[*] Lenovo SL10069_14
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: L14M2P23,L14M2P24, SL10110-1
+[*] Parts: 80N5), SL10069-14, YOGA 500-14IHW(MODEL 80N5)
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10110_2
+[*] Lenovo SL10069_3
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: 100-14IBY, SL10110-2
+[*] Parts: L13S4P21, SL10069-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10110_3
+[*] Lenovo SL10069_5
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: E31-70,U31-70, SL10110-3
+[*] Parts: 300S,300S-14ISK,300S-I4ISK, 300S-14ISK, 300S-I4ISK, IDEAPAD 300S, SL10069-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10270_3
+[*] Lenovo SL10110_3
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: 3-1120, SL10270-3
+[*] Parts: E31-70, E31-70,U31-70, SL10110-3, U31-70
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10270_4
+[*] Lenovo YOGA_500
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: 300, SL10270-4
+[*] Parts: 500, SL10069-13, YOGA 500
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10270_5
+[*] Lenovo YOGA_500_14ISK(MODEL_80R5)
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4050mAh
-[*] Parts: 300-11IBR, SL10270-5
+[*] Parts: 500-141SK, SL10069-15, YOGA 500-141SK, YOGA 500-14ISK(MODEL 80R5)
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10270_6
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 80LX, SL10270-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10641_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: 320-15ISK, SL10641-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10858_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: L15C2PB3,L15M2PB3, SL10858-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10784_2
+[*] Hasee 2ICP4_78_108
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4000mAh
-[*] Parts: 13Z94,13Z940,14Z950, SL10784-2
+[*] Parts: 2ICP4/78/108, GSP3277107-2S
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10215_4
+[*] Dell 1XP35
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4000mAh
-[*] Parts: 10-ST2, SL10215-4
+[*] Parts: 1XP35, SL10215-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10215_5
+[*] Lenovo IDEAPAD_320_15IBD
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 4000mAh
+[*] Parts: 320-15IBD, IDEAPAD 320-15IBD, SL10638-4
+[*] Size: 
+[/list]
+
+[*] Dell LATITUDE_10_ST2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 4000mAh
-[*] Parts: 10-ST2E, SL10215-5
+[*] Parts: 10-ST2, LATITUDE 10-ST2, SL10215-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10638_2
+[*] Lenovo SL10638_3
 [list]
 [*] 
 [*] 7.5V
 [*] Up to: 4000mAh
-[*] Parts: 320-15IKBN, SL10638-2
+[*] Parts: 320-15IAP, IDEAPAD 320-15IAP, SL10638-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10638_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4000mAh
-[*] Parts: 320-15IAP, SL10638-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10638_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4000mAh
-[*] Parts: 320-15IBD, SL10638-4
-[*] Size: 
-[/list]
-
-[*] Tonfang THTF_121_P0
+[*] Tongfang THTF_121_P0
 [list]
 [*] 
 [*] 7.4V
@@ -4949,52 +2744,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20011_2
+[*] Hp SL20011_6
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3995mAh
-[*] Parts: 2ICP4-74/120,2ICP4-75/121, SL20011-2
+[*] Parts: ELITEPAD 1000 G2 TABLET, SL20011-6, TABLET
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20011_3
+[*] Lenovo IDEAPAD_330_14IKB
 [list]
 [*] 
 [*] 7.6V
-[*] Up to: 3995mAh
-[*] Parts: HSTNN-C75C,HSTNN-C78C, SL20011-3
+[*] Up to: 3968mAh
+[*] Parts: 330-15IKB, IDEAPAD 330-14IKB, IDEAPAD 330-15IKB, SL10945-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20011_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3995mAh
-[*] Parts: 728250-121,728250-1C1,728250-421,728558-005, SL20011-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20011_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3995mAh
-[*] Parts: HSTNN-IB5O,HSTNN-IB5Q,HSTNN-UB5O,HSTNN-LB5O, SL20011-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20011_6
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3995mAh
-[*] Parts: SL20011-6, TABLET
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10945_1
+[*] Lenovo SL10945_1
 [list]
 [*] 
 [*] 7.6V
@@ -5003,43 +2771,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10945_2
+[*] Lenovo XIAOXIN_CHAO_5000
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3968mAh
-[*] Parts: 5000, SL10945-2
+[*] Parts: 5000, SL10945-2, XIAOXIN CHAO 5000
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10945_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3968mAh
-[*] Parts: 330-15IKB, SL10945-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10488_1
+[*] Samsung NOTEBOOK_9_900X3L
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3950mAh
-[*] Parts: AA-PBUN2LT, SL10488-1
+[*] Parts: 900X3L, NOTEBOOK 9 900X3L, SL10488-6
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10488_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3950mAh
-[*] Parts: NP900X3L, SL10488-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10488_3
+[*] Samsung NP900X3L_K03
 [list]
 [*] 
 [*] 7.6V
@@ -5048,151 +2798,25 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10488_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3950mAh
-[*] Parts: NP900X3L-K03CN, SL10488-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10488_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3950mAh
-[*] Parts: NP900X3L-K03US, SL10488-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10488_6
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3950mAh
-[*] Parts: 900X3L, SL10488-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10120_1
+[*] Asus 0B200_00570100
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3940mAh
-[*] Parts: L17C2PB3,L17C2PB4, SL10120-1
+[*] Parts: 0B200-00570100, C21N1413, T300FA-1A, T300FA-DH12T-CA, T300FA-FE001H, T300FA-FE002H, T300FA-FE004H, T300FA-FE006H, T300FA-FE008H, T300FA-FE010H, TRANSFORMER BOOK T300, TRANSFORMER BOOK T300FA
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10120_2
+[*] Lenovo SL10120_1
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3940mAh
-[*] Parts: L17L2PB3,L17L2PB4, SL10120-2
+[*] Parts: L17C2PB3, L17C2PB3,L17C2PB4, L17C2PB4, SL10120-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10645_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: L15L2PB4, SL10645-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10645_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: 310-15ISK, SL10645-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10769_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: 9250, SL10769-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10769_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: 7275, SL10769-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10841_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: F553M,F553MA,F553SA, SL10841-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10841_3
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: SL10841-3, X453M,X453MA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10841_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: SL10841-4, X553S,X553M,X553MA
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10841_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: D553MA,X403M,P553MA, SL10841-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10856_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: L15M2PB2,L15L2PB2, SL10856-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10856_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: 310-14IKB, SL10856-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10902_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: L17L2PB1,L17M2PB1, SL10902-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10902_2
+[*] Lenovo V330_14_15
 [list]
 [*] 
 [*] 7.6V
@@ -5201,277 +2825,52 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10938_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3940mAh
-[*] Parts: L17C2PB1,5B10P53997, SL10938-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10718_3
+[*] Hp PRO_X2_612_G1
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3910mAh
-[*] Parts: 753703-005,753329-1C1, SL10718-3
+[*] Parts: G1, PRO X2 612 G1, SL10718-5
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10718_5
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3910mAh
-[*] Parts: G1, SL10718-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10997_1
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 3900mAh
-[*] Parts: L17D2PF1,L17M2PF1, SL10997-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10997_2
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 3900mAh
-[*] Parts: 5B10Q62140,5B10Q62139,5B10Q62138, SL10997-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10997_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 3900mAh
-[*] Parts: 330-15ARR, SL10997-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10839_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 3860mAh
-[*] Parts: SL10839-3, SVT1122C5E,SVT11213CGW
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10839_4
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 3860mAh
-[*] Parts: SL10839-4, SVT112A2WL,SVT11215CGB
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20024_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3850mAh
-[*] Parts: SL20024-2, ST2E
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10296_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3850mAh
-[*] Parts: SL10296-2, T91MT
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: PL02XL, SL10091-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: 751681-421, SL10091-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_5
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: 751875-001, SL10091-5
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_6
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: HSTNN-DB6B, SL10091-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_7
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: HSTNN-LB6B, SL10091-7
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_8
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: SL10091-8, TPN-C115
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10091_9
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3800mAh
-[*] Parts: SERIES, SL10091-9
-[*] Size: 
-[/list]
-
-[*] Denchipro B105_2S1P_3800
+[*] Simplo 2ICP7_47_103
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3800mAh
-[*] Parts: B105-2S1P-3800, SL20161-1
+[*] Parts: 2ICP7/47/103, SMP-TVBXXCLF2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10729_1
+[*] Acer 11CP3_65_114_2
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 3790mAh
+[*] Parts: 11CP3/65/114-2, 11CP3/65/114-2+11CP5/42/61-2, 11CP5/42/61-2, 1ICP3/65/114-2, 1ICP3/65/114-2+1ICP5/42/61-2, 1ICP5/42/61-2, AP12E3K, ASPIRE S ULTRABOOK SERIES, ASPIRE S7 SERIES, ASPIRE S7 ULTRABOOK, ASPIRE S7 ULTRABOOK SERIES, ASPIRE S7-191, ASPIRE S7-191-53314G12ASS, ASPIRE S7-191-73514G25ASS, S7-191, SL10870-1, SL10870-2
+[*] Size: 
+[/list]
+
+[*] Hp 11_H015TU_X2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3780mAh
-[*] Parts: NB02XL, SL10729-1
+[*] Parts: 11-H015TU X2, 11-H019TU X2, 11-H110TU X2, 11-H111TU X2, 11-H112TU X2, SL10729-7, SL10729-8, X2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10729_2
+[*] Lenovo IDEAPAD_S206
 [list]
 [*] 
 [*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: SL10729-2, TPN-Q128
+[*] Up to: 3740mAh
+[*] Parts: 2ICP5/57/128, IDEAPAD S200, IDEAPAD S206, L11M2P01, L11S2P01, S200, S206, SL10560-1, SL10560-2, SL10560-3, SL10560-4
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10729_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: 726596-001, SL10729-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10729_4
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: 726241-851,726241-2C1, SL10729-4
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10729_6
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: HSTNN-DB5K, SL10729-6
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10729_7
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: SL10729-7, SL10729-8, X2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10848_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: KEYBOARD, SL10848-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10870_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3780mAh
-[*] Parts: S7-191, SL10870-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10560_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: L11M2P01, SL10560-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10560_2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: L11S2P01, SL10560-2
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10560_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: S200, SL10560-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11090_1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: BT-A0B2,BT-AOB2, SL11090-1
-[*] Size: 
-[/list]
-
-[*] Denchipro SL11090_2
+[*] Malata BTSWATA0B20
 [list]
 [*] 
 [*] 7.4V
@@ -5480,70 +2879,52 @@
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20249_2
+[*] Malata BT_A0B2
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3640mAh
-[*] Parts: 10,0FP02G, SL20249-2
+[*] Parts: BT-A0B2, BT-A0B2,BT-AOB2, BT-AOB2, SL11090-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20279_2
+[*] Lenovo L10M2121
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3640mAh
-[*] Parts: K1, SL20279-2
+[*] Parts: L10M2121, SL20279-1
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10963_2
+[*] Lenovo SL20279_2
 [list]
 [*] 
-[*] 7.5V
-[*] Up to: 3600mAh
-[*] Parts: 5B10P23836,5B10P18554,5B10P23790, SL10963-2
+[*] 7.4V
+[*] Up to: 3640mAh
+[*] Parts: K1, LEPAD Y1011 S1 K1, SL20279-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10963_3
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 3600mAh
-[*] Parts: 120S-11IAP, SL10963-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL10519_2
+[*] Dell LATITUDE_12_7202
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3510mAh
-[*] Parts: 7202, SL10519-2
+[*] Parts: 7202, LATITUDE 12 7202, SL10519-2
 [*] Size: 
 [/list]
 
-[*] Denchipro SL10519_3
+[*] Dell LATITUDE_7212
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3510mAh
-[*] Parts: 7212, SL10519-3
+[*] Parts: 7212, LATITUDE 7212, SL10519-3
 [*] Size: 
 [/list]
 
-[*] Denchipro SL20015_3
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3500mAh
-[*] Parts: 7202, SL20015-3
-[*] Size: 
-[/list]
-
-[*] Denchipro SL20260_1
+[*] Hasee A100_2S1P_3500
 [list]
 [*] 
 [*] 7.4V

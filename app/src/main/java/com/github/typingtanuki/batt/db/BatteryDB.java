@@ -3,6 +3,7 @@ package com.github.typingtanuki.batt.db;
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryConnector;
 import com.github.typingtanuki.batt.battery.BatteryForm;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -45,7 +46,12 @@ public final class BatteryDB {
                 }
 
                 String[] parts = line.split(",");
-                String model = Battery.cleanPartNo(parts[0].strip(), true);
+                String model;
+                try {
+                    model = Battery.cleanPartNo(parts[0].strip(), true);
+                } catch (NoPartException e) {
+                    continue;
+                }
                 ALL_KEYS.add(model);
                 String connectorStr = parts[1].strip();
 
@@ -56,13 +62,19 @@ public final class BatteryDB {
                 }
                 if (!connectorStr.isBlank()) {
                     BatteryConnector connector = BatteryConnector.valueOf(connectorStr);
-                    DB_CONNECTOR.put(model, connector);
+                    BatteryConnector inDb = DB_CONNECTOR.get(model);
+                    if (inDb == null || !BatteryConnector.UNKNOWN.equals(connector)) {
+                        DB_CONNECTOR.put(model, connector);
+                    }
                 }
                 String formStr = parts[2].strip();
                 try {
                     if (!formStr.isBlank()) {
                         BatteryForm form = BatteryForm.valueOf(formStr);
-                        DB_FORM.put(model, form);
+                        BatteryForm inDb = DB_FORM.get(model);
+                        if (inDb == null || !BatteryForm.UNKNOWN.equals(form)) {
+                            DB_FORM.put(model, form);
+                        }
                     }
                     if (!size.isBlank()) {
                         DB_SIZE.put(model, size);
@@ -79,7 +91,7 @@ public final class BatteryDB {
         }
     }
 
-    public static void resolveConnector(Battery battery) {
+    public static void resolveConnector(Battery battery) throws NoPartException {
         init();
         BatteryConnector connector = DB_CONNECTOR.get(battery.getModel());
         if (connector == null) {
@@ -88,7 +100,7 @@ public final class BatteryDB {
         battery.setConnector(connector, battery.getModel());
     }
 
-    public static void resolveModel(Battery battery) {
+    public static void resolveModel(Battery battery) throws NoPartException {
         init();
         for (String part : battery.getPartNo()) {
             String cleanedKey = Battery.cleanPartNo(part, true);
@@ -101,7 +113,7 @@ public final class BatteryDB {
         progress(NOT_IN_DB);
     }
 
-    public static void resolveForm(Battery battery) {
+    public static void resolveForm(Battery battery) throws NoPartException {
         init();
         BatteryForm form = DB_FORM.get(battery.getModel());
         if (form == null) {
@@ -110,7 +122,7 @@ public final class BatteryDB {
         battery.setForm(form, battery.getModel());
     }
 
-    public static void resolveSize(Battery battery) {
+    public static void resolveSize(Battery battery) throws NoPartException {
         if (!battery.getSize().isBlank()) {
             return;
         }
@@ -122,7 +134,7 @@ public final class BatteryDB {
         battery.setSize(size);
     }
 
-    public static void addBattery(Battery battery, boolean isMatch) {
+    public static void addBattery(Battery battery, boolean isMatch) throws NoPartException {
         String dbId = battery.getDbId();
         if (dbId != null) {
             Set<String> links = DB_LINK.get(dbId);

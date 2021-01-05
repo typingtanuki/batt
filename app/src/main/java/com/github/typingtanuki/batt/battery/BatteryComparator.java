@@ -1,5 +1,7 @@
 package com.github.typingtanuki.batt.battery;
 
+import com.github.typingtanuki.batt.exceptions.NoPartException;
+
 public class BatteryComparator implements java.util.Comparator<Battery> {
     @Override
     public int compare(Battery o1, Battery o2) {
@@ -17,6 +19,10 @@ public class BatteryComparator implements java.util.Comparator<Battery> {
         if (watt != 0) {
             return -watt;
         }
-        return o1.getModel().compareTo(o2.getModel());
+        try {
+            return o1.getModel().compareTo(o2.getModel());
+        } catch (NoPartException e) {
+            return -10;
+        }
     }
 }

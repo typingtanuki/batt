@@ -1,5 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.utils.PathBuilder;
 
 import java.nio.file.Path;
@@ -11,7 +12,7 @@ public class Image {
     private final String url;
     private final Path path;
 
-    public Image(Battery battery, String url) {
+    public Image(Battery battery, String url) throws NoPartException {
         this.url = url;
         PathBuilder builder = new PathBuilder(CACHE_PATH)
                 .withSubFolder("image");

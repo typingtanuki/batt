@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt.output;
 
 import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,14 +32,18 @@ public class ForumOutput {
 
     private String entry(Battery battery) {
         battery.consolidate();
-        return LIST_BULLET + battery.getMaker().getName() + " " + battery.getModel() + EOL +
-                LIST_START + EOL +
-                LIST_BULLET + EOL +
-                LIST_BULLET + format1(battery.getVolt()) + "V" + EOL +
-                LIST_BULLET + "Up to: " + battery.getAmp() + "mAh" + EOL +
-                LIST_BULLET + "Parts: " + formatParts(battery) + EOL +
-                LIST_BULLET + "Size: " + formatSize(battery) + EOL +
-                LIST_END + EOL;
+        try {
+            return LIST_BULLET + battery.getMaker().getName() + " " + battery.getModel() + EOL +
+                    LIST_START + EOL +
+                    LIST_BULLET + EOL +
+                    LIST_BULLET + format1(battery.getVolt()) + "V" + EOL +
+                    LIST_BULLET + "Up to: " + battery.getAmp() + "mAh" + EOL +
+                    LIST_BULLET + "Parts: " + formatParts(battery) + EOL +
+                    LIST_BULLET + "Size: " + formatSize(battery) + EOL +
+                    LIST_END + EOL;
+        } catch (NoPartException e) {
+            throw new IllegalStateException("Broken battery reached the output", e);
+        }
     }
 
     private static String formatSize(Battery battery) {

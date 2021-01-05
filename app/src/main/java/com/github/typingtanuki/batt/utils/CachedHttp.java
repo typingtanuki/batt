@@ -63,7 +63,10 @@ public final class CachedHttp {
         while (retries > 0 && document == null) {
             lastIo = null;
             try {
-                document = Jsoup.connect(url).get();
+                document = Jsoup.connect(url)
+                        .userAgent("Mozilla/5.0 (Windows; U; WindowsNT 5.1; en-US; rv1.8.1.6) Gecko/20070725 Firefox/2.0.0.6")
+                        .referrer("http://www.google.com")
+                        .get();
             } catch (HttpStatusException e) {
                 if (e.getStatusCode() == 404) {
                     throw new PageUnavailableException(url, e);

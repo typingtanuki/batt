@@ -4,8 +4,7 @@ import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.Image;
 
 import java.io.IOException;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 import static com.github.typingtanuki.batt.utils.CachedHttp.deleteDownload;
 import static com.github.typingtanuki.batt.utils.CachedHttp.download;
@@ -48,11 +47,18 @@ public final class ImageDownloader {
             }
         }
 
-        int total = imagesToDownload.size();
+        List<Image> all = new ArrayList<>(imagesToDownload);
+        int total = all.size();
+        Collections.shuffle(all);
         int current = 0;
         int lastPercent = -1;
-        for (Image image : imagesToDownload) {
-            download(image);
+        for (Image image : all) {
+            try {
+                download(image);
+            } catch (IOException e) {
+                System.err.println("Could not download image " + image.getUrl());
+                e.printStackTrace(System.err);
+            }
             int percent = ((current + 1) * 20) / total * 5;
             if (percent > lastPercent) {
                 lastPercent = percent;

@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.validator.Conditions;
 
 import java.util.*;
@@ -78,13 +79,14 @@ public class Battery {
     /**
      * Clean a part number to avoid special chars and duplication
      */
-    public static String cleanPartNo(String part, boolean full) {
+    public static String cleanPartNo(String part, boolean full) throws NoPartException {
         part = part
                 .strip()
                 .toUpperCase(Locale.ENGLISH);
         if (full) {
             part = part.replaceAll("[/.\\s|\\-+#]", "_");
         }
+
         part = part.toUpperCase(Locale.ENGLISH)
                 .replaceAll("ACER", "")
                 .replaceAll("ADVENT", "")
@@ -117,15 +119,26 @@ public class Battery {
         while (part.contains("__")) {
             part = part.replaceAll("__", "_");
         }
+
+        if (part.isBlank()) {
+            throw new NoPartException();
+        }
         return part;
     }
 
     public boolean isValid() {
         consolidate();
-        if (getModel().contains("円")) {
+        String model;
+        try {
+            model = getModel();
+        } catch (NoPartException e) {
             return false;
         }
-        if (getModel().length() < 2) {
+
+        if (model.contains("円")) {
+            return false;
+        }
+        if (model.length() < 2) {
             return false;
         }
         matchedConditions.clear();
@@ -150,7 +163,7 @@ public class Battery {
         }
     }
 
-    public void mergeWith(Battery battery) {
+    public void mergeWith(Battery battery) throws NoPartException {
         partNo.addAll(battery.partNo);
         sources.addAll(battery.sources);
         images.addAll(battery.images);
@@ -252,7 +265,7 @@ public class Battery {
         return currentUrl;
     }
 
-    public String getModel() {
+    public String getModel() throws NoPartException {
         if (model != null) {
             return model;
         }
@@ -266,7 +279,7 @@ public class Battery {
         return model;
     }
 
-    public void setModel(String model) {
+    public void setModel(String model) throws NoPartException {
         if (model.isBlank()) {
             throw new IllegalStateException("Model is blank");
         }
@@ -280,13 +293,15 @@ public class Battery {
     public void addPartNo(Collection<String> partNo) {
         String makerName = maker.getName().toUpperCase(Locale.ENGLISH);
         for (String part : partNo) {
-            part = Battery.cleanPartNo(part, false);
-            if (!part.isBlank()) {
+            try {
+                part = Battery.cleanPartNo(part, false);
                 String partStr = part.strip();
                 this.partNo.add(partStr);
                 if (partStr.contains(makerName)) {
                     this.partNo.add(partStr.replaceAll(makerName, "").strip());
                 }
+            } catch (NoPartException e) {
+                // Nothing to do
             }
         }
     }
@@ -353,7 +368,7 @@ public class Battery {
         return images;
     }
 
-    public void addImage(String image) {
+    public void addImage(String image) throws NoPartException {
         images.add(new Image(this, image));
     }
 

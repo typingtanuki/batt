@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt;
 
 import com.github.typingtanuki.batt.battery.*;
 import com.github.typingtanuki.batt.db.BatteryDB;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.output.ForumOutput;
@@ -38,6 +39,7 @@ public class App {
             scrappers.add(new DenchiProOtherScrapper());
 
             for (Scrapper scrapper : scrappers) {
+                progressStart("Listing from " + scrapper.name());
                 makers.addAll(scrapper.makers());
             }
             List<Maker> makerList = new ArrayList<>(makers);
@@ -95,13 +97,16 @@ public class App {
 
 
             List<Battery> allBatteries = maker.listBatteries();
-            progress(" d(" + allBatteries.size() + ") ");
+            progress(" (" + allBatteries.size() + ") ");
             for (Battery battery : allBatteries) {
                 Battery parsed;
                 try {
                     parsed = maker.extractBatteryDetails(battery);
                 } catch (RuntimeException e) {
                     throw new IllegalStateException("Failed reading details on " + battery.getCurrentUrl(), e);
+                } catch (NoPartException e) {
+                    // Not a battery
+                    continue;
                 }
                 if (parsed == null) {
                     continue;
@@ -115,17 +120,28 @@ public class App {
                     continue;
                 }
 
-                Battery previous = findSimilar(parsed);
-                if (previous != null) {
-                    progress(MERGED);
-                    previous.mergeWith(parsed);
-                    handleBatteryPost(parsed, false);
-                    handleBatteryPost(previous, true);
-                } else {
-                    handleBatteryPost(battery, true);
-                    if (battery.isValid()) {
-                        found.add(parsed);
+
+                Battery previous;
+                try {
+                    previous = findSimilar(parsed);
+                } catch (NoPartException e) {
+                    // Broken battery
+                    continue;
+                }
+                try {
+                    if (previous != null) {
+                        progress(MERGED);
+                        previous.mergeWith(parsed);
+                        handleBatteryPost(parsed, false);
+                        handleBatteryPost(previous, true);
+                    } else {
+                        handleBatteryPost(battery, true);
+                        if (battery.isValid()) {
+                            found.add(parsed);
+                        }
                     }
+                } catch (NoPartException e) {
+                    throw new IOException("Trying to merge broken batteries", e);
                 }
             }
         }
@@ -133,7 +149,7 @@ public class App {
         return found;
     }
 
-    private static void handleBatteryPost(Battery battery, boolean download) {
+    private static void handleBatteryPost(Battery battery, boolean download) throws NoPartException {
         boolean isValid = battery.isValid();
         if (isValid) {
             progress(BATTERY_MATCH);
@@ -148,7 +164,7 @@ public class App {
         BatteryDB.addBattery(battery, isValid);
     }
 
-    private static Battery findSimilar(Battery battery) {
+    private static Battery findSimilar(Battery battery) throws NoPartException {
         Set<String> parts = new HashSet<>();
         for (String part : battery.getPartNo()) {
             parts.add(cleanPartNo(part, true));

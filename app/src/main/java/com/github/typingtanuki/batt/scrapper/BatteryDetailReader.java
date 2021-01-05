@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.scrapper;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryType;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
@@ -28,7 +29,7 @@ public final class BatteryDetailReader {
         super();
     }
 
-    public static Battery extractBatteryDetails(Battery battery) throws IOException {
+    public static Battery extractBatteryDetails(Battery battery) throws IOException, NoPartException {
         Document page;
         try {
             page = http(PageType.BATTERY, battery.getCurrentUrl());
@@ -127,7 +128,7 @@ public final class BatteryDetailReader {
         return battery;
     }
 
-    public static void batteryImages(Document page, Battery battery) {
+    public static void batteryImages(Document page, Battery battery) throws NoPartException {
         if (battery.baseUri().contains("noteparts")) {
             return;
         }

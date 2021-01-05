@@ -3,6 +3,7 @@ package com.github.typingtanuki.batt.scrapper;
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.Source;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.utils.PageType;
 import org.jsoup.nodes.Document;
@@ -60,11 +61,19 @@ public abstract class AbstractScrapper implements Scrapper {
     @Override
     public List<Battery> listBatteries(Maker maker) throws IOException, PageUnavailableException {
         List<Battery> out = new LinkedList<>();
-        List<Source> pages = listPages(maker.getSource());
+        List<Source> pages = listPages(maker.getSources());
         for (Source page : pages) {
             out.addAll(extractBatteriesFromPage(maker, page));
         }
         return out;
+    }
+
+    protected List<Source> listPages(List<Source> sources) throws IOException, PageUnavailableException {
+        Set<Source> out = new HashSet<>();
+        for (Source source : sources) {
+            out.addAll(listPages(source));
+        }
+        return new ArrayList<>(out);
     }
 
     protected List<Source> listPages(Source source) throws IOException, PageUnavailableException {
@@ -143,7 +152,7 @@ public abstract class AbstractScrapper implements Scrapper {
     }
 
     @Override
-    public Battery extractBatteryDetails(Battery battery) throws IOException {
+    public Battery extractBatteryDetails(Battery battery) throws IOException, NoPartException {
         return BatteryDetailReader.extractBatteryDetails(battery);
     }
 

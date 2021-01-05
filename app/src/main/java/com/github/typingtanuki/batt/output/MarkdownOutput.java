@@ -4,6 +4,7 @@ import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.BatteryConnector;
 import com.github.typingtanuki.batt.battery.Image;
 import com.github.typingtanuki.batt.battery.Source;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 
 import java.util.*;
 
@@ -47,16 +48,20 @@ public class MarkdownOutput {
 
     private String asTable(Battery battery) {
         battery.consolidate();
-        return "| " + battery.getModel() +
-                " | " + makeList(battery.getBrands()) +
-                " | " + makeList(formatPower(battery)) +
-                " | " + battery.getSize() +
-                " | " + formatEnum(battery.getConnector()) +
-                " | " + formatEnum(battery.getForm()) +
-                " | " + makeList(filterSet(battery.getPartNo())) +
-                " | " + formatUrls(battery) +
-                " | " + formatImages(battery) +
-                " |";
+        try {
+            return "| " + battery.getModel() +
+                    " | " + makeList(battery.getBrands()) +
+                    " | " + makeList(formatPower(battery)) +
+                    " | " + battery.getSize() +
+                    " | " + formatEnum(battery.getConnector()) +
+                    " | " + formatEnum(battery.getForm()) +
+                    " | " + makeList(filterSet(battery.getPartNo())) +
+                    " | " + formatUrls(battery) +
+                    " | " + formatImages(battery) +
+                    " |";
+        } catch (NoPartException e) {
+            throw new IllegalStateException("Broken battery reached the output", e);
+        }
     }
 
     private String formatImages(Battery battery) {

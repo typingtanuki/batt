@@ -2,18 +2,19 @@ package com.github.typingtanuki.batt.scrapper.denchipro;
 
 import com.github.typingtanuki.batt.battery.Battery;
 import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.MakerName;
 import com.github.typingtanuki.batt.battery.Source;
+import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
 import com.github.typingtanuki.batt.scrapper.AbstractScrapper;
 import com.github.typingtanuki.batt.utils.PageType;
+import com.github.typingtanuki.batt.utils.Progress;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.Collections;
-import java.util.LinkedList;
-import java.util.List;
+import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -30,12 +31,53 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
     }
 
     @Override
-    public List<Maker> makers() {
-        return Collections.singletonList(new Maker("Denchipro", new Source(getRootUrl(), this)));
+    public List<Maker> makers() throws IOException, PageUnavailableException {
+        Map<MakerName, Set<Source>> detected = new EnumMap<>(MakerName.class);
+
+        List<Source> sources = listAllPages(new Source(getRootUrl(), this));
+        for (Source source : sources) {
+            progress(Progress.BATTERY_MATCH);
+            Document index = http(PageType.LIST, source.getUrl());
+            for (Element entry : index.select(".woocommerce-loop-product__title")) {
+                MakerName found = makerFor(entry.text());
+                Set<Source> soFar = detected.getOrDefault(found, new HashSet<>());
+                soFar.add(source);
+                detected.put(found, soFar);
+            }
+        }
+
+        List<Maker> out = new ArrayList<>(detected.size());
+        for (Map.Entry<MakerName, Set<Source>> entry : detected.entrySet()) {
+            out.add(new Maker(entry.getKey().name(), new ArrayList<>(entry.getValue())));
+        }
+        return out;
+    }
+
+    private static MakerName makerFor(String label) {
+        if (!label.contains("対応")) {
+            throw new IllegalStateException("Unparseable entry " + label);
+        }
+        String maker = label.split("対応", 2)[1].strip()
+                .split("\\s")[0]
+                .split("]")[0]
+                .replaceAll("\\[", "").strip();
+
+        MakerName found;
+        try {
+            found = MakerName.parse(maker);
+        } catch (IllegalArgumentException e) {
+            found = MakerName.OTHER;
+        }
+        return found;
     }
 
     @Override
-    protected List<Source> listPages(Source source) throws IOException, PageUnavailableException {
+    protected List<Source> listPages(Source source) {
+        // We are already listing the pages to detect the makers
+        return Collections.singletonList(source);
+    }
+
+    private List<Source> listAllPages(Source source) throws IOException, PageUnavailableException {
         Document index = http(PageType.LIST, source.getUrl());
         Elements pageButtons = index.select("a.page-numbers:not(.next)");
         Element lastPage = pageButtons.get(pageButtons.size() - 1);
@@ -49,28 +91,43 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         return out;
     }
 
+    private static final Set<String> VISITED = new HashSet<>();
+
     @Override
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
         List<Battery> out = new LinkedList<>();
-        Document index = http(PageType.LIST, source.getUrl());
+        Document index;
+        try {
+            index = http(PageType.LIST, source.getUrl());
+        } catch (PageUnavailableException e) {
+            progress(BATTERY_BAD_PAGE);
+            return out;
+        }
         Elements batteries = index.select(".type-product");
         for (Element battery : batteries) {
+            MakerName found = makerFor(battery.text());
+            if (found != maker.getMakerName()) {
+                continue;
+            }
+
             Elements link = battery.select("a");
 
             String target = link.attr("href");
             if (target.isBlank()) {
                 continue;
             }
-            Battery b = new Battery(
-                    maker,
-                    new Source(target, source.getScrapper()));
-            out.add(b);
+            if (VISITED.add(target)) {
+                Battery b = new Battery(
+                        maker,
+                        new Source(target, source.getScrapper()));
+                out.add(b);
+            }
         }
         return out;
     }
 
     @Override
-    public Battery extractBatteryDetails(Battery battery) throws IOException {
+    public Battery extractBatteryDetails(Battery battery) throws IOException, NoPartException {
         Document page;
         try {
             page = http(PageType.BATTERY, battery.getCurrentUrl());
@@ -79,10 +136,23 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
             return null;
         }
 
+        String model = page.title();
+        if (!model.contains("対応")) {
+            throw new IllegalStateException("Can not extract battery detail from " + model);
+        }
+        model = model.split("対応")[1].split(" - denchipro")[0].strip();
+        if (model.contains("]")) {
+            model = model.split("]")[1].strip().split("\\s", 2)[1].strip();
+        } else if (model.contains(" ")) {
+            model = model.split("\\s", 2)[1].strip();
+        }
+        String[] parts = model.split(",");
+        battery.setModel(parts[0]);
+        battery.addPartNo(Arrays.asList(parts));
+
         Elements models = page.select(".sku_wrapper");
-        String model = models.text().split(":")[1].strip();
-        battery.setModel(model);
-        battery.addPartNo(Collections.singleton(model));
+        String denchipart = models.text().split(":")[1].strip();
+        battery.addPartNo(Collections.singleton(denchipart));
 
         Elements descriptions = page.select(".product_title-product-details__short-description");
         String description = descriptions.text();
