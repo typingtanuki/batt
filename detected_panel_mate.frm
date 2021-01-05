@@ -1,4 +1,13 @@
 [list]
+[*] Chuwi HW_34154184
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5500mAh
+[*] Parts: 13.3, AEROBOOK 13.3, AIR 13.3, HW-34154184, SL10379-2, SL20291-1
+[*] Size: 
+[/list]
+
 [*] Jumper 2869178
 [list]
 [*] 
@@ -6,6 +15,15 @@
 [*] Up to: 5000mAh
 [*] Parts: 2869178, 2877167, 52110118, H28154165P, I35, QT31150165P, THINKER I35, THINKER I9, X5 PRO, ZP50100130, ZP50110130, ZP52110158, ZP52110160
 [*] Size: 169.0mm x 126.0mm x 3.4mm
+[/list]
+
+[*] Chuwi 2877164_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2877164-2S, LAPBOOK SE, SE, SL20296-1
+[*] Size: 
 [/list]
 
 [*] Cube 30154200P
@@ -95,6 +113,15 @@
 [*] 7.6V
 [*] Up to: 4500mAh
 [*] Parts: PRIMEBOOK C11, SURFBOOK A13, SURFBOOK A13B, SURFBOOK A13B-CO, SURFBOOK A13B-PO
+[*] Size: 
+[/list]
+
+[*] Teclast P3361160
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 4180mAh
+[*] Parts: P3361160, P3362160, P3362160,P3361160, SL20232-1
 [*] Size: 
 [/list]
 

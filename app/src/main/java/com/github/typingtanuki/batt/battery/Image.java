@@ -5,15 +5,19 @@ import com.github.typingtanuki.batt.utils.PathBuilder;
 
 import java.nio.file.Path;
 import java.util.Objects;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.utils.CachedHttp.CACHE_PATH;
 
 public class Image {
+    private static final Pattern URL_WITH_SIZE = Pattern.compile("^(.*)-\\d+x\\d+\\.jpg$");
+
     private final String url;
     private final Path path;
 
     public Image(Battery battery, String url) throws NoPartException {
-        this.url = url;
+        this.url = clean(url);
         PathBuilder builder = new PathBuilder(CACHE_PATH)
                 .withSubFolder("image");
 
@@ -21,10 +25,18 @@ public class Image {
             builder.withSubFolder(battery.getConnector().name());
         }
 
-        builder.withFileName(url, true)
+        builder.withFileName(this.url, true)
                 .withFileNamePrefix(battery.getModel() + "-", false)
                 .withExtension(".jpg");
         path = builder.build();
+    }
+
+    private String clean(String url) {
+        Matcher matcher = URL_WITH_SIZE.matcher(url);
+        if (matcher.matches()) {
+            return matcher.group(1)+".jpg";
+        }
+        return url;
     }
 
     public String getUrl() {

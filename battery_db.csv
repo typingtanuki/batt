@@ -1,19 +1,7 @@
 MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 0B200_00200200, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_00570100, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_00580000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_00600000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_00870000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_01060000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_01130000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_01710100, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_01800000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_02210000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02270000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_02420000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_02420200, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_02460000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_02640000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02780000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_03060000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_03190400, UNKNOWN, UNKNOWN, true, true, , Asus
@@ -21,27 +9,20 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 0B200_03200000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_03340000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_03450000, UNKNOWN, UNKNOWN, true, true, , Asus
-0B200_03560000, UNKNOWN, UNKNOWN, true, true, , Asus
 0B23_00D7000M, MAYBE_PM, SQUARE, true, true, , Medion
-0PD19, UNKNOWN, UNKNOWN, true, true, , Dell
-11CP3_65_114_2, UNKNOWN, UNKNOWN, true, true, , Acer
-11_H015TU_X2, UNKNOWN, UNKNOWN, true, true, , Hp
 121500232, UNKNOWN, UNKNOWN, true, true, , Lenovo
 15UD560_KX50K, PIN_10, RECTANGLE, true, true, , Lg
-161201_01, UNKNOWN, UNKNOWN, true, true, , Xiaomi
 1V2F6, UNKNOWN, UNKNOWN, true, true, , Dell
-1XP35, UNKNOWN, UNKNOWN, true, true, , Dell
 21CP4_73_120, UNKNOWN, UNKNOWN, true, true, , Lg
 21CP5_74_109, UNKNOWN, UNKNOWN, true, true, , Hasee
 2310, PIN_10, SQUARE, true, true, , Iota
 2666144, PANDA_PM, SQUARE, true, true, , Teclast
 2865165_2P, PANDA_PM, SQUARE, true, true, , Cube
 2869178, PANDA_PM, SQUARE, true, true, 169.0 x 126.0 x 3.4, Jumper
-2877164_2S, UNKNOWN, UNKNOWN, true, true, , Chuwi
+2877164_2S, PANDA_PM, SQUARE, true, true, , Chuwi
 2898141P, PM, SQUARE, true, true, , Prestigio
 2ICP3_100_107, UNKNOWN, UNKNOWN, true, true, , Acer
 2ICP3_78_180, UNKNOWN, UNKNOWN, true, true, , Prestigio
-2ICP3_97_106, UNKNOWN, UNKNOWN, true, true, , Microsoft
 2ICP4_74_131_3, UNKNOWN, UNKNOWN, true, true, , Wacom
 2ICP4_75_110, UNKNOWN, UNKNOWN, true, true, , Mcnair
 2ICP4_78_106, UNKNOWN, UNKNOWN, true, true, , Mcnair
@@ -56,14 +37,10 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 2ICP5_50_112_2, UNKNOWN, UNKNOWN, true, true, , Wooking
 2ICP5_60_80_2, UNKNOWN, UNKNOWN, true, true, , Acer
 2ICP5_62_81_2, UNKNOWN, UNKNOWN, true, true, , Huawei
-2ICP5_69_107_2, UNKNOWN, UNKNOWN, true, true, , Other
 2ICP5_71_120, UNKNOWN, UNKNOWN, true, true, , Medion
 2ICP6_56_77, UNKNOWN, UNKNOWN, true, true, , Acer
-2ICP6_61_115, UNKNOWN, UNKNOWN, true, true, , Prestigio
 2ICP6_68_143, UNKNOWN, UNKNOWN, true, true, , Mcnair
 2ICP6_78_116, UNKNOWN, UNKNOWN, true, true, , Other
-2ICP7_47_103, UNKNOWN, UNKNOWN, true, true, , Simplo
-300U, UNKNOWN, UNKNOWN, true, true, , Samsung
 30154200P, PANDA_PM, SQUARE, true, true, , Cube
 31130148P, PANDA_PM, UNKNOWN, true, true, , Chuwi
 31152200P, PANDA_PM, SQUARE, true, true, , Other
@@ -73,92 +50,41 @@ MODEL, CONNECTOR, FORM, MATCH, SCANNED, SIZE, MAKER
 3587265P, PANDA_PM, RECTANGLE, true, true, , Jumper
 3685105, UNKNOWN, UNKNOWN, true, true, , Chuwi
 40069191, PIN_10, UNKNOWN, true, true, , Medion
-5B10Q62138, UNKNOWN, UNKNOWN, true, true, , Lenovo
 5B10W67296, UNKNOWN, UNKNOWN, true, true, , Lenovo
-6MT4T, UNKNOWN, UNKNOWN, true, true, , Dell
-70_OA282B1000, UNKNOWN, UNKNOWN, true, true, , Asus
 775624_121, UNKNOWN, UNKNOWN, true, true, , Hp
 7WMM7, MAYBE_PM, RECTANGLE, true, true, , Dell
-7XNTR, UNKNOWN, UNKNOWN, true, true, , Dell
-80Q4, UNKNOWN, UNKNOWN, true, true, , Lenovo
 80R9, UNKNOWN, UNKNOWN, true, true, , Lenovo
 859027121, UNKNOWN, UNKNOWN, true, true, , Hp
 900X3A, UNKNOWN, UNKNOWN, true, true, , Samsung
-900X3N, MAYBE_PM, RECTANGLE, true, true, , Samsung
-910S3G, UNKNOWN, UNKNOWN, true, true, , Samsung
-915030_1C1, UNKNOWN, UNKNOWN, true, true, , Hp
-915191_855, UNKNOWN, UNKNOWN, true, true, , Hp
-915191_955, UNKNOWN, UNKNOWN, true, true, , Hp
-924843_421, UNKNOWN, UNKNOWN, true, true, , Hp
 930X2K, UNKNOWN, UNKNOWN, true, true, , Samsung
 930X5J, UNKNOWN, UNKNOWN, true, true, , Samsung
 A100_2S1P_3500, UNKNOWN, UNKNOWN, true, true, , Hasee
-A1534, UNKNOWN, UNKNOWN, true, true, , Apple
-A555L, UNKNOWN, UNKNOWN, true, true, , Asus
-AA_PL3VC6W, UNKNOWN, RECTANGLE, true, true, 52.1 x 20.2 x 2.0, Samsung
 AC13A3L, UNKNOWN, UNKNOWN, true, true, , Acer
-AC16B7K, UNKNOWN, UNKNOWN, true, true, , Acer
 AEROBOOK_CWI510, PANDA_PM, UNKNOWN, true, true, , Chuwi
-AH04041XL_PL, UNKNOWN, UNKNOWN, true, true, , Hp
-AIR_12_5, UNKNOWN, UNKNOWN, true, true, , Other
-AIR_13_3, UNKNOWN, UNKNOWN, true, true, , Other
+AIR_13_3, PANDA_PM, SQUARE, true, true, , Other
 AK14, UNKNOWN, UNKNOWN, true, true, , Bben
-AP12E3K, UNKNOWN, UNKNOWN, true, true, , Acer
 AP13F3N, UNKNOWN, UNKNOWN, true, true, , Acer
-AP17A7J, UNKNOWN, UNKNOWN, true, true, , Acer
-AP23_901, UNKNOWN, UNKNOWN, true, true, , Asus
 ASPIRE_3_A315_21, UNKNOWN, UNKNOWN, true, true, , Acer
 ASPIRE_P3，P3_131，P3_171, UNKNOWN, UNKNOWN, true, true, , Acer
 ASPIRE_S3_392G, UNKNOWN, UNKNOWN, true, true, , Acer
-ASPIRE_S7_191, UNKNOWN, UNKNOWN, true, true, , Acer
-ASPIRE_S7_391_53314G25AWS, UNKNOWN, UNKNOWN, true, true, , Acer
 ASPIRE_S7_392, UNKNOWN, UNKNOWN, true, true, , Acer
 ASPIRE_S7_392_9890, UNKNOWN, UNKNOWN, true, true, , Acer
 ASTERIX23, UNKNOWN, UNKNOWN, true, true, , Wacom
 AT10LE_A_107, UNKNOWN, UNKNOWN, true, true, , Toshiba
 AT10PE，AT10LE, UNKNOWN, UNKNOWN, true, true, , Toshiba
-B21N1404, UNKNOWN, UNKNOWN, true, true, , Asus
-B21N1505, UNKNOWN, UNKNOWN, true, true, , Asus
-B21N1506, UNKNOWN, UNKNOWN, true, true, , Asus
 BA43_00315A, UNKNOWN, RECTANGLE, true, true, 85.0 x 8.0 x 0.0, Samsung
 BA43_00364A, UNKNOWN, UNKNOWN, true, true, , Samsung
-BF04XL, UNKNOWN, UNKNOWN, true, true, , Hp
-BP02XL, UNKNOWN, UNKNOWN, true, true, , Hp
-BP_GOLF2, UNKNOWN, UNKNOWN, true, true, , Acer
 BTSWATA0B20, UNKNOWN, UNKNOWN, true, true, , Malata
 BTY_S37, PIN_10, RECTANGLE, true, true, , Msi
-BT_8001, UNKNOWN, UNKNOWN, true, true, , Malata
 BT_A0B2, UNKNOWN, UNKNOWN, true, true, , Malata
-C21N1309, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1313, UNKNOWN, UNKNOWN, true, true, , Asus
 C21N1335, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1347, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1418, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1421, UNKNOWN, UNKNOWN, true, true, , Asus
 C21N1423, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1504, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1508, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1515, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1518, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1603, UNKNOWN, UNKNOWN, true, true, , Asus
 C21N1613, UNKNOWN, UNKNOWN, true, true, , Asus
-C21N1638, UNKNOWN, UNKNOWN, true, true, , Asus
 C21_TX300P, UNKNOWN, UNKNOWN, true, true, , Asus
-C22N1623, UNKNOWN, UNKNOWN, true, true, , Asus
-C22N1720, UNKNOWN, UNKNOWN, true, true, , Lenovo
-C23N1606, UNKNOWN, UNKNOWN, true, true, , Asus
-CF_VZSU30, UNKNOWN, UNKNOWN, true, true, , Panasonic
 CHROMEBOOK_14_Q010NR，14_Q020NR, UNKNOWN, UNKNOWN, true, true, , Hp
-CHROMEBOOK_2_13_3", UNKNOWN, UNKNOWN, true, true, , Samsung
-CHROMEBOOK_C202SA, UNKNOWN, UNKNOWN, true, true, , Asus
 CLTD_3585282, UNKNOWN, UNKNOWN, true, true, , Chuwi
-CL_NA14_40110180, UNKNOWN, UNKNOWN, true, true, , Chuwi
 CP305193L1, MAYBE_PM, RECTANGLE, true, true, , Dell
-E402S, UNKNOWN, UNKNOWN, true, true, , Asus
-EF20_2S5000_B1C1, UNKNOWN, UNKNOWN, true, true, , Haier
 ELEGANCE_14_2, UNKNOWN, UNKNOWN, true, true, , Kiano
-ELITEBOOK_X360_1020_G2, UNKNOWN, UNKNOWN, true, true, , Hp
-ELITE_X2_10, UNKNOWN, UNKNOWN, true, true, , Hp
 ES1AU, UNKNOWN, UNKNOWN, true, true, , Tongfang
 ES1AU_00_00_15_2S1P_0, UNKNOWN, UNKNOWN, true, true, , Medion
 EZBOOK_3L_PRO, PANDA_PM, SQUARE, true, true, , Jumper
@@ -169,9 +95,7 @@ EZPAD_6_PLUS, PANDA_PM, SQUARE, true, true, , Jumper
 E_BOOK_PRO_EB14AI32_14_1, UNKNOWN, UNKNOWN, true, true, , Microtech
 F302L, UNKNOWN, UNKNOWN, true, true, , Asus
 F302U, UNKNOWN, UNKNOWN, true, true, , Asus
-F442U, UNKNOWN, UNKNOWN, true, true, , Asus
 FORCE_S4, UNKNOWN, UNKNOWN, true, true, , Terrans_force
-FZ_VZSU74U, UNKNOWN, UNKNOWN, true, true, , Panasonic
 GD1JP, UNKNOWN, UNKNOWN, true, true, , Dell
 GP_S20_6462B4_0100, UNKNOWN, UNKNOWN, true, true, , Simplo
 GS30, PIN_10, RECTANGLE, true, true, , Msi
@@ -179,40 +103,16 @@ GS30_2M_013C, UNKNOWN, UNKNOWN, true, true, , Msi
 GS40_Q6E, UNKNOWN, UNKNOWN, true, true, , Msi
 HSTNN_UB7B, UNKNOWN, UNKNOWN, true, true, , Hp
 HT06_V3_0, UNKNOWN, UNKNOWN, true, true, , Other
-HW_34154184, UNKNOWN, UNKNOWN, true, true, , Chuwi
+HW_34154184, PANDA_PM, SQUARE, true, true, , Chuwi
 H_31145165P, PIN_10, SQUARE, true, true, , Onda
 IDEAPAD_100S_141BR, UNKNOWN, UNKNOWN, true, true, , Lenovo
 IDEAPAD_320_15IBD, UNKNOWN, UNKNOWN, true, true, , Lenovo
 IDEAPAD_330_14IKB, UNKNOWN, UNKNOWN, true, true, , Lenovo
-IDEAPAD_330_15ARR, UNKNOWN, UNKNOWN, true, true, , Lenovo
-IDEAPAD_S206, UNKNOWN, UNKNOWN, true, true, , Lenovo
-IDEAPAD_U330T, UNKNOWN, UNKNOWN, true, true, , Lenovo
-INCHMI_AIR_12_5, UNKNOWN, UNKNOWN, true, true, , Xiaomi
-INSPIRON_14_7437, UNKNOWN, UNKNOWN, true, true, , Dell
 INSPIRON_5542, UNKNOWN, UNKNOWN, true, true, , Dell
-J7HTX, UNKNOWN, UNKNOWN, true, true, , Dell
-JI04XL, UNKNOWN, UNKNOWN, true, true, , Hp
 JUMPER_2869178, UNKNOWN, UNKNOWN, true, true, , Cube
 K451LN, UNKNOWN, UNKNOWN, true, true, , Asus
 L10M2121, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L11S2P01, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L14M4P21, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L15C2P01, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L15L4PC2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L15M2PB0, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L17C2P51, UNKNOWN, UNKNOWN, true, true, , Lenovo
-L42550_541, UNKNOWN, UNKNOWN, true, true, , Hp
-LATITUDE_10_ST2, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_12_7204, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_7212, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_7280, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_7480, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_E5440, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_E5450, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_E7270, UNKNOWN, UNKNOWN, true, true, , Dell
-LATITUDE_E7450, UNKNOWN, UNKNOWN, true, true, , Dell
 M4, PM, SQUARE, true, true, , Haier
-M41_70, UNKNOWN, UNKNOWN, true, true, , Lenovo
 MAXBOOK_Y11_H1M6, PANDA_PM, SQUARE, true, true, , Teclast
 MLP2668145_2S, MAYBE_PM, SQUARE, true, true, , Mcnair
 MLP2874170_2S, MAYBE_PM, UNKNOWN, true, true, , Trekstor
@@ -220,7 +120,6 @@ MLP3490132_2S, PM, RECTANGLE, true, true, , Other
 MLP4087118, MAYBE_PM, RECTANGLE, true, true, , Mcnair
 MLP4270136_2S, MAYBE_PM, RECTANGLE, true, true, , Acer
 MLP4772126_2S, MAYBE_PM, RECTANGLE, true, true, , Mcnair
-MS011301, UNKNOWN, UNKNOWN, true, true, , Microsoft
 MS1_13F1, PIN_10, RECTANGLE, true, true, , Msi
 MT133, UNKNOWN, UNKNOWN, true, true, , Grefu
 N4E62AV, UNKNOWN, UNKNOWN, true, true, , Hp
@@ -230,256 +129,123 @@ NB131, UNKNOWN, UNKNOWN, true, true, , Irbis
 NC140BW1_2S1P, UNKNOWN, UNKNOWN, true, true, , Lenovo
 NOTEBOOK_9_900X3L, UNKNOWN, UNKNOWN, true, true, , Samsung
 NOTEBOOK_9_PEN, UNKNOWN, UNKNOWN, true, true, , Samsung
-NP530U4C, UNKNOWN, UNKNOWN, true, true, , Samsung
 NP530U4E, UNKNOWN, UNKNOWN, true, true, , Samsung
-NP900X3K, UNKNOWN, UNKNOWN, true, true, , Samsung
 NP900X3L_K03, UNKNOWN, UNKNOWN, true, true, , Samsung
-NP900X4C_SERIES, UNKNOWN, UNKNOWN, true, true, , Samsung
-NU02XL, UNKNOWN, UNKNOWN, true, true, , Hp
 NV30140146, PANDA_PM, SQUARE, true, true, , Chuwi
 NV_4774126_2S, MAYBE_PM, RECTANGLE, true, true, , Jumper
 NV_5267103_2S, MAYBE_PM, RECTANGLE, true, true, , Prestigio
-OLIBOOK_T14, UNKNOWN, UNKNOWN, true, true, , Olivetti
 P302LA, UNKNOWN, UNKNOWN, true, true, , Asus
-P3361160, UNKNOWN, UNKNOWN, true, true, , Teclast
+P3361160, PANDA_PM, UNKNOWN, true, true, , Teclast
 PA5123U_1BRS, UNKNOWN, UNKNOWN, true, true, , Toshiba
-PAVILION_X360_11_K, UNKNOWN, UNKNOWN, true, true, , Hp
-PAVILION_X360_11_K000NF, UNKNOWN, UNKNOWN, true, true, , Hp
-PAVILION_X360_11_K001NS, UNKNOWN, UNKNOWN, true, true, , Hp
 PAVILION_X360_11_K100NL, UNKNOWN, UNKNOWN, true, true, , Hp
-PCG_4K1L, UNKNOWN, UNKNOWN, true, true, , Sony
 PRIMEBOOK_C11, PANDA_PM, UNKNOWN, true, true, , Trekstor
-PRO_11_SVP11227SCB, UNKNOWN, UNKNOWN, true, true, , Sony
-PRO_13_SVP1322J4E, UNKNOWN, UNKNOWN, true, true, , Sony
 PRO_X2_612_G1, UNKNOWN, UNKNOWN, true, true, , Hp
-PT2877164_2S, UNKNOWN, UNKNOWN, true, true, , Chuwi
 PT3488127_2S, UNKNOWN, UNKNOWN, true, true, , Hasee
-PW23Y, UNKNOWN, UNKNOWN, true, true, , Dell
-Q301L, UNKNOWN, UNKNOWN, true, true, , Asus
 QT_50160201P, UNKNOWN, UNKNOWN, true, true, , Other
-R13B01W, UNKNOWN, UNKNOWN, true, true, , Other
 R301LA, UNKNOWN, UNKNOWN, true, true, , Asus
-R542UR, UNKNOWN, UNKNOWN, true, true, , Asus
-R554L, UNKNOWN, UNKNOWN, true, true, , Asus
-R753UA, UNKNOWN, UNKNOWN, true, true, , Asus
 S130, UNKNOWN, UNKNOWN, true, true, , Peaq
-S200, UNKNOWN, UNKNOWN, true, true, , Lenovo
-S301L, UNKNOWN, UNKNOWN, true, true, , Asus
-S41, UNKNOWN, UNKNOWN, true, true, , Lenovo
 S451L, UNKNOWN, UNKNOWN, true, true, , Asus
-SB10F46456, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SB10J79000, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10069_14, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10069_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10069_5, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10072_1, UNKNOWN, UNKNOWN, true, true, , Apple
 SL10082_6, UNKNOWN, UNKNOWN, true, true, , Samsung
 SL10082_7, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10085_3, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10085_5, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10110_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10120_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10131_2, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10143_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10143_4, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10148_4, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10148_5, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10148_6, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10152_4, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10152_5, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10152_6, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10154_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10154_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10169_7, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10182_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10185_2, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10216_6, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10216_7, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10232_4, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10252_3, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10265_3, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10268_2, UNKNOWN, UNKNOWN, true, true, , Panasonic
-SL10301_1, UNKNOWN, UNKNOWN, true, true, , Panasonic
-SL10301_3, UNKNOWN, UNKNOWN, true, true, , Panasonic
 SL10308_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10311_1, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10311_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10311_3, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10318_4, UNKNOWN, UNKNOWN, true, true, , Samsung
 SL10343_4, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10352_1, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10352_3, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10352_4, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10352_5, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10383_1, UNKNOWN, UNKNOWN, true, true, , Other
 SL10401_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10403_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10403_4, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10413_5, UNKNOWN, UNKNOWN, true, true, , Lg
 SL10425_3, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10426_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10426_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10426_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10440_3, UNKNOWN, UNKNOWN, true, true, , Apple
-SL10440_4, UNKNOWN, UNKNOWN, true, true, , Apple
-SL10451_4, UNKNOWN, UNKNOWN, true, true, , Microsoft
-SL10475_1, UNKNOWN, UNKNOWN, true, true, , Sony
-SL10475_2, UNKNOWN, UNKNOWN, true, true, , Sony
-SL10482_1, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10482_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10482_3, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10483_2, UNKNOWN, UNKNOWN, true, true, , Acer
-SL10483_3, UNKNOWN, UNKNOWN, true, true, , Acer
-SL10483_4, UNKNOWN, UNKNOWN, true, true, , Acer
 SL10484_2, UNKNOWN, UNKNOWN, true, true, , Acer
 SL10484_4, UNKNOWN, UNKNOWN, true, true, , Acer
-SL10485_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10512_3, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10531_3, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10532_2, UNKNOWN, UNKNOWN, true, true, , Samsung
 SL10532_3, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10532_4, UNKNOWN, UNKNOWN, true, true, , Samsung
-SL10533_5, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10537_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10537_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10538_1, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10538_2, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10540_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10555_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10555_3, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10557_1, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10557_2, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10557_3, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10557_4, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10557_5, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10558_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10560_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10582_3, UNKNOWN, UNKNOWN, true, true, , Olivetti
 SL10585_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10601_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10601_3, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10603_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10610_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10611_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10615_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10621_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10621_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10638_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10646_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10646_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10646_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10650_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10653_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10655_2, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10655_3, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10660_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10668_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10668_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10672_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10675_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10706_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10709_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10712_1, UNKNOWN, UNKNOWN, true, true, , Acer
-SL10712_3, UNKNOWN, UNKNOWN, true, true, , Acer
-SL10712_4, UNKNOWN, UNKNOWN, true, true, , Acer
 SL10713_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL10715_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10729_8, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10738_2, UNKNOWN, UNKNOWN, true, true, , Microsoft
-SL10740_1, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10740_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10748_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10751_3, UNKNOWN, UNKNOWN, true, true, , Fujitsu
 SL10751_4, UNKNOWN, UNKNOWN, true, true, , Fujitsu
-SL10775_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL10780_2, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10780_3, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10780_6, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10789_4, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10802_3, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10804_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10804_3, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10805_2, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10811_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL10815_3, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10817_3, UNKNOWN, UNKNOWN, true, true, , Toshiba
 SL10831_1, UNKNOWN, UNKNOWN, true, true, , Acer
 SL10831_2, UNKNOWN, UNKNOWN, true, true, , Acer
 SL10849_4, UNKNOWN, UNKNOWN, true, true, , Hp
 SL10849_5, UNKNOWN, UNKNOWN, true, true, , Hp
-SL10851_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL10878_2, UNKNOWN, UNKNOWN, true, true, , Dell
 SL10922_1, UNKNOWN, UNKNOWN, true, true, , Xiaomi
-SL10922_2, UNKNOWN, UNKNOWN, true, true, , Xiaomi
 SL10945_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL10974_1, UNKNOWN, UNKNOWN, true, true, , Dell
-SL11000_1, UNKNOWN, UNKNOWN, true, true, , Dell
 SL11007_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL11009_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL11028_2, UNKNOWN, UNKNOWN, true, true, , Vizio
 SL11055_2, UNKNOWN, UNKNOWN, true, true, , Asus
-SL11093_1, UNKNOWN, UNKNOWN, true, true, , Lenovo
-SL11115_2, UNKNOWN, UNKNOWN, true, true, , Dell
-SL11121_1, UNKNOWN, UNKNOWN, true, true, , Xiaomi
-SL11133_3, UNKNOWN, UNKNOWN, true, true, , Hp
 SL11139_1, UNKNOWN, UNKNOWN, true, true, , Getak
 SL11139_2, UNKNOWN, UNKNOWN, true, true, , Getak
 SL11150_1, UNKNOWN, UNKNOWN, true, true, , Getak
-SL11153_2, UNKNOWN, UNKNOWN, true, true, , Microsoft
-SL11177_2, UNKNOWN, UNKNOWN, true, true, , Acer
-SL20011_6, UNKNOWN, UNKNOWN, true, true, , Hp
-SL20015_1, UNKNOWN, UNKNOWN, true, true, , Dell
-SL20015_2, UNKNOWN, UNKNOWN, true, true, , Dell
+SL11153_2, UNKNOWN, CUSTOM, true, true, , Microsoft
+SL20011_6, UNKNOWN, CUSTOM, true, true, , Hp
 SL20226_1, UNKNOWN, UNKNOWN, true, true, , Samsung
 SL20226_2, UNKNOWN, UNKNOWN, true, true, , Samsung
 SL20257_1, UNKNOWN, UNKNOWN, true, true, , Asus
 SL20257_2, UNKNOWN, UNKNOWN, true, true, , Asus
 SL20279_2, UNKNOWN, UNKNOWN, true, true, , Lenovo
 SL20290_1, PANDA_PM, SQUARE, true, true, , Chuwi
-SQU_1209, UNKNOWN, UNKNOWN, true, true, , Hasee
+SQU_1209, CUSTOM, UNKNOWN, true, true, , Hasee
 SSBS47, UNKNOWN, UNKNOWN, true, true, , Hasee
-SURFACE_PRO_5_1796, UNKNOWN, UNKNOWN, true, true, , Microsoft
-SVP132190S, UNKNOWN, UNKNOWN, true, true, , Sony
-T07G, UNKNOWN, UNKNOWN, true, true, , Dell
+SURFACE_PRO_5_1796, CUSTOM, UNKNOWN, true, true, , Microsoft
+SVP132190S, CUSTOM, CUSTOM, true, true, , Sony
+T07G, CUSTOM, CUSTOM, true, true, , Dell
 T12, UNKNOWN, UNKNOWN, true, true, , Other
 THINKER_I35, PANDA_PM, SQUARE, true, true, 169.0 x 126.0 x 3.4, Cube
 THINKPAD_10_2RD, UNKNOWN, UNKNOWN, true, true, , Lenovo
 THTF_121_P0, UNKNOWN, UNKNOWN, true, true, , Tongfang
 TM141WT720C, PIN_10, SQUARE, true, true, , Nuvision
-TPN_W112, UNKNOWN, UNKNOWN, true, true, , Hp
 TPN_W117, UNKNOWN, UNKNOWN, true, true, , Hp
 TRANSFORMER_3_PRO_T303UA, UNKNOWN, UNKNOWN, true, true, , Asus
-TRANSFORMER_BOOK_FLIP_TP550, UNKNOWN, UNKNOWN, true, true, , Asus
-TRANSFORMER_BOOK_FLIP_TP550L, UNKNOWN, UNKNOWN, true, true, , Asus
-TRANSFORMER_BOOK_FLIP_TP550LA, UNKNOWN, UNKNOWN, true, true, , Asus
-TRANSFORMER_BOOK_FLIP_TP550LJ, UNKNOWN, UNKNOWN, true, true, , Asus
-TRANSFORMER_BOOK_TRIO_TX201, UNKNOWN, UNKNOWN, true, true, , Asus
+TRANSFORMER_BOOK_TRIO_TX201, OTHER, UNKNOWN, true, true, , Asus
 TRANSFORMER_BOOK_TX300CA, UNKNOWN, UNKNOWN, true, true, , Asus
 UT47_D1，UT45_D1，UT43_D1, UNKNOWN, UNKNOWN, true, true, , Hasee
 UTL_3178180_2S, UNKNOWN, UNKNOWN, true, true, , Other
 UX21E, UNKNOWN, UNKNOWN, true, true, , Asus
 V110_15, UNKNOWN, UNKNOWN, true, true, , Lenovo
-V330_14, UNKNOWN, UNKNOWN, true, true, , Lenovo
-V330_14_15, UNKNOWN, UNKNOWN, true, true, , Lenovo
+V330_14, CUSTOM, CUSTOM, true, true, , Lenovo
+V330_14_15, CUSTOM, CUSTOM, true, true, , Lenovo
 VENUE_11_PRO_KEYBOARD, MAYBE_PM, RECTANGLE, true, true, , Dell
-VGP_BPS37, UNKNOWN, UNKNOWN, true, true, , Sony
 VGP_BPSE38, UNKNOWN, UNKNOWN, true, true, , Sony
 X302L, UNKNOWN, UNKNOWN, true, true, , Asus
-X554L, UNKNOWN, UNKNOWN, true, true, , Asus
-X555LN, UNKNOWN, UNKNOWN, true, true, , Asus
-X556, UNKNOWN, UNKNOWN, true, true, , Asus
 XIAOMA_31, UNKNOWN, UNKNOWN, true, true, , Onda
 XIAOXIN_CHAO_5000, UNKNOWN, UNKNOWN, true, true, , Lenovo
-XLBM1, UNKNOWN, UNKNOWN, true, true, , Xplore
-XPS_11_9P33, UNKNOWN, UNKNOWN, true, true, , Dell
-Y40_70, UNKNOWN, UNKNOWN, true, true, , Lenovo
-Y583L, UNKNOWN, UNKNOWN, true, true, , Asus
+XLBM1, CUSTOM, UNKNOWN, true, true, , Xplore
+XPS_11_9P33, UNKNOWN, CUSTOM, true, true, , Dell
 YN6W9, MAYBE_PM, SQUARE, true, true, , Dell
-YOGA_2332, UNKNOWN, UNKNOWN, true, true, , Lenovo
+YOGA_2332, CUSTOM, UNKNOWN, true, true, , Lenovo
 YOGA_500, UNKNOWN, UNKNOWN, true, true, , Lenovo
 YOGA_500_14ISK(MODEL_80R5), UNKNOWN, UNKNOWN, true, true, , Lenovo
 YOGA_910, UNKNOWN, UNKNOWN, true, true, , Lenovo
-ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0002941E, UNKNOWN, UNKNOWN, false, true, , Dell
 0003149C, UNKNOWN, UNKNOWN, false, true, , Dell
 0016J9_083, UNKNOWN, UNKNOWN, false, false, , 
@@ -799,7 +565,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B20003020000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_00020000, CUSTOM, CUSTOM, false, true, , Asus
 0B200_00070200, CUSTOM, CUSTOM, false, false, , 
-0B200_00160000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_00160000, CUSTOM, UNKNOWN, false, true, , Asus
 0B200_00170000M, CUSTOM, CUSTOM, false, true, , Asus
 0B200_00220000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_00310200, UNKNOWN, UNKNOWN, false, false, , 
@@ -815,7 +581,10 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_00530100, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00540000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00560000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_00570100, OTHER, UNKNOWN, false, true, , Asus
 0B200_00570200, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_00580000, OTHER, UNKNOWN, false, true, , Asus
+0B200_00600000, OTHER, UNKNOWN, false, true, , Asus
 0B200_00600100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_00600200, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00610000, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -827,7 +596,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_00790000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00810000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_00850000, UNKNOWN, UNKNOWN, false, true, , Asus
-0B200_00860000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_00860000, OTHER, UNKNOWN, false, true, , Asus
 0B200_00860300, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00900000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_00920100, CUSTOM, CUSTOM, false, true, , Asus
@@ -840,8 +609,10 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_01020000, CUSTOM, CUSTOM, false, false, , 
 0B200_01040000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_01050000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_01060000, CUSTOM, UNKNOWN, false, true, , Asus
 0B200_01110000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01120000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_01130000, CUSTOM, UNKNOWN, false, true, , Asus
 0B200_01180000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_01180200, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01220000, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -870,11 +641,13 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_01660000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_01670100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01690000, UNKNOWN, UNKNOWN, false, false, , 
+0B200_01710100, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_01730000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01740000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_01750000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_0178000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01790000, UNKNOWN, UNKNOWN, false, false, , 
+0B200_01800000, CUSTOM, CUSTOM, false, true, , Asus
 0B200_01840000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01850000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_01870000, CUSTOM, CUSTOM, false, false, , 
@@ -898,6 +671,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02110000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02110100, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02120000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_02210000, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_02230000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02280000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02350100, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -907,7 +681,10 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02390000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_02400000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02410000, UNKNOWN, UNKNOWN, false, false, , 
+0B200_02420000, UNKNOWN, CUSTOM, false, true, , Asus
+0B200_02420200, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_02440100, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_02460000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_02470000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02470100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_02490000, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -921,6 +698,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_02580000, UNKNOWN, UNKNOWN, false, false, , 
 0B200_02590000, CUSTOM, CUSTOM, false, true, , Asus
 0B200_02630000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_02640000, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_02650000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_02650100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_02660000, UNKNOWN, UNKNOWN, false, false, , 
@@ -970,6 +748,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0B200_03460100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_03520000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_03550000, UNKNOWN, UNKNOWN, false, true, , Asus
+0B200_03560000, UNKNOWN, CUSTOM, false, true, , Asus
 0B200_03560100, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_03660000, UNKNOWN, UNKNOWN, false, true, , Asus
 0B200_03670000, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -1026,6 +805,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 0NCC3D, UNKNOWN, UNKNOWN, false, true, , Dell
 0NU209, UNKNOWN, UNKNOWN, false, false, , 
 0P75V7, CUSTOM, CUSTOM, false, true, , Dell
+0PD19, CUSTOM, CUSTOM, false, true, , Dell
 0PGYK5, CUSTOM, CUSTOM, false, true, , Dell
 0PXR51, CUSTOM, CUSTOM, false, false, , 
 0RG049, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -1083,6 +863,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 11CP3_65_100, UNKNOWN, UNKNOWN, false, false, , 
 11CP3_65_100_3, UNKNOWN, UNKNOWN, false, true, , Sony
 11CP3_65_114, PIN_10, CUSTOM, false, false, , 
+11CP3_65_114_2, CUSTOM, CUSTOM, false, true, , Acer
 11CP3_77, UNKNOWN, UNKNOWN, false, false, , 
 11CP3_77_148, UNKNOWN, UNKNOWN, false, true, , Sony
 11CP3_95, UNKNOWN, UNKNOWN, false, false, , 
@@ -1101,6 +882,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 11_01019, CUSTOM, CUSTOM, false, true, , Xplore
 11_AB000NA, UNKNOWN, CUSTOM, false, true, , Hp
 11_EP71, UNKNOWN, UNKNOWN, false, false, , 
+11_H015TU_X2, CUSTOM, UNKNOWN, false, true, , Hp
 11_H110TU_X2, UNKNOWN, UNKNOWN, false, false, , 
 12, CUSTOM, CUSTOM, false, true, 128.6 x 6.2 x 1.0, Vaio
 1200_SERIES, UNKNOWN, UNKNOWN, false, false, , 
@@ -1240,6 +1022,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 15_W9, UNKNOWN, UNKNOWN, false, true, , Gigabyte
 16, UNKNOWN, UNKNOWN, false, true, , Other
 161201, UNKNOWN, UNKNOWN, false, false, , 
+161201_01, UNKNOWN, CUSTOM, false, true, , Xiaomi
 16DPH, CUSTOM, CUSTOM, false, true, , Dell
 16H2, CUSTOM, CUSTOM, false, false, , 
 17, CUSTOM, CUSTOM, false, true, , Razer
@@ -1459,6 +1242,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 1VPW8, UNKNOWN, UNKNOWN, false, true, , Other
 1WND8, PIN_12, RECTANGLE, false, true, , Dell
 1X270_M, CUSTOM, CUSTOM, false, true, , Itronix
+1XP35, CUSTOM, UNKNOWN, false, true, , Dell
 1Z0000QA, UNKNOWN, UNKNOWN, false, true, , Nec
 1ZS070C, CUSTOM, CUSTOM, false, false, , 
 1_756, UNKNOWN, UNKNOWN, false, false, , 
@@ -1625,6 +1409,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 2ICP3_86_94, PIN_7, RECTANGLE, false, false, , 
 2ICP3_86_94_2, PIN_7, RECTANGLE, false, false, , 
 2ICP3_97, CUSTOM, UNKNOWN, false, false, , 
+2ICP3_97_106, CUSTOM, CUSTOM, false, true, , Microsoft
 2ICP4, CUSTOM, RECTANGLE, false, true, , Samsung
 2ICP4_51, UNKNOWN, UNKNOWN, false, false, , 
 2ICP4_51_161, UNKNOWN, UNKNOWN, false, false, , 
@@ -1679,6 +1464,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 2ICP5_67_265, UNKNOWN, UNKNOWN, false, true, , Hp
 2ICP5_69, CUSTOM, UNKNOWN, false, false, , 
 2ICP5_69_107, UNKNOWN, UNKNOWN, false, false, , 
+2ICP5_69_107_2, CUSTOM, UNKNOWN, false, true, , Other
 2ICP5_70, PIN_7, SQUARE, false, false, , 
 2ICP5_70_106, PIN_7, SQUARE, false, true, , Lenovo
 2ICP5_71, UNKNOWN, UNKNOWN, false, false, , 
@@ -1707,12 +1493,14 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 2ICP6_60, UNKNOWN, UNKNOWN, false, false, , 
 2ICP6_60_80, UNKNOWN, UNKNOWN, false, false, , 
 2ICP6_61, UNKNOWN, UNKNOWN, false, false, , 
+2ICP6_61_115, UNKNOWN, CUSTOM, false, true, , Prestigio
 2ICP6_68, UNKNOWN, UNKNOWN, false, false, , 
 2ICP6_78, UNKNOWN, UNKNOWN, false, false, , 
 2ICP7, CUSTOM, CUSTOM, false, false, , 
 2ICP7_41, UNKNOWN, UNKNOWN, false, false, , 
 2ICP7_41_96, UNKNOWN, UNKNOWN, false, true, , Acer
 2ICP7_47, UNKNOWN, UNKNOWN, false, false, , 
+2ICP7_47_103, CUSTOM, UNKNOWN, false, true, , Simplo
 2ICP7_49, UNKNOWN, UNKNOWN, false, false, , 
 2ICP7_49_101, UNKNOWN, UNKNOWN, false, true, , Positivo
 2ICP7_55, PIN_9, FAT, false, false, , 
@@ -1770,6 +1558,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 30016810, OTHER, SQUARE, false, true, , Medion
 300E43_S03, PIN_12, RECTANGLE, false, false, , 
 300E4M_SERIES, UNKNOWN, UNKNOWN, false, false, , 
+300U, CUSTOM, CUSTOM, false, true, , Samsung
 300U_SERIES, UNKNOWN, UNKNOWN, false, false, , 
 30107108, UNKNOWN, UNKNOWN, false, true, , Acer
 301100011031, UNKNOWN, UNKNOWN, false, true, , Irbis
@@ -2853,6 +2642,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 5B10Q39196, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q39197, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q39202, PIN_8, CUSTOM, false, false, , 
+5B10Q62138, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q71251, UNKNOWN, UNKNOWN, false, true, , Lenovo
 5B10Q71252, UNKNOWN, UNKNOWN, false, false, , 
 5B10Q71254, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -3070,6 +2860,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 6GTPY, UNKNOWN, UNKNOWN, false, true, , Dell
 6HHW5, UNKNOWN, UNKNOWN, false, false, , 
 6JHDV, CUSTOM, CUSTOM, false, false, , 
+6MT4T, CUSTOM, UNKNOWN, false, true, , Dell
 6M_48R04, UNKNOWN, UNKNOWN, false, false, , 
 6M_48R04_001, UNKNOWN, UNKNOWN, false, true, , Acer
 6XH00, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -3259,6 +3050,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 70_OA011B1500P, CUSTOM, CUSTOM, false, true, , Asus
 70_OA0B2B3000, CUSTOM, CUSTOM, false, true, , Asus
 70_OA1B1B3500P, UNKNOWN, UNKNOWN, false, true, , Asus
+70_OA282B1000, CUSTOM, UNKNOWN, false, true, , Asus
 710416_001, CUSTOM, CUSTOM, false, false, , 
 710417_001, CUSTOM, CUSTOM, false, false, , 
 710S, PIN_8, RECTANGLE, false, false, , 
@@ -3444,6 +3236,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 7W5X0, UNKNOWN, UNKNOWN, false, true, , Dell
 7WNW1, CUSTOM, CUSTOM, false, true, , Dell
 7XHVM, UNKNOWN, UNKNOWN, false, false, , 
+7XNTR, CUSTOM, UNKNOWN, false, true, , Dell
 7_SU2300G20320NN7QDCTW, CUSTOM, FAT, false, true, , Haier
 8, CUSTOM, CUSTOM, false, true, 49.0 x 22.1 x 4.0, Vaio
 800009, CUSTOM, CUSTOM, false, false, , 
@@ -3500,6 +3293,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 808452_002, CUSTOM, CUSTOM, false, true, , Hp
 8092_SCUD, CUSTOM, CUSTOM, false, true, , Averatec
 80LX, CUSTOM, CUSTOM, false, false, , 
+80Q4, UNKNOWN, CUSTOM, false, true, , Lenovo
 810749_2C1, UNKNOWN, UNKNOWN, false, false, , 
 810749_421, UNKNOWN, UNKNOWN, false, true, , Hp
 812060_2B1, PIN_9, RECTANGLE, false, true, , Hp
@@ -3615,6 +3409,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 900X1, UNKNOWN, CUSTOM, false, false, , 
 900X3C_SERIES, CUSTOM, UNKNOWN, false, true, , Samsung
 900X3L_EG1, PIN_9, UNKNOWN, false, false, , 
+900X3N, MAYBE_PM, RECTANGLE, false, true, , Samsung
 900X3N_K03, PIN_9, RECTANGLE, false, false, , 
 900X3T, UNKNOWN, UNKNOWN, false, false, , 
 900X4_SERIES, UNKNOWN, CUSTOM, false, true, , Samsung
@@ -3667,6 +3462,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 90_XB2BOABT00000Q, CUSTOM, CUSTOM, false, true, , Asus
 91, UNKNOWN, UNKNOWN, false, false, , 
 910140_2C1, UNKNOWN, UNKNOWN, false, false, , 
+910S3G, CUSTOM, CUSTOM, false, true, , Samsung
 910S3K, UNKNOWN, UNKNOWN, false, false, , 
 910S5J, CUSTOM, RECTANGLE, false, true, , Samsung
 911, PIN_9, RECTANGLE, false, true, , Thunderobot
@@ -3683,6 +3479,9 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 911_TARGA, PIN_9, RECTANGLE, false, true, , Thunderobot
 915030, UNKNOWN, CUSTOM, false, false, , 
 915030_171, UNKNOWN, UNKNOWN, false, true, , Hp
+915030_1C1, UNKNOWN, UNKNOWN, false, true, , Hp
+915191_855, UNKNOWN, UNKNOWN, false, true, , Hp
+915191_955, UNKNOWN, UNKNOWN, false, true, , Hp
 915486_855, UNKNOWN, UNKNOWN, false, true, , Hp
 916, CUSTOM, CUSTOM, false, false, , 
 916366_541, CUSTOM, CUSTOM, false, false, , 
@@ -3759,6 +3558,7 @@ ZENBOOK_3_UX390, UNKNOWN, UNKNOWN, true, true, , Asus
 922752421, UNKNOWN, UNKNOWN, false, true, , Hp
 922753_421, PIN_10, RECTANGLE, false, true, , Hp
 924843, PIN_4, CUSTOM, false, false, , 
+924843_421, CUSTOM, UNKNOWN, false, true, , Hp
 924844_421, CUSTOM, CUSTOM, false, true, , Hp
 925149, UNKNOWN, UNKNOWN, false, false, , 
 925149_855, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -3866,6 +3666,7 @@ A14_56_451P2200_0, UNKNOWN, UNKNOWN, false, false, ,
 A14_S6_4S1P2200, UNKNOWN, UNKNOWN, false, true, , Modenma
 A1512, CUSTOM, CUSTOM, false, true, , Apple
 A1527, UNKNOWN, UNKNOWN, false, true, , Apple
+A1534, UNKNOWN, UNKNOWN, false, true, , Apple
 A1538, UNKNOWN, UNKNOWN, false, true, , Apple
 A1546, UNKNOWN, UNKNOWN, false, true, , Apple
 A1547, CUSTOM, CUSTOM, false, true, , Apple
@@ -4072,6 +3873,7 @@ A54_SERIES, UNKNOWN, UNKNOWN, false, true, , Asus
 A55, CUSTOM, CUSTOM, false, true, , Asus
 A550, UNKNOWN, UNKNOWN, false, true, , Lg
 A5522124, UNKNOWN, UNKNOWN, false, true, , Acer
+A555L, OTHER, UNKNOWN, false, true, , Asus
 A555LJ, CUSTOM, CUSTOM, false, false, , 
 A56, UNKNOWN, UNKNOWN, false, true, , Asus
 A560P_K660E_K660D_K580P, UNKNOWN, UNKNOWN, false, true, , Hasee
@@ -4163,6 +3965,7 @@ AA_PL0TC6A, CUSTOM, CUSTOM, false, true, , Samsung
 AA_PL0TC6L_E, CUSTOM, CUSTOM, false, true, , Samsung
 AA_PL1VC6B, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PL2VC6W_B, UNKNOWN, UNKNOWN, false, false, , 
+AA_PL3VC6W, UNKNOWN, RECTANGLE, false, true, 52.1 x 20.2 x 2.0, Samsung
 AA_PL9NC2B, PIN_12, RECTANGLE, false, true, , Samsung
 AA_PLAN6AB, UNKNOWN, UNKNOWN, false, true, , Samsung
 AA_PLAN6AR, UNKNOWN, CUSTOM, false, true, , Samsung
@@ -4194,6 +3997,7 @@ AC14B7K, CUSTOM, CUSTOM, false, true, , Acer
 AC14B8K, CUSTOM, CUSTOM, false, true, , Acer
 AC15A3J, UNKNOWN, UNKNOWN, false, true, , Acer
 AC16A8N, UNKNOWN, UNKNOWN, false, true, , Acer
+AC16B7K, UNKNOWN, UNKNOWN, false, true, , Acer
 AC17B8K, UNKNOWN, UNKNOWN, false, true, , Acer
 AC700_CHROMEBOOK_SERIES, CUSTOM, CUSTOM, false, true, , Acer
 AC7260, UNKNOWN, UNKNOWN, false, true, , Msi
@@ -4208,6 +4012,7 @@ AEROBOOK_PLUS, UNKNOWN, UNKNOWN, false, true, , Chuwi
 AEROBOOK_PRO, UNKNOWN, UNKNOWN, false, true, , Chuwi
 AERO_14_K7, CUSTOM, CUSTOM, false, true, , Gateway
 AFTERSHOCK_M15_LITE, UNKNOWN, UNKNOWN, false, false, , 
+AH04041XL_PL, UNKNOWN, UNKNOWN, false, true, , Hp
 AHA42235003, CUSTOM, CUSTOM, false, true, , Hp
 AHA42236000, CUSTOM, CUSTOM, false, true, , Vizio
 AHA63226064, UNKNOWN, UNKNOWN, false, true, , Gateway
@@ -4215,6 +4020,7 @@ AHA63226064_AHA63226064_AHA63226064, UNKNOWN, UNKNOWN, false, false, ,
 AI06XL, UNKNOWN, UNKNOWN, false, true, , Hp
 AIO_PCG_SRX3_BD, UNKNOWN, UNKNOWN, false, true, , Sony
 AIRBOOK, UNKNOWN, UNKNOWN, false, true, , Tongfang
+AIR_12_5, CUSTOM, CUSTOM, false, true, , Other
 AIR_3_2019, UNKNOWN, UNKNOWN, false, false, , 
 AJ02XL, UNKNOWN, UNKNOWN, false, false, , 
 AK_004BT, UNKNOWN, UNKNOWN, false, false, , 
@@ -4265,6 +4071,7 @@ AP12A3I, UNKNOWN, UNKNOWN, false, true, , Acer
 AP12A3L, UNKNOWN, UNKNOWN, false, true, , Acer
 AP12A3L_AP12A3L, UNKNOWN, UNKNOWN, false, false, , 
 AP12A4I, UNKNOWN, UNKNOWN, false, true, , Acer
+AP12E3K, CUSTOM, CUSTOM, false, true, , Acer
 AP12F3J, UNKNOWN, UNKNOWN, false, true, , Acer
 AP12F9J, OTHER, UNKNOWN, false, true, , Acer
 AP13B3K, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -4295,6 +4102,7 @@ AP16L5J, UNKNOWN, UNKNOWN, false, true, , Acer
 AP16L8J, UNKNOWN, UNKNOWN, false, true, , Acer
 AP16M4J, PIN_8, RECTANGLE, false, true, , Acer
 AP16M5J, PIN_8, RECTANGLE, false, false, , 
+AP17A7J, UNKNOWN, UNKNOWN, false, true, , Acer
 AP17C5P, UNKNOWN, UNKNOWN, false, true, , Acer
 AP18B18J, UNKNOWN, UNKNOWN, false, true, , Acer
 AP18B8J, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -4306,6 +4114,7 @@ AP18K4K, UNKNOWN, UNKNOWN, false, true, , Acer
 AP18L4K, UNKNOWN, UNKNOWN, false, true, , Acer
 AP21_T91, CUSTOM, UNKNOWN, false, true, , Asus
 AP23, CUSTOM, FAT, false, false, , 
+AP23_901, CUSTOM, CUSTOM, false, true, , Asus
 AP23_901_AP23_901_AP23_901_AP23_901_AP23_901_AP23_901_AP23_901_AP23_901_AP23, UNKNOWN, UNKNOWN, false, false, , 
 AP31_1008HA, UNKNOWN, UNKNOWN, false, true, , Asus
 AP31_H53, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -4461,8 +4270,10 @@ ASPIRE_R5_571T, UNKNOWN, UNKNOWN, false, true, , Acer
 ASPIRE_R7_571, UNKNOWN, UNKNOWN, false, false, , 
 ASPIRE_S3_391, UNKNOWN, UNKNOWN, false, true, , Acer
 ASPIRE_S3_951, UNKNOWN, UNKNOWN, false, true, , Acer
+ASPIRE_S7_191, CUSTOM, CUSTOM, false, true, , Acer
 ASPIRE_S7_391, UNKNOWN, UNKNOWN, false, false, , 
 ASPIRE_S7_391_53314G12AWS, UNKNOWN, UNKNOWN, false, false, , 
+ASPIRE_S7_391_53314G25AWS, UNKNOWN, UNKNOWN, false, true, , Acer
 ASPIRE_S7_392_54204G12TWS, UNKNOWN, UNKNOWN, false, false, , 
 ASPIRE_SWITCH_10, CUSTOM, CUSTOM, false, true, , Acer
 ASPIRE_SWITCH_10_SW5_011_012, UNKNOWN, UNKNOWN, false, false, , 
@@ -4541,6 +4352,9 @@ B1_ORION_4KXKSX_01, UNKNOWN, UNKNOWN, false, true, , Panasonic
 B2000, UNKNOWN, UNKNOWN, false, true, , Lg
 B21N1329, CUSTOM, CUSTOM, false, true, , Asus
 B21N1344, UNKNOWN, CUSTOM, false, true, , Asus
+B21N1404, CUSTOM, UNKNOWN, false, true, , Asus
+B21N1505, UNKNOWN, CUSTOM, false, true, , Asus
+B21N1506, UNKNOWN, CUSTOM, false, true, , Asus
 B300, UNKNOWN, UNKNOWN, false, false, , 
 B31N1336, UNKNOWN, UNKNOWN, false, false, , 
 B31N1342, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -4662,6 +4476,7 @@ BELL_EUP_P1_4_24, CUSTOM, CUSTOM, false, false, ,
 BELL_EUP_P2_4_24, CUSTOM, UNKNOWN, false, false, , 
 BETTY, UNKNOWN, UNKNOWN, false, true, , Razer
 BETTY4, UNKNOWN, UNKNOWN, false, false, , 
+BF04XL, CUSTOM, UNKNOWN, false, true, , Hp
 BG06XL, UNKNOWN, UNKNOWN, false, true, , Hp
 BHAMB403_6BK, UNKNOWN, UNKNOWN, false, true, , Hasee
 BI03XL, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -4704,6 +4519,7 @@ BN03XL, UNKNOWN, UNKNOWN, false, true, , Hp
 BN80, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 BO03XL, UNKNOWN, UNKNOWN, false, false, , 
 BP, UNKNOWN, UNKNOWN, false, false, , 
+BP02XL, CUSTOM, CUSTOM, false, true, , Hp
 BP153S2P2200, UNKNOWN, UNKNOWN, false, true, , Hcl
 BP1S1P4240L_2ND, UNKNOWN, UNKNOWN, false, true, , Getak
 BP1S2P3800_L, PIN_4, RECTANGLE, false, true, , Getak
@@ -4731,6 +4547,7 @@ BP_15033, UNKNOWN, UNKNOWN, false, false, ,
 BP_15033_22, UNKNOWN, UNKNOWN, false, true, , Hasee
 BP_16G1_32_2200_S, CUSTOM, CUSTOM, false, true, , Msi
 BP_8050(P), UNKNOWN, UNKNOWN, false, true, , Mitac
+BP_GOLF2, CUSTOM, UNKNOWN, false, true, , Acer
 BP_KI, UNKNOWN, UNKNOWN, false, false, , 
 BP_KI_41, UNKNOWN, UNKNOWN, false, false, , 
 BP_KI_41_4240, UNKNOWN, UNKNOWN, false, true, , Msi
@@ -4840,6 +4657,7 @@ BT_00803, UNKNOWN, UNKNOWN, false, false, ,
 BT_00803_019, UNKNOWN, UNKNOWN, false, true, , Acer
 BT_00807, UNKNOWN, UNKNOWN, false, false, , 
 BT_00807_015, UNKNOWN, UNKNOWN, false, true, , Acer
+BT_8001, CUSTOM, CUSTOM, false, true, , Malata
 BT_A0902, UNKNOWN, UNKNOWN, false, false, , 
 BT_A0902_001, UNKNOWN, UNKNOWN, false, true, , Acer
 BT_T2303, UNKNOWN, UNKNOWN, false, false, , 
@@ -4921,23 +4739,34 @@ C1JKH, UNKNOWN, UNKNOWN, false, false, ,
 C201PA, CUSTOM, CUSTOM, false, true, , Asus
 C20_TF20IX, UNKNOWN, UNKNOWN, false, true, , Asus
 C2101412, UNKNOWN, CUSTOM, false, true, , Asus
+C21N1309, OTHER, UNKNOWN, false, true, , Asus
+C21N1313, OTHER, UNKNOWN, false, true, , Asus
 C21N1318, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1326, OTHER, CUSTOM, false, true, , Asus
 C21N1333, UNKNOWN, UNKNOWN, false, false, , 
-C21N1401, UNKNOWN, UNKNOWN, false, true, , Asus
+C21N1347, OTHER, UNKNOWN, false, true, , Asus
+C21N1401, OTHER, UNKNOWN, false, true, , Asus
 C21N1408, CUSTOM, CUSTOM, false, true, , Asus
 C21N1409, UNKNOWN, UNKNOWN, false, false, , 
 C21N1414, CUSTOM, CUSTOM, false, true, , Asus
+C21N1418, UNKNOWN, UNKNOWN, false, true, , Asus
+C21N1421, CUSTOM, UNKNOWN, false, true, , Asus
 C21N1430, CUSTOM, CUSTOM, false, true, , Asus
 C21N1434, CUSTOM, CUSTOM, false, true, , Asus
+C21N1504, UNKNOWN, CUSTOM, false, true, , Asus
+C21N1508, CUSTOM, UNKNOWN, false, true, , Asus
 C21N1509, UNKNOWN, UNKNOWN, false, false, , 
+C21N1515, CUSTOM, CUSTOM, false, true, , Asus
+C21N1518, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1521, CUSTOM, CUSTOM, false, false, , 
 C21N1530, UNKNOWN, UNKNOWN, false, false, , 
+C21N1603, OTHER, UNKNOWN, false, true, , Asus
 C21N1612, UNKNOWN, UNKNOWN, false, false, , 
 C21N1618, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1625, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1627, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1634, CUSTOM, CUSTOM, false, true, , Asus
+C21N1638, UNKNOWN, UNKNOWN, false, true, , Asus
 C21N1714, CUSTOM, CUSTOM, false, true, , Asus
 C21O1412, UNKNOWN, CUSTOM, false, true, , Asus
 C21X202, OTHER, RECTANGLE, false, true, , Asus
@@ -4954,10 +4783,13 @@ C21_X202, UNKNOWN, UNKNOWN, false, true, , Asus
 C21_X402, UNKNOWN, UNKNOWN, false, true, , Asus
 C21_X502, OTHER, CUSTOM, false, true, , Asus
 C22N1307, PIN_8, UNKNOWN, false, true, , Asus
+C22N1623, UNKNOWN, CUSTOM, false, true, , Asus
 C22N1626, UNKNOWN, UNKNOWN, false, false, , 
+C22N1720, UNKNOWN, UNKNOWN, false, true, , Lenovo
 C22_UX31, CUSTOM, CUSTOM, false, true, , Asus
 C22_UX42, OTHER, CUSTOM, false, true, , Asus
 C22_UX52, CUSTOM, CUSTOM, false, true, , Asus
+C23N1606, UNKNOWN, CUSTOM, false, true, , Asus
 C23_UX21, CUSTOM, CUSTOM, false, true, , Asus
 C23_UX21_C23_UX21, UNKNOWN, UNKNOWN, false, false, , 
 C23_UX32, CUSTOM, CUSTOM, false, true, , Asus
@@ -5121,6 +4953,7 @@ CF_VZSU29AU, UNKNOWN, UNKNOWN, false, false, ,
 CF_VZSU29R, UNKNOWN, UNKNOWN, false, true, , Panasonic
 CF_VZSU29R_CF_VZSU29R, UNKNOWN, UNKNOWN, false, false, , 
 CF_VZSU29U, UNKNOWN, UNKNOWN, false, true, , Panasonic
+CF_VZSU30, UNKNOWN, UNKNOWN, false, true, , Panasonic
 CF_VZSU30A, UNKNOWN, UNKNOWN, false, false, , 
 CF_VZSU30B, UNKNOWN, UNKNOWN, false, false, , 
 CF_VZSU40, UNKNOWN, UNKNOWN, false, true, , Panasonic
@@ -5197,7 +5030,9 @@ CHROMEBOOK_14_X040NR, UNKNOWN, UNKNOWN, false, false, ,
 CHROMEBOOK_15_C910, UNKNOWN, UNKNOWN, false, false, , 
 CHROMEBOOK_15_CB3_531, UNKNOWN, UNKNOWN, false, false, , 
 CHROMEBOOK_15_CB515_1HT, UNKNOWN, UNKNOWN, false, true, , Acer
+CHROMEBOOK_2_13_3", OTHER, UNKNOWN, false, true, , Samsung
 CHROMEBOOK_C200M, UNKNOWN, UNKNOWN, false, false, , 
+CHROMEBOOK_C202SA, UNKNOWN, CUSTOM, false, true, , Asus
 CHROMEBOOK_C223NA_GJ0002, CUSTOM, CUSTOM, false, true, , Acer
 CHROMEBOOK_C300M, UNKNOWN, UNKNOWN, false, true, , Asus
 CHROMEBOOK_C300S, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -5235,6 +5070,7 @@ CLTD_3487265, UNKNOWN, UNKNOWN, false, true, , Jumper
 CLTD_4581228, UNKNOWN, UNKNOWN, false, true, , Jumper
 CLTD_46129188, UNKNOWN, UNKNOWN, false, true, , Jumper
 CL_7, UNKNOWN, UNKNOWN, false, true, , Sunpak
+CL_NA14_40110180, OTHER, UNKNOWN, false, true, , Chuwi
 CM03XL, CUSTOM, CUSTOM, false, true, , Hp
 CMR_AL09, UNKNOWN, UNKNOWN, false, false, , 
 CMR_AL09_AL19, UNKNOWN, UNKNOWN, false, false, , 
@@ -5448,6 +5284,7 @@ E31_80, UNKNOWN, CUSTOM, false, true, , Lenovo
 E372, UNKNOWN, UNKNOWN, false, true, , Samsung
 E400_3S4400_B1B1, UNKNOWN, UNKNOWN, false, true, , Gigabyte
 E402M, UNKNOWN, UNKNOWN, false, false, , 
+E402S, UNKNOWN, CUSTOM, false, true, , Asus
 E40_70, UNKNOWN, UNKNOWN, false, false, , 
 E42, CUSTOM, CUSTOM, false, true, , Lenovo
 E43, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -5528,6 +5365,7 @@ EF102S3200S1C1, UNKNOWN, UNKNOWN, false, true, , Acer
 EF10_2S3400_G1C1, UNKNOWN, UNKNOWN, false, true, , Hasee
 EF10_3S3200_B1C1, UNKNOWN, UNKNOWN, false, true, , Uniwill
 EF20EA_2S3700_G1A3, UNKNOWN, UNKNOWN, false, true, , Haier
+EF20_2S5000_B1C1, CUSTOM, CUSTOM, false, true, , Haier
 EF_3683D, UNKNOWN, UNKNOWN, false, true, , Nec
 EH768AA, UNKNOWN, UNKNOWN, false, true, , Hp
 EH768AA_EH768AA_EH768AA, UNKNOWN, UNKNOWN, false, false, , 
@@ -5578,11 +5416,13 @@ ELITEBOOK_FOLIO_1040_G2, CUSTOM, CUSTOM, false, true, , Hp
 ELITEBOOK_FOLIO_9470M, CUSTOM, CUSTOM, false, true, , Hp
 ELITEBOOK_FOLIO_9480M, CUSTOM, CUSTOM, false, true, , Hp
 ELITEBOOK_FOLIO_G1, CUSTOM, CUSTOM, false, true, 120.2 x 7.0 x 5.7, Hp
+ELITEBOOK_X360_1020_G2, UNKNOWN, UNKNOWN, false, true, , Hp
 ELITEBOOK_X360_1030_G2, CUSTOM, CUSTOM, false, true, , Hp
 ELITEBOOK_X360_830_G6, PIN_12, RECTANGLE, false, false, , 
 ELITEPAD_1000_G2_TABLET, UNKNOWN, UNKNOWN, false, false, , 
 ELITEPAD_900_G1, UNKNOWN, UNKNOWN, false, true, , Hp
 ELITE_DRAGONFLY_G1, UNKNOWN, UNKNOWN, false, true, , Hp
+ELITE_X2_10, UNKNOWN, UNKNOWN, false, true, , Hp
 ELITE_X2_1011_G1, UNKNOWN, UNKNOWN, false, false, , 
 ELITE_X2_1012_G1, CUSTOM, CUSTOM, false, false, , 
 ELLIPSIS, UNKNOWN, UNKNOWN, false, false, , 
@@ -5720,6 +5560,7 @@ F3G33, CUSTOM, RECTANGLE, false, false, ,
 F3K31PA, UNKNOWN, UNKNOWN, false, true, , Hp
 F3YGT, CUSTOM, CUSTOM, false, true, , Dell
 F401, UNKNOWN, UNKNOWN, false, false, , 
+F442U, UNKNOWN, UNKNOWN, false, true, , Asus
 F455L, UNKNOWN, UNKNOWN, false, false, , 
 F501, UNKNOWN, UNKNOWN, false, true, , Asus
 F516_FLEX_I5_6400T, UNKNOWN, UNKNOWN, false, true, , Schenker
@@ -5957,6 +5798,7 @@ FX505, CUSTOM, CUSTOM, false, true, , Asus
 FX50VX, UNKNOWN, UNKNOWN, false, false, , 
 FX_PLUS_4200, UNKNOWN, UNKNOWN, false, false, , 
 FZ_G1, UNKNOWN, UNKNOWN, false, true, , Panasonic
+FZ_VZSU74U, OTHER, UNKNOWN, false, true, , Panasonic
 FZ_VZSU95W, UNKNOWN, UNKNOWN, false, true, , Panasonic
 FZ_VZSU97U, UNKNOWN, UNKNOWN, false, true, , Panasonic
 FZ_VZSUT10U, UNKNOWN, UNKNOWN, false, true, , Panasonic
@@ -6626,6 +6468,7 @@ IDEAPAD_320_15AST_80XV00V3SP, PIN_8, RECTANGLE, false, true, , Hp
 IDEAPAD_320_15IAP, UNKNOWN, UNKNOWN, false, false, , 
 IDEAPAD_320_15IKBN, CUSTOM, CUSTOM, false, true, , Lenovo
 IDEAPAD_320_15ISK, PIN_8, CUSTOM, false, false, , 
+IDEAPAD_330_15ARR, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_330_15ICH, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_450U, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_510S_14, CUSTOM, CUSTOM, false, true, , Lenovo
@@ -6656,6 +6499,7 @@ IDEAPAD_MIIX_320_10ICR, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_S10, CUSTOM, SQUARE, false, false, 40.5 x 40.0 x 6.0, 
 IDEAPAD_S10_3T, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_S200, UNKNOWN, UNKNOWN, false, false, , 
+IDEAPAD_S206, CUSTOM, CUSTOM, false, true, , Lenovo
 IDEAPAD_S20_30_TOUCH, UNKNOWN, UNKNOWN, false, true, , Lenovo
 IDEAPAD_S210_SERIES, UNKNOWN, UNKNOWN, false, false, , 
 IDEAPAD_S210_TOUCH, UNKNOWN, UNKNOWN, false, false, , 
@@ -6671,6 +6515,7 @@ IDEAPAD_U300S, UNKNOWN, UNKNOWN, false, false, ,
 IDEAPAD_U310, CUSTOM, CUSTOM, false, true, , Lenovo
 IDEAPAD_U330, CUSTOM, CUSTOM, false, false, , 
 IDEAPAD_U330P, CUSTOM, CUSTOM, false, false, , 
+IDEAPAD_U330T, CUSTOM, UNKNOWN, false, true, , Lenovo
 IDEAPAD_U330_TOUCH, CUSTOM, CUSTOM, false, false, , 
 IDEAPAD_U410_TOUCH, UNKNOWN, UNKNOWN, false, false, , 
 IDEAPAD_U41_70, CUSTOM, CUSTOM, false, false, , 
@@ -6706,6 +6551,7 @@ IF00, CUSTOM, CUSTOM, false, true, , Compal
 IM_M150261, UNKNOWN, UNKNOWN, false, true, , Dell
 INCHMI_AIR, PIN_10, RECTANGLE, false, false, , 
 INCHMI_AIR_12, UNKNOWN, UNKNOWN, false, false, , 
+INCHMI_AIR_12_5, UNKNOWN, CUSTOM, false, true, , Xiaomi
 INCHMI_AIR_13, PIN_10, RECTANGLE, false, false, , 
 INCHMI_AIR_13_3, UNKNOWN, UNKNOWN, false, false, , 
 INCHMI_PRO, CUSTOM, CUSTOM, false, false, , 
@@ -6728,6 +6574,7 @@ INSPIRON_14_5439, CUSTOM, CUSTOM, false, true, , Dell
 INSPIRON_14_5447, CUSTOM, CUSTOM, false, false, , 
 INSPIRON_14_5468, CUSTOM, CUSTOM, false, true, , Dell
 INSPIRON_14_7000, CUSTOM, CUSTOM, false, true, , Dell
+INSPIRON_14_7437, UNKNOWN, CUSTOM, false, true, , Dell
 INSPIRON_14_7447, UNKNOWN, UNKNOWN, false, false, , 
 INSPIRON_14_7467, UNKNOWN, UNKNOWN, false, false, , 
 INSPIRON_1525, CUSTOM, CUSTOM, false, true, , Dell
@@ -6797,12 +6644,14 @@ J31N7_J31N7, UNKNOWN, UNKNOWN, false, false, ,
 J52161_002, UNKNOWN, UNKNOWN, false, true, , Getak
 J60J5, CUSTOM, RECTANGLE, false, true, , Dell
 J79X4, CUSTOM, CUSTOM, false, true, , Dell
+J7HTX, CUSTOM, UNKNOWN, false, true, , Dell
 J927H, UNKNOWN, UNKNOWN, false, true, , Dell
 JC03, UNKNOWN, UNKNOWN, false, false, , 
 JC04, CUSTOM, CUSTOM, false, false, , 
 JD25G, PIN_8, RECTANGLE, false, false, , 
 JD33K, CUSTOM, CUSTOM, false, true, , Dell
 JG176, CUSTOM, CUSTOM, false, true, , Dell
+JI04XL, UNKNOWN, UNKNOWN, false, true, , Hp
 JK02_V2, UNKNOWN, UNKNOWN, false, true, , Jumper
 JL5784195PL, UNKNOWN, UNKNOWN, false, true, , Other
 JN06, UNKNOWN, RECTANGLE, false, true, , Hp
@@ -6978,6 +6827,7 @@ L11M3P02, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L11M4P13, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L11M6Y01, UNKNOWN, UNKNOWN, false, false, , 
 L11N3P51, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L11S2P01, CUSTOM, CUSTOM, false, true, , Lenovo
 L11S6Y01, UNKNOWN, UNKNOWN, false, false, , 
 L12717_421, UNKNOWN, UNKNOWN, false, true, , Hp
 L12C3A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -7053,6 +6903,7 @@ L14M3P21, CUSTOM, CUSTOM, false, true, , Lenovo
 L14M3P23, PIN_8, RECTANGLE, false, true, , Lenovo
 L14M3P24, PIN_12, RECTANGLE, false, true, , Lenovo
 L14M3PB0, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L14M4P21, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L14M4P22, CUSTOM, CUSTOM, false, true, , Lenovo
 L14M4P23, PIN_12, RECTANGLE, false, false, , 
 L14M4P71, CUSTOM, CUSTOM, false, true, , Lenovo
@@ -7071,6 +6922,7 @@ L14S4PBO, PIN_10, FAT, false, false, ,
 L152PB2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2K31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2K32, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L15C2P01, CUSTOM, CUSTOM, false, true, , Lenovo
 L15C2P31, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15C2PB1, PIN_7, CUSTOM, false, true, , Lenovo
 L15C2PB1_L15C2PB1, UNKNOWN, UNKNOWN, false, false, , 
@@ -7094,6 +6946,8 @@ L15L3PB0, PIN_8, CUSTOM, false, true, , Lenovo
 L15L3PB1, PIN_8, CUSTOM, false, true, , Lenovo
 L15L4P20, CUSTOM, RECTANGLE, false, true, , Lenovo
 L15L4PC1, PIN_8, RECTANGLE, false, true, , Lenovo
+L15L4PC2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L15M2PB0, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L15M2PB2, PIN_7, RECTANGLE, false, false, , 
 L15M2PB5, UNKNOWN, UNKNOWN, false, false, , 
 L15M4A01, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -7130,6 +6984,7 @@ L16M4PB1, PIN_8, RECTANGLE, false, true, , Lenovo
 L16M4PB3, CUSTOM, CUSTOM, false, true, , Lenovo
 L16M6PC1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L16S3P24, UNKNOWN, UNKNOWN, false, true, , Lenovo
+L17C2P51, UNKNOWN, UNKNOWN, false, true, , Lenovo
 L17C2PB1, CUSTOM, CUSTOM, false, true, , Lenovo
 L17C2PB3, UNKNOWN, UNKNOWN, false, false, , 
 L17C3P51, UNKNOWN, UNKNOWN, false, false, , 
@@ -7209,6 +7064,7 @@ L34449_005, PIN_12, RECTANGLE, false, true, , Hp
 L41LK2H, CUSTOM, CUSTOM, false, true, , Asus
 L41LK9H, UNKNOWN, UNKNOWN, false, false, , 
 L42550, UNKNOWN, UNKNOWN, false, false, , 
+L42550_541, UNKNOWN, UNKNOWN, false, true, , Hp
 L50_3S4000_C1L1, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 L50_3S4400_S1S5, UNKNOWN, UNKNOWN, false, true, , E_system
 L50_4S2200_C1S5, UNKNOWN, UNKNOWN, false, true, , Uniwill
@@ -7232,13 +7088,15 @@ LA04, UNKNOWN, UNKNOWN, false, true, , Hp
 LAPBOOK12, UNKNOWN, UNKNOWN, false, false, , 
 LATITUDE, CUSTOM, CUSTOM, false, false, , 
 LATITUDE_10, CUSTOM, CUSTOM, false, false, , 
+LATITUDE_10_ST2, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_10_ST2E, CUSTOM, CUSTOM, false, true, , Dell
 LATITUDE_11_3180, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_11_5175, CUSTOM, CUSTOM, false, true, , Dell
 LATITUDE_12_5000, CUSTOM, CUSTOM, false, false, , 
 LATITUDE_12_5285, UNKNOWN, UNKNOWN, false, false, , 
 LATITUDE_12_7000, UNKNOWN, UNKNOWN, false, false, , 
-LATITUDE_12_7202, UNKNOWN, UNKNOWN, false, true, , Dell
+LATITUDE_12_7202, CUSTOM, UNKNOWN, false, true, , Dell
+LATITUDE_12_7204, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_12_7275, CUSTOM, CUSTOM, false, false, , 
 LATITUDE_13_7000, UNKNOWN, UNKNOWN, false, false, , 
 LATITUDE_13_7350, UNKNOWN, UNKNOWN, false, false, , 
@@ -7263,7 +7121,10 @@ LATITUDE_5290, UNKNOWN, UNKNOWN, false, false, ,
 LATITUDE_5480, UNKNOWN, UNKNOWN, false, false, , 
 LATITUDE_5580, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_6430U, UNKNOWN, UNKNOWN, false, true, , Dell
+LATITUDE_7212, CUSTOM, UNKNOWN, false, true, , Dell
+LATITUDE_7280, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_7370, UNKNOWN, UNKNOWN, false, false, , 
+LATITUDE_7480, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_E5250, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5270, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5280, UNKNOWN, UNKNOWN, false, false, , 
@@ -7271,7 +7132,9 @@ LATITUDE_E5400，LATITUDE_E5410, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5404, CUSTOM, FAT, false, false, , 
 LATITUDE_E5420, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5430, CUSTOM, CUSTOM, false, true, , Dell
-LATITUDE_E5470, UNKNOWN, RECTANGLE, false, true, 103.5 x 7.3 x 0.0, Dell
+LATITUDE_E5440, CUSTOM, UNKNOWN, false, true, , Dell
+LATITUDE_E5450, CUSTOM, UNKNOWN, false, true, , Dell
+LATITUDE_E5470, CUSTOM, RECTANGLE, false, true, 103.5 x 7.3 x 0.0, Dell
 LATITUDE_E5500，LATITUDE_E5510, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5520, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E5530, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -7293,9 +7156,11 @@ LATITUDE_E6530, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_E6540, CUSTOM, CUSTOM, false, true, , Dell
 LATITUDE_E7240, CUSTOM, CUSTOM, false, true, 81.0 x 7.0 x 1.0, Dell
 LATITUDE_E7250, CUSTOM, CUSTOM, false, true, , Dell
+LATITUDE_E7270, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_E7280, CUSTOM, CUSTOM, false, true, 103.2 x 6.2 x 5.0, Dell
 LATITUDE_E7404, CUSTOM, FAT, false, false, , 
 LATITUDE_E7440, CUSTOM, CUSTOM, false, true, , Dell
+LATITUDE_E7450, CUSTOM, UNKNOWN, false, true, , Dell
 LATITUDE_E7470, UNKNOWN, UNKNOWN, false, true, , Dell
 LATITUDE_XT3, UNKNOWN, UNKNOWN, false, false, , 
 LATTITUDE_E6440, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -7480,6 +7345,7 @@ M3S1P, CUSTOM, SQUARE, false, true, , Sony
 M40, CUSTOM, CUSTOM, false, true, , Samsung
 M40_70, CUSTOM, CUSTOM, false, true, , Lenovo
 M40_A, PIN_8, UNKNOWN, false, false, , 
+M41_70, UNKNOWN, UNKNOWN, false, true, , Lenovo
 M4605A, UNKNOWN, UNKNOWN, false, true, , Philips
 M50, CUSTOM, CUSTOM, false, true, , Asus
 M511R, UNKNOWN, UNKNOWN, false, false, , 
@@ -7625,6 +7491,7 @@ MR_X6TI_M2, UNKNOWN, UNKNOWN, false, false, ,
 MR_X6TI_M2_M6_H, UNKNOWN, UNKNOWN, false, true, , Mechrevo
 MR_X6_LH01, CUSTOM, CUSTOM, false, true, , Hasee
 MS, CUSTOM, CUSTOM, false, false, 47.9 x 21.9 x 9.0, 
+MS011301, CUSTOM, UNKNOWN, false, true, , Microsoft
 MS1058, CUSTOM, CUSTOM, false, true, , Msi
 MS1058_MS1058_MS1058_MS1058, UNKNOWN, UNKNOWN, false, false, , 
 MS2195, UNKNOWN, RECTANGLE, false, true, 65.3 x 20.6 x 0.0, Acer
@@ -7815,6 +7682,7 @@ NP50BAT_4, UNKNOWN, UNKNOWN, false, true, , Clevo
 NP5125, CUSTOM, CUSTOM, false, false, , 
 NP530U3B, UNKNOWN, CUSTOM, false, true, , Samsung
 NP530U4B, UNKNOWN, CUSTOM, false, true, , Samsung
+NP530U4C, CUSTOM, CUSTOM, false, true, , Samsung
 NP535U4C, UNKNOWN, UNKNOWN, false, false, , 
 NP5850, UNKNOWN, UNKNOWN, false, true, , Sager
 NP5_7H_3S2P5060, UNKNOWN, UNKNOWN, false, false, , 
@@ -7843,11 +7711,13 @@ NP900X3A, UNKNOWN, CUSTOM, false, true, , Samsung
 NP900X3C, CUSTOM, UNKNOWN, false, true, , Samsung
 NP900X3D, CUSTOM, UNKNOWN, false, false, , 
 NP900X3E, CUSTOM, UNKNOWN, false, true, , Samsung
+NP900X3K, CUSTOM, UNKNOWN, false, true, , Samsung
 NP900X3L, PIN_9, UNKNOWN, false, true, , Samsung
 NP900X3L_K03CN, PIN_9, UNKNOWN, false, true, , Samsung
 NP900X3L_K03US, PIN_9, UNKNOWN, false, true, , Samsung
 NP900X4B_SERIES, UNKNOWN, UNKNOWN, false, false, , 
 NP900X4C_A02PT, UNKNOWN, UNKNOWN, false, true, , Sager
+NP900X4C_SERIES, CUSTOM, UNKNOWN, false, true, , Samsung
 NP900X4D_SERIES, UNKNOWN, UNKNOWN, false, false, , 
 NP900X4_SERIES, UNKNOWN, CUSTOM, false, false, , 
 NP900X5L, UNKNOWN, UNKNOWN, false, false, , 
@@ -7887,6 +7757,7 @@ NTB015, UNKNOWN, UNKNOWN, false, true, , Toshiba
 NTSN15XX00013S2P, UNKNOWN, UNKNOWN, false, true, , Mechrevo
 NTSN15XX_00_01_3S2P, UNKNOWN, UNKNOWN, false, true, , Hasee
 NTSN15XX_00_01_3S2P_0, CUSTOM, CUSTOM, false, true, , Mechrevo
+NU02XL, UNKNOWN, UNKNOWN, false, true, , Hp
 NV32100140, UNKNOWN, UNKNOWN, false, true, , Chuwi
 NV49C, CUSTOM, CUSTOM, false, true, , Medion
 NV4_SERIES, CUSTOM, CUSTOM, false, true, , Gateway
@@ -7911,6 +7782,7 @@ OLEVIA_SSBS16, UNKNOWN, UNKNOWN, false, false, ,
 OLIBOOK_1300, UNKNOWN, UNKNOWN, false, false, , 
 OLIBOOK_AVATAR_AVIU_145C6, UNKNOWN, UNKNOWN, false, false, , 
 OLIBOOK_S1350, UNKNOWN, UNKNOWN, false, false, , 
+OLIBOOK_T14, UNKNOWN, CUSTOM, false, true, , Olivetti
 OLIBOOK_U45F, UNKNOWN, CUSTOM, false, true, , Olivetti
 OM03XL, CUSTOM, CUSTOM, false, false, , 
 OMEN_15_5000_SERIES, UNKNOWN, UNKNOWN, false, false, , 
@@ -8308,6 +8180,9 @@ PAVILION_X2_10_N002NL, UNKNOWN, UNKNOWN, false, true, , Hp
 PAVILION_X2_10_N20NO, UNKNOWN, UNKNOWN, false, true, , Hp
 PAVILION_X360, UNKNOWN, UNKNOWN, false, true, , Hp
 PAVILION_X360_11M, CUSTOM, SQUARE, false, true, , Hp
+PAVILION_X360_11_K, UNKNOWN, CUSTOM, false, true, , Hp
+PAVILION_X360_11_K000NF, UNKNOWN, CUSTOM, false, true, , Hp
+PAVILION_X360_11_K001NS, UNKNOWN, CUSTOM, false, true, , Hp
 PAVILION_X360_13_A000NC, UNKNOWN, UNKNOWN, false, false, , 
 PAVILION_X360_13_A000NG, UNKNOWN, UNKNOWN, false, true, , Hp
 PAVILION_X360_13_A000NO, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -8339,6 +8214,7 @@ PCGA_BP52, UNKNOWN, UNKNOWN, false, true, , Sony
 PCG_21111L, UNKNOWN, UNKNOWN, false, false, , 
 PCG_41211M, UNKNOWN, UNKNOWN, false, true, , Sony
 PCG_41215T, UNKNOWN, UNKNOWN, false, true, , Sony
+PCG_4K1L, CUSTOM, CUSTOM, false, true, , Sony
 PCG_6121M, UNKNOWN, UNKNOWN, false, false, , 
 PCG_61711W, UNKNOWN, UNKNOWN, false, false, , 
 PCG_61813L, UNKNOWN, UNKNOWN, false, true, , Sony
@@ -8564,8 +8440,10 @@ PROBOOK_6730, CUSTOM, CUSTOM, false, true, , Hp
 PROBOOK_6930, UNKNOWN, UNKNOWN, false, false, , 
 PROLIANT_BL460C_G6, UNKNOWN, UNKNOWN, false, true, , Hp
 PRO_11, UNKNOWN, UNKNOWN, false, false, , 
+PRO_11_SVP11227SCB, CUSTOM, UNKNOWN, false, true, , Sony
 PRO_11_SVP112A1CM, UNKNOWN, UNKNOWN, false, false, , 
 PRO_12_9_(2ND), UNKNOWN, UNKNOWN, false, true, , Apple
+PRO_13_SVP1322J4E, CUSTOM, UNKNOWN, false, true, , Sony
 PRO_13_SVP132A1CM, CUSTOM, CUSTOM, false, true, , Sony
 PRO_13_SVP132A1CP, CUSTOM, CUSTOM, false, false, , 
 PRO_15_6, CUSTOM, CUSTOM, false, false, , 
@@ -8597,6 +8475,7 @@ PSKKWA_00J006, CUSTOM, CUSTOM, false, true, , Toshiba
 PST_3800_8162_SCUD, UNKNOWN, UNKNOWN, false, true, , Averatec
 PSU4RL_00700E, UNKNOWN, CUSTOM, false, true, , Toshiba
 PS_202S, UNKNOWN, UNKNOWN, false, true, , Samsung
+PT2877164_2S, OTHER, UNKNOWN, false, true, , Chuwi
 PT434, UNKNOWN, UNKNOWN, false, false, , 
 PT435, UNKNOWN, UNKNOWN, false, true, , Dell
 PT653, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -8610,6 +8489,7 @@ PU500, CUSTOM, CUSTOM, false, true, , Dell
 PU550CA, UNKNOWN, UNKNOWN, false, true, , Asus
 PU551J, UNKNOWN, UNKNOWN, false, true, , Asus
 PU551L, UNKNOWN, UNKNOWN, false, true, , Asus
+PW23Y, UNKNOWN, UNKNOWN, false, true, , Dell
 PW868, UNKNOWN, UNKNOWN, false, true, , Dell
 PW868_PW868, UNKNOWN, UNKNOWN, false, false, , 
 PWKWM, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -8622,6 +8502,7 @@ Q210, PIN_12, RECTANGLE, false, false, ,
 Q210_SERIES, PIN_12, RECTANGLE, false, true, , Samsung
 Q213, UNKNOWN, UNKNOWN, false, false, , 
 Q2532N, UNKNOWN, UNKNOWN, false, true, , Gigabyte
+Q301L, OTHER, UNKNOWN, false, true, , Asus
 Q303UA, UNKNOWN, UNKNOWN, false, false, , 
 Q324UA, UNKNOWN, UNKNOWN, false, false, , 
 Q480S_I5_D1, CUSTOM, CUSTOM, false, true, , Hasee
@@ -8658,6 +8539,7 @@ QX_350_RX, UNKNOWN, UNKNOWN, false, true, , Cjscope
 R103B, CUSTOM, CUSTOM, false, true, , Asus
 R104, PIN_4, RECTANGLE, false, true, , Hp
 R10B01W, UNKNOWN, UNKNOWN, false, false, , 
+R13B01W, CUSTOM, UNKNOWN, false, true, , Other
 R13B03W, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 R13B08W, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 R14KT1, UNKNOWN, UNKNOWN, false, true, , Averatec
@@ -8686,8 +8568,10 @@ R510_SERIES, UNKNOWN, UNKNOWN, false, true, , Asus
 R511LD, UNKNOWN, UNKNOWN, false, false, , 
 R540L, UNKNOWN, UNKNOWN, false, true, , Asus
 R541U, UNKNOWN, UNKNOWN, false, false, , 
+R542UR, CUSTOM, CUSTOM, false, true, , Asus
 R553L, UNKNOWN, UNKNOWN, false, false, , 
 R553LN, UNKNOWN, UNKNOWN, false, true, , Asus
+R554L, UNKNOWN, CUSTOM, false, true, , Asus
 R704A, UNKNOWN, UNKNOWN, false, true, , Acer
 R710, CUSTOM, CUSTOM, false, true, , Lg
 R725C, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -8696,6 +8580,7 @@ R730, UNKNOWN, UNKNOWN, false, false, ,
 R730_SERIES, UNKNOWN, RECTANGLE, false, false, , 
 R751L, CUSTOM, CUSTOM, false, true, , Asus
 R752, CUSTOM, CUSTOM, false, true, , Dynabook
+R753UA, CUSTOM, CUSTOM, false, true, , Asus
 R780, UNKNOWN, UNKNOWN, false, true, , Samsung
 R8D7N, UNKNOWN, UNKNOWN, false, false, , 
 R900VM, UNKNOWN, UNKNOWN, false, false, , 
@@ -8791,6 +8676,7 @@ S15H, UNKNOWN, UNKNOWN, false, true, , Terra
 S15_2019, UNKNOWN, UNKNOWN, false, true, , Sony
 S17_PRO_8U, UNKNOWN, UNKNOWN, false, true, , Wooking
 S20, CUSTOM, CUSTOM, false, true, , Sony
+S200, CUSTOM, CUSTOM, false, true, , Lenovo
 S20_4S2200_C1L2, UNKNOWN, UNKNOWN, false, false, , 
 S20_4S2200_C1S5, UNKNOWN, UNKNOWN, false, true, , Hasee
 S20_4S2200_S1S5, UNKNOWN, UNKNOWN, false, true, , Advent
@@ -8804,6 +8690,7 @@ S26391_F5031_L400, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 S26393_E034_V414, UNKNOWN, UNKNOWN, false, true, , Fujitsu
 S2691061, UNKNOWN, RECTANGLE, false, true, 47.6 x 27.1 x 9.0, Asus
 S30, CUSTOM, SQUARE, false, true, , Sony
+S301L, OTHER, UNKNOWN, false, true, , Asus
 S306, UNKNOWN, UNKNOWN, false, true, , Schenker
 S31U, UNKNOWN, UNKNOWN, false, true, , Benq
 S35, UNKNOWN, UNKNOWN, false, true, , Benq
@@ -8813,6 +8700,7 @@ S405, CUSTOM, CUSTOM, false, true, , Asus
 S406, UNKNOWN, UNKNOWN, false, true, , Schenker
 S40_4S4400_G1L3, UNKNOWN, UNKNOWN, false, true, , Advent
 S40_4S4400_G1P3, UNKNOWN, UNKNOWN, false, true, , Uniwill
+S41, UNKNOWN, CUSTOM, false, true, , Lenovo
 S410, CUSTOM, CUSTOM, false, false, , 
 S41_70, CUSTOM, CUSTOM, false, true, , Lenovo
 S4201, UNKNOWN, UNKNOWN, false, false, , 
@@ -8942,6 +8830,7 @@ SB03XL, CUSTOM, CUSTOM, false, true, , Hp
 SB10F46438, UNKNOWN, UNKNOWN, false, false, , 
 SB10F46441, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SB10F46448, UNKNOWN, UNKNOWN, false, false, , 
+SB10F46456, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SB10F46458, CUSTOM, CUSTOM, false, false, , 
 SB10F46459, CUSTOM, CUSTOM, false, true, , Lenovo
 SB10F46460, CUSTOM, CUSTOM, false, true, , Lenovo
@@ -8957,6 +8846,7 @@ SB10J78988, PIN_9, CUSTOM, false, false, ,
 SB10J78991, PIN_8, FAT, false, false, , 
 SB10J78997, UNKNOWN, UNKNOWN, false, false, , 
 SB10J78998, CUSTOM, CUSTOM, false, true, , Lenovo
+SB10J79000, CUSTOM, UNKNOWN, false, true, , Lenovo
 SB10J79002, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SB10J79003, CUSTOM, CUSTOM, false, true, , Lenovo
 SB10K10386, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -9870,12 +9760,15 @@ SL10069_10, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10069_11, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_12, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10069_13, UNKNOWN, UNKNOWN, false, false, , 
+SL10069_14, UNKNOWN, CUSTOM, false, true, , Lenovo
 SL10069_15, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_16, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_17, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_18, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_2, CUSTOM, CUSTOM, false, true, , Lenovo
+SL10069_3, UNKNOWN, CUSTOM, false, true, , Lenovo
 SL10069_4, CUSTOM, CUSTOM, false, false, , 
+SL10069_5, UNKNOWN, CUSTOM, false, true, , Lenovo
 SL10069_7, UNKNOWN, UNKNOWN, false, false, , 
 SL10069_8, UNKNOWN, UNKNOWN, false, false, , 
 SL10070, CUSTOM, CUSTOM, false, false, , 
@@ -9898,6 +9791,7 @@ SL10071_4, UNKNOWN, UNKNOWN, false, false, ,
 SL10071_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10071_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10072, UNKNOWN, UNKNOWN, false, false, , 
+SL10072_1, UNKNOWN, UNKNOWN, false, true, , Apple
 SL10072_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10072_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10072_4, UNKNOWN, UNKNOWN, false, false, , 
@@ -10036,7 +9930,9 @@ SL10084_9, CUSTOM, CUSTOM, false, true, , Sony
 SL10085, UNKNOWN, CUSTOM, false, false, , 
 SL10085_1, UNKNOWN, CUSTOM, false, true, , Samsung
 SL10085_2, UNKNOWN, CUSTOM, false, true, , Samsung
+SL10085_3, CUSTOM, UNKNOWN, false, true, , Samsung
 SL10085_4, UNKNOWN, UNKNOWN, false, false, , 
+SL10085_5, CUSTOM, UNKNOWN, false, true, , Samsung
 SL10088, CUSTOM, CUSTOM, false, false, , 
 SL10088_1, CUSTOM, CUSTOM, false, false, , 
 SL10088_10, CUSTOM, CUSTOM, false, false, , 
@@ -10222,6 +10118,7 @@ SL10109_2, UNKNOWN, UNKNOWN, false, true, , Razer
 SL10110, UNKNOWN, CUSTOM, false, false, , 
 SL10110_1, PIN_7, RECTANGLE, false, true, , Lenovo
 SL10110_2, PIN_7, RECTANGLE, false, true, , Lenovo
+SL10110_3, UNKNOWN, CUSTOM, false, true, , Lenovo
 SL10111, UNKNOWN, UNKNOWN, false, false, , 
 SL10111_1, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10111_2, UNKNOWN, UNKNOWN, false, true, , Hp
@@ -10402,6 +10299,7 @@ SL10130_5, UNKNOWN, UNKNOWN, false, true, , Clevo
 SL10130_6, CUSTOM, CUSTOM, false, true, , Zoostorm
 SL10131, CUSTOM, RECTANGLE, false, false, , 
 SL10131_1, CUSTOM, RECTANGLE, false, true, , Samsung
+SL10131_2, CUSTOM, UNKNOWN, false, true, , Samsung
 SL10131_3, CUSTOM, RECTANGLE, false, true, , Samsung
 SL10131_4, CUSTOM, RECTANGLE, false, true, , Samsung
 SL10131_5, UNKNOWN, UNKNOWN, false, false, , 
@@ -10489,8 +10387,10 @@ SL10142_6, UNKNOWN, UNKNOWN, false, false, ,
 SL10142_8, UNKNOWN, UNKNOWN, false, false, , 
 SL10142_9, UNKNOWN, UNKNOWN, false, false, , 
 SL10143, CUSTOM, CUSTOM, false, false, , 
+SL10143_1, OTHER, UNKNOWN, false, true, , Asus
 SL10143_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10143_3, UNKNOWN, UNKNOWN, false, false, , 
+SL10143_4, OTHER, UNKNOWN, false, true, , Asus
 SL10143_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10143_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10143_7, UNKNOWN, UNKNOWN, false, false, , 
@@ -10527,6 +10427,8 @@ SL10148, CUSTOM, CUSTOM, false, false, ,
 SL10148_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10148_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10148_3, UNKNOWN, UNKNOWN, false, false, , 
+SL10148_5, UNKNOWN, CUSTOM, false, true, , Dell
+SL10148_6, UNKNOWN, CUSTOM, false, true, , Dell
 SL10148_7, UNKNOWN, UNKNOWN, false, false, , 
 SL10149, UNKNOWN, RECTANGLE, false, false, , 
 SL10149_1, UNKNOWN, RECTANGLE, false, true, , Fujitsu
@@ -10552,6 +10454,8 @@ SL10151_4, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10152, OTHER, RECTANGLE, false, false, , 
 SL10152_2, OTHER, RECTANGLE, false, true, , Dell
 SL10152_3, OTHER, RECTANGLE, false, false, , 
+SL10152_5, OTHER, UNKNOWN, false, true, , Dell
+SL10152_6, OTHER, UNKNOWN, false, true, , Dell
 SL10153, CUSTOM, CUSTOM, false, false, , 
 SL10153_1, CUSTOM, CUSTOM, false, true, , Hp
 SL10153_2, CUSTOM, CUSTOM, false, false, , 
@@ -10563,6 +10467,7 @@ SL10153_7, UNKNOWN, UNKNOWN, false, false, ,
 SL10153_8, UNKNOWN, UNKNOWN, false, false, , 
 SL10153_9, UNKNOWN, UNKNOWN, false, false, , 
 SL10154, PIN_9, FAT, false, false, , 
+SL10154_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10155, UNKNOWN, UNKNOWN, false, false, , 
 SL10155_1, PIN_10, CUSTOM, false, true, , Haier
 SL10155_2, PIN_10, CUSTOM, false, true, , Haier
@@ -10665,6 +10570,7 @@ SL10169_3, UNKNOWN, UNKNOWN, false, false, ,
 SL10169_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10169_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10169_6, UNKNOWN, UNKNOWN, false, false, , 
+SL10169_7, CUSTOM, CUSTOM, false, true, , Samsung
 SL10170, UNKNOWN, UNKNOWN, false, false, , 
 SL10170_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10170_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -10753,6 +10659,7 @@ SL10181_8, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10181_9, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10182, CUSTOM, CUSTOM, false, false, , 
 SL10182_1, CUSTOM, CUSTOM, false, false, , 
+SL10182_2, OTHER, UNKNOWN, false, true, , Asus
 SL10182_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10182_4, CUSTOM, CUSTOM, false, true, , Asus
 SL10182_5, CUSTOM, CUSTOM, false, true, , Asus
@@ -11008,6 +10915,8 @@ SL10216_2, UNKNOWN, UNKNOWN, false, false, ,
 SL10216_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10216_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10216_5, UNKNOWN, UNKNOWN, false, false, , 
+SL10216_6, OTHER, UNKNOWN, false, true, , Asus
+SL10216_7, CUSTOM, UNKNOWN, false, true, , Asus
 SL10217, UNKNOWN, RECTANGLE, false, false, , 
 SL10217_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10218, CUSTOM, CUSTOM, false, false, , 
@@ -11238,6 +11147,7 @@ SL10251_9, UNKNOWN, UNKNOWN, false, false, ,
 SL10252, CUSTOM, CUSTOM, false, false, , 
 SL10252_1, CUSTOM, CUSTOM, false, true, , Dell
 SL10252_2, CUSTOM, CUSTOM, false, true, , Dell
+SL10252_3, CUSTOM, UNKNOWN, false, true, , Dell
 SL10253, UNKNOWN, UNKNOWN, false, false, , 
 SL10253_1, CUSTOM, CUSTOM, false, true, , Asus
 SL10253_2, CUSTOM, CUSTOM, false, true, , Asus
@@ -11315,6 +11225,7 @@ SL10264_5, UNKNOWN, UNKNOWN, false, false, ,
 SL10264_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10265, CUSTOM, CUSTOM, false, false, , 
 SL10265_2, CUSTOM, CUSTOM, false, true, , Asus
+SL10265_3, OTHER, UNKNOWN, false, true, , Asus
 SL10265_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10266, CUSTOM, CUSTOM, false, false, , 
 SL10266_2, CUSTOM, UNKNOWN, false, true, , Packard_bell
@@ -11327,6 +11238,7 @@ SL10267_4, UNKNOWN, UNKNOWN, false, false, ,
 SL10267_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10268, PIN_5, SQUARE, false, false, , 
 SL10268_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10268_2, OTHER, UNKNOWN, false, true, , Panasonic
 SL10269, UNKNOWN, UNKNOWN, false, false, , 
 SL10269_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10269_3, UNKNOWN, UNKNOWN, false, false, , 
@@ -11494,7 +11406,9 @@ SL10300_5, UNKNOWN, UNKNOWN, false, false, ,
 SL10300_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10300_7, UNKNOWN, UNKNOWN, false, false, , 
 SL10301, CUSTOM, UNKNOWN, false, false, , 
+SL10301_1, UNKNOWN, UNKNOWN, false, true, , Panasonic
 SL10301_2, UNKNOWN, UNKNOWN, false, false, , 
+SL10301_3, UNKNOWN, UNKNOWN, false, true, , Panasonic
 SL10301_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10302, UNKNOWN, UNKNOWN, false, false, , 
 SL10302_1, UNKNOWN, UNKNOWN, false, false, , 
@@ -11549,6 +11463,9 @@ SL10310_4, CUSTOM, CUSTOM, false, true, , Asus
 SL10310_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10310_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10311, CUSTOM, UNKNOWN, false, false, , 
+SL10311_1, UNKNOWN, UNKNOWN, false, true, , Dell
+SL10311_2, UNKNOWN, UNKNOWN, false, true, , Dell
+SL10311_3, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10312, UNKNOWN, UNKNOWN, false, false, , 
 SL10312_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10313, UNKNOWN, CUSTOM, false, false, , 
@@ -11598,6 +11515,7 @@ SL10318, UNKNOWN, CUSTOM, false, false, ,
 SL10318_1, UNKNOWN, CUSTOM, false, false, , 
 SL10318_2, UNKNOWN, CUSTOM, false, false, , 
 SL10318_3, UNKNOWN, UNKNOWN, false, false, , 
+SL10318_4, UNKNOWN, CUSTOM, false, true, , Samsung
 SL10319, UNKNOWN, UNKNOWN, false, false, , 
 SL10319_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10319_3, UNKNOWN, UNKNOWN, false, true, , Toshiba
@@ -11810,7 +11728,10 @@ SL10351_3, UNKNOWN, UNKNOWN, false, false, ,
 SL10351_4, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10351_5, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10352, CUSTOM, UNKNOWN, false, false, , 
+SL10352_1, CUSTOM, UNKNOWN, false, true, , Dell
 SL10352_2, UNKNOWN, UNKNOWN, false, false, , 
+SL10352_4, UNKNOWN, UNKNOWN, false, true, , Dell
+SL10352_5, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10353, UNKNOWN, UNKNOWN, false, false, , 
 SL10353_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10354, UNKNOWN, UNKNOWN, false, false, , 
@@ -11991,6 +11912,7 @@ SL10382_6, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10382_8, UNKNOWN, UNKNOWN, false, false, , 
 SL10382_9, UNKNOWN, UNKNOWN, false, false, , 
 SL10383, PIN_10, CUSTOM, false, false, , 
+SL10383_1, UNKNOWN, CUSTOM, false, true, , Other
 SL10383_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10384, PIN_11, CUSTOM, false, false, , 
 SL10384_1, PIN_11, CUSTOM, false, true, , Apple
@@ -12286,6 +12208,9 @@ SL10425_1, OTHER, RECTANGLE, false, false, ,
 SL10425_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10425_4, OTHER, RECTANGLE, false, true, , Samsung
 SL10426, CUSTOM, CUSTOM, false, false, , 
+SL10426_1, CUSTOM, UNKNOWN, false, true, , Lenovo
+SL10426_2, CUSTOM, UNKNOWN, false, true, , Lenovo
+SL10426_3, CUSTOM, UNKNOWN, false, true, , Lenovo
 SL10427, CUSTOM, CUSTOM, false, false, , 
 SL10427_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10427_10, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -12364,6 +12289,8 @@ SL10439, UNKNOWN, UNKNOWN, false, false, ,
 SL10439_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10439_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10440, CUSTOM, CUSTOM, false, false, , 
+SL10440_3, CUSTOM, CUSTOM, false, true, , Apple
+SL10440_4, CUSTOM, CUSTOM, false, true, , Apple
 SL10441, UNKNOWN, UNKNOWN, false, false, , 
 SL10441_1, CUSTOM, CUSTOM, false, true, , Asus
 SL10442, CUSTOM, UNKNOWN, false, false, , 
@@ -12423,6 +12350,7 @@ SL10450_8, UNKNOWN, UNKNOWN, false, false, ,
 SL10450_9, UNKNOWN, UNKNOWN, false, false, , 
 SL10451, CUSTOM, CUSTOM, false, false, , 
 SL10451_1, CUSTOM, CUSTOM, false, true, , Microsoft
+SL10451_4, CUSTOM, UNKNOWN, false, true, , Microsoft
 SL10452, CUSTOM, CUSTOM, false, false, , 
 SL10452_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10452_2, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -12576,6 +12504,8 @@ SL10473_1, UNKNOWN, UNKNOWN, false, false, ,
 SL10474, UNKNOWN, UNKNOWN, false, false, , 
 SL10474_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10475, CUSTOM, CUSTOM, false, false, , 
+SL10475_1, CUSTOM, UNKNOWN, false, true, , Sony
+SL10475_2, CUSTOM, UNKNOWN, false, true, , Sony
 SL10475_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10476, CUSTOM, CUSTOM, false, false, , 
 SL10476_1, CUSTOM, CUSTOM, false, true, , Hp
@@ -12616,13 +12546,19 @@ SL10481_3, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10481_4, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10481_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10482, CUSTOM, UNKNOWN, false, false, , 
+SL10482_1, CUSTOM, UNKNOWN, false, true, , Dell
+SL10482_2, CUSTOM, UNKNOWN, false, true, , Dell
+SL10482_3, CUSTOM, UNKNOWN, false, true, , Dell
 SL10483, UNKNOWN, UNKNOWN, false, false, , 
+SL10483_3, UNKNOWN, UNKNOWN, false, true, , Acer
+SL10483_4, UNKNOWN, UNKNOWN, false, true, , Acer
 SL10483_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10484, PIN_11, RECTANGLE, false, false, , 
 SL10484_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10484_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10485, CUSTOM, CUSTOM, false, false, , 
 SL10485_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10485_2, UNKNOWN, CUSTOM, false, true, , Asus
 SL10486, PIN_12, RECTANGLE, false, false, , 
 SL10486_2, PIN_12, RECTANGLE, false, true, , Msi
 SL10486_3, UNKNOWN, UNKNOWN, false, false, , 
@@ -12775,6 +12711,7 @@ SL10511_9, UNKNOWN, UNKNOWN, false, false, ,
 SL10512, CUSTOM, CUSTOM, false, false, , 
 SL10512_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10512_2, UNKNOWN, UNKNOWN, false, false, , 
+SL10512_3, CUSTOM, CUSTOM, false, true, , Asus
 SL10513, UNKNOWN, UNKNOWN, false, false, , 
 SL10513_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10513_3, UNKNOWN, UNKNOWN, false, true, , Dell
@@ -12865,11 +12802,13 @@ SL10531_6, CUSTOM, CUSTOM, false, true, , Hp
 SL10531_7, CUSTOM, CUSTOM, false, true, , Hp
 SL10532, PIN_9, UNKNOWN, false, false, , 
 SL10532_1, PIN_9, UNKNOWN, false, false, , 
+SL10532_4, CUSTOM, CUSTOM, false, true, , Samsung
 SL10533, CUSTOM, FAT, false, false, , 
 SL10533_1, CUSTOM, FAT, false, true, , Dell
 SL10533_2, CUSTOM, FAT, false, false, , 
 SL10533_3, CUSTOM, FAT, false, true, , Dell
 SL10533_4, UNKNOWN, UNKNOWN, false, false, , 
+SL10533_5, CUSTOM, CUSTOM, false, true, , Dell
 SL10534, UNKNOWN, UNKNOWN, false, false, , 
 SL10534_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10534_2, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -12890,6 +12829,8 @@ SL10536_3, CUSTOM, CUSTOM, false, true, , Acer
 SL10536_4, CUSTOM, CUSTOM, false, true, , Acer
 SL10537, CUSTOM, RECTANGLE, false, false, , 
 SL10538, UNKNOWN, CUSTOM, false, false, , 
+SL10538_1, UNKNOWN, UNKNOWN, false, true, , Hp
+SL10538_2, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10538_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10538_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10538_5, UNKNOWN, UNKNOWN, false, false, , 
@@ -12964,11 +12905,18 @@ SL10554_5, PIN_6, SQUARE, false, true, , Hp
 SL10554_6, PIN_6, SQUARE, false, true, , Hp
 SL10555, CUSTOM, CUSTOM, false, false, , 
 SL10555_1, CUSTOM, CUSTOM, false, false, , 
+SL10555_2, UNKNOWN, CUSTOM, false, true, , Asus
+SL10555_3, UNKNOWN, CUSTOM, false, true, , Asus
 SL10556, CUSTOM, CUSTOM, false, false, , 
 SL10556_1, CUSTOM, CUSTOM, false, true, , Asus
 SL10556_2, CUSTOM, CUSTOM, false, false, , 
 SL10557, UNKNOWN, CUSTOM, false, false, , 
+SL10557_1, UNKNOWN, CUSTOM, false, true, , Hp
 SL10557_10, UNKNOWN, UNKNOWN, false, false, , 
+SL10557_2, UNKNOWN, CUSTOM, false, true, , Hp
+SL10557_3, UNKNOWN, CUSTOM, false, true, , Hp
+SL10557_4, UNKNOWN, CUSTOM, false, true, , Hp
+SL10557_5, UNKNOWN, CUSTOM, false, true, , Hp
 SL10557_6, UNKNOWN, UNKNOWN, false, false, , 
 SL10557_7, UNKNOWN, UNKNOWN, false, false, , 
 SL10557_8, UNKNOWN, UNKNOWN, false, false, , 
@@ -12980,6 +12928,7 @@ SL10559_1, UNKNOWN, UNKNOWN, false, true, , Msi
 SL10559_2, UNKNOWN, UNKNOWN, false, true, , Olivetti
 SL10559_3, UNKNOWN, UNKNOWN, false, true, , Olivetti
 SL10560, PIN_7, SQUARE, false, false, , 
+SL10560_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10560_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10560_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10560_4, UNKNOWN, UNKNOWN, false, false, , 
@@ -13142,7 +13091,9 @@ SL10600_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10600_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10600_3, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10601, CUSTOM, CUSTOM, false, false, , 
+SL10601_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10601_2, UNKNOWN, UNKNOWN, false, false, , 
+SL10601_3, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10602, UNKNOWN, UNKNOWN, false, false, , 
 SL10602_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10602_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13163,7 +13114,9 @@ SL10608_1, UNKNOWN, UNKNOWN, false, false, ,
 SL10609, UNKNOWN, RECTANGLE, false, false, , 
 SL10609_1, UNKNOWN, RECTANGLE, false, false, , 
 SL10610, CUSTOM, CUSTOM, false, false, , 
+SL10610_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10611, CUSTOM, CUSTOM, false, false, , 
+SL10611_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10612, PIN_5, CUSTOM, false, false, , 
 SL10612_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10613, UNKNOWN, UNKNOWN, false, false, , 
@@ -13174,6 +13127,7 @@ SL10614_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10614_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10615, UNKNOWN, UNKNOWN, false, false, , 
 SL10615_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10615_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10616, CUSTOM, CUSTOM, false, false, , 
 SL10616_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10617, UNKNOWN, UNKNOWN, false, false, , 
@@ -13191,6 +13145,8 @@ SL10620, UNKNOWN, UNKNOWN, false, false, ,
 SL10620_1, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10620_2, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10621, CUSTOM, CUSTOM, false, false, , 
+SL10621_1, CUSTOM, UNKNOWN, false, true, , Asus
+SL10621_2, CUSTOM, UNKNOWN, false, true, , Asus
 SL10622, PIN_8, RECTANGLE, false, false, , 
 SL10622_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10622_2, CUSTOM, CUSTOM, false, true, , Lenovo
@@ -13271,6 +13227,9 @@ SL10645, UNKNOWN, UNKNOWN, false, false, ,
 SL10645_1, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10645_2, CUSTOM, CUSTOM, false, true, , Lenovo
 SL10646, UNKNOWN, CUSTOM, false, false, , 
+SL10646_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SL10646_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
+SL10646_3, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10647, UNKNOWN, UNKNOWN, false, false, , 
 SL10647_1, UNKNOWN, UNKNOWN, false, true, , Acer
 SL10647_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13292,6 +13251,7 @@ SL10652_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10652_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10653, CUSTOM, CUSTOM, false, false, , 
 SL10653_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10653_2, UNKNOWN, CUSTOM, false, true, , Asus
 SL10653_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10654, PIN_4, RECTANGLE, false, false, , 
 SL10654_1, PIN_4, RECTANGLE, false, true, , Dell
@@ -13312,6 +13272,7 @@ SL10658_3, UNKNOWN, UNKNOWN, false, true, , Dell
 SL10659, UNKNOWN, UNKNOWN, false, false, , 
 SL10659_2, UNKNOWN, UNKNOWN, false, true, , Acer
 SL10660, UNKNOWN, CUSTOM, false, false, , 
+SL10660_1, UNKNOWN, CUSTOM, false, true, , Asus
 SL10660_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10661, CUSTOM, CUSTOM, false, false, , 
 SL10661_1, CUSTOM, CUSTOM, false, true, , Asus
@@ -13339,6 +13300,8 @@ SL10667, CUSTOM, CUSTOM, false, false, ,
 SL10667_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10667_2, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10668, OTHER, SQUARE, false, false, , 
+SL10668_1, CUSTOM, UNKNOWN, false, true, , Asus
+SL10668_2, CUSTOM, UNKNOWN, false, true, , Asus
 SL10669, CUSTOM, CUSTOM, false, false, , 
 SL10669_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10669_2, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -13349,6 +13312,7 @@ SL10671, CUSTOM, CUSTOM, false, false, ,
 SL10671_2, CUSTOM, CUSTOM, false, true, , Asus
 SL10672, CUSTOM, CUSTOM, false, false, , 
 SL10672_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10672_2, UNKNOWN, CUSTOM, false, true, , Asus
 SL10673, CUSTOM, CUSTOM, false, false, , 
 SL10673_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10673_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13511,12 +13475,16 @@ SL10710_7, UNKNOWN, UNKNOWN, false, false, ,
 SL10711, UNKNOWN, UNKNOWN, false, false, , 
 SL10711_1, UNKNOWN, UNKNOWN, false, true, , Clevo
 SL10712, UNKNOWN, UNKNOWN, false, false, , 
+SL10712_1, UNKNOWN, UNKNOWN, false, true, , Acer
+SL10712_3, UNKNOWN, UNKNOWN, false, true, , Acer
+SL10712_4, UNKNOWN, UNKNOWN, false, true, , Acer
 SL10713, PIN_8, CUSTOM, false, false, , 
 SL10713_2, PIN_8, CUSTOM, false, false, , 
 SL10714, OTHER, RECTANGLE, false, false, , 
 SL10714_1, OTHER, RECTANGLE, false, false, , 
 SL10714_2, OTHER, RECTANGLE, false, true, , Lenovo
 SL10715, CUSTOM, CUSTOM, false, false, , 
+SL10715_1, UNKNOWN, CUSTOM, false, true, , Asus
 SL10716, CUSTOM, CUSTOM, false, false, , 
 SL10716_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10716_3, CUSTOM, CUSTOM, false, true, , Acer
@@ -13590,6 +13558,7 @@ SL10729_4, UNKNOWN, UNKNOWN, false, false, ,
 SL10729_5, PIN_9, CUSTOM, false, false, , 
 SL10729_6, PIN_9, CUSTOM, false, false, , 
 SL10729_7, UNKNOWN, UNKNOWN, false, false, , 
+SL10729_8, CUSTOM, UNKNOWN, false, true, , Hp
 SL10730, UNKNOWN, UNKNOWN, false, false, , 
 SL10730_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10730_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
@@ -13625,9 +13594,12 @@ SL10737_2, UNKNOWN, UNKNOWN, false, false, ,
 SL10737_3, UNKNOWN, UNKNOWN, false, false, , 
 SL10738, UNKNOWN, CUSTOM, false, false, , 
 SL10738_1, UNKNOWN, CUSTOM, false, false, , 
+SL10738_2, UNKNOWN, CUSTOM, false, true, , Microsoft
 SL10739, CUSTOM, CUSTOM, false, false, , 
 SL10739_2, CUSTOM, CUSTOM, false, true, , Asus
 SL10740, CUSTOM, CUSTOM, false, false, , 
+SL10740_1, CUSTOM, UNKNOWN, false, true, , Asus
+SL10740_2, CUSTOM, UNKNOWN, false, true, , Asus
 SL10741, CUSTOM, UNKNOWN, false, false, , 
 SL10741_1, UNKNOWN, UNKNOWN, false, true, , Samsung
 SL10741_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13759,6 +13731,7 @@ SL10774_2, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10774_3, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10775, CUSTOM, CUSTOM, false, false, , 
 SL10775_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10775_2, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10776, PIN_8, RECTANGLE, false, false, , 
 SL10776_1, PIN_8, RECTANGLE, false, true, , Lenovo
 SL10776_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13777,8 +13750,11 @@ SL10779_4, UNKNOWN, UNKNOWN, false, false, ,
 SL10779_5, UNKNOWN, UNKNOWN, false, false, , 
 SL10780, UNKNOWN, CUSTOM, false, false, , 
 SL10780_1, UNKNOWN, UNKNOWN, false, false, , 
+SL10780_2, UNKNOWN, UNKNOWN, false, true, , Hp
+SL10780_3, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10780_4, UNKNOWN, UNKNOWN, false, false, , 
 SL10780_5, UNKNOWN, UNKNOWN, false, false, , 
+SL10780_6, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10781, UNKNOWN, UNKNOWN, false, false, , 
 SL10781_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL10781_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -13898,6 +13874,7 @@ SL10814_4, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10815, CUSTOM, CUSTOM, false, false, , 
 SL10815_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10815_2, UNKNOWN, UNKNOWN, false, false, , 
+SL10815_3, OTHER, UNKNOWN, false, true, , Asus
 SL10816, UNKNOWN, UNKNOWN, false, false, , 
 SL10816_1, UNKNOWN, UNKNOWN, false, false, , 
 SL10816_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -14033,6 +14010,7 @@ SL10849_3, OTHER, RECTANGLE, false, true, , Hp
 SL10850, CUSTOM, RECTANGLE, false, false, , 
 SL10850_1, CUSTOM, RECTANGLE, false, false, , 
 SL10851, UNKNOWN, UNKNOWN, false, false, , 
+SL10851_2, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10852, CUSTOM, CUSTOM, false, false, , 
 SL10852_1, CUSTOM, CUSTOM, false, true, , Razer
 SL10852_2, UNKNOWN, UNKNOWN, false, true, , Razer
@@ -14227,6 +14205,7 @@ SL10921, PIN_8, RECTANGLE, false, false, ,
 SL10921_1, PIN_8, RECTANGLE, false, true, , Acer
 SL10921_2, UNKNOWN, UNKNOWN, false, false, , 
 SL10922, PIN_10, RECTANGLE, false, false, , 
+SL10922_2, OTHER, UNKNOWN, false, true, , Xiaomi
 SL10923, CUSTOM, CUSTOM, false, false, , 
 SL10923_1, UNKNOWN, UNKNOWN, false, true, , Hp
 SL10923_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -14446,6 +14425,7 @@ SL10999, CUSTOM, CUSTOM, false, false, ,
 SL10999_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL10999_2, UNKNOWN, UNKNOWN, false, true, , Asus
 SL11000, UNKNOWN, CUSTOM, false, false, , 
+SL11000_1, UNKNOWN, UNKNOWN, false, true, , Dell
 SL11001, UNKNOWN, UNKNOWN, false, false, , 
 SL11001_1, UNKNOWN, UNKNOWN, false, false, , 
 SL11001_2, UNKNOWN, UNKNOWN, false, false, , 
@@ -14471,6 +14451,7 @@ SL11008_1, UNKNOWN, UNKNOWN, false, false, ,
 SL11008_2, UNKNOWN, UNKNOWN, false, false, , 
 SL11009, CUSTOM, CUSTOM, false, false, , 
 SL11009_1, UNKNOWN, UNKNOWN, false, false, , 
+SL11009_2, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL11010, UNKNOWN, RECTANGLE, false, false, , 
 SL11010_1, UNKNOWN, UNKNOWN, false, true, , Acer
 SL11010_2, UNKNOWN, UNKNOWN, false, true, , Acer
@@ -14703,6 +14684,7 @@ SL11091_3, CUSTOM, CUSTOM, false, true, , Acer
 SL11092, CUSTOM, RECTANGLE, false, false, , 
 SL11092_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL11093, UNKNOWN, CUSTOM, false, false, , 
+SL11093_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL11094, UNKNOWN, UNKNOWN, false, false, , 
 SL11094_1, UNKNOWN, UNKNOWN, false, true, , Clevo
 SL11094_2, UNKNOWN, UNKNOWN, false, true, , Clevo
@@ -14753,6 +14735,7 @@ SL11113_1, CUSTOM, CUSTOM, false, false, ,
 SL11114, UNKNOWN, UNKNOWN, false, false, , 
 SL11114_1, UNKNOWN, UNKNOWN, false, false, , 
 SL11115, CUSTOM, CUSTOM, false, false, , 
+SL11115_2, UNKNOWN, UNKNOWN, false, true, , Dell
 SL11116, CUSTOM, CUSTOM, false, false, , 
 SL11116_1, UNKNOWN, UNKNOWN, false, true, , Dell
 SL11117, UNKNOWN, UNKNOWN, false, false, , 
@@ -14766,6 +14749,7 @@ SL11119_1, UNKNOWN, UNKNOWN, false, true, , Asus
 SL11120, UNKNOWN, UNKNOWN, false, false, , 
 SL11120_2, CUSTOM, CUSTOM, false, true, , Dell
 SL11121, CUSTOM, RECTANGLE, false, false, , 
+SL11121_1, UNKNOWN, UNKNOWN, false, true, , Xiaomi
 SL11122, UNKNOWN, UNKNOWN, false, false, , 
 SL11122_1, UNKNOWN, UNKNOWN, false, false, , 
 SL11123, UNKNOWN, UNKNOWN, false, false, , 
@@ -14801,6 +14785,7 @@ SL11132_2, UNKNOWN, UNKNOWN, false, false, ,
 SL11133, UNKNOWN, UNKNOWN, false, false, , 
 SL11133_1, UNKNOWN, UNKNOWN, false, false, , 
 SL11133_2, UNKNOWN, UNKNOWN, false, false, , 
+SL11133_3, UNKNOWN, UNKNOWN, false, true, , Hp
 SL11133_4, UNKNOWN, UNKNOWN, false, false, , 
 SL11134, UNKNOWN, UNKNOWN, false, false, , 
 SL11134_1, UNKNOWN, UNKNOWN, false, false, , 
@@ -14906,6 +14891,7 @@ SL11176_1, UNKNOWN, UNKNOWN, false, false, ,
 SL11176_2, UNKNOWN, UNKNOWN, false, false, , 
 SL11177, PIN_8, RECTANGLE, false, false, , 
 SL11177_1, UNKNOWN, UNKNOWN, false, false, , 
+SL11177_2, UNKNOWN, UNKNOWN, false, true, , Acer
 SL11178, UNKNOWN, UNKNOWN, false, false, , 
 SL11178_1, PIN_12, SQUARE, false, true, , Pegatron
 SL11179, UNKNOWN, UNKNOWN, false, false, , 
@@ -15033,6 +15019,8 @@ SL20014, UNKNOWN, UNKNOWN, false, false, ,
 SL20014_1, UNKNOWN, UNKNOWN, false, true, , Lenovo
 SL20014_3, UNKNOWN, UNKNOWN, false, false, , 
 SL20015, CUSTOM, CUSTOM, false, false, , 
+SL20015_1, CUSTOM, UNKNOWN, false, true, , Dell
+SL20015_2, CUSTOM, UNKNOWN, false, true, , Dell
 SL20015_3, UNKNOWN, UNKNOWN, false, false, , 
 SL20016, UNKNOWN, UNKNOWN, false, false, , 
 SL20016_1, UNKNOWN, UNKNOWN, false, false, , 
@@ -16052,6 +16040,7 @@ TPN_Q195, PIN_10, RECTANGLE, false, false, ,
 TPN_W107, UNKNOWN, RECTANGLE, false, true, , Hp
 TPN_W110, UNKNOWN, UNKNOWN, false, true, , Hp
 TPN_W111, UNKNOWN, RECTANGLE, false, false, , 
+TPN_W112, UNKNOWN, CUSTOM, false, true, , Hp
 TPN_W118, UNKNOWN, UNKNOWN, false, false, , 
 TPN_W119, UNKNOWN, UNKNOWN, false, false, , 
 TPN_W123, OTHER, UNKNOWN, false, true, , Hp
@@ -16067,7 +16056,11 @@ TRANSFORMER_BOOK_FLIP_TP500L, UNKNOWN, UNKNOWN, false, true, , Asus
 TRANSFORMER_BOOK_FLIP_TP500LA, UNKNOWN, UNKNOWN, false, true, , Asus
 TRANSFORMER_BOOK_FLIP_TP500LB, UNKNOWN, UNKNOWN, false, false, , 
 TRANSFORMER_BOOK_FLIP_TP500LN, UNKNOWN, UNKNOWN, false, false, , 
+TRANSFORMER_BOOK_FLIP_TP550, OTHER, UNKNOWN, false, true, , Asus
+TRANSFORMER_BOOK_FLIP_TP550L, OTHER, UNKNOWN, false, true, , Asus
+TRANSFORMER_BOOK_FLIP_TP550LA, OTHER, UNKNOWN, false, true, , Asus
 TRANSFORMER_BOOK_FLIP_TP550LD, UNKNOWN, UNKNOWN, false, false, , 
+TRANSFORMER_BOOK_FLIP_TP550LJ, OTHER, UNKNOWN, false, true, , Asus
 TRANSFORMER_BOOK_T100, UNKNOWN, UNKNOWN, false, true, , Asus
 TRANSFORMER_BOOK_T100HA, UNKNOWN, UNKNOWN, false, false, , 
 TRANSFORMER_BOOK_T100TA, UNKNOWN, UNKNOWN, false, true, , Asus
@@ -16248,6 +16241,7 @@ VGP_BPS31, CUSTOM, CUSTOM, false, true, , Sony
 VGP_BPS33, UNKNOWN, UNKNOWN, false, true, , Sony
 VGP_BPS34, CUSTOM, CUSTOM, false, false, , 
 VGP_BPS35A, CUSTOM, CUSTOM, false, true, , Sony
+VGP_BPS37, CUSTOM, UNKNOWN, false, true, , Sony
 VGP_BPS38, CUSTOM, CUSTOM, false, true, , Sony
 VGP_BPS39, PIN_9, RECTANGLE, false, true, , Sony
 VGP_BPS40, CUSTOM, CUSTOM, false, true, , Sony
@@ -16493,7 +16487,10 @@ X551CA, CUSTOM, CUSTOM, false, false, ,
 X551M, CUSTOM, CUSTOM, false, true, 37.0 x 19.0 x 0.0, Asus
 X551MAV, CUSTOM, CUSTOM, false, false, , 
 X553S, CUSTOM, CUSTOM, false, false, , 
+X554L, OTHER, UNKNOWN, false, true, , Asus
 X555, UNKNOWN, UNKNOWN, false, false, , 
+X555LN, OTHER, UNKNOWN, false, true, , Asus
+X556, UNKNOWN, UNKNOWN, false, true, , Asus
 X556UJ, UNKNOWN, UNKNOWN, false, false, , 
 X57Q, UNKNOWN, UNKNOWN, false, false, , 
 X58, UNKNOWN, UNKNOWN, false, true, , Thtf
@@ -16596,11 +16593,13 @@ Y00_00687, UNKNOWN, UNKNOWN, false, true, , Nec
 Y082C, CUSTOM, CUSTOM, false, true, , Dell
 Y1FGD, CUSTOM, CUSTOM, false, true, , Dell
 Y3PN0, CUSTOM, CUSTOM, false, true, , Dell
+Y40_70, CUSTOM, UNKNOWN, false, true, , Lenovo
 Y40_80, UNKNOWN, UNKNOWN, false, false, , 
 Y481, CUSTOM, CUSTOM, false, true, , Asus
 Y50C5, CUSTOM, CUSTOM, false, true, , Dell
 Y50_70, CUSTOM, CUSTOM, false, true, , Lenovo
 Y581, UNKNOWN, UNKNOWN, false, false, , 
+Y583L, OTHER, UNKNOWN, false, true, , Asus
 Y70_70, CUSTOM, CUSTOM, false, true, , Lenovo
 Y720_15, UNKNOWN, UNKNOWN, false, false, , 
 Y758W, CUSTOM, CUSTOM, false, true, , Dell
@@ -16673,6 +16672,7 @@ ZBOOK_17_G5, UNKNOWN, UNKNOWN, false, true, , Hp
 ZBOOK_STUDIO_G3, UNKNOWN, RECTANGLE, false, true, , Hp
 ZBOOK_STUDIO_G3(V8N23PA), UNKNOWN, UNKNOWN, false, true, , Hp
 ZBOOK_STUDIO_G5, CUSTOM, CUSTOM, false, true, , Hp
+ZENBOOK_3_UX390, UNKNOWN, CUSTOM, false, true, , Asus
 ZENBOOK_FLIP_15, UNKNOWN, UNKNOWN, false, true, , Asus
 ZENBOOK_FLIP_UX360UA, UNKNOWN, UNKNOWN, false, true, , Asus
 ZENBOOK_PRO_N501L, UNKNOWN, UNKNOWN, false, true, , Asus

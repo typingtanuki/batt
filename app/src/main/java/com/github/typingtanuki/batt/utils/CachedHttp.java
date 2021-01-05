@@ -132,6 +132,8 @@ public final class CachedHttp {
             return;
         }
 
+        System.out.println(image.getUrl());
+        System.out.println(image.getPath());
         progress(PAGE_DOWNLOAD);
 
         Connection.Response document = null;

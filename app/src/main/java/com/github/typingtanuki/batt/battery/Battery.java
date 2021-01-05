@@ -67,6 +67,8 @@ public class Battery {
     private Double width;
     private String dbId;
 
+    private Battery mergeTarget = null;
+
 
     public Battery(Maker maker, Source source) {
         super();
@@ -127,6 +129,10 @@ public class Battery {
     }
 
     public boolean isValid() {
+        if (mergeTarget != null) {
+            return mergeTarget.isValid();
+        }
+
         consolidate();
         String model;
         try {
@@ -163,7 +169,11 @@ public class Battery {
         }
     }
 
-    public void mergeWith(Battery battery) throws NoPartException {
+    public void mergeWith(Battery toMerge) throws NoPartException {
+        Battery battery = toMerge;
+        if (battery.mergeTarget != null) {
+            battery = battery.mergeTarget;
+        }
         partNo.addAll(battery.partNo);
         sources.addAll(battery.sources);
         images.addAll(battery.images);
@@ -190,6 +200,7 @@ public class Battery {
         BatteryDB.addBattery(this, isValid());
         BatteryDB.addBattery(battery, isValid());
 
+        battery.mergeTarget = this;
         this.dbId = mergedDbId;
     }
 
