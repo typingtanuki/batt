@@ -15,8 +15,6 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.db.BatteryDB.*;
 import static com.github.typingtanuki.batt.scrapper.BatteryDetailReader.batteryImages;
@@ -150,10 +148,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         battery.setModel(parts[0]);
         battery.addPartNo(Arrays.asList(parts));
 
-        Elements models = page.select(".sku_wrapper");
-        String denchipart = models.text().split(":")[1].strip();
-        battery.addPartNo(Collections.singleton(denchipart));
-
         Elements descriptions = page.select(".product_title-product-details__short-description");
         String description = descriptions.text();
         if (description.isBlank()) {
@@ -173,13 +167,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         }
         if (battery.getAmp() == null) {
             readAmp(description, battery);
-        }
-
-        Elements ids = page.select(".product_title");
-        Pattern ID_EXTRACTOR = Pattern.compile("^.*\\s([^\\s]+)$");
-        Matcher matcher = ID_EXTRACTOR.matcher(ids.text());
-        if (matcher.matches()) {
-            battery.addPartNo(Collections.singleton(matcher.group(1)));
         }
 
         if (battery.getPartNo().isEmpty()) {

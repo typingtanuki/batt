@@ -4,7 +4,16 @@
 [*] 
 [*] 7.6V
 [*] Up to: 5500mAh
-[*] Parts: 13.3, AEROBOOK 13.3, AIR 13.3, HW-34154184, SL10379-2, SL20291-1
+[*] Parts: AEROBOOK 13.3, HW-34154184
+[*] Size: 
+[/list]
+
+[*] Other AIR_13_3
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 5230mAh
+[*] Parts: AIR 13.3
 [*] Size: 
 [/list]
 
@@ -22,7 +31,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: 2877164-2S, LAPBOOK SE, SE, SL20296-1
+[*] Parts: 2877164-2S, LAPBOOK SE
 [*] Size: 
 [/list]
 
@@ -62,7 +71,16 @@
 [*] Size: 
 [/list]
 
-[*] Cube THINKER_I35
+[*] Teclast QT31150165P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: H28154165P, QT31150165P, TECLAST X5 PRO, X5 PRO
+[*] Size: 169.0mm x 126.0mm x 3.4mm
+[/list]
+
+[*] Cube THINKER_I9
 [list]
 [*] 
 [*] 7.6V
@@ -98,16 +116,16 @@
 [*] Size: 
 [/list]
 
-[*] Jumper HW_3487265
+[*] Jumper EZBOOK_3_PRO_64GB
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4500mAh
-[*] Parts: 10LB, 3282122-2S, 3282122-2S,HW-3487265, 3382122-2S, CLTD-3487265, EZBOOK 3 PRO, EZBOOK 3 PRO 10LB, EZBOOK 3 PRO 13.3, EZBOOK 3 PRO 64G LB10, EZBOOK 3 PRO 64GB, EZBOOK 3 PRO LB10, EZBOOK 3 PRO S, EZBOOK 3 PRO SSD, EZBOOK 3 PRO V3, EZBOOK 3 PRO V4, EZBOOK 3 PRO VS, EZBOOK 3 S, EZBOOK 3 SE, EZBOOK 3 SL, EZBOOK 3S, EZBOOK 3S MB10, EZBOOK 3SE, EZBOOK 3SL, EZBOOK I7, EZBOOK I7S, EZBOOK LB10, EZBOOK MB10 3S, EZBOOK PRO 3 LB10, EZBOOK X3, HW-3487265, HW-3687265, NOTEBOOK SLIM S130, P313R, PRIMEBOOK C11, S130, SL10959-1, SL10959-2, SLIM PEAQ S130-CG464IT, SLIM S130, SLIM S130-CA464PT, SLIM S130-CG464PT, SURFBOOK A13, SURFBOOK A13B, SURFBOOK A13B-CO, SURFBOOK A13B-PO, TREKSTOR SURFBOOK A 13N5000/4/64, TREKSTORE SURFBOOK A13B-P313R, WTL-3687265, Z140A-SD
+[*] Parts: 3282122-2S, 3382122-2S, CLTD-3487265, EZBOOK 3 PRO, EZBOOK 3 PRO 10LB, EZBOOK 3 PRO 13.3, EZBOOK 3 PRO 64G LB10, EZBOOK 3 PRO 64GB, EZBOOK 3 PRO LB10, EZBOOK 3 PRO S, EZBOOK 3 PRO SSD, EZBOOK 3 PRO V3, EZBOOK 3 PRO V4, EZBOOK 3 PRO VS, EZBOOK 3 S, EZBOOK 3 SE, EZBOOK 3 SL, EZBOOK 3S, EZBOOK 3S MB10, EZBOOK 3SE, EZBOOK 3SL, EZBOOK I7, EZBOOK I7S, EZBOOK LB10, EZBOOK MB10 3S, EZBOOK PRO 3 LB10, EZBOOK X3, HW-3487265, HW-3687265, NOTEBOOK SLIM S130, P313R, PRIMEBOOK C11, S130, SLIM PEAQ S130-CG464IT, SLIM S130, SLIM S130-CA464PT, SLIM S130-CG464PT, SURFBOOK A13, SURFBOOK A13B, SURFBOOK A13B-CO, SURFBOOK A13B-PO, TREKSTOR SURFBOOK A 13N5000/4/64, TREKSTORE SURFBOOK A13B-P313R, WTL-3687265, Z140A-SD
 [*] Size: 
 [/list]
 
-[*] Trekstor PRIMEBOOK_C11
+[*] Trekstor SURFBOOK_A13B_PO
 [list]
 [*] 
 [*] 7.6V
@@ -121,16 +139,7 @@
 [*] 
 [*] 7.4V
 [*] Up to: 4180mAh
-[*] Parts: P3361160, P3362160, P3362160,P3361160, SL20232-1
-[*] Size: 
-[/list]
-
-[*] Chuwi 31130148P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4000mAh
-[*] Parts: 31130148P, HW-31130148, UBOOK CWI509
+[*] Parts: P3361160, P3362160
 [*] Size: 
 [/list]
 
@@ -143,34 +152,25 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi NV30140146
+[*] Chuwi NV30140146_2S
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4000mAh
-[*] Parts: 30132140P, CWI540, NV30140146, NV30140146-2S, SL20290-1, SURBOOK MINI CWI540
+[*] Parts: 30132140P, NV30140146, NV30140146-2S, SURBOOK MINI CWI540
 [*] Size: 
 [/list]
 
-[*] Teclast 2666144
+[*] Chuwi UBOOK_CWI509
 [list]
 [*] 
 [*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: 2666144, F5, H-30137162P, MAXBOOK Y11 H1M6, TECLAST F5
+[*] Up to: 4000mAh
+[*] Parts: 31130148P, HW-31130148, UBOOK CWI509
 [*] Size: 
 [/list]
 
-[*] Jumper EZBOOK_X1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: EZBOOK X1, NV-2778130-2S
-[*] Size: 
-[/list]
-
-[*] Jumper EZPAD_6_PLUS
+[*] Jumper EZPAD_6_PRO
 [list]
 [*] 
 [*] 7.6V
@@ -197,6 +197,24 @@
 [*] Size: 144.0mm x 54.0mm x 6.5mm
 [/list]
 
+[*] Jumper NV_2778130_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: EZBOOK X1, NV-2778130-2S
+[*] Size: 
+[/list]
+
+[*] Teclast TECLAST_F5
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: 2666144, F5, H-30137162P, MAXBOOK Y11 H1M6, TECLAST F5
+[*] Size: 
+[/list]
+
 [*] Other MLP3490132_2S
 [list]
 [*] 
@@ -206,7 +224,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi 32160205P
+[*] Chuwi LAPBOOK_AIR_CW1529
 [list]
 [*] 
 [*] 7.6V
@@ -215,7 +233,7 @@
 [*] Size: 
 [/list]
 
-[*] Haier M4
+[*] Haier X14_3450G04128WY
 [list]
 [*] 
 [*] 7.6V
@@ -224,7 +242,7 @@
 [*] Size: 
 [/list]
 
-[*] Prestigio 2898141P
+[*] Prestigio SMARTBOOK_133S
 [list]
 [*] 
 [*] 7.4V
@@ -242,7 +260,7 @@
 [*] Size: 
 [/list]
 
-[*] Mcnair MLP4087118
+[*] Mcnair MLP4087118_2S
 [list]
 [*] 
 [*] 7.6V
@@ -287,15 +305,6 @@
 [*] Size: 
 [/list]
 
-[*] Trekstor MLP2874170_2S
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4600mAh
-[*] Parts: MLP2874170-2S, PRIMEBOOK P13
-[*] Size: 
-[/list]
-
 [*] Dell YN6W9
 [list]
 [*] 
@@ -314,7 +323,7 @@
 [*] Size: 
 [/list]
 
-[*] Medion 0B23_00D7000M
+[*] Medion 40050434
 [list]
 [*] 
 [*] 7.4V
@@ -332,12 +341,12 @@
 [*] Size: 
 [/list]
 
-[*] Dell CP305193L1
+[*] Dell DL011301_PLP22G01
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 3520mAh
-[*] Parts: 7WMM7, CFC6C, CP305193L1, D1R74, DL011301-PLP22G01, KEYBOARD, SL10848-1, SL10848-2, VENUE 11 PRO CFC6C, VENUE 11 PRO D1R74, VENUE 11 PRO KEYBOARD
+[*] Parts: 7WMM7, CFC6C, CP305193L1, D1R74, DL011301-PLP22G01, VENUE 11 PRO CFC6C, VENUE 11 PRO D1R74, VENUE 11 PRO KEYBOARD
 [*] Size: 
 [/list]
 

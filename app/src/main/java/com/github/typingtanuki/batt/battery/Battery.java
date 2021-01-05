@@ -2,6 +2,7 @@ package com.github.typingtanuki.batt.battery;
 
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.NoPartException;
+import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.validator.Conditions;
 
 import java.util.*;
@@ -68,6 +69,7 @@ public class Battery {
     private String dbId;
 
     private Battery mergeTarget = null;
+    private boolean isCompleted = false;
 
 
     public Battery(Maker maker, Source source) {
@@ -134,6 +136,13 @@ public class Battery {
         }
 
         consolidate();
+
+        matchedConditions.clear();
+
+        if (isCompleted && images.isEmpty()) {
+            return false;
+        }
+
         String model;
         try {
             model = getModel();
@@ -147,7 +156,6 @@ public class Battery {
         if (model.length() < 2) {
             return false;
         }
-        matchedConditions.clear();
 
         Conditions.validate(this, matchedConditions);
 
@@ -169,7 +177,7 @@ public class Battery {
         }
     }
 
-    public void mergeWith(Battery toMerge) throws NoPartException {
+    public void mergeWith(Battery toMerge) {
         Battery battery = toMerge;
         if (battery.mergeTarget != null) {
             battery = battery.mergeTarget;
@@ -196,9 +204,6 @@ public class Battery {
 
         battery.setForm(form, mergedDbId);
         battery.setConnector(connector, mergedDbId);
-
-        BatteryDB.addBattery(this, isValid());
-        BatteryDB.addBattery(battery, isValid());
 
         battery.mergeTarget = this;
         this.dbId = mergedDbId;
@@ -291,6 +296,9 @@ public class Battery {
     }
 
     public void setModel(String model) throws NoPartException {
+        if (model.contains(",")) {
+            throw new IllegalStateException("Model can not have a ','");
+        }
         if (model.isBlank()) {
             throw new IllegalStateException("Model is blank");
         }
@@ -304,6 +312,9 @@ public class Battery {
     public void addPartNo(Collection<String> partNo) {
         String makerName = maker.getName().toUpperCase(Locale.ENGLISH);
         for (String part : partNo) {
+            if (part.contains(",")) {
+                throw new IllegalStateException("Part can not have a ','");
+            }
             try {
                 part = Battery.cleanPartNo(part, false);
                 String partStr = part.strip();
@@ -396,7 +407,25 @@ public class Battery {
         return maker;
     }
 
-    public String getDbId() {
-        return dbId;
+    public void complete() {
+        if (mergeTarget != null) {
+            mergeTarget.complete();
+        }
+        isCompleted = true;
+
+        boolean valid = isValid();
+        BatteryDB.addBattery(this, valid);
+        if (valid) {
+            ImageDownloader.addImagesToDownload(this);
+        } else {
+            ImageDownloader.addImagesToDelete(this);
+        }
+    }
+
+    public Set<String> allParts() {
+        Set<String> out = new HashSet<>();
+        out.add(model);
+        out.addAll(partNo);
+        return out;
     }
 }

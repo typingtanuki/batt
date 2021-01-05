@@ -11,12 +11,13 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public final class BatteryDB {
     private static final String BATTERY_FILE = "battery_db.csv";
-    private static final Map<String, Set<String>> DB_LINK = new HashMap<>();
     private static final Map<String, BatteryConnector> DB_CONNECTOR = new HashMap<>();
     private static final Map<String, Boolean> DB_MATCH = new HashMap<>();
     private static final Map<String, BatteryForm> DB_FORM = new HashMap<>();
@@ -134,22 +135,15 @@ public final class BatteryDB {
         battery.setSize(size);
     }
 
-    public static void addBattery(Battery battery, boolean isMatch) throws NoPartException {
-        String dbId = battery.getDbId();
-        if (dbId != null) {
-            Set<String> links = DB_LINK.get(dbId);
-            if (links == null) {
-                links = new HashSet<>();
-            }
-            links.add(battery.getModel());
-            DB_LINK.put(dbId, links);
+    public static void addBattery(Battery battery, boolean isMatch) {
+        for (String id : battery.allParts()) {
+            DB_MATCH.put(id, isMatch);
+            DB_CONNECTOR.put(id, battery.getConnector());
+            DB_FORM.put(id, battery.getForm());
+            DB_SCANNED.put(id, true);
+            DB_SIZE.put(id, battery.getSize());
+            DB_MAKER.put(id, battery.getMaker().getName());
         }
-        DB_MATCH.put(battery.getModel(), isMatch);
-        DB_CONNECTOR.put(battery.getModel(), battery.getConnector());
-        DB_FORM.put(battery.getModel(), battery.getForm());
-        DB_SCANNED.put(battery.getModel(), true);
-        DB_SIZE.put(battery.getModel(), battery.getSize());
-        DB_MAKER.put(battery.getModel(), battery.getMaker().getName());
     }
 
     public static void dump() throws IOException {

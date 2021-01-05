@@ -50,6 +50,7 @@ public class App {
 
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
             for (Battery battery : batteries) {
+                battery.complete();
                 for (String matchedCondition : battery.getMatchedConditions()) {
                     List<Battery> l = batteriesPerCondition.computeIfAbsent(matchedCondition, k -> new ArrayList<>());
                     l.add(battery);
@@ -97,7 +98,6 @@ public class App {
 
 
             List<Battery> allBatteries = maker.listBatteries();
-            progress(" (" + allBatteries.size() + ") ");
             for (Battery battery : allBatteries) {
                 Battery parsed;
                 try {
@@ -132,10 +132,10 @@ public class App {
                     if (previous != null) {
                         progress(MERGED);
                         previous.mergeWith(parsed);
-                        handleBatteryPost(parsed, false);
-                        handleBatteryPost(previous, true);
+                        handleBatteryPost(parsed);
+                        handleBatteryPost(previous);
                     } else {
-                        handleBatteryPost(battery, true);
+                        handleBatteryPost(battery);
                         if (battery.isValid()) {
                             found.add(parsed);
                         }
@@ -149,19 +149,14 @@ public class App {
         return found;
     }
 
-    private static void handleBatteryPost(Battery battery, boolean download) throws NoPartException {
+    private static void handleBatteryPost(Battery battery) throws NoPartException {
         boolean isValid = battery.isValid();
         if (isValid) {
             progress(BATTERY_MATCH);
         } else {
             progress(BATTERY_NO_MATCH);
+            BatteryDB.addBattery(battery, false);
         }
-        if (isValid && download) {
-            ImageDownloader.addImagesToDownload(battery);
-        } else {
-            ImageDownloader.addImagesToDelete(battery);
-        }
-        BatteryDB.addBattery(battery, isValid);
     }
 
     private static Battery findSimilar(Battery battery) throws NoPartException {
