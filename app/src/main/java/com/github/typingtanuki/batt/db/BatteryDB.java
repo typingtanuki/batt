@@ -11,8 +11,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
@@ -136,13 +134,18 @@ public final class BatteryDB {
     }
 
     public static void addBattery(Battery battery, boolean isMatch) {
-        for (String id : battery.allParts()) {
-            DB_MATCH.put(id, isMatch);
-            DB_CONNECTOR.put(id, battery.getConnector());
-            DB_FORM.put(id, battery.getForm());
-            DB_SCANNED.put(id, true);
-            DB_SIZE.put(id, battery.getSize());
-            DB_MAKER.put(id, battery.getMaker().getName());
+        for (String rawId : battery.allParts()) {
+            try {
+                rawId = Battery.cleanPartNo(rawId, true);
+            } catch (NoPartException e) {
+                continue;
+            }
+            DB_MATCH.put(rawId, isMatch);
+            DB_CONNECTOR.put(rawId, battery.getConnector());
+            DB_FORM.put(rawId, battery.getForm());
+            DB_SCANNED.put(rawId, true);
+            DB_SIZE.put(rawId, battery.getSize());
+            DB_MAKER.put(rawId, battery.getMaker().getName());
         }
     }
 

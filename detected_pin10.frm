@@ -440,24 +440,6 @@
 [*] Size: 
 [/list]
 
-[*] Dell PRECISION_15_3520
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8500mAh
-[*] Parts: PRECISION 15 3520
-[*] Size: 
-[/list]
-
-[*] Dell LATITUDE_E5270
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8150mAh
-[*] Parts: LATITUDE E5270
-[*] Size: 
-[/list]
-
 [*] Samsung NP930X5J
 [list]
 [*] 
@@ -509,24 +491,6 @@
 [*] 7.6V
 [*] Up to: 8000mAh
 [*] Parts: 2ICP6/68/143, MLP5568142-2S
-[*] Size: 
-[/list]
-
-[*] Dell LATITUDE_5289
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7890mAh
-[*] Parts: LATITUDE 12 5285, LATITUDE 5289
-[*] Size: 
-[/list]
-
-[*] Dell INSPIRON_5447
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 7600mAh
-[*] Parts: INSPIRON 5445, INSPIRON 5447, INSPIRON 5448
 [*] Size: 
 [/list]
 
@@ -701,6 +665,15 @@
 [*] Size: 
 [/list]
 
+[*] Asus AP23_901
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: AP23-901
+[*] Size: 
+[/list]
+
 [*] Samsung NP300U1A
 [list]
 [*] 
@@ -716,6 +689,33 @@
 [*] 7.4V
 [*] Up to: 6600mAh
 [*] Parts: 07G0164J1875
+[*] Size: 
+[/list]
+
+[*] Asus 70_OA011B1500P
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: 70-OA011B1500P
+[*] Size: 
+[/list]
+
+[*] Asus 70_OA0B2B3000
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: 70-OA0B2B3000
+[*] Size: 
+[/list]
+
+[*] Panasonic CF_VZSU40U
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6600mAh
+[*] Parts: CF-VZSU40U
 [*] Size: 
 [/list]
 
@@ -791,15 +791,6 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo EDGE_15_80H1
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6000mAh
-[*] Parts: EDGE 15 80H1
-[*] Size: 
-[/list]
-
 [*] Lenovo L16L8TA2
 [list]
 [*] 
@@ -815,15 +806,6 @@
 [*] 7.4V
 [*] Up to: 5700mAh
 [*] Parts: OLIBOOK AVATAR AVIU-145C6
-[*] Size: 
-[/list]
-
-[*] Dell LATITUDE_5290
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5520mAh
-[*] Parts: LATITUDE 5290
 [*] Size: 
 [/list]
 
@@ -899,30 +881,12 @@
 [*] Size: 
 [/list]
 
-[*] Hp HSTNN_UB7B
+[*] Hp 849909_850
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 5320mAh
-[*] Parts: HSTNN-UB7B
-[*] Size: 
-[/list]
-
-[*] Hp TPN_Q172
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5320mAh
-[*] Parts: TPN-Q172
-[*] Size: 
-[/list]
-
-[*] Acer ASPIRE_P3_171_5333Y4G12AS
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5280mAh
-[*] Parts: 2ICP5/60/80-2, AC13A3L, ASPIRE P3-131, ASPIRE P3-131-21292G06AS, ASPIRE P3-131-21292G12AS, ASPIRE P3-131-21292G60AS, ASPIRE P3-131-21294G06AS, ASPIRE P3-131-2129Y, ASPIRE P3-131-4427, ASPIRE P3-131-4602, ASPIRE P3-131-4833, ASPIRE P3-171, ASPIRE P3-171-3322Y2G06AS, ASPIRE P3-171-3322Y2G12AS, ASPIRE P3-171-3322Y4G06AS, ASPIRE P3-171-3322Y4G12AS, ASPIRE P3-171-5333Y2G12AS, ASPIRE P3-171-5333Y4G06AS, ASPIRE P3-171-5333Y4G12AS, ASPIRE P3-171-6442, ASPIRE P3-171-6820, ASPIRE P3-171-N32Q, KT.00403.013, KT00403013, P3-171-5533Y2G12AS, P3-171-5533Y4G06AS, P3-171-5533Y4G12AS, TRAVELMATE X313, TRAVELMATE X313-E, TRAVELMATE X313-M, TRAVELMATE X313-M-5333Y4G12AS, TRAVELMATE X313-M-6824
+[*] Parts: 849909-850
 [*] Size: 
 [/list]
 
@@ -1295,15 +1259,6 @@
 [*] Size: 
 [/list]
 
-[*] Acer ASPIRE_3_A315_41
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 4810mAh
-[*] Parts: ASPIRE 3 A315-21, ASPIRE 3 A315-41, ASPIRE 3 A315-51
-[*] Size: 
-[/list]
-
 [*] Asus VIVOBOOK_15_X512FL_EJ158T
 [list]
 [*] 
@@ -1403,15 +1358,6 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo V310_14
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4600mAh
-[*] Parts: V310-14, V310-15
-[*] Size: 
-[/list]
-
 [*] Acer SWITCH_12_S_SW7_272
 [list]
 [*] 
@@ -1427,6 +1373,15 @@
 [*] 7.7V
 [*] Up to: 4540mAh
 [*] Parts: PAVILLION X360 M1-U001DX
+[*] Size: 
+[/list]
+
+[*] Hp TPN_W117
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 4540mAh
+[*] Parts: TPN-W117
 [*] Size: 
 [/list]
 
@@ -1493,15 +1448,6 @@
 [*] Size: 
 [/list]
 
-[*] Fujitsu INTEL_CONVERTIBLE_CLASSMATE_PC
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4400mAh
-[*] Parts: INTEL CONVERTIBLE CLASSMATE PC
-[*] Size: 
-[/list]
-
 [*] Fujitsu NOBI
 [list]
 [*] 
@@ -1544,15 +1490,6 @@
 [*] 7.4V
 [*] Up to: 4230mAh
 [*] Parts: AT10LE-A-107, AT10LE-A-108, AT10PE-A-004, AT10PE-A-104, AT10PE-A-105, AT10PE-A-106, AT15LE-A32, EXCITE PRO, EXCITE PRO AT10LE-A, EXCITE PRO AT10LE-A-103, EXCITE PRO AT10LE-A-104, EXCITE PRO AT10LE-A-105, EXCITE PRO AT10LE-A-106, EXCITE PRO AT10LE-A-107, EXCITE PRO AT10LE-A-108, EXCITE PRO AT10LE-A-109, EXCITE PRO AT10LE-A-10C, EXCITE PRO AT10LE-A-10D, EXCITE PRO AT10LE-A-10F, EXCITE PRO AT10LE-A-10H, EXCITE WRITE AT10PE-A, EXCITE WRITE AT10PE-A-103, EXCITE WRITE AT10PE-A-104, EXCITE WRITE AT10PE-A-105, EXCITE WRITE AT10PE-A-106, PA5123U-1BRS
-[*] Size: 
-[/list]
-
-[*] Dell INSPIRON_11_3000
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: INSPIRON 11 3000
 [*] Size: 
 [/list]
 
@@ -1661,15 +1598,6 @@
 [*] 7.4V
 [*] Up to: 4050mAh
 [*] Parts: E31-70, U31-70
-[*] Size: 
-[/list]
-
-[*] Lenovo YOGA_500
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4050mAh
-[*] Parts: YOGA 500
 [*] Size: 
 [/list]
 
