@@ -1,6 +1,8 @@
 package com.github.typingtanuki.batt;
 
-import com.github.typingtanuki.batt.battery.*;
+import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.Maker;
+import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.exceptions.PageUnavailableException;
@@ -18,12 +20,9 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-import static com.github.typingtanuki.batt.battery.Battery.cleanPartNo;
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
-    private static final Map<String, Battery> ID_MATCHER = new HashMap<>();
-
     public static void main(String[] args) {
         try {
             List<Scrapper> scrappers = new ArrayList<>();
@@ -46,11 +45,18 @@ public class App {
             makerList.sort(new MakerComparator());
 
             List<Battery> batteries = listBatteries(makerList);
-            batteries.sort(new BatteryComparator());
 
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
             for (Battery battery : batteries) {
                 battery.complete();
+                boolean valid = battery.isValid();
+                BatteryDB.addBattery(battery, valid);
+                if (valid) {
+                    ImageDownloader.addImagesToDownload(battery);
+                } else {
+                    ImageDownloader.addImagesToDelete(battery);
+                }
+
                 for (String matchedCondition : battery.getMatchedConditions()) {
                     List<Battery> l = batteriesPerCondition.computeIfAbsent(matchedCondition, k -> new ArrayList<>());
                     l.add(battery);
@@ -78,11 +84,10 @@ public class App {
     }
 
     public static List<Battery> listBatteries(List<Maker> makers) throws IOException, PageUnavailableException {
-        List<Battery> found = new ArrayList<>();
-
         int lastPercent = 0;
         String lastMaker = "";
 
+        List<Battery> cleaned = new ArrayList<>();
         for (int i = 0; i < makers.size(); i++) {
             Maker maker = makers.get(i);
             if (!lastMaker.equals(maker.getName())) {
@@ -111,97 +116,78 @@ public class App {
                 if (parsed == null) {
                     continue;
                 }
+
                 parsed.consolidate();
                 if (parsed.getAmp() == null) {
                     continue;
                 }
-                battery.consolidate();
-                if (battery.getAmp() == null) {
-                    continue;
-                }
 
-
-                Battery previous;
-                try {
-                    previous = findSimilar(parsed);
-                } catch (NoPartException e) {
-                    // Broken battery
-                    continue;
-                }
-                try {
-                    if (previous != null) {
-                        progress(MERGED);
-                        previous.mergeWith(parsed);
-                        handleBatteryPost(parsed);
-                        handleBatteryPost(previous);
+                if (quickMerge(parsed)) {
+                    if (parsed.isValid()) {
+                        progress(MERGED_MATCH);
                     } else {
-                        handleBatteryPost(battery);
-                        if (battery.isValid()) {
-                            found.add(parsed);
-                        }
+                        progress(MERGED_NO_MATCH);
                     }
-                } catch (NoPartException e) {
-                    throw new IOException("Trying to merge broken batteries", e);
+                    continue;
                 }
+
+                if (battery.isValid()) {
+                    progress(BATTERY_MATCH);
+                } else {
+                    progress(BATTERY_NO_MATCH);
+                }
+                cleaned.add(parsed);
             }
         }
 
-        return found;
+        return cleaned;
     }
 
-    private static void handleBatteryPost(Battery battery) throws NoPartException {
-        boolean isValid = battery.isValid();
-        if (isValid) {
-            progress(BATTERY_MATCH);
-        } else {
-            progress(BATTERY_NO_MATCH);
-            BatteryDB.addBattery(battery, false);
-        }
-    }
+    private static final Map<String, Battery> VISITED = new HashMap<>();
 
-    private static Battery findSimilar(Battery battery) throws NoPartException {
-        Set<String> parts = new HashSet<>();
-        for (String part : battery.getPartNo()) {
-            parts.add(cleanPartNo(part, true));
-        }
-        for (String part : parts) {
-            Battery matched = ID_MATCHER.get(part);
-            if (matched != null) {
-                if (!similarValue(battery.getVolt(), matched.getVolt())) {
-                    continue;
-                }
-                if (!similarValue(battery.getAmp(), matched.getAmp())) {
-                    continue;
-                }
-                if (!similarValue(battery.getType(), matched.getType())) {
-                    continue;
-                }
-                return matched;
+    private static boolean quickMerge(Battery parsed) {
+        Battery mergedWith = null;
+        for (String part : parsed.allParts()) {
+            String cleanPart = part;
+            try {
+                cleanPart = Battery.cleanPartNo(part, true);
+            } catch (NoPartException e) {
+                // OK
+            }
+
+            if (cleanPart.length() < 3) {
+                continue;
+            }
+            if (cleanPart.length() < 5 && cleanPart.matches("^\\d+$")) {
+                continue;
+            }
+
+            Battery original = VISITED.get(cleanPart);
+            if (original != null) {
+                mergedWith = original.rewindMerges();
+                mergedWith.mergeWith(parsed);
             }
         }
-        for (String part : parts) {
-            ID_MATCHER.put(part, battery);
+
+        if (mergedWith == null) {
+            record(parsed);
+            return false;
         }
-        return null;
+
+        record(mergedWith);
+        return true;
     }
 
-    private static boolean similarValue(Number a, Number b) {
-        if (a == null) {
-            return true;
-        }
-        if (b == null) {
-            return true;
-        }
-        return Math.abs((a.doubleValue() - b.doubleValue()) / a.doubleValue()) < 0.1;
-    }
+    private static void record(Battery battery) {
+        for (String part : battery.allParts()) {
+            String cleanPart = part;
+            try {
+                cleanPart = Battery.cleanPartNo(part, true);
+            } catch (NoPartException e) {
+                // OK
+            }
 
-    private static boolean similarValue(BatteryType a, BatteryType b) {
-        if (a == null) {
-            return true;
+            VISITED.put(cleanPart, battery);
         }
-        if (b == null) {
-            return true;
-        }
-        return a == b;
     }
 }

@@ -2,7 +2,7 @@ package com.github.typingtanuki.batt.utils;
 
 public final class Progress {
     public static final String BATTERY_MATCH = "●";
-    public static final String BATTERY_NO_MATCH = "";
+    public static final String BATTERY_NO_MATCH = ".";
     public static final String BATTERY_BAD_PAGE = "❢";
     public static final String PAGE_DOWNLOAD = "⇣";
     public static final String PAGE_CACHED = "";
@@ -10,7 +10,8 @@ public final class Progress {
     public static final String CACHE_TIMEOUT = "T";
     public static final String IN_DB = "";
     public static final String NOT_IN_DB = "";
-    public static final String MERGED = "";
+    public static final String MERGED_MATCH = "○";
+    public static final String MERGED_NO_MATCH = ".";
     public static final String CONNECTION_RETRY = "R";
 
     private static final int MAX_WIDTH = 80;

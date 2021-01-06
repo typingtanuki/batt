@@ -28,12 +28,12 @@ public class Source {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Source source = (Source) o;
-        return Objects.equals(url, source.url) && Objects.equals(scrapper, source.scrapper);
+        return Objects.equals(url, source.url);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(url, scrapper);
+        return Objects.hash(url);
     }
 
     public String name() {

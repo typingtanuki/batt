@@ -1,8 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
-import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.NoPartException;
-import com.github.typingtanuki.batt.images.ImageDownloader;
 import com.github.typingtanuki.batt.validator.Conditions;
 
 import java.util.*;
@@ -131,10 +129,6 @@ public class Battery {
     }
 
     public boolean isValid() {
-        if (mergeTarget != null) {
-            return mergeTarget.isValid();
-        }
-
         consolidate();
 
         matchedConditions.clear();
@@ -178,10 +172,11 @@ public class Battery {
     }
 
     public void mergeWith(Battery toMerge) {
-        Battery battery = toMerge;
-        if (battery.mergeTarget != null) {
-            battery = battery.mergeTarget;
+        Battery battery = toMerge.rewindMerges();
+        if (this == battery) {
+            return;
         }
+
         partNo.addAll(battery.partNo);
         sources.addAll(battery.sources);
         images.addAll(battery.images);
@@ -379,6 +374,10 @@ public class Battery {
         }
     }
 
+    public void complete() {
+        isCompleted = true;
+    }
+
     public double[] getSizes() {
         return new double[]{
                 width == null ? 0d : width,
@@ -407,25 +406,18 @@ public class Battery {
         return maker;
     }
 
-    public void complete() {
-        if (mergeTarget != null) {
-            mergeTarget.complete();
-        }
-        isCompleted = true;
-
-        boolean valid = isValid();
-        BatteryDB.addBattery(this, valid);
-        if (valid) {
-            ImageDownloader.addImagesToDownload(this);
-        } else {
-            ImageDownloader.addImagesToDelete(this);
-        }
-    }
-
     public Set<String> allParts() {
         Set<String> out = new HashSet<>();
         out.add(model);
         out.addAll(partNo);
+        return out;
+    }
+
+    public Battery rewindMerges() {
+        Battery out = this;
+        if (out.mergeTarget != null && out.mergeTarget != out) {
+            out = out.mergeTarget;
+        }
         return out;
     }
 }

@@ -363,6 +363,7 @@ public enum MakerName {
     WYSE,
     XERON,
     XIAOMI,
+    XIDU,
     XMG,
     XPLORE,
     XTABLET,

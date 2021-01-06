@@ -140,13 +140,51 @@ public final class BatteryDB {
             } catch (NoPartException e) {
                 continue;
             }
-            DB_MATCH.put(rawId, isMatch);
-            DB_CONNECTOR.put(rawId, battery.getConnector());
-            DB_FORM.put(rawId, battery.getForm());
+
+            DB_MATCH.put(rawId, isMatch && DB_MATCH.getOrDefault(rawId, true));
             DB_SCANNED.put(rawId, true);
-            DB_SIZE.put(rawId, battery.getSize());
+
+            DB_CONNECTOR.put(rawId, bester(battery.getConnector(), DB_CONNECTOR.get(rawId)));
+            DB_FORM.put(rawId, bester(battery.getForm(), DB_FORM.get(rawId)));
+            DB_SIZE.put(rawId, bester(battery.getSize(), DB_SIZE.get(rawId)));
             DB_MAKER.put(rawId, battery.getMaker().getName());
         }
+    }
+
+    private static BatteryConnector bester(BatteryConnector a, BatteryConnector b) {
+        if (b == null) {
+            return a;
+        }
+        if (a == null) {
+            return b;
+        }
+        if (a.equals(BatteryConnector.UNKNOWN)) {
+            return b;
+        }
+        return a;
+    }
+
+    private static BatteryForm bester(BatteryForm a, BatteryForm b) {
+        if (b == null) {
+            return a;
+        }
+        if (a == null) {
+            return b;
+        }
+        if (a.equals(BatteryForm.UNKNOWN)) {
+            return b;
+        }
+        return a;
+    }
+
+    private static String bester(String a, String b) {
+        if (b == null || b.isBlank()) {
+            return a;
+        }
+        if (a == null || a.isBlank()) {
+            return b;
+        }
+        return a;
     }
 
     public static void dump() throws IOException {
