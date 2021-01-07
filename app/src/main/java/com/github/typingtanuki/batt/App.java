@@ -1,6 +1,7 @@
 package com.github.typingtanuki.batt;
 
 import com.github.typingtanuki.batt.battery.Battery;
+import com.github.typingtanuki.batt.battery.BatteryComparator;
 import com.github.typingtanuki.batt.battery.Maker;
 import com.github.typingtanuki.batt.battery.MakerComparator;
 import com.github.typingtanuki.batt.db.BatteryDB;
@@ -45,6 +46,7 @@ public class App {
             makerList.sort(new MakerComparator());
 
             List<Battery> batteries = listBatteries(makerList);
+            batteries.sort(new BatteryComparator());
 
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
             for (Battery battery : batteries) {
