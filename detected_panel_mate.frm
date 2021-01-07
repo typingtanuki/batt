@@ -35,6 +35,15 @@
 [*] Size: 
 [/list]
 
+[*] Prestigio 2ICP3_78_180
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2ICP3/78/180, UTL-277180-2S
+[*] Size: 
+[/list]
+
 [*] Cube 30154200P
 [list]
 [*] 
