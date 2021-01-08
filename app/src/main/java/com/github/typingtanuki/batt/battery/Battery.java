@@ -11,6 +11,19 @@ import java.util.regex.Pattern;
  * A battery with its associated details
  */
 public class Battery {
+    private static final Pattern MAKERS;
+
+    static {
+        StringBuilder regex = new StringBuilder();
+        for (MakerName name : MakerName.values()) {
+            if (regex.length() > 0) {
+                regex.append('|');
+            }
+            regex.append(name.name());
+        }
+        MAKERS = Pattern.compile(regex.toString());
+    }
+
     /**
      * The conditions which are matched
      */
@@ -65,10 +78,8 @@ public class Battery {
     private Double height;
     private Double width;
     private String dbId;
-
     private Battery mergeTarget = null;
     private boolean isCompleted = false;
-
 
     public Battery(Maker maker, Source source) {
         super();
@@ -81,40 +92,10 @@ public class Battery {
     /**
      * Clean a part number to avoid special chars and duplication
      */
-    public static String cleanPartNo(String part, boolean full) throws NoPartException {
-        part = part
-                .strip()
-                .toUpperCase(Locale.ENGLISH);
-        if (full) {
-            part = part.replaceAll("[/.\\s|\\-+#]", "_");
-        }
+    public static String cleanPartNo(String part) throws NoPartException {
+        part = part.toUpperCase(Locale.ENGLISH);
+        part = MAKERS.matcher(part).replaceAll("").strip();
 
-        part = part.toUpperCase(Locale.ENGLISH)
-                .replaceAll("ACER", "")
-                .replaceAll("ADVENT", "")
-                .replaceAll("AKOYA", "")
-                .replaceAll("ALIENWARE", "")
-                .replaceAll("AMILO", "")
-                .replaceAll("AVERATEC", "")
-                .replaceAll("BANGHO", "")
-                .replaceAll("BANGHOO", "")
-                .replaceAll("BBEN", "")
-                .replaceAll("BENQ", "")
-                .replaceAll("CANON", "")
-                .replaceAll("CELSIUS", "")
-                .replaceAll("CLEVO", "")
-                .replaceAll("CHUWI", "")
-                .replaceAll("DYNABOOK", "")
-                .replaceAll("DELL", "")
-                .replaceAll("GIGABYTE", "")
-                .replaceAll("GETAC", "")
-                .replaceAll("HAIER", "")
-                .replaceAll("HASEE", "")
-                .replaceAll("MEDION", "")
-                .replaceAll("MITAC", "")
-                .replaceAll("SONY", "")
-                .replaceAll("UNIWILL", "")
-                .replaceAll("VAIO", "");
         while (part.startsWith("_")) {
             part = part.substring(1);
         }
@@ -286,18 +267,8 @@ public class Battery {
         }
         List<String> mods = new ArrayList<>(partNo);
         mods.sort(Comparator.naturalOrder());
-        setModel(mods.get(0));
+        model = mods.get(0);
         return model;
-    }
-
-    public void setModel(String model) throws NoPartException {
-        if (model.contains(",")) {
-            throw new IllegalStateException("Model can not have a ','");
-        }
-        if (model.isBlank()) {
-            throw new IllegalStateException("Model is blank");
-        }
-        this.model = cleanPartNo(model, true);
     }
 
     public Set<String> getPartNo() {
@@ -311,7 +282,7 @@ public class Battery {
                 throw new IllegalStateException("Part can not have a ','");
             }
             try {
-                part = Battery.cleanPartNo(part, false);
+                part = Battery.cleanPartNo(part);
                 String partStr = part.strip();
                 this.partNo.add(partStr);
                 if (partStr.contains(makerName)) {

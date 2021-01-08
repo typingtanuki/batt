@@ -20,10 +20,14 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
+import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.utils.Progress.*;
 
 public class App {
+    private static final Map<String, Battery> VISITED = new HashMap<>();
+    private static final Pattern NUMBER_STRING = Pattern.compile("^\\d+$");
+
     public static void main(String[] args) {
         try {
             List<Scrapper> scrappers = new ArrayList<>();
@@ -48,8 +52,12 @@ public class App {
             List<Battery> batteries = listBatteries(makerList);
             batteries.sort(new BatteryComparator());
 
+            int lastPercent = 0;
+            int i = 0;
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
+            progressStart("Building DB");
             for (Battery battery : batteries) {
+                lastPercent = computePercent(i++, batteries.size(), lastPercent);
                 battery.complete();
                 boolean valid = battery.isValid();
                 BatteryDB.addBattery(battery, valid);
@@ -85,6 +93,14 @@ public class App {
         }
     }
 
+    private static int computePercent(int count, int total, int lastPercent) {
+        int percent = ((count + 1) * 20) / total * 5;
+        if (percent > lastPercent) {
+            progress(" " + percent + "% ");
+        }
+        return percent;
+    }
+
     public static List<Battery> listBatteries(List<Maker> makers) throws IOException, PageUnavailableException {
         int lastPercent = 0;
         String lastMaker = "";
@@ -96,11 +112,7 @@ public class App {
                 progressStart(maker.getName());
                 lastMaker = maker.getName();
 
-                int percent = ((i + 1) * 20) / makers.size() * 5;
-                if (percent > lastPercent) {
-                    lastPercent = percent;
-                    progress(" " + percent + "% ");
-                }
+                lastPercent = computePercent(i, makers.size(), lastPercent);
             }
 
 
@@ -145,26 +157,17 @@ public class App {
         return cleaned;
     }
 
-    private static final Map<String, Battery> VISITED = new HashMap<>();
-
     private static boolean quickMerge(Battery parsed) {
         Battery mergedWith = null;
-        for (String part : parsed.allParts()) {
-            String cleanPart = part;
-            try {
-                cleanPart = Battery.cleanPartNo(part, true);
-            } catch (NoPartException e) {
-                // OK
-            }
-
-            if (cleanPart.length() < 3) {
+        for (String part : parsed.getPartNo()) {
+            if (part.length() < 3) {
                 continue;
             }
-            if (cleanPart.length() < 5 && cleanPart.matches("^\\d+$")) {
+            if (part.length() < 5 && NUMBER_STRING.matcher(part).matches()) {
                 continue;
             }
 
-            Battery original = VISITED.get(cleanPart);
+            Battery original = VISITED.get(part);
             if (original != null) {
                 mergedWith = original.rewindMerges();
                 mergedWith.mergeWith(parsed);
@@ -181,15 +184,8 @@ public class App {
     }
 
     private static void record(Battery battery) {
-        for (String part : battery.allParts()) {
-            String cleanPart = part;
-            try {
-                cleanPart = Battery.cleanPartNo(part, true);
-            } catch (NoPartException e) {
-                // OK
-            }
-
-            VISITED.put(cleanPart, battery);
+        for (String part : battery.getPartNo()) {
+            VISITED.put(part, battery);
         }
     }
 }

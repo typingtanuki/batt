@@ -119,7 +119,6 @@ public final class BatteryDetailReader {
             return null;
         }
 
-        resolveModel(battery);
         resolveConnector(battery);
         resolveForm(battery);
         resolveSize(battery);

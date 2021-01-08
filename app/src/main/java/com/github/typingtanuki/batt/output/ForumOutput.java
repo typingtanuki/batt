@@ -20,6 +20,24 @@ public class ForumOutput {
         this.batteries = batteries;
     }
 
+    private static String formatSize(Battery battery) {
+        if (battery.getSize().isBlank()) {
+            return "";
+        }
+        double[] sizes = battery.getSizes();
+        return sizes[0] + "mm x " + sizes[1] + "mm x " + sizes[2] + "mm";
+    }
+
+    private static String formatParts(Battery battery) {
+        List<String> parts = new ArrayList<>(battery.getPartNo());
+        Collections.sort(parts);
+        return String.join(", ", parts);
+    }
+
+    private static String format1(Double value) {
+        return String.format("%.1f", value);
+    }
+
     public String generate() {
         StringBuilder output = new StringBuilder();
         output.append(LIST_START).append(EOL);
@@ -44,23 +62,5 @@ public class ForumOutput {
         } catch (NoPartException e) {
             throw new IllegalStateException("Broken battery reached the output", e);
         }
-    }
-
-    private static String formatSize(Battery battery) {
-        if (battery.getSize().isBlank()) {
-            return "";
-        }
-        double[] sizes = battery.getSizes();
-        return sizes[0] + "mm x " + sizes[1] + "mm x " + sizes[2] + "mm";
-    }
-
-    private static String formatParts(Battery battery) {
-        List<String> parts = new ArrayList<>(battery.getPartNo());
-        Collections.sort(parts);
-        return String.join(", ", parts);
-    }
-
-    private static String format1(Double value) {
-        return String.format("%.1f", value);
     }
 }

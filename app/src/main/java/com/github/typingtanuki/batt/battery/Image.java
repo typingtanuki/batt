@@ -34,7 +34,7 @@ public class Image {
     private String clean(String url) {
         Matcher matcher = URL_WITH_SIZE.matcher(url);
         if (matcher.matches()) {
-            return matcher.group(1)+".jpg";
+            return matcher.group(1) + ".jpg";
         }
         return url;
     }

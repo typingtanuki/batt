@@ -24,8 +24,28 @@ import static com.github.typingtanuki.batt.utils.Progress.BATTERY_BAD_PAGE;
 import static com.github.typingtanuki.batt.utils.Progress.progress;
 
 public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
+    private static final Set<String> VISITED = new HashSet<>();
+
     public AbstractDenchiProScrapper(String rootUrl) {
         super(rootUrl);
+    }
+
+    private static MakerName makerFor(String label) {
+        if (!label.contains("対応")) {
+            throw new IllegalStateException("Unparseable entry " + label);
+        }
+        String maker = label.split("対応", 2)[1].strip()
+                .split("\\s")[0]
+                .split("]")[0]
+                .replaceAll("\\[", "").strip();
+
+        MakerName found;
+        try {
+            found = MakerName.parse(maker);
+        } catch (IllegalArgumentException e) {
+            found = MakerName.OTHER;
+        }
+        return found;
     }
 
     @Override
@@ -51,24 +71,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         return out;
     }
 
-    private static MakerName makerFor(String label) {
-        if (!label.contains("対応")) {
-            throw new IllegalStateException("Unparseable entry " + label);
-        }
-        String maker = label.split("対応", 2)[1].strip()
-                .split("\\s")[0]
-                .split("]")[0]
-                .replaceAll("\\[", "").strip();
-
-        MakerName found;
-        try {
-            found = MakerName.parse(maker);
-        } catch (IllegalArgumentException e) {
-            found = MakerName.OTHER;
-        }
-        return found;
-    }
-
     @Override
     protected List<Source> listPages(Source source) {
         // We are already listing the pages to detect the makers
@@ -88,8 +90,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         }
         return out;
     }
-
-    private static final Set<String> VISITED = new HashSet<>();
 
     @Override
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
@@ -145,7 +145,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
             model = model.split("\\s", 2)[1].strip();
         }
         String[] parts = model.split(",");
-        battery.setModel(parts[0]);
         battery.addPartNo(Arrays.asList(parts));
 
         Elements descriptions = page.select(".product_title-product-details__short-description");
@@ -174,7 +173,6 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
             return null;
         }
 
-        resolveModel(battery);
         resolveConnector(battery);
         resolveForm(battery);
         resolveSize(battery);

@@ -11,8 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.*;
-
-import static com.github.typingtanuki.batt.utils.Progress.*;
+import java.util.regex.Pattern;
 
 public final class BatteryDB {
     private static final String BATTERY_FILE = "battery_db.csv";
@@ -22,8 +21,9 @@ public final class BatteryDB {
     private static final Map<String, String> DB_SIZE = new HashMap<>();
     private static final Map<String, Boolean> DB_SCANNED = new HashMap<>();
     private static final Map<String, String> DB_MAKER = new HashMap<>();
-    private static final Set<String> ALL_KEYS = new HashSet<>();
     private static boolean initialized = false;
+
+    private static final Pattern SPECIAL_CHARS = Pattern.compile("[/.\\s|\\-+#]");
 
     private BatteryDB() {
         super();
@@ -47,11 +47,10 @@ public final class BatteryDB {
                 String[] parts = line.split(",");
                 String model;
                 try {
-                    model = Battery.cleanPartNo(parts[0].strip(), true);
+                    model = Battery.cleanPartNo(parts[0].strip());
                 } catch (NoPartException e) {
                     continue;
                 }
-                ALL_KEYS.add(model);
                 String connectorStr = parts[1].strip();
 
                 String size = "";
@@ -99,19 +98,6 @@ public final class BatteryDB {
         battery.setConnector(connector, battery.getModel());
     }
 
-    public static void resolveModel(Battery battery) throws NoPartException {
-        init();
-        for (String part : battery.getPartNo()) {
-            String cleanedKey = Battery.cleanPartNo(part, true);
-            if (ALL_KEYS.contains(cleanedKey)) {
-                battery.setModel(cleanedKey);
-                progress(IN_DB);
-                return;
-            }
-        }
-        progress(NOT_IN_DB);
-    }
-
     public static void resolveForm(Battery battery) throws NoPartException {
         init();
         BatteryForm form = DB_FORM.get(battery.getModel());
@@ -134,12 +120,8 @@ public final class BatteryDB {
     }
 
     public static void addBattery(Battery battery, boolean isMatch) {
-        for (String rawId : battery.allParts()) {
-            try {
-                rawId = Battery.cleanPartNo(rawId, true);
-            } catch (NoPartException e) {
-                continue;
-            }
+        for (String rawId : battery.getPartNo()) {
+            rawId = SPECIAL_CHARS.matcher(rawId).replaceAll("_");
 
             DB_MATCH.put(rawId, isMatch && DB_MATCH.getOrDefault(rawId, true));
             DB_SCANNED.put(rawId, true);
