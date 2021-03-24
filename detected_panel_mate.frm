@@ -26,6 +26,15 @@
 [*] Size: 
 [/list]
 
+[*] Ast F7 PLUS
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
+[*] Size: 
+[/list]
+
 [*] Cube THINKER I35
 [list]
 [*] 
@@ -49,7 +58,7 @@
 [*] 
 [*] 7.4V
 [*] Up to: 4800mAh
-[*] Parts: 3585282P
+[*] Parts: 3585282P, KBM14HD, KNW14FHD-SL, PEOPLE GN603, PL3281133P, PL3281133P 2P, Q232A
 [*] Size: 
 [/list]
 
@@ -85,7 +94,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
-[*] Parts: 2666144, BOOK Y11 H1M6, F5, H-30137162P
+[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
 [*] Size: 
 [/list]
 
@@ -94,8 +103,17 @@
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
-[*] Parts: 2666144, BOOK Y11 H1M6, F5, H-30137162P
+[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
 [*] Size: 
+[/list]
+
+[*] Ast F5
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: F5
+[*] Size: 50.8mm x 20.5mm x 6.0mm
 [/list]
 
 [*] Chuwi 32160205P
@@ -103,7 +121,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: 32160205P, 34170250P, LAPBOOK 14 INCH 2017, LAPBOOK AIR 14 CWI529, LAPBOOK AIR 14.1 N3450 FHD, LAPBOOK AIR CW1529, LAPBOOK AIR CWI529, M4, M4-64G, PL3074165-2S, PL3074165-2S YL, X14, X14-3450G04128WY, X6
+[*] Parts: 32160205P, 34170250P, LAPBOOK 14 INCH 2017, LAPBOOK AIR 14 CWI529, LAPBOOK AIR 14.1, LAPBOOK AIR 14.1 N3450 FHD, LAPBOOK AIR CW1529, LAPBOOK AIR CWI529, M4, M4-64G, PL3074165-2S, PL3074165-2S YL, X14, X14-3450G04128WY, X6
 [*] Size: 
 [/list]
 

@@ -76,8 +76,14 @@ public abstract class AbstractScrapper implements Scrapper {
         return new ArrayList<>(out);
     }
 
-    protected List<Source> listPages(Source source) throws IOException, PageUnavailableException {
-        Document index = http(PageType.LIST, source.getUrl());
+    protected List<Source> listPages(Source source) throws IOException {
+        Document index;
+        try {
+            index = http(PageType.LIST, source.getUrl());
+        } catch (PageUnavailableException e) {
+            return Collections.emptyList();
+        }
+
         Elements counters = index.select("#productsListingBottomNumber strong");
         if (counters.isEmpty()) {
             return tryButtonList(index, source);
