@@ -119,9 +119,22 @@ public final class BatteryDB {
         battery.setSize(size);
     }
 
+    public static String formatModelName(String rawName) {
+        return SPECIAL_CHARS
+                .matcher(rawName.strip())
+                .replaceAll("_")
+                .replaceAll("_+","_")
+                .replaceAll("^_*","")
+                .replaceAll("^\\(*","")
+                .replaceAll("^\\[*","")
+                .replaceAll("_*$","")
+                .replaceAll("]*$","")
+                .replaceAll("\\)*$","");
+    }
+
     public static void addBattery(Battery battery, boolean isMatch) {
         for (String rawId : battery.getPartNo()) {
-            rawId = SPECIAL_CHARS.matcher(rawId).replaceAll("_");
+            rawId = formatModelName(rawId);
 
             DB_MATCH.put(rawId, isMatch && DB_MATCH.getOrDefault(rawId, true));
             DB_SCANNED.put(rawId, true);

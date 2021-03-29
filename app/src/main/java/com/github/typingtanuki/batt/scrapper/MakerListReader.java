@@ -13,10 +13,9 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Locale;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.utils.CachedHttp.http;
+import static com.github.typingtanuki.batt.utils.UrlUtils.absoluteURL;
 
 public final class MakerListReader {
     private MakerListReader() {
@@ -44,15 +43,7 @@ public final class MakerListReader {
                     .replace("laptop", "")
                     .replace("parts", "")
                     .strip();
-            String url = maker.attr("href");
-            if (!url.startsWith("http")) {
-                Pattern a = Pattern.compile("^(https?://[^/]+)/.*$");
-                Matcher matcher = a.matcher(rootUrl);
-                if (!matcher.matches()) {
-                    throw new IllegalStateException("Could not extract URL from: " + rootUrl);
-                }
-                url = matcher.group(1) + url;
-            }
+            String url = absoluteURL(maker, rootUrl);
             out.add(new Maker(name, new Source(url, scrapper)));
         }
         out.sort(new MakerComparator());

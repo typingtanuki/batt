@@ -12,12 +12,11 @@ import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import static com.github.typingtanuki.batt.scrapper.CommonScrap.*;
 import static com.github.typingtanuki.batt.scrapper.MakerListReader.extractMakers;
 import static com.github.typingtanuki.batt.utils.CachedHttp.http;
+import static com.github.typingtanuki.batt.utils.UrlUtils.absoluteURL;
 
 public abstract class AbstractScrapper implements Scrapper {
     private final String rootUrl;
@@ -35,15 +34,7 @@ public abstract class AbstractScrapper implements Scrapper {
         String rootUrl = source.getUrl();
         out.add(source);
         for (Element link : links) {
-            String url = link.attr("href");
-            if (!url.startsWith("http")) {
-                Pattern a = Pattern.compile("^(https?://[^/]+)/.*$");
-                Matcher matcher = a.matcher(rootUrl);
-                if (!matcher.matches()) {
-                    throw new IllegalStateException("Could not extract URL from: " + rootUrl);
-                }
-                url = matcher.group(1) + url;
-            }
+            String url = absoluteURL(link, rootUrl);
             out.add(new Source(url, source.getScrapper()));
         }
         return out;
@@ -68,7 +59,7 @@ public abstract class AbstractScrapper implements Scrapper {
         return out;
     }
 
-    protected List<Source> listPages(List<Source> sources) throws IOException, PageUnavailableException {
+    protected List<Source> listPages(List<Source> sources) throws IOException {
         Set<Source> out = new HashSet<>();
         for (Source source : sources) {
             out.addAll(listPages(source));

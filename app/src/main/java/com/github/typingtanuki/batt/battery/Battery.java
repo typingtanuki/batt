@@ -7,6 +7,8 @@ import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import static com.github.typingtanuki.batt.db.BatteryDB.formatModelName;
+
 /**
  * A battery with its associated details
  */
@@ -267,7 +269,7 @@ public class Battery {
         }
         List<String> mods = new ArrayList<>(partNo);
         mods.sort(Comparator.naturalOrder());
-        model = mods.get(0);
+        model = formatModelName(mods.get(0));
         return model;
     }
 
