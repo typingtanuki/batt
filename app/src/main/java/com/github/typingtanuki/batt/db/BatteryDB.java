@@ -123,13 +123,13 @@ public final class BatteryDB {
         return SPECIAL_CHARS
                 .matcher(rawName.strip())
                 .replaceAll("_")
-                .replaceAll("_+","_")
-                .replaceAll("^_*","")
-                .replaceAll("^\\(*","")
-                .replaceAll("^\\[*","")
-                .replaceAll("_*$","")
-                .replaceAll("]*$","")
-                .replaceAll("\\)*$","");
+                .replaceAll("_+", "_")
+                .replaceAll("^_*", "")
+                .replaceAll("^\\(*", "")
+                .replaceAll("^\\[*", "")
+                .replaceAll("_*$", "")
+                .replaceAll("]*$", "")
+                .replaceAll("\\)*$", "");
     }
 
     public static void addBattery(Battery battery, boolean isMatch) {
@@ -228,5 +228,24 @@ public final class BatteryDB {
             return "UNKNOWN";
         }
         return enumKey.name();
+    }
+
+    public static boolean hasEntry(String part) {
+        if (DB_CONNECTOR.containsKey(part)) {
+            return true;
+        }
+        if (DB_MATCH.containsKey(part)) {
+            return true;
+        }
+        if (DB_FORM.containsKey(part)) {
+            return true;
+        }
+        if (DB_SIZE.containsKey(part)) {
+            return true;
+        }
+        if (DB_MAKER.containsKey(part)) {
+            return true;
+        }
+        return false;
     }
 }

@@ -1,5 +1,5 @@
 [list]
-[*] Chuwi AEROBOOK_13_3
+[*] Chuwi HW_34154184
 [list]
 [*] 
 [*] 7.6V
@@ -14,15 +14,6 @@
 [*] 7.7V
 [*] Up to: 5230mAh
 [*] Parts: AIR 13.3
-[*] Size: 
-[/list]
-
-[*] Cube 2865165_2P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
 [*] Size: 
 [/list]
 
@@ -41,6 +32,15 @@
 [*] 7.6V
 [*] Up to: 5000mAh
 [*] Parts: 2877164-2S, LAPBOOK SE
+[*] Size: 
+[/list]
+
+[*] Cube 30154200P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
 [*] Size: 
 [/list]
 
@@ -71,7 +71,7 @@
 [*] Size: 
 [/list]
 
-[*] Cube THINKER_I35
+[*] Cube THINKER_I9
 [list]
 [*] 
 [*] 7.6V
@@ -107,7 +107,16 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi 30132140P
+[*] Irbis NB125
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4000mAh
+[*] Parts: NB125, NV-2084161-28
+[*] Size: 
+[/list]
+
+[*] Chuwi NV30140146_2S
 [list]
 [*] 
 [*] 7.6V
@@ -116,21 +125,12 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi 31130148P
+[*] Chuwi UBOOK_CWI509
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4000mAh
 [*] Parts: 31130148P, HW-31130148, UBOOK CWI509
-[*] Size: 
-[/list]
-
-[*] Irbis NB125
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4000mAh
-[*] Parts: NB125, NV-2084161-28
 [*] Size: 
 [/list]
 
@@ -152,16 +152,7 @@
 [*] Size: 
 [/list]
 
-[*] Jumper EZBOOK_X1
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: EZBOOK X1, NV-2778130-2S
-[*] Size: 
-[/list]
-
-[*] Jumper EZPAD_6_PLUS
+[*] Jumper EZPAD_6_PRO
 [list]
 [*] 
 [*] 7.6V
@@ -188,6 +179,15 @@
 [*] Size: 144.0mm x 54.0mm x 6.5mm
 [/list]
 
+[*] Jumper NV_2778130_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: EZBOOK X1, NV-2778130-2S
+[*] Size: 
+[/list]
+
 [*] Other MLP3490132_2S
 [list]
 [*] 
@@ -197,7 +197,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi 32160205P
+[*] Chuwi LAPBOOK_AIR_CW1529
 [list]
 [*] 
 [*] 7.6V
@@ -224,7 +224,7 @@
 [*] Size: 
 [/list]
 
-[*] Mcnair MLP4087118
+[*] Mcnair MLP4087118_2S
 [list]
 [*] 
 [*] 7.6V
@@ -305,7 +305,7 @@
 [*] Size: 
 [/list]
 
-[*] Medion 0B23_00D7000M
+[*] Medion 40050434
 [list]
 [*] 
 [*] 7.4V
@@ -323,7 +323,7 @@
 [*] Size: 
 [/list]
 
-[*] Dell 7WMM7
+[*] Dell DL011301_PLP22G01
 [list]
 [*] 
 [*] 7.4V

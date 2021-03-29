@@ -55,7 +55,8 @@ public class App {
             int lastPercent = 0;
             int i = 0;
             Map<String, List<Battery>> batteriesPerCondition = new LinkedHashMap<>();
-            progressStart("Building DB");
+            progressStart("" +
+                    "Building DB");
             for (Battery battery : batteries) {
                 lastPercent = computePercent(i++, batteries.size(), lastPercent);
                 battery.complete();

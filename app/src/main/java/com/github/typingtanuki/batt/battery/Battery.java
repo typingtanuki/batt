@@ -1,5 +1,6 @@
 package com.github.typingtanuki.batt.battery;
 
+import com.github.typingtanuki.batt.db.BatteryDB;
 import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.validator.Conditions;
 
@@ -264,10 +265,25 @@ public class Battery {
             return model;
         }
 
-        if (partNo.isEmpty()) {
-            throw new IllegalStateException("No model");
+        List<String> mods = new ArrayList<>(partNo.size());
+        for(String part:partNo){
+            String cleanPart = formatModelName(part);
+            if(cleanPart.isBlank()){
+                continue;
+            }
+
+            if(BatteryDB.hasEntry(cleanPart)){
+                model=cleanPart;
+                return model;
+            }
+            mods.add(cleanPart);
         }
-        List<String> mods = new ArrayList<>(partNo);
+
+        if (mods.isEmpty()) {
+            model = "NO_ID";
+            return model;
+        }
+
         mods.sort(Comparator.naturalOrder());
         model = formatModelName(mods.get(0));
         return model;
