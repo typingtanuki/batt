@@ -49,7 +49,7 @@ public final class CachedHttp {
 
         Path oldPath = Paths.get(path.toString().replaceFirst(CACHE_PATH, OLD_CACHE_PATH));
         if (Files.exists(oldPath) && isUpToDate(oldPath, type)) {
-            Files.createDirectories(path.getParent());
+            Files.createDirectories(parentOf(path));
             Files.move(oldPath, path);
             progress(PAGE_OLD_CACHE);
             return Jsoup.parse(String.join("\r\n", Files.readAllLines(path)));
@@ -87,10 +87,22 @@ public final class CachedHttp {
             throw lastIo;
         }
 
+        if (document == null) {
+            throw new IOException("No document, but no failure");
+        }
+
         String html = document.html();
-        Files.createDirectories(path.getParent());
+        Files.createDirectories(parentOf(path));
         Files.write(path, Collections.singletonList(html));
         return document;
+    }
+
+    private static Path parentOf(Path path) throws IOException {
+        Path parent = path.getParent();
+        if (parent == null) {
+            throw new IOException("Cache directory is at root level");
+        }
+        return parent;
     }
 
     private static void sleep() {
@@ -126,7 +138,7 @@ public final class CachedHttp {
 
         Path oldPath = Paths.get(path.toString().replaceFirst(CACHE_PATH, OLD_CACHE_PATH));
         if (Files.exists(oldPath)) {
-            Files.createDirectories(path.getParent());
+            Files.createDirectories(parentOf(path));
             Files.move(oldPath, path);
             progress(PAGE_OLD_CACHE);
             return;
@@ -143,7 +155,7 @@ public final class CachedHttp {
             lastIo = null;
             try {
                 document = Jsoup.connect(image.getUrl()).ignoreContentType(true).timeout(5000).execute();
-                Files.createDirectories(path.getParent());
+                Files.createDirectories(parentOf(path));
                 Files.write(path, document.bodyAsBytes());
             } catch (IOException e) {
                 lastIo = e;

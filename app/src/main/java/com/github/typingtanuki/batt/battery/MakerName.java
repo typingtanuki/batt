@@ -377,6 +377,7 @@ public enum MakerName {
 
     OTHER("1TEGRATION_NOTE", "MI");
 
+    @SuppressWarnings("ImmutableEnumChecker")
     private final String[] alternate;
 
     MakerName(String... alternate) {

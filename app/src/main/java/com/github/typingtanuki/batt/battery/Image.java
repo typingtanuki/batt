@@ -4,6 +4,7 @@ import com.github.typingtanuki.batt.exceptions.NoPartException;
 import com.github.typingtanuki.batt.utils.PathBuilder;
 
 import java.nio.file.Path;
+import java.util.Locale;
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -25,8 +26,8 @@ public class Image {
             builder.withSubFolder(battery.getConnector().name());
         }
 
-        builder.withFileName(this.url, true)
-                .withFileNamePrefix(battery.getModel() + "-", false)
+        builder.withFileName(this.url.toLowerCase(Locale.ENGLISH), true)
+                .withFileNamePrefix(battery.getModel().toLowerCase(Locale.ENGLISH) + "-", false)
                 .withExtension(".jpg");
         path = builder.build();
     }
@@ -50,7 +51,7 @@ public class Image {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof Image)) return false;
         Image image = (Image) o;
         return Objects.equals(url, image.url);
     }

@@ -10,7 +10,7 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
-import java.util.LinkedList;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
@@ -23,7 +23,7 @@ public final class MakerListReader {
     }
 
     public static List<Maker> extractMakers(Scrapper scrapper, String rootUrl) throws IOException, PageUnavailableException {
-        List<Maker> out = new LinkedList<>();
+        List<Maker> out = new ArrayList<>();
         Document index = http(PageType.MAKER, rootUrl);
         Elements makers = index.select("#manufacturerslistContent a.manufacturerName");
         if (makers.isEmpty()) {

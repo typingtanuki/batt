@@ -17,48 +17,12 @@
 [*] Size: 
 [/list]
 
-[*] Cube 2869178
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2869178, 2877167, 52110118, H28154165P, I35, QT31150165P, THINKER I35, THINKER I9, X5 PRO, ZP50100130, ZP50110130, ZP52110158, ZP52110160
-[*] Size: 169.0mm x 126.0mm x 3.4mm
-[/list]
-
-[*] Chuwi 2877164_2S
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2877164-2S, LAPBOOK SE
-[*] Size: 
-[/list]
-
-[*] Cube 30154200P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
-[*] Size: 
-[/list]
-
 [*] Other 31152200P
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
 [*] Parts: 31152200P
-[*] Size: 
-[/list]
-
-[*] Chuwi AEROBOOK_CWI510
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: AEROBOOK CWI510, AEROBOOK G139, HW-34154184P
 [*] Size: 
 [/list]
 
@@ -71,7 +35,43 @@
 [*] Size: 
 [/list]
 
+[*] Chuwi HW_34154184P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: AEROBOOK CWI510, AEROBOOK G139, HW-34154184P
+[*] Size: 
+[/list]
+
+[*] Chuwi LAPBOOK_SE
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2877164-2S, LAPBOOK SE
+[*] Size: 
+[/list]
+
+[*] Cube THINKER_I33
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
+[*] Size: 
+[/list]
+
 [*] Cube THINKER_I9
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2869178, 2877167, 52110118, H28154165P, I35, QT31150165P, THINKER I35, THINKER I9, X5 PRO, ZP50100130, ZP50110130, ZP52110158, ZP52110160
+[*] Size: 169.0mm x 126.0mm x 3.4mm
+[/list]
+
+[*] Cube ZP52110160
 [list]
 [*] 
 [*] 7.6V
@@ -98,7 +98,7 @@
 [*] Size: 
 [/list]
 
-[*] Jumper EZPAD_6S_PRO
+[*] Jumper H35110155P
 [list]
 [*] 
 [*] 7.6V
@@ -107,7 +107,7 @@
 [*] Size: 
 [/list]
 
-[*] Irbis NB125
+[*] Irbis NV_2084161_28
 [list]
 [*] 
 [*] 7.6V
@@ -116,7 +116,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi NV30140146_2S
+[*] Chuwi SURBOOK_MINI_CWI540
 [list]
 [*] 
 [*] 7.6V
@@ -134,30 +134,12 @@
 [*] Size: 
 [/list]
 
-[*] Teclast 2666144
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
-[*] Size: 
-[/list]
-
 [*] Other BOOK_Y11_H1M6
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
 [*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
-[*] Size: 
-[/list]
-
-[*] Jumper EZPAD_6_PRO
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H31120155P
 [*] Size: 
 [/list]
 
@@ -170,13 +152,22 @@
 [*] Size: 50.8mm x 20.5mm x 6.0mm
 [/list]
 
-[*] Chuwi MINIBOOK_CWI526
+[*] Jumper H31120155P
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
-[*] Parts: MINIBOOK CWI526, NV-635170-2S
-[*] Size: 144.0mm x 54.0mm x 6.5mm
+[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H31120155P
+[*] Size: 
+[/list]
+
+[*] Teclast H_30137162P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
+[*] Size: 
 [/list]
 
 [*] Jumper NV_2778130_2S
@@ -188,6 +179,15 @@
 [*] Size: 
 [/list]
 
+[*] Chuwi NV_635170_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: MINIBOOK CWI526, NV-635170-2S
+[*] Size: 144.0mm x 54.0mm x 6.5mm
+[/list]
+
 [*] Other MLP3490132_2S
 [list]
 [*] 
@@ -197,7 +197,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi LAPBOOK_AIR_CW1529
+[*] Chuwi LAPBOOK_AIR_CWI529
 [list]
 [*] 
 [*] 7.6V
@@ -206,7 +206,7 @@
 [*] Size: 
 [/list]
 
-[*] Prestigio 133S
+[*] Prestigio 2898141P
 [list]
 [*] 
 [*] 7.4V
@@ -215,7 +215,7 @@
 [*] Size: 
 [/list]
 
-[*] Irbis NB111
+[*] Irbis NB112
 [list]
 [*] 
 [*] 7.6V
@@ -242,24 +242,6 @@
 [*] Size: 
 [/list]
 
-[*] Other 141_C2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: 141 C2, 2ICP5/76/127, PC208 PC209, UTL4776127-2S
-[*] Size: 
-[/list]
-
-[*] Acer MLP4270136_2S
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: MLP4270136-2S, N15A
-[*] Size: 
-[/list]
-
 [*] Mcnair MLP4772126_2S
 [list]
 [*] 
@@ -269,12 +251,30 @@
 [*] Size: 
 [/list]
 
+[*] Acer N15A
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: MLP4270136-2S, N15A
+[*] Size: 
+[/list]
+
 [*] Other NV_5267103_2S
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5000mAh
 [*] Parts: 141 C2, 2ICP5/76/127, NV-5267103-2S, PC208 PC209, PSB141C02, UTL4776127-2S
+[*] Size: 
+[/list]
+
+[*] Other PC208_PC209
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: 141 C2, 2ICP5/76/127, PC208 PC209, UTL4776127-2S
 [*] Size: 
 [/list]
 
@@ -305,7 +305,7 @@
 [*] Size: 
 [/list]
 
-[*] Medion 40050434
+[*] Medion T11PA3H3
 [list]
 [*] 
 [*] 7.4V
@@ -323,7 +323,7 @@
 [*] Size: 
 [/list]
 
-[*] Dell DL011301_PLP22G01
+[*] Dell VENUE_11_PRO_KEYBOARD
 [list]
 [*] 
 [*] 7.4V

@@ -35,8 +35,8 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
             throw new IllegalStateException("Unparseable entry " + label);
         }
         String maker = label.split("対応", 2)[1].strip()
-                .split("\\s")[0]
-                .split("]")[0]
+                .split("\\s", -1)[0]
+                .split("]", -1)[0]
                 .replaceAll("\\[", "").strip();
 
         MakerName found;
@@ -83,7 +83,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         Element lastPage = pageButtons.get(pageButtons.size() - 1);
         int totalPages = Integer.parseInt(lastPage.text());
 
-        List<Source> out = new LinkedList<>();
+        List<Source> out = new ArrayList<>();
         out.add(source);
         for (int i = 2; i <= totalPages; i++) {
             out.add(new Source(source.compact().getUrl() + "/page/" + i + "/", source.getScrapper()));
@@ -93,7 +93,7 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
 
     @Override
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
-        List<Battery> out = new LinkedList<>();
+        List<Battery> out = new ArrayList<>();
         Document index;
         try {
             index = http(PageType.LIST, source.getUrl());
@@ -138,13 +138,13 @@ public abstract class AbstractDenchiProScrapper extends AbstractScrapper {
         if (!model.contains("対応")) {
             throw new IllegalStateException("Can not extract battery detail from " + model);
         }
-        model = model.split("対応")[1].split(" - denchipro")[0].strip();
+        model = model.split("対応", -1)[1].split(" - denchipro", -1)[0].strip();
         if (model.contains("]")) {
-            model = model.split("]")[1].strip().split("\\s", 2)[1].strip();
+            model = model.split("]", -1)[1].strip().split("\\s", 2)[1].strip();
         } else if (model.contains(" ")) {
             model = model.split("\\s", 2)[1].strip();
         }
-        String[] parts = model.split(",");
+        String[] parts = model.split(",", -1);
         battery.addPartNo(Arrays.asList(parts));
 
         Elements descriptions = page.select(".product_title-product-details__short-description");

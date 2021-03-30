@@ -25,12 +25,13 @@ public abstract class AbstractScrapper implements Scrapper {
         this.rootUrl = rootUrl;
     }
 
+    @SuppressWarnings("MixedMutabilityReturnType")
     private static List<Source> tryButtonList(Document index, Source source) {
         Elements links = index.select(".rightContents .r_resultInfo_center .M_pager li:not(.next) a");
         if (links.isEmpty()) {
             return Collections.singletonList(source);
         }
-        List<Source> out = new LinkedList<>();
+        List<Source> out = new ArrayList<>();
         String rootUrl = source.getUrl();
         out.add(source);
         for (Element link : links) {
@@ -51,7 +52,7 @@ public abstract class AbstractScrapper implements Scrapper {
 
     @Override
     public List<Battery> listBatteries(Maker maker) throws IOException, PageUnavailableException {
-        List<Battery> out = new LinkedList<>();
+        List<Battery> out = new ArrayList<>();
         List<Source> pages = listPages(maker.getSources());
         for (Source page : pages) {
             out.addAll(extractBatteriesFromPage(maker, page));
@@ -59,6 +60,7 @@ public abstract class AbstractScrapper implements Scrapper {
         return out;
     }
 
+    @SuppressWarnings("MixedMutabilityReturnType")
     protected List<Source> listPages(List<Source> sources) throws IOException {
         Set<Source> out = new HashSet<>();
         for (Source source : sources) {
@@ -67,6 +69,7 @@ public abstract class AbstractScrapper implements Scrapper {
         return new ArrayList<>(out);
     }
 
+    @SuppressWarnings("MixedMutabilityReturnType")
     protected List<Source> listPages(Source source) throws IOException {
         Document index;
         try {
@@ -86,7 +89,7 @@ public abstract class AbstractScrapper implements Scrapper {
         double total = Integer.parseInt(iter.next().text());
         int pageCount = (int) Math.min(Math.ceil(total / pageLength), 50);
 
-        List<Source> out = new LinkedList<>();
+        List<Source> out = new ArrayList<>();
         out.add(source);
         for (int i = 2; i <= pageCount; i++) {
             out.add(new Source(
@@ -97,7 +100,7 @@ public abstract class AbstractScrapper implements Scrapper {
     }
 
     protected List<Battery> extractBatteriesFromPage(Maker maker, Source source) throws IOException, PageUnavailableException {
-        List<Battery> out = new LinkedList<>();
+        List<Battery> out = new ArrayList<>();
         Document index = http(PageType.LIST, source.getUrl());
         Elements batteries = index.select(".productListing-data");
         if (batteries.isEmpty()) {
@@ -156,7 +159,7 @@ public abstract class AbstractScrapper implements Scrapper {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
+        if (!(o instanceof AbstractScrapper)) return false;
         AbstractScrapper that = (AbstractScrapper) o;
         return Objects.equals(rootUrl, that.rootUrl);
     }

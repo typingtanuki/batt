@@ -213,7 +213,7 @@ public class Battery {
     }
 
     public void setBrand(String brand) {
-        for (String b : brand.split(" ")) {
+        for (String b : brand.split(" ", -1)) {
             this.brands.add(b.strip());
         }
     }
@@ -265,15 +265,19 @@ public class Battery {
             return model;
         }
 
+        List<String> parts = new ArrayList<>(partNo);
+        parts.sort(Comparator.naturalOrder());
+        Collections.reverse(parts);
+
         List<String> mods = new ArrayList<>(partNo.size());
-        for(String part:partNo){
+        for (String part : parts) {
             String cleanPart = formatModelName(part);
-            if(cleanPart.isBlank()){
+            if (cleanPart.isBlank()) {
                 continue;
             }
 
-            if(BatteryDB.hasEntry(cleanPart)){
-                model=cleanPart;
+            if (BatteryDB.hasEntry(cleanPart)) {
+                model = cleanPart;
                 return model;
             }
             mods.add(cleanPart);
@@ -331,7 +335,7 @@ public class Battery {
         if (size.isBlank()) {
             return;
         }
-        String[] parts = size.replace("mm", "").split("x");
+        String[] parts = size.replace("mm", "").split("x", -1);
         if (parts.length != 3) {
             throw new IllegalStateException("Invalid size: " + size);
         }

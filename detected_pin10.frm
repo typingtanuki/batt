@@ -17,48 +17,12 @@
 [*] Size: 
 [/list]
 
-[*] Cube 2869178
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2869178, 2877167, 52110118, H28154165P, I35, QT31150165P, THINKER I35, THINKER I9, X5 PRO, ZP50100130, ZP50110130, ZP52110158, ZP52110160
-[*] Size: 169.0mm x 126.0mm x 3.4mm
-[/list]
-
-[*] Chuwi 2877164_2S
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2877164-2S, LAPBOOK SE
-[*] Size: 
-[/list]
-
-[*] Cube 30154200P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
-[*] Size: 
-[/list]
-
 [*] Other 31152200P
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
 [*] Parts: 31152200P
-[*] Size: 
-[/list]
-
-[*] Chuwi AEROBOOK_CWI510
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: AEROBOOK CWI510, AEROBOOK G139, HW-34154184P
 [*] Size: 
 [/list]
 
@@ -71,7 +35,43 @@
 [*] Size: 
 [/list]
 
+[*] Chuwi HW_34154184P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: AEROBOOK CWI510, AEROBOOK G139, HW-34154184P
+[*] Size: 
+[/list]
+
+[*] Chuwi LAPBOOK_SE
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2877164-2S, LAPBOOK SE
+[*] Size: 
+[/list]
+
+[*] Cube THINKER_I33
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2865165-2P, 30154200P, F7, F7 PLUS, F7 PRO, IWORK 5X, THINKER I1331, THINKER I133K, THINKER I33
+[*] Size: 
+[/list]
+
 [*] Cube THINKER_I9
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: 2869178, 2877167, 52110118, H28154165P, I35, QT31150165P, THINKER I35, THINKER I9, X5 PRO, ZP50100130, ZP50110130, ZP52110158, ZP52110160
+[*] Size: 169.0mm x 126.0mm x 3.4mm
+[/list]
+
+[*] Cube ZP52110160
 [list]
 [*] 
 [*] 7.6V
@@ -98,7 +98,7 @@
 [*] Size: 
 [/list]
 
-[*] Jumper EZPAD_6S_PRO
+[*] Jumper H35110155P
 [list]
 [*] 
 [*] 7.6V
@@ -107,7 +107,7 @@
 [*] Size: 
 [/list]
 
-[*] Irbis NB125
+[*] Irbis NV_2084161_28
 [list]
 [*] 
 [*] 7.6V
@@ -116,7 +116,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi NV30140146_2S
+[*] Chuwi SURBOOK_MINI_CWI540
 [list]
 [*] 
 [*] 7.6V
@@ -134,30 +134,12 @@
 [*] Size: 
 [/list]
 
-[*] Teclast 2666144
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
-[*] Size: 
-[/list]
-
 [*] Other BOOK_Y11_H1M6
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
 [*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
-[*] Size: 
-[/list]
-
-[*] Jumper EZPAD_6_PRO
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 3500mAh
-[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H31120155P
 [*] Size: 
 [/list]
 
@@ -170,13 +152,22 @@
 [*] Size: 50.8mm x 20.5mm x 6.0mm
 [/list]
 
-[*] Chuwi MINIBOOK_CWI526
+[*] Jumper H31120155P
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
-[*] Parts: MINIBOOK CWI526, NV-635170-2S
-[*] Size: 144.0mm x 54.0mm x 6.5mm
+[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H31120155P
+[*] Size: 
+[/list]
+
+[*] Teclast H_30137162P
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: 2666144, BOOK Y11 H1M6, F5, GFL 2666144, H-30137162P
+[*] Size: 
 [/list]
 
 [*] Jumper NV_2778130_2S
@@ -188,6 +179,15 @@
 [*] Size: 
 [/list]
 
+[*] Chuwi NV_635170_2S
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 3500mAh
+[*] Parts: MINIBOOK CWI526, NV-635170-2S
+[*] Size: 144.0mm x 54.0mm x 6.5mm
+[/list]
+
 [*] Other MLP3490132_2S
 [list]
 [*] 
@@ -197,7 +197,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi LAPBOOK_AIR_CW1529
+[*] Chuwi LAPBOOK_AIR_CWI529
 [list]
 [*] 
 [*] 7.6V
@@ -206,7 +206,7 @@
 [*] Size: 
 [/list]
 
-[*] Prestigio 133S
+[*] Prestigio 2898141P
 [list]
 [*] 
 [*] 7.4V
@@ -215,7 +215,7 @@
 [*] Size: 
 [/list]
 
-[*] Irbis NB111
+[*] Irbis NB112
 [list]
 [*] 
 [*] 7.6V
@@ -242,24 +242,6 @@
 [*] Size: 
 [/list]
 
-[*] Other 141_C2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: 141 C2, 2ICP5/76/127, PC208 PC209, UTL4776127-2S
-[*] Size: 
-[/list]
-
-[*] Acer MLP4270136_2S
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: MLP4270136-2S, N15A
-[*] Size: 
-[/list]
-
 [*] Mcnair MLP4772126_2S
 [list]
 [*] 
@@ -269,12 +251,30 @@
 [*] Size: 
 [/list]
 
+[*] Acer N15A
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: MLP4270136-2S, N15A
+[*] Size: 
+[/list]
+
 [*] Other NV_5267103_2S
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5000mAh
 [*] Parts: 141 C2, 2ICP5/76/127, NV-5267103-2S, PC208 PC209, PSB141C02, UTL4776127-2S
+[*] Size: 
+[/list]
+
+[*] Other PC208_PC209
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: 141 C2, 2ICP5/76/127, PC208 PC209, UTL4776127-2S
 [*] Size: 
 [/list]
 
@@ -305,7 +305,7 @@
 [*] Size: 
 [/list]
 
-[*] Medion 40050434
+[*] Medion T11PA3H3
 [list]
 [*] 
 [*] 7.4V
@@ -323,7 +323,7 @@
 [*] Size: 
 [/list]
 
-[*] Dell DL011301_PLP22G01
+[*] Dell VENUE_11_PRO_KEYBOARD
 [list]
 [*] 
 [*] 7.4V
@@ -332,7 +332,7 @@
 [*] Size: 
 [/list]
 
-[*] Lg 15UD560_KX50K
+[*] Lg LBN1220E
 [list]
 [*] 
 [*] 7.6V
@@ -341,7 +341,7 @@
 [*] Size: 
 [/list]
 
-[*] Msi GS30_2M_013CN
+[*] Msi MS1_13F1
 [list]
 [*] 
 [*] 7.4V
@@ -359,7 +359,7 @@
 [*] Size: 
 [/list]
 
-[*] Jumper 2ICP4_85_128
+[*] Jumper MLP3785128_2S
 [list]
 [*] 
 [*] 7.6V
@@ -413,7 +413,7 @@
 [*] Size: 
 [/list]
 
-[*] Wooking GETAC_2ICP5_50_112_2
+[*] Wooking GETAC_L140BAT_4
 [list]
 [*] 
 [*] 7.7V
@@ -431,7 +431,7 @@
 [*] Size: 
 [/list]
 
-[*] Hp L97357_005
+[*] Hp WS04XL
 [list]
 [*] 
 [*] 7.7V
@@ -440,7 +440,7 @@
 [*] Size: 
 [/list]
 
-[*] Samsung NP930X5J
+[*] Samsung NT930X5J_K82
 [list]
 [*] 
 [*] 7.6V
@@ -476,30 +476,12 @@
 [*] Size: 
 [/list]
 
-[*] Microsoft SURFACE_BOOK_KEYBOARD
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 8030mAh
-[*] Parts: SURFACE BOOK KEYBOARD
-[*] Size: 
-[/list]
-
-[*] Mcnair 2ICP6_68_143
+[*] Mcnair MLP5568142_2S
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 8000mAh
 [*] Parts: 2ICP6/68/143, MLP5568142-2S
-[*] Size: 
-[/list]
-
-[*] Lenovo 5B10U65275
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 7810mAh
-[*] Parts: 5B10U65275, C640-13IML, YOGA C640-13IML
 [*] Size: 
 [/list]
 
@@ -512,12 +494,12 @@
 [*] Size: 
 [/list]
 
-[*] Dell LATITUDE_15_5550
+[*] Lenovo YOGA_C640_13IML
 [list]
 [*] 
-[*] 7.4V
-[*] Up to: 7600mAh
-[*] Parts: LATITUDE 15-5550
+[*] 7.7V
+[*] Up to: 7810mAh
+[*] Parts: 5B10U65275, C640-13IML, YOGA C640-13IML
 [*] Size: 
 [/list]
 
@@ -566,7 +548,7 @@
 [*] Size: 
 [/list]
 
-[*] Hasee UTL_4743126_2S2P
+[*] Hasee X57S1
 [list]
 [*] 
 [*] 7.6V
@@ -584,7 +566,7 @@
 [*] Size: 
 [/list]
 
-[*] Acer CHROMEBOOK_714_CB714
+[*] Acer CHROMEBOOK_715_CB715
 [list]
 [*] 
 [*] 7.6V
@@ -593,21 +575,21 @@
 [*] Size: 
 [/list]
 
-[*] Huawei 2ICP5_62_81_2
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 7330mAh
-[*] Parts: 2ICP5/62/81-2, HB4593R1ECW-22, MATEBOOK X PRO 2020
-[*] Size: 
-[/list]
-
-[*] Honor MAGICBOOK_PRO_4600H
+[*] Honor MAGICBOOK_PRO_IN
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 7330mAh
 [*] Parts: HB6081V1ECW-22A, MAGICBOOK PRO 4600H, MAGICBOOK PRO IN
+[*] Size: 
+[/list]
+
+[*] Huawei MATEBOOK_X_PRO_2020
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 7330mAh
+[*] Parts: 2ICP5/62/81-2, HB4593R1ECW-22, MATEBOOK X PRO 2020
 [*] Size: 
 [/list]
 
@@ -647,7 +629,7 @@
 [*] Size: 
 [/list]
 
-[*] Other MLP5278116_2S
+[*] Other YR133_V2_0
 [list]
 [*] 
 [*] 7.6V
@@ -701,7 +683,7 @@
 [*] Size: 
 [/list]
 
-[*] Dell XPS_13_9300_(2020
+[*] Dell XPS_13_9380_(2020
 [list]
 [*] 
 [*] 7.6V
@@ -734,24 +716,6 @@
 [*] 7.5V
 [*] Up to: 6800mAh
 [*] Parts: SPECTRE 13-3000，SPECTRE 13T-3000
-[*] Size: 
-[/list]
-
-[*] Lenovo L18C4PC0
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6755mAh
-[*] Parts: L18C4PC0
-[*] Size: 
-[/list]
-
-[*] Lenovo 5B10T07385_5B10T07386
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 6730mAh
-[*] Parts: 5B10T07385 5B10T07386
 [*] Size: 
 [/list]
 
@@ -809,7 +773,7 @@
 [*] Size: 
 [/list]
 
-[*] Samsung NP300U1A
+[*] Samsung NP305U1Z
 [list]
 [*] 
 [*] 7.4V
@@ -890,7 +854,7 @@
 [*] Size: 
 [/list]
 
-[*] Acer ASPIRE_S7_392_5626
+[*] Acer ASPIRE_S7_393_7810
 [list]
 [*] 
 [*] 7.5V
@@ -899,7 +863,7 @@
 [*] Size: 
 [/list]
 
-[*] Hp M07389_AC1
+[*] Hp MA04XL
 [list]
 [*] 
 [*] 7.7V
@@ -953,7 +917,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus ZENBOOK_14_UM431DA_AM003T
+[*] Asus ZENBOOK_UX431FN
 [list]
 [*] 
 [*] 7.7V
@@ -989,7 +953,7 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo AIR_14ARR
+[*] Lenovo AIR_15IKBR
 [list]
 [*] 
 [*] 7.7V
@@ -1016,15 +980,6 @@
 [*] Size: 
 [/list]
 
-[*] Ast F15
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5500mAh
-[*] Parts: 15U370, F15, H-28172300P
-[*] Size: 
-[/list]
-
 [*] Hp 859027121
 [list]
 [*] 
@@ -1043,7 +998,7 @@
 [*] Size: 
 [/list]
 
-[*] Medion 40069239
+[*] Medion E4272
 [list]
 [*] 
 [*] 7.6V
@@ -1079,7 +1034,7 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo YOGA_710
+[*] Lenovo YOGA_711
 [list]
 [*] 
 [*] 7.6V
@@ -1115,7 +1070,7 @@
 [*] Size: 
 [/list]
 
-[*] Hp N4E62
+[*] Hp N4E64
 [list]
 [*] 
 [*] 7.7V
@@ -1133,7 +1088,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus TRANSFOER_AIO_P1801_B074K
+[*] Asus TRANSFOER_AIO_P1802_T_B006M
 [list]
 [*] 
 [*] 7.4V
@@ -1169,16 +1124,7 @@
 [*] Size: 
 [/list]
 
-[*] Microsoft SURFACE_PRO_4_1724
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 5087mAh
-[*] Parts: SURFACE PRO 4 1724
-[*] Size: 
-[/list]
-
-[*] Samsung CHROMEBOOK_TI_V2_XE520QAB
+[*] Samsung CHROMEBOOK_TI_V2_XE521QAB
 [list]
 [*] 
 [*] 7.7V
@@ -1196,7 +1142,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus BOOK_S451LN_CA004H
+[*] Asus S451LN_9F
 [list]
 [*] 
 [*] 7.5V
@@ -1259,24 +1205,6 @@
 [*] Size: 
 [/list]
 
-[*] Acer 2ICP134_59_4
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2ICP134/59/4
-[*] Size: 
-[/list]
-
-[*] Asus E203N_E203NA_E203MA_R207NA_X207NA
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: E203N E203NA E203MA R207NA X207NA
-[*] Size: 
-[/list]
-
 [*] Microtech E_BOOK_PRO_EB14AI32_14_1
 [list]
 [*] 
@@ -1331,7 +1259,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus X302LJ_R4004H
+[*] Asus X302UV_FN016T
 [list]
 [*] 
 [*] 7.6V
@@ -1367,7 +1295,7 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo MIIX_2_11_INCH
+[*] Lenovo MIIX2_11_ITH
 [list]
 [*] 
 [*] 7.4V
@@ -1376,7 +1304,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus C423NA_BV0001
+[*] Asus CHROMEBOOK_C523NA_A20117
 [list]
 [*] 
 [*] 7.7V
@@ -1421,7 +1349,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus X455L
+[*] Asus Y483L
 [list]
 [*] 
 [*] 7.6V
@@ -1448,7 +1376,7 @@
 [*] Size: 
 [/list]
 
-[*] Asus BOOK_P3500FA
+[*] Asus Y4100FA
 [list]
 [*] 
 [*] 7.7V
@@ -1511,7 +1439,7 @@
 [*] Size: 
 [/list]
 
-[*] Hasee 21CP5_74_109
+[*] Hasee SQU_1601
 [list]
 [*] 
 [*] 7.6V
@@ -1520,7 +1448,7 @@
 [*] Size: 
 [/list]
 
-[*] Samsung 930X2K_K07
+[*] Samsung NP930X2K_K02US
 [list]
 [*] 
 [*] 7.6V
@@ -1565,24 +1493,6 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo 5B10W67171
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4660mAh
-[*] Parts: 5B10W67171, SB10V25256, SB10V25257, SB10W67317
-[*] Size: 
-[/list]
-
-[*] Lenovo L17M2PF0_L17L2PF0_L17M2PF1
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4660mAh
-[*] Parts: L17M2PF0 L17L2PF0 L17M2PF1
-[*] Size: 
-[/list]
-
 [*] Lenovo L19M2PF0
 [list]
 [*] 
@@ -1592,7 +1502,16 @@
 [*] Size: 
 [/list]
 
-[*] Acer SWITCH_12_S_SW7_272
+[*] Lenovo SB10W67317
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 4660mAh
+[*] Parts: 5B10W67171, SB10V25256, SB10V25257, SB10W67317
+[*] Size: 
+[/list]
+
+[*] Acer SWITCH_12_S_SW7_272P_M9JP
 [list]
 [*] 
 [*] 7.6V
@@ -1601,7 +1520,7 @@
 [*] Size: 
 [/list]
 
-[*] Hasee 916QA108H
+[*] Hasee PLO_SQU_1717
 [list]
 [*] 
 [*] 7.7V
@@ -1619,7 +1538,7 @@
 [*] Size: 
 [/list]
 
-[*] Hasee NEW_V116W_COREM
+[*] Hasee PT3488127
 [list]
 [*] 
 [*] 7.4V
@@ -1637,7 +1556,7 @@
 [*] Size: 
 [/list]
 
-[*] Lg 21CP4_73_120
+[*] Lg LBK722WE
 [list]
 [*] 
 [*] 7.6V
@@ -1655,7 +1574,7 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi CLTD38150155
+[*] Chuwi LAPBOOK_12_3
 [list]
 [*] 
 [*] 7.6V
@@ -1679,24 +1598,6 @@
 [*] 7.4V
 [*] Up to: 4450mAh
 [*] Parts: AT15PE
-[*] Size: 
-[/list]
-
-[*] Fujitsu FPCBP506_FMVNBT41_FPB0328
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4410mAh
-[*] Parts: FPCBP506 FMVNBT41 FPB0328
-[*] Size: 
-[/list]
-
-[*] Fujitsu STYLISTIC_R726_R727
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4410mAh
-[*] Parts: STYLISTIC R726 R727
 [*] Size: 
 [/list]
 
@@ -1745,24 +1646,6 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo 5B10W42964
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4260mAh
-[*] Parts: 5B10W42964, SB10W42960, SB10W42961
-[*] Size: 
-[/list]
-
-[*] Lenovo IDEAPAD_SLIM_1_11IGL_05
-[list]
-[*] 
-[*] 7.5V
-[*] Up to: 4260mAh
-[*] Parts: IDEAPAD SLIM 1-11IGL-05, IDEAPAD SLIM 1-14IGL-05
-[*] Size: 
-[/list]
-
 [*] Lenovo L19L2PF1_L19C2PF1_L19M2PF1
 [list]
 [*] 
@@ -1772,7 +1655,16 @@
 [*] Size: 
 [/list]
 
-[*] Toshiba AT10LE_A_108
+[*] Lenovo SB10W42961
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 4260mAh
+[*] Parts: 5B10W42964, SB10W42960, SB10W42961
+[*] Size: 
+[/list]
+
+[*] Toshiba PA5123U_1BRS
 [list]
 [*] 
 [*] 7.4V
@@ -1799,30 +1691,12 @@
 [*] Size: 
 [/list]
 
-[*] Dell INSPIRON_3164
+[*] Dell INSPIRON_3168
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4210mAh
 [*] Parts: INSPIRON 3162, INSPIRON 3164, INSPIRON 3168
-[*] Size: 
-[/list]
-
-[*] Hp PI_X360_11_K100NL
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: PI X360 11-K100NL
-[*] Size: 
-[/list]
-
-[*] Lenovo THINKPAD_10_2RD
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4210mAh
-[*] Parts: THINKPAD 10 2RD
 [*] Size: 
 [/list]
 
@@ -1871,16 +1745,7 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo IDEAPAD_130S
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4070mAh
-[*] Parts: IDEAPAD 130S
-[*] Size: 
-[/list]
-
-[*] Lenovo 300S_I4ISK
+[*] Lenovo IDEAPAD_300S
 [list]
 [*] 
 [*] 7.4V
@@ -1898,21 +1763,21 @@
 [*] Size: 
 [/list]
 
-[*] Jumper 3791229C
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4000mAh
-[*] Parts: 3791229C, TEV-L2IN1-116-1
-[*] Size: 
-[/list]
-
 [*] Hasee GSP3277107_2S
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 4000mAh
 [*] Parts: 2ICP4/78/108, GSP3277107-2S
+[*] Size: 
+[/list]
+
+[*] Jumper TEV_L2IN1_116_1
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4000mAh
+[*] Parts: 3791229C, TEV-L2IN1-116-1
 [*] Size: 
 [/list]
 
@@ -1979,15 +1844,6 @@
 [*] Size: 
 [/list]
 
-[*] Lenovo 330C_14IKB
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 3900mAh
-[*] Parts: 330C-14IKB, IDEAPAD 320-15ABR/
-[*] Size: 
-[/list]
-
 [*] Dell INSPIRON_11_3195_2_IN_1
 [list]
 [*] 
@@ -2006,7 +1862,7 @@
 [*] Size: 
 [/list]
 
-[*] Malata BT_A0B2
+[*] Malata BT_AOB2
 [list]
 [*] 
 [*] 7.4V
@@ -2030,15 +1886,6 @@
 [*] 7.4V
 [*] Up to: 3640mAh
 [*] Parts: SB10F46444 00HW006
-[*] Size: 
-[/list]
-
-[*] Hp HSTNN_DB9I
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 3500mAh
-[*] Parts: EP02XL, HSTNN-DB9I, L52447-2C1, L52579-005
 [*] Size: 
 [/list]
 

@@ -1,5 +1,8 @@
 package com.github.typingtanuki.batt.battery;
 
+import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
+
+@SuppressFBWarnings("SE_COMPARATOR_SHOULD_BE_SERIALIZABLE")
 public class MakerComparator implements java.util.Comparator<Maker> {
     @Override
     public int compare(Maker o1, Maker o2) {

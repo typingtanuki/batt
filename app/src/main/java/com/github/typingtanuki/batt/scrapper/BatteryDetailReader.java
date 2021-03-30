@@ -55,7 +55,7 @@ public final class BatteryDetailReader {
         Elements parts = page.select(".blkaDescription span[style]");
         for (Element part : parts) {
             String fullPart = part.text();
-            for (String partName : fullPart.split(",")) {
+            for (String partName : fullPart.split(",", -1)) {
                 if (!partName.isBlank()) {
                     battery.addPartNo(Collections.singletonList(partName));
                 }
@@ -153,8 +153,8 @@ public final class BatteryDetailReader {
         Elements srcset = page.select("img[srcset]");
         for (Element image : srcset) {
             String set = image.attr("srcset");
-            for (String rawUrl : set.split(",")) {
-                String url = rawUrl.strip().split(" ")[0];
+            for (String rawUrl : set.split(",", -1)) {
+                String url = rawUrl.strip().split(" ", -1)[0];
                 if (!url.startsWith("http")) {
                     url = battery.baseUri() + url;
                 }
@@ -174,7 +174,7 @@ public final class BatteryDetailReader {
     private static Set<String> filteredSet(String[] strings) {
         Set<String> out = new LinkedHashSet<>();
         for (String s : strings) {
-            out.add(s.split("\\(")[0].strip());
+            out.add(s.split("\\(", -1)[0].strip());
         }
         return out;
     }

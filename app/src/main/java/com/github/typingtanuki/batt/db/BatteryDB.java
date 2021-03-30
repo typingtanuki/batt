@@ -21,9 +21,8 @@ public final class BatteryDB {
     private static final Map<String, String> DB_SIZE = new HashMap<>();
     private static final Map<String, Boolean> DB_SCANNED = new HashMap<>();
     private static final Map<String, String> DB_MAKER = new HashMap<>();
-    private static boolean initialized = false;
-
     private static final Pattern SPECIAL_CHARS = Pattern.compile("[/.\\s|\\-+#]");
+    private static boolean initialized = false;
 
     private BatteryDB() {
         super();
@@ -38,54 +37,62 @@ public final class BatteryDB {
         try {
             List<String> lines = Files.readAllLines(dbPath);
             boolean isHeader = true;
+            int lineIdx = 1;
             for (String line : lines) {
                 if (isHeader) {
                     isHeader = false;
                     continue;
                 }
-
-                String[] parts = line.split(",");
-                String model;
                 try {
-                    model = Battery.cleanPartNo(parts[0].strip());
-                } catch (NoPartException e) {
-                    continue;
-                }
-                String connectorStr = parts[1].strip();
-
-                String size = "";
-
-                if (parts.length >= 6) {
-                    size = parts[5].trim();
-                }
-                if (!connectorStr.isBlank()) {
-                    BatteryConnector connector = BatteryConnector.valueOf(connectorStr);
-                    BatteryConnector inDb = DB_CONNECTOR.get(model);
-                    if (inDb == null || !BatteryConnector.UNKNOWN.equals(connector)) {
-                        DB_CONNECTOR.put(model, connector);
-                    }
-                }
-                String formStr = parts[2].strip();
-                try {
-                    if (!formStr.isBlank()) {
-                        BatteryForm form = BatteryForm.valueOf(formStr);
-                        BatteryForm inDb = DB_FORM.get(model);
-                        if (inDb == null || !BatteryForm.UNKNOWN.equals(form)) {
-                            DB_FORM.put(model, form);
-                        }
-                    }
-                    if (!size.isBlank()) {
-                        DB_SIZE.put(model, size);
-                    }
+                    parseLine(line);
                 } catch (IllegalArgumentException e) {
-                    throw new IllegalStateException("Could not load line: " + line, e);
+                    throw new IllegalArgumentException(
+                            "Failure reading DB at line " + lineIdx + "\r\n" + line,
+                            e);
                 }
+                lineIdx++;
             }
             initialized = true;
         } catch (IOException | RuntimeException e) {
             System.err.println("Failed loading database " + dbPath);
             e.printStackTrace(System.err);
             System.exit(12);
+        }
+    }
+
+    @SuppressWarnings("StringSplitter")
+    private static void parseLine(String line) {
+        String[] parts = line.split(",", -1);
+        String model;
+        try {
+            model = Battery.cleanPartNo(parts[0].strip());
+        } catch (NoPartException e) {
+            return;
+        }
+        String connectorStr = parts[1].strip();
+
+        String size = "";
+
+        if (parts.length >= 6) {
+            size = parts[5].trim();
+        }
+        if (!connectorStr.isBlank()) {
+            BatteryConnector connector = BatteryConnector.valueOf(connectorStr);
+            BatteryConnector inDb = DB_CONNECTOR.get(model);
+            if (inDb == null || !BatteryConnector.UNKNOWN.equals(connector)) {
+                DB_CONNECTOR.put(model, connector);
+            }
+        }
+        String formStr = parts[2].strip();
+        if (!formStr.isBlank()) {
+            BatteryForm form = BatteryForm.valueOf(formStr);
+            BatteryForm inDb = DB_FORM.get(model);
+            if (inDb == null || !BatteryForm.UNKNOWN.equals(form)) {
+                DB_FORM.put(model, form);
+            }
+        }
+        if (!size.isBlank()) {
+            DB_SIZE.put(model, size);
         }
     }
 
@@ -243,9 +250,6 @@ public final class BatteryDB {
         if (DB_SIZE.containsKey(part)) {
             return true;
         }
-        if (DB_MAKER.containsKey(part)) {
-            return true;
-        }
-        return false;
+        return DB_MAKER.containsKey(part);
     }
 }
