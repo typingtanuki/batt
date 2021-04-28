@@ -95,7 +95,7 @@ public class App {
     }
 
     private static int computePercent(int count, int total, int lastPercent) {
-        int percent = ((count + 1) * 100) / total;
+        int percent = ((count + 1) * 20) / total * 5;
         if (percent > lastPercent) {
             progress(" " + percent + "% ");
         }

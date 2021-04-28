@@ -1,22 +1,4 @@
 [list]
-[*] Chuwi HW_34154184
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5500mAh
-[*] Parts: AEROBOOK 13.3, HW-34154184
-[*] Size: 
-[/list]
-
-[*] Other AIR_13_3
-[list]
-[*] 
-[*] 7.7V
-[*] Up to: 5230mAh
-[*] Parts: AIR 13.3
-[*] Size: 
-[/list]
-
 [*] Other 31152200P
 [list]
 [*] 
@@ -35,21 +17,12 @@
 [*] Size: 
 [/list]
 
-[*] Chuwi HW_34154184P
+[*] Chuwi HW_34154184
 [list]
 [*] 
 [*] 7.6V
 [*] Up to: 5000mAh
-[*] Parts: AEROBOOK CWI510, AEROBOOK G139, HW-34154184P
-[*] Size: 
-[/list]
-
-[*] Chuwi LAPBOOK_SE
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 5000mAh
-[*] Parts: 2877164-2S, LAPBOOK SE
+[*] Parts: 2ICP3/85/145, AEROBOOK 13.3, AEROBOOK CWI509, AEROBOOK CWI510, AEROBOOK G139, G139, HW-34154184, HW-34154184P
 [*] Size: 
 [/list]
 
@@ -86,15 +59,6 @@
 [*] 7.6V
 [*] Up to: 4900mAh
 [*] Parts: 3587265P
-[*] Size: 
-[/list]
-
-[*] Jumper 3585282P
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 4800mAh
-[*] Parts: 3585282P, KBM14HD, KNW14FHD-SL, PEOPLE GN603, PL3281133P, PL3281133P 2P, Q232A
 [*] Size: 
 [/list]
 
@@ -157,7 +121,7 @@
 [*] 
 [*] 7.6V
 [*] Up to: 3500mAh
-[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H31120155P
+[*] Parts: EZPAD 6 PLUS, EZPAD 6 PRO, H-29140160P, H31120155P, H31120165P
 [*] Size: 
 [/list]
 
@@ -206,12 +170,39 @@
 [*] Size: 
 [/list]
 
+[*] Onda XIAOMA_21
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 5000mAh
+[*] Parts: H-31145165P, XIAOMA 21
+[*] Size: 
+[/list]
+
 [*] Prestigio 2898141P
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5000mAh
 [*] Parts: 133S, 2898141P
+[*] Size: 
+[/list]
+
+[*] Onda XIAOMA_11
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4500mAh
+[*] Parts: 35125160P, PL-35125160P, XIAOMA 11
+[*] Size: 
+[/list]
+
+[*] Onda XIAOMA_41
+[list]
+[*] 
+[*] 7.6V
+[*] Up to: 4500mAh
+[*] Parts: XIAOMA 31, XIAOMA 41
 [*] Size: 
 [/list]
 
@@ -224,7 +215,7 @@
 [*] Size: 
 [/list]
 
-[*] Mcnair MLP4087118_2S
+[*] Mcnair MLP4087118
 [list]
 [*] 
 [*] 7.6V
@@ -242,21 +233,21 @@
 [*] Size: 
 [/list]
 
+[*] Acer MLP4270136_2S
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: MLP4270136-2S, N15A
+[*] Size: 
+[/list]
+
 [*] Mcnair MLP4772126_2S
 [list]
 [*] 
 [*] 7.4V
 [*] Up to: 5000mAh
 [*] Parts: MLP4772126-2S
-[*] Size: 
-[/list]
-
-[*] Acer N15A
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 5000mAh
-[*] Parts: MLP4270136-2S, N15A
 [*] Size: 
 [/list]
 
@@ -310,7 +301,7 @@
 [*] 
 [*] 7.4V
 [*] Up to: 3700mAh
-[*] Parts: 0B23-00D7000M, 40050434, 40053050, 40059019, T11 PAD, T11PA3H3
+[*] Parts: 0B23-00D7000M, 1510-1LYW000, 40050434, 40053050, 40059019, BT2102-B, T11 PAD, T11PA3H3
 [*] Size: 
 [/list]
 
@@ -319,16 +310,7 @@
 [*] 
 [*] 7.4V
 [*] Up to: 3650mAh
-[*] Parts: MLP2668145-2S
-[*] Size: 
-[/list]
-
-[*] Dell VENUE_11_PRO_KEYBOARD
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3520mAh
-[*] Parts: 7WMM7, CFC6C, CP305193L1, D1R74, DL011301-PLP22G01, VENUE 11 PRO CFC6C, VENUE 11 PRO D1R74, VENUE 11 PRO KEYBOARD
+[*] Parts: CNC S6E, MLP2668145-2S
 [*] Size: 
 [/list]
 

@@ -276,8 +276,9 @@ public class Battery {
                 continue;
             }
 
-            if (BatteryDB.hasEntry(cleanPart)) {
-                model = cleanPart;
+            String fromDb = BatteryDB.matchEntry(cleanPart);
+            if (fromDb != null) {
+                model = fromDb;
                 return model;
             }
             mods.add(cleanPart);
@@ -290,6 +291,7 @@ public class Battery {
 
         mods.sort(Comparator.naturalOrder());
         model = formatModelName(mods.get(0));
+
         return model;
     }
 

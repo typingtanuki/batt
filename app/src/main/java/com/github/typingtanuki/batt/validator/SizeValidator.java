@@ -30,9 +30,6 @@ public class SizeValidator implements Validator {
         if (sizes[1] > height) {
             return false;
         }
-        if (sizes[2] > thickness) {
-            return false;
-        }
-        return true;
+        return !(sizes[2] > thickness);
     }
 }
