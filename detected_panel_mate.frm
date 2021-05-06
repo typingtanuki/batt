@@ -53,15 +53,6 @@
 [*] Size: 169.0mm x 126.0mm x 3.4mm
 [/list]
 
-[*] Jumper 3587265P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4900mAh
-[*] Parts: 3587265P
-[*] Size: 
-[/list]
-
 [*] Jumper H35110155P
 [list]
 [*] 

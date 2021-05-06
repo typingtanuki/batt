@@ -53,15 +53,6 @@
 [*] Size: 169.0mm x 126.0mm x 3.4mm
 [/list]
 
-[*] Jumper 3587265P
-[list]
-[*] 
-[*] 7.6V
-[*] Up to: 4900mAh
-[*] Parts: 3587265P
-[*] Size: 
-[/list]
-
 [*] Jumper H35110155P
 [list]
 [*] 
@@ -377,21 +368,30 @@
 [*] Size: 
 [/list]
 
+[*] Samsung AAPL3VC6B
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 8850mAh
+[*] Parts: AAPL3VC6B
+[*] Size: 52.1mm x 20.2mm x 2.0mm
+[/list]
+
+[*] Samsung AA_PL3VC6SE
+[list]
+[*] 
+[*] 7.5V
+[*] Up to: 8850mAh
+[*] Parts: AA-PL3VC6SE
+[*] Size: 52.1mm x 20.2mm x 2.0mm
+[/list]
+
 [*] Lenovo L19C4PH0
 [list]
 [*] 
 [*] 7.7V
 [*] Up to: 8290mAh
 [*] Parts: L19C4PH0, SB10Y75087
-[*] Size: 
-[/list]
-
-[*] Samsung PLPN6AN
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 8240mAh
-[*] Parts: PLPN6AN
 [*] Size: 
 [/list]
 
@@ -510,6 +510,15 @@
 [*] Up to: 7360mAh
 [*] Parts: VIP4C
 [*] Size: 
+[/list]
+
+[*] Toshiba PA5065U
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 7030mAh
+[*] Parts: PA5065U
+[*] Size: 150.0mm x 90.0mm x 0.0mm
 [/list]
 
 [*] Dell XPS13_9333
@@ -647,6 +656,24 @@
 [*] Size: 
 [/list]
 
+[*] Toshiba CQB902
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6500mAh
+[*] Parts: CQB902
+[*] Size: 
+[/list]
+
+[*] Toshiba PABAS242
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 6500mAh
+[*] Parts: PABAS242
+[*] Size: 
+[/list]
+
 [*] Samsung NC110_NC210
 [list]
 [*] 
@@ -681,15 +708,6 @@
 [*] Up to: 6350mAh
 [*] Parts: NB350U2A NP350U2Y
 [*] Size: 
-[/list]
-
-[*] Samsung BA43_00315A
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 6340mAh
-[*] Parts: BA43-00315A
-[*] Size: 85.0mm x 8.0mm x 0.0mm
 [/list]
 
 [*] Dell 321X2120
@@ -827,6 +845,15 @@
 [*] Size: 
 [/list]
 
+[*] Samsung AAPN4TR
+[list]
+[*] 
+[*] 7.7V
+[*] Up to: 5780mAh
+[*] Parts: AAPN4TR
+[*] Size: 
+[/list]
+
 [*] Olivetti OLIBOOK_ATAR_IU_145C6
 [list]
 [*] 
@@ -950,6 +977,15 @@
 [*] 7.7V
 [*] Up to: 5180mAh
 [*] Parts: EB-BW767ABY DL1M909AD X-B
+[*] Size: 
+[/list]
+
+[*] Twinmate 2ICP65_54_130_1
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5140mAh
+[*] Parts: 2ICP65/54/130-1
 [*] Size: 
 [/list]
 
@@ -1112,6 +1148,15 @@
 [*] 7.4V
 [*] Up to: 5000mAh
 [*] Parts: 2ICP5/71/120, 40064487, E2216T, E3213, E3215, E3215T, E3216, MLP4372121-2S
+[*] Size: 
+[/list]
+
+[*] Digma NV_4270138_2S
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 5000mAh
+[*] Parts: 4574290P, 5072300P, CITI E603, JYL-LLD-25, NV-4270138-2S
 [*] Size: 
 [/list]
 
@@ -1367,6 +1412,15 @@
 [*] Size: 
 [/list]
 
+[*] Panasonic CFVZSU24AU
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 4400mAh
+[*] Parts: CFVZSU24AU
+[*] Size: 
+[/list]
+
 [*] Haier Y13A_Y13B_XPS13_8808
 [list]
 [*] 
@@ -1511,6 +1565,15 @@
 [*] Size: 
 [/list]
 
+[*] Samsung AAPB3VC4E
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 4000mAh
+[*] Parts: AAPB3VC4E
+[*] Size: 
+[/list]
+
 [*] Lenovo 5B10X82537
 [list]
 [*] 
@@ -1533,17 +1596,8 @@
 [list]
 [*] 
 [*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: BTSWATA0B20
-[*] Size: 
-[/list]
-
-[*] Malata BT_AOB2
-[list]
-[*] 
-[*] 7.4V
-[*] Up to: 3640mAh
-[*] Parts: BT-A0B2, BT-AOB2
+[*] Up to: 3650mAh
+[*] Parts: BT-A0B2, BT-AOB2, BTSWATA0B20
 [*] Size: 
 [/list]
 
@@ -1562,6 +1616,15 @@
 [*] 7.4V
 [*] Up to: 3600mAh
 [*] Parts: 0K619
+[*] Size: 
+[/list]
+
+[*] Samsung AA_PL1UC6B
+[list]
+[*] 
+[*] 7.4V
+[*] Up to: 3600mAh
+[*] Parts: AA-PL1UC6B
 [*] Size: 
 [/list]
 
